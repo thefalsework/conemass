@@ -1,7 +1,9 @@
 # Published ORACLE rankings
 
 Generated 2026-09-02 with `../oracle-rank.mjs` (cone cap 200; rankings
-are insensitive to cap 50–800 on these corpora, see `../cap-sweep.json`).
+are insensitive to cap 50–800 on these corpora — see the
+[cap sweep](https://github.com/thefalsework/papers/blob/main/oracle-scanner/cap-sweep.json)
+in the research repo).
 
 | file | corpus | snapshot | nodes |
 |---|---|---|---|
@@ -15,9 +17,9 @@ are insensitive to cap 50–800 on these corpora, see `../cap-sweep.json`).
 supply-chain triage are those where `oracle_rank` is far ahead of
 `dependents_rank`**: quiet packages carrying concentrated load
 (the liblzma / unicode-ident profile — see
-`preprints/quiet-criticality/paper.md` for validation, including the xz
-retrodiction and the comparison against the OpenSSF criticality-score
-top-1000).
+[the quiet-criticality preprint](https://github.com/thefalsework/papers/blob/main/preprints/quiet-criticality/paper.md)
+for validation, including the xz retrodiction and the comparison against
+the OpenSSF criticality-score top-1000).
 
 **Run it on your own graph:**
 

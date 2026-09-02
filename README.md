@@ -119,12 +119,11 @@ dated.
 
 ## Background
 
-The validation — the xz retrodiction, the crates.io replication, and
-the comparison against the OpenSSF criticality-score top-1000 — is
-written up in
-[the quiet-criticality preprint](https://github.com/thefalsework/papers/blob/main/preprints/quiet-criticality/paper.md);
-the study scripts are in `oracle-scanner/` of that repo (and in this
-repo's history).
+The validation — the xz retrodiction, the crates.io replication, the
+comparison against the OpenSSF criticality-score top-1000, and a
+registered RustSec retrodiction reported in full including the loss —
+is written up in [the quiet-criticality paper](paper/quiet-criticality.md),
+included in this repo ([PDF](paper/quiet-criticality.pdf)).
 
 ## Provenance and priority
 

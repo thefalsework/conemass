@@ -1,69 +1,126 @@
-# Oracle scanner — concentration-of-reach as a supply-chain metric
+# oracle-rank
 
-**Use it now:** `node oracle-rank.mjs Cargo.lock --top 50` — a
-self-contained, zero-dependency CLI (Apache-2.0, per the repo's
-`LICENSE-CODE`) that ranks any dependency graph in seconds: a
-`Cargo.lock` directly, an edge-list CSV, or a JSON graph; cycles
-handled (`test-cargo.lock` is a worked example — unicode-ident comes
-out #1 even on an eight-package toy). Published dated rankings for
-Debian trixie (2025) and crates.io (2022) are in `rankings/`. The
-writeup for a security audience is
-`preprints/quiet-criticality/paper.md`.
+Rank a dependency graph by **concentration of reach**: which packages sit
+inside the most toolchains, weighted by how concentrated each toolchain's
+trust is. One file, no dependencies, any graph, seconds.
 
-**Idea.** ORACLE(x) = Σ 1/|cone(u)| over truncated dependency cones
-containing x — the flux-law functional from `accretion-study/THEORY.md`,
-repurposed with no causal claim attached: not "predicts growth" (that
-died; see `preprints/seedbed/paper.md`) but "measures how many small
-toolchains a package is a large share of." Volume metrics (dependents,
-downloads, PageRank, criticality scores) under-price the quiet
-load-bearing profile; harmonic concentration is built to see it.
+```
+node oracle-rank.mjs Cargo.lock --top 50
+```
 
-**Pilot verdict (xz retrodiction, Debian bookworm 2023 — the last
-release before CVE-2024-3094): pulse.** liblzma5 ranks **#8 of 63,436
-by ORACLE** vs #173 by in-degree (PageRank #36; capped transitive
-counts saturate and tie at #700). libgcrypt20: #49 vs #150. libexpat1:
-#38 vs #102. Famous packages rank high on everything (zlib1g #4 on
-both) — the metrics diverge precisely on the under-recognized. The
-divergence list surfaces "gateway plumbing" (in-degree 1, enormous
-cone membership: python3-minimal, libpam-modules-bin, libc-dev-bin) —
-the exact topology the xz attack exploited via the systemd gateway —
-mixed with doc/data noise a product would filter.
+The metric's whole argument fits in one command. Run it on the
+eight-package lockfile in this repo:
 
-**Cap sweep: robust.** liblzma5 is #8 at every cone cap from 50 to 800;
-top-100 overlap 0.92–0.99 between adjacent caps. The headline is not a
-truncation artifact.
+```
+node oracle-rank.mjs test-cargo.lock
+```
 
-**Second ecosystem (crates.io 2022): replicates, starker.**
-**unicode-ident — ORACLE #2 of 84,439, in-degree #3,582** (six direct
-dependents): the canonical quiet single-maintainer crate inside every
-Rust build, invisible to volume metrics. Head of ranking = the macro
-toolchain nobody types (libc #1, proc-macro2 #3, quote #4, syn #5). The
-divergence list is a threat class, not noise: deg-1 proc-macro companion
-crates (openssl-macros, wasm-bindgen-macro, …) — arbitrary code
-execution at build time, one direct dependent, inside everything,
-unseen by dependent-count scoring.
+```
+oracle_rank,name,oracle,direct_dependents,dependents_rank
+1,unicode-ident,2.4262,2,2
+2,proc-macro2,1.4262,3,1
+3,quote,0.9262,2,2
+4,syn,0.5929,1,4
+5,serde_derive,0.3429,1,4
+6,serde,0.1429,1,4
+6,tokio,0.1429,1,4
+8,myapp,0.0000,0,8
+```
 
-**The incumbent test: one-sided.** Joined against the OpenSSF
-criticality-score top-1000 (June-2022 vintage — matches the crates
-snapshot, pre-dates the xz backdoor). Of the crates ORACLE top-10,
-**one** appears in the incumbent's 1000 (libc, #257): serde absent,
-zlib absent, syn/proc-macro2/quote/unicode-ident absent, the deg-1
-proc-macro threat class 0-for-7. xz itself was not on GitHub in 2022 —
-structurally invisible to the GitHub-only pipeline at any rank. The
-Pike score measures fame-and-activity; ORACLE measures load. The pitch
-with receipts: the incumbent's list contains kubernetes and misses
-zlib.
+unicode-ident comes out **first with two direct dependents**, above
+proc-macro2 with three. Counting dependents says proc-macro2 matters
+more; counting *toolchains that terminate in you* says unicode-ident is
+the floor everything else stands on. You can verify this by hand on
+eight packages — and it is exactly what happens at registry scale, where
+unicode-ident ranks #2 of 84,439 crates against #3,304 by dependent
+count.
 
-**Honest limits.** Descriptive, unscored; global rank correlation with
-volume metrics is high (0.95–0.99) — the new information lives at the
-head of the ranking, which is where prioritization decisions are made.
-The incumbent join uses the v1-era list (the v2 all.csv bucket is dead:
-billing disabled); mappings hand-curated; one-directional test.
+## Why this metric
 
-**Files.**
-- `01-xz-retrodiction.mjs` / `xz-retrodiction.json` — the pilot; expectations in header, verdict in postscript.
-- `02-cap-sweep.mjs` / `cap-sweep.json` — truncation robustness.
-- `03-crates.mjs` / `crates.json` — open-registry replication; verdict in postscript.
-- `04-incumbent.mjs` / `incumbent.json` / `ossf-top1000.csv` — the incumbent join; verdict in postscript.
-- `oracle-rank.mjs` — the standalone CLI (usage in file header).
-- `rankings/` — published dated top-1000 rankings (Debian 2025, crates 2022).
+The rankings that guide security attention mostly count activity and
+popularity. Those miss a specific profile: the quiet, finished, deeply
+embedded library — few direct dependents, present in nearly every build.
+The OpenSSF criticality-score top-1000 contains Kubernetes and misses
+zlib. On the last Debian release before the xz backdoor, ORACLE ranked
+liblzma5 **#8 of 63,436 packages** (against #173 by dependent count) —
+twenty-one months before anyone knew to look.
+
+The metric:
+
+```
+ORACLE(x) = sum over packages u whose truncated dependency cone
+            contains x of 1 / |cone(u)|
+```
+
+Count every toolchain you are part of, weighting each by the reciprocal
+of its size. High ORACLE with a low dependent count is the quiet
+load-bearing profile. The rows that matter for triage are the ones where
+`oracle_rank` is far ahead of `dependents_rank`.
+
+## Usage
+
+```
+node oracle-rank.mjs <input> [--cap N] [--top N] [--out FILE]
+```
+
+**Inputs** (auto-detected):
+
+- `Cargo.lock` — parsed directly. Both dependency entry forms resolve
+  (`"serde"` and `"serde 1.0.188"`). Versions are collapsed to package
+  names: a crate present at two versions is one node whose dependency
+  set is the union, consistent with the package-level published
+  rankings.
+- edge-list text — one `dependent,dependency` pair per line (comma,
+  tab, or space separated; a first line containing "depend" is skipped
+  as a header).
+- `.json` — `{"nodes":[names...],"edges":[[depIdx,depIdx]...]}` with
+  edges as `[dependent, dependency]` index pairs, or a plain JSON array
+  of `[dependent, dependency]` name pairs.
+
+**Flags:** `--cap N` cone truncation (default 200; rankings are
+insensitive to cap 50–800 on tested corpora). `--top N` emit only the
+top N rows. `--out F` write CSV to a file instead of stdout.
+
+**Output columns:** `oracle_rank, name, oracle, direct_dependents,
+dependents_rank`.
+
+## Guarantees and caveats
+
+- **Deterministic.** The same graph produces byte-identical output
+  regardless of input file ordering (traversal and float-accumulation
+  order are canonicalized by package name; verified on a shuffled
+  63k-node corpus).
+- **Cycles handled** via SCC condensation; members of a dependency
+  cycle share a score.
+- **Ties take the minimum rank.**
+- A 100k-node registry takes seconds; string edge keys keep dedup
+  correct past the ~2M-node limit where numeric packing would silently
+  collide.
+- Descriptive rankings, not certified claims. ORACLE's head is
+  deliberately library-heavy — libraries are the attack surface.
+
+## Published rankings
+
+`rankings/` contains dated top-1000 CSVs, generated with this tool:
+
+| file | corpus | snapshot |
+|---|---|---|
+| `rankings/debian-trixie-2025-top1000.csv` | Debian main/binary-amd64 (68,750 packages) | trixie, 2025 |
+| `rankings/crates-2022-top1000.csv` | crates.io (84,439 crates) | 2022 |
+
+Computed 2026-09-02 and published as-is: every future incident either
+involves a package in these files or it does not, and the files are
+dated.
+
+## Background
+
+The validation — the xz retrodiction, the crates.io replication, and
+the comparison against the OpenSSF criticality-score top-1000 — is
+written up in
+[the quiet-criticality preprint](https://github.com/thefalsework/papers/blob/main/preprints/quiet-criticality/paper.md);
+the study scripts are in `oracle-scanner/` of that repo (and in this
+repo's history).
+
+## License
+
+Apache-2.0.

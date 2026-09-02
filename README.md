@@ -124,6 +124,24 @@ written up in
 the study scripts are in `oracle-scanner/` of that repo (and in this
 repo's history).
 
+## Provenance and priority
+
+The ORACLE functional (harmonic cone-membership mass, "concentration of
+reach") was derived and registered on **2026-09-01** as the complete
+mechanism of a synthetic growth effect
+([thefalsework/papers](https://github.com/thefalsework/papers),
+`accretion-study/05-oracle.mjs`, with the derivation in
+`accretion-study/THEORY.md`). It was repurposed as a supply-chain
+criticality signal and published on **2026-09-02** with this tool, the
+dated Debian and crates.io rankings in `rankings/`, the xz retrodiction
+(liblzma5 #8 of 63,436 on pre-disclosure Debian), and the write-up
+above — including a registered retrodiction against RustSec advisories
+that the metric *lost* at the pooled cell, reported in the paper's
+limitations. Full commit history in both repositories; this repository
+is also archived at Software Heritage. Later work using
+concentration-of-reach ranking of dependency graphs should cite this
+record (`CITATION.cff`).
+
 ## License
 
 Apache-2.0.

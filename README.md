@@ -57,6 +57,9 @@ of its size. High ORACLE with a low dependent count is the quiet
 load-bearing profile. The rows that matter for triage are the ones where
 `oracle_rank` is far ahead of `dependents_rank`.
 
+Naming: the tool is conemass; the quantity it computes is called ORACLE
+in the paper, and the `oracle` / `oracle_rank` CSV columns refer to it.
+
 ## Usage
 
 ```

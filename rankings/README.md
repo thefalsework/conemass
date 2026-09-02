@@ -1,6 +1,6 @@
 # Published ORACLE rankings
 
-Generated 2026-09-02 with `../oracle-rank.mjs` (cone cap 200; rankings
+Generated 2026-09-02 with `../conemass.mjs` (cone cap 200; rankings
 are insensitive to cap 50–800 on these corpora — see the
 [cap sweep](https://github.com/thefalsework/papers/blob/main/oracle-scanner/cap-sweep.json)
 in the research repo).
@@ -24,13 +24,13 @@ the OpenSSF criticality-score top-1000).
 **Run it on your own graph:**
 
 ```
-node oracle-rank.mjs Cargo.lock --top 50
-node oracle-rank.mjs your-edges.csv --top 100
+node conemass.mjs Cargo.lock --top 50
+node conemass.mjs your-edges.csv --top 100
 ```
 
 Rust lockfiles are parsed directly; otherwise supply one
 `dependent,dependency` pair per line or a JSON graph (see the header of
-`oracle-rank.mjs`). No dependencies, one file, cycles handled,
+`conemass.mjs`). No dependencies, one file, cycles handled,
 Apache-2.0 (`../LICENSE`). A 100k-node registry takes seconds. Output
 is deterministic: the same graph produces byte-identical CSV regardless
 of input file ordering (traversal and float accumulation order are

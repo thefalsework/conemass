@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // SPDX-License-Identifier: Apache-2.0
-// oracle-rank — rank a dependency graph by concentration of reach.
+// conemass — rank a dependency graph by concentration of reach.
 //
 //   ORACLE(x) = sum over packages u whose truncated dependency cone
 //               contains x of 1/|cone(u)|
@@ -19,10 +19,10 @@
 // input file happens to be ordered.
 //
 // USAGE
-//   node oracle-rank.mjs <input> [--cap N] [--top N] [--out FILE]
+//   node conemass.mjs <input> [--cap N] [--top N] [--out FILE]
 //
 //   <input>  dependency graph, one of:
-//            - Cargo.lock: parsed directly ("node oracle-rank.mjs
+//            - Cargo.lock: parsed directly ("node conemass.mjs
 //              Cargo.lock --top 50" works on any Rust project).
 //              Both dependency entry forms resolve ("serde" and
 //              "serde 1.0.188"). Versions are COLLAPSED to package
@@ -51,7 +51,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 // ---- args ----
 const args = process.argv.slice(2);
 if (!args.length || args.includes("--help") || args.includes("-h")) {
-  console.error("usage: node oracle-rank.mjs <input> [--cap N] [--top N] [--out FILE]");
+  console.error("usage: node conemass.mjs <input> [--cap N] [--top N] [--out FILE]");
   process.exit(args.length ? 0 : 1);
 }
 const input = args[0];

@@ -1,18 +1,18 @@
-# oracle-rank
+# conemass
 
 Rank a dependency graph by **concentration of reach**: which packages sit
 inside the most toolchains, weighted by how concentrated each toolchain's
 trust is. One file, no dependencies, any graph, seconds.
 
 ```
-node oracle-rank.mjs Cargo.lock --top 50
+node conemass.mjs Cargo.lock --top 50
 ```
 
 The metric's whole argument fits in one command. Run it on the
 eight-package lockfile in this repo:
 
 ```
-node oracle-rank.mjs test-cargo.lock
+node conemass.mjs test-cargo.lock
 ```
 
 ```
@@ -60,7 +60,7 @@ load-bearing profile. The rows that matter for triage are the ones where
 ## Usage
 
 ```
-node oracle-rank.mjs <input> [--cap N] [--top N] [--out FILE]
+node conemass.mjs <input> [--cap N] [--top N] [--out FILE]
 ```
 
 **Inputs** (auto-detected):

@@ -17,7 +17,7 @@ in the research repo).
 supply-chain triage are those where `oracle_rank` is far ahead of
 `dependents_rank`**: quiet packages carrying concentrated load
 (the liblzma / unicode-ident profile — see
-[the quiet-criticality preprint](https://github.com/thefalsework/papers/blob/main/preprints/quiet-criticality/paper.md)
+[the quiet-criticality paper](../paper/quiet-criticality.md)
 for validation, including the xz retrodiction and the comparison against
 the OpenSSF criticality-score top-1000).
 

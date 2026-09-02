@@ -5,6 +5,7 @@ authors:
   - family-names: "Brink"
     given-names: "Chris"
 date-released: 2026-09-02
+doi: "10.5281/zenodo.22261985"
 url: "https://github.com/thefalsework/conemass"
 repository-code: "https://github.com/thefalsework/conemass"
 license: Apache-2.0

@@ -1,5 +1,7 @@
 # conemass
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22261985.svg)](https://doi.org/10.5281/zenodo.22261985)
+
 Rank a dependency graph by **concentration of reach**: which packages sit
 inside the most toolchains, weighted by how concentrated each toolchain's
 trust is. One file, no dependencies, any graph, seconds.
@@ -138,9 +140,11 @@ dated Debian and crates.io rankings in `rankings/`, the xz retrodiction
 above — including a registered retrodiction against RustSec advisories
 that the metric *lost* at the pooled cell, reported in the paper's
 limitations. Full commit history in both repositories; this repository
-is also archived at Software Heritage. Later work using
-concentration-of-reach ranking of dependency graphs should cite this
-record (`CITATION.cff`).
+is also archived at Software Heritage and on Zenodo
+(DOI: [10.5281/zenodo.22261985](https://doi.org/10.5281/zenodo.22261985),
+with the dated ranking CSVs attached to the corresponding GitHub
+release). Later work using concentration-of-reach ranking of dependency
+graphs should cite this record (`CITATION.cff`).
 
 ## License
 

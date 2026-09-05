@@ -60,7 +60,7 @@ prioritization mistakes are most expensive.
 
 For a node x in a dependency graph, define
 
-  ORACLE(x) = Σ 1/|cone(u)|,
+  conemass(x) = Σ 1/|cone(u)|,
 
 summed over all packages u whose truncated transitive-dependency set
 ("cone," breadth-first, capped at 200 nodes) contains x. In words: count
@@ -115,7 +115,7 @@ comparison.
 
 On Debian bookworm, one release before disclosure:
 
-| package | ORACLE rank | dependent-count rank | PageRank rank |
+| package | conemass rank | dependent-count rank | PageRank rank |
 |---|---|---|---|
 | liblzma5 | **8** / 63,436 | 173 | 36 |
 | libgcrypt20 | 49 | 150 | 151 |
@@ -131,7 +131,7 @@ low-visibility library with a history of under-resourcing — move up by
 one to two orders of magnitude under concentration weighting. The
 liblzma ranking is robust to the one free parameter: at cone caps of 50,
 100, 200, 400, and 800 its rank is #8 in every case, and the archive's
-ORACLE top-100 overlaps 92–99% between adjacent caps.
+conemass top-100 overlaps 92–99% between adjacent caps.
 
 Transitive-dependent *counts*, for comparison, are unusable at the head
 of the distribution: hundreds of major libraries saturate the cap and
@@ -141,7 +141,7 @@ tie. Concentration weighting is what separates them.
 
 The same computation on the 2022 crates.io graph:
 
-| crate | ORACLE rank | dependent-count rank | direct dependents |
+| crate | conemass rank | dependent-count rank | direct dependents |
 |---|---|---|---|
 | libc | 1 / 84,439 | 14 | 4,330 |
 | unicode-ident | **2** | 3,582 | 6 |
@@ -160,7 +160,7 @@ visibility, near-total indirect presence — identified by the same
 computation in an unrelated ecosystem.
 
 The extreme divergers form a coherent class rather than noise. Sorting
-the ORACLE top-1000 by how much worse their dependent-count rank is
+the conemass top-1000 by how much worse their dependent-count rank is
 yields, almost without exception, degree-one procedural-macro companion
 crates: openssl-macros, wasm-bindgen-macro, pin-project-internal,
 darling_macro, and so on. Each has exactly one direct dependent (its
@@ -173,12 +173,12 @@ cannot surface it even in principle: the count is one.
 
 ## Result 3: the incumbent comparison
 
-We mapped the ORACLE top-10 of crates.io, the watchlists above, and the
+We mapped the conemass top-10 of crates.io, the watchlists above, and the
 threat-class list to their 2022 GitHub repositories (hand-curated
 mappings, published with the code) and checked membership in the
 incumbent's top-1000.
 
-Of the crates ORACLE top-10, one appears: libc, at #257. serde — the
+Of the crates conemass top-10, one appears: libc, at #257. serde — the
 most depended-upon crate in the registry by raw count — is absent. So
 are syn, proc-macro2, quote, cfg-if, and unicode-ident. The threat-class
 list is absent in its entirety, 0 of 7. On the Debian side: OpenSSL is
@@ -208,13 +208,13 @@ package everyone in this field agrees was the catastrophe.
 Stated in full, because the comparison above is one-directional and the
 piece is descriptive throughout.
 
-- **We did not run the symmetric test.** We checked whether ORACLE's
+- **We did not run the symmetric test.** We checked whether conemass's
   head appears in the incumbent's list; we did not systematically check
   whether the incumbent's head (Linux, git, Node, Kubernetes) scores low
-  on ORACLE. Most of the incumbent's top entries are applications rather
+  on conemass. Most of the incumbent's top entries are applications rather
   than packages and have no node in a package dependency graph, so the
   symmetric test requires a corpus-mapping exercise we have not done.
-  Until it is done, the correct statement is that ORACLE's head is
+  Until it is done, the correct statement is that conemass's head is
   invisible to the incumbent — not that the two rankings are
   anti-correlated.
 - **One retrodiction is one retrodiction.** liblzma at #8 is a single
@@ -227,7 +227,7 @@ piece is descriptive throughout.
   labels = RustSec vulnerability advisories dated strictly after it
   (159 affected crates in-snapshot), share of labeled crates in each
   metric's top decile. Every graph metric crushes the random null
-  (55–63% vs 10%), but ORACLE (0.554) **lost** to dependent count
+  (55–63% vs 10%), but conemass (0.554) **lost** to dependent count
   (0.629) and PageRank (0.598) at the registered headline cell. Label
   bias favors popular crates (advisories are filed where the scrutiny
   is) and was stated before the run — but the registration committed to
@@ -241,7 +241,7 @@ piece is descriptive throughout.
   0.95–0.99 across full registries). The divergence is concentrated at
   the head of the ranking — which is where prioritization decisions are
   made, but a reader should not picture two unrelated orderings.
-- **Library enrichment is by design.** ORACLE's head is almost entirely
+- **Library enrichment is by design.** conemass's head is almost entirely
   libraries and build plumbing. For growth or importance claims that
   would be a confound; for supply-chain risk it is the point — libraries
   and build-time code are the attack surface.
@@ -259,21 +259,21 @@ Concentration of reach should be a column in criticality dashboards,
 next to — not instead of — activity-based scores. The two metrics
 disagree on a specific, enumerable set of packages: quiet, finished,
 deeply embedded libraries and degree-one build-time plumbing. That set
-is small (the head of the ORACLE ranking), cheap to compute for any
+is small (the head of the conemass ranking), cheap to compute for any
 registry with a dependency graph, and contains the known catastrophic
 case at rank eight of sixty-three thousand, twenty-one months before
 anyone knew to look.
 
 Rather than end on the ask, we end on the artifact.
 [github.com/thefalsework/conemass](https://github.com/thefalsework/conemass)
-contains the ORACLE top-1000 for Debian
+contains the conemass top-1000 for Debian
 trixie (2025) and crates.io, computed 2026-09-02 and published as-is.
 The files are dated; every future incident either involves a package in
 them or it does not, and either outcome scores the metric in public.
 The CLI beside them runs on any dependency graph in seconds —
 `node conemass.mjs Cargo.lock --top 50` works directly on a Rust
 project's lockfile — with no dependencies of its own, under Apache-2.0.
-The rows to read are the ones where `oracle_rank` is far ahead of
+The rows to read are the ones where `conemass_rank` is far ahead of
 `dependents_rank`.
 
 ## Artifacts and reproducibility
@@ -283,7 +283,7 @@ just checked:
 
 - **Published rankings**
   ([thefalsework/conemass](https://github.com/thefalsework/conemass),
-  `rankings/`): dated top-1000 ORACLE rankings for Debian trixie (2025)
+  `rankings/`): dated top-1000 conemass rankings for Debian trixie (2025)
   and crates.io (2022), with the dependent-count comparison columns
   inline.
 - **A standalone CLI** (same repo, Apache-2.0): a single zero-dependency
@@ -291,7 +291,7 @@ just checked:
   an edge-list CSV of `dependent,dependency` pairs, or a JSON graph —
   handles cycles, and emits a deterministic ranking. A 100,000-node
   registry takes seconds. Run it on your own graph and inspect the rows
-  where `oracle_rank` is far ahead of `dependents_rank`. The repo's
+  where `conemass_rank` is far ahead of `dependents_rank`. The repo's
   eight-package `test-cargo.lock` reproduces the metric's whole argument
   in one command: unicode-ident ranks first with two direct dependents,
   above proc-macro2 with three.

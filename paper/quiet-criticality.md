@@ -3,7 +3,7 @@
 ## Dependency concentration as a criticality signal
 
 **Author.** Chris Brink (independent)
-**Version.** Draft v0.5, 2026-09-02 (v0.2: retitled; artifacts section.
+**Version.** Draft v0.7, 2026-09-05 (v0.2: retitled; artifacts section.
 v0.3: package-versus-repository distinction made explicit; recommendation
 section ends on the artifact; CLI gained direct Cargo.lock support.
 v0.4: tool and rankings split to their own repo,
@@ -14,7 +14,11 @@ limitations — ORACLE lost the pooled cell to dependent count, reported
 in full. v0.6: this copy ships with the tool at
 github.com/thefalsework/conemass, which is now the paper's canonical
 home; the research repository retains the study scripts and the
-archival record).
+archival record. v0.7, 2026-09-05: the metric is named conemass
+throughout this text and in the tool's CSV columns; ORACLE remains its
+working name in the frozen registered studies and earlier archived
+versions. Pure rename — no computation, ranking, or data row changed,
+as the git history of the published CSVs shows).
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers; each script
 states its expectations in a header written before the run and its

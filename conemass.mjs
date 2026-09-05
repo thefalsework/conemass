@@ -2,13 +2,16 @@
 // SPDX-License-Identifier: Apache-2.0
 // conemass — rank a dependency graph by concentration of reach.
 //
-//   ORACLE(x) = sum over packages u whose truncated dependency cone
-//               contains x of 1/|cone(u)|
+//   conemass(x) = sum over packages u whose truncated dependency cone
+//                 contains x of 1/|cone(u)|
 //
 // "Count every toolchain you are part of, weighting each by the
-// reciprocal of its size." High ORACLE + low direct-dependent count is
-// the quiet load-bearing profile (liblzma, unicode-ident). Background
-// and validation: preprints/quiet-criticality/paper.md in this repo.
+// reciprocal of its size." High conemass + low direct-dependent count
+// is the quiet load-bearing profile (liblzma, unicode-ident).
+// Background and validation: paper/quiet-criticality.md in this repo.
+// (The metric was derived under the name ORACLE, harmonic
+// cone-membership mass, in the registered studies of 2026-09-01/02;
+// conemass is its public name.)
 //
 // Self-contained: no dependencies, single file. Handles cycles via SCC
 // condensation (members of a cycle share a score).
@@ -42,9 +45,9 @@
 //   --out F  write CSV to file F (default: stdout).
 //
 // OUTPUT CSV columns:
-//   oracle_rank, name, oracle, direct_dependents, dependents_rank
-// Sorted by oracle_rank. The interesting rows for supply-chain triage
-// are those where oracle_rank << dependents_rank.
+//   conemass_rank, name, conemass, direct_dependents, dependents_rank
+// Sorted by conemass_rank. The interesting rows for supply-chain triage
+// are those where conemass_rank << dependents_rank.
 
 import { readFileSync, writeFileSync } from "node:fs";
 
@@ -226,7 +229,7 @@ const cDeps = Array.from({ length: NC }, () => []);
 // the order edges appeared in the input file
 for (const list of cDeps) list.sort((x, y) => x - y);
 
-// ---- ORACLE over the condensation ----
+// ---- conemass over the condensation ----
 const orc = new Float64Array(NC);
 {
   const seen = new Int32Array(NC).fill(-1);
@@ -255,7 +258,7 @@ const orc = new Float64Array(NC);
 }
 
 // ---- ranks and output ----
-const oracleOf = (i) => orc[comp[i]];
+const conemassOf = (i) => orc[comp[i]];
 const rankOf = (valOf) => {
   const order = Array.from({ length: n }, (_, i) => i)
     .sort((a, b) => valOf(b) - valOf(a) || (names[a] < names[b] ? -1 : 1));
@@ -269,14 +272,14 @@ const rankOf = (valOf) => {
   }
   return { order, ranks };
 };
-const { order, ranks: rOr } = rankOf(oracleOf);
+const { order, ranks: rOr } = rankOf(conemassOf);
 const { ranks: rDeg } = rankOf((i) => directDeps[i]);
 
 const limit = TOP > 0 ? Math.min(TOP, n) : n;
-const rows = ["oracle_rank,name,oracle,direct_dependents,dependents_rank"];
+const rows = ["conemass_rank,name,conemass,direct_dependents,dependents_rank"];
 for (let k = 0; k < limit; k++) {
   const i = order[k];
-  rows.push(`${rOr[i]},${names[i]},${oracleOf(i).toFixed(4)},${directDeps[i]},${rDeg[i]}`);
+  rows.push(`${rOr[i]},${names[i]},${conemassOf(i).toFixed(4)},${directDeps[i]},${rDeg[i]}`);
 }
 const csv = rows.join("\n") + "\n";
 if (OUT) { writeFileSync(OUT, csv); console.error(`wrote ${OUT} (${limit} rows of ${n} nodes, cap ${CAP})`); }

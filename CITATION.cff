@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use conemass or the concentration-of-reach (ORACLE) metric, please cite it as below."
+message: "If you use conemass or the concentration-of-reach metric (working name ORACLE in the registered studies), please cite it as below."
 title: "conemass: ranking dependency graphs by concentration of reach"
 authors:
   - family-names: "Brink"
@@ -11,13 +11,14 @@ repository-code: "https://github.com/thefalsework/conemass"
 license: Apache-2.0
 keywords:
   - concentration of reach
-  - ORACLE metric
+  - conemass metric
+  - ORACLE metric (working name)
   - harmonic cone-membership mass
   - dependency graph
   - supply-chain security
   - software criticality
 abstract: >-
-  conemass ranks the packages of a dependency graph by ORACLE(x) =
+  conemass ranks the packages of a dependency graph by conemass(x) =
   sum over packages u whose truncated dependency cone contains x of
   1/|cone(u)| — harmonic cone-membership mass, "concentration of
   reach." Computed on the last Debian release before the xz backdoor
@@ -25,10 +26,12 @@ abstract: >-
   (against #173 by dependent count), twenty-one months before
   disclosure. On the 2022 crates.io snapshot it ranks unicode-ident
   #2 of 84,439 (six direct dependents). The functional was first
-  derived and registered on 2026-09-01 as the complete mechanism of a
-  synthetic growth effect (thefalsework/papers,
+  derived and registered — under its working name ORACLE, which the
+  frozen study records retain — on 2026-09-01 as the complete
+  mechanism of a synthetic growth effect (thefalsework/papers,
   accretion-study/05-oracle.mjs); it was repurposed as a criticality
-  signal and published with dated rankings on 2026-09-02.
+  signal and published with dated rankings on 2026-09-02, and renamed
+  conemass throughout the public artifacts on 2026-09-05.
 references:
   - type: article
     title: "The Critical-Projects List Contains Kubernetes and Misses zlib: Dependency concentration as a criticality signal"

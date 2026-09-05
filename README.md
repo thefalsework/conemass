@@ -18,7 +18,7 @@ node conemass.mjs test-cargo.lock
 ```
 
 ```
-oracle_rank,name,oracle,direct_dependents,dependents_rank
+conemass_rank,name,conemass,direct_dependents,dependents_rank
 1,unicode-ident,2.4262,2,2
 2,proc-macro2,1.4262,3,1
 3,quote,0.9262,2,2
@@ -43,24 +43,21 @@ The rankings that guide security attention mostly count activity and
 popularity. Those miss a specific profile: the quiet, finished, deeply
 embedded library — few direct dependents, present in nearly every build.
 The OpenSSF criticality-score top-1000 contains Kubernetes and misses
-zlib. On the last Debian release before the xz backdoor, ORACLE ranked
+zlib. On the last Debian release before the xz backdoor, conemass ranked
 liblzma5 **#8 of 63,436 packages** (against #173 by dependent count) —
 twenty-one months before anyone knew to look.
 
 The metric:
 
 ```
-ORACLE(x) = sum over packages u whose truncated dependency cone
-            contains x of 1 / |cone(u)|
+conemass(x) = sum over packages u whose truncated dependency cone
+              contains x of 1 / |cone(u)|
 ```
 
 Count every toolchain you are part of, weighting each by the reciprocal
-of its size. High ORACLE with a low dependent count is the quiet
+of its size. High conemass with a low dependent count is the quiet
 load-bearing profile. The rows that matter for triage are the ones where
-`oracle_rank` is far ahead of `dependents_rank`.
-
-Naming: the tool is conemass; the quantity it computes is called ORACLE
-in the paper, and the `oracle` / `oracle_rank` CSV columns refer to it.
+`conemass_rank` is far ahead of `dependents_rank`.
 
 ## Usage
 
@@ -86,7 +83,7 @@ node conemass.mjs <input> [--cap N] [--top N] [--out FILE]
 insensitive to cap 50–800 on tested corpora). `--top N` emit only the
 top N rows. `--out F` write CSV to a file instead of stdout.
 
-**Output columns:** `oracle_rank, name, oracle, direct_dependents,
+**Output columns:** `conemass_rank, name, conemass, direct_dependents,
 dependents_rank`.
 
 ## Guarantees and caveats
@@ -101,7 +98,7 @@ dependents_rank`.
 - A 100k-node registry takes seconds; string edge keys keep dedup
   correct past the ~2M-node limit where numeric packing would silently
   collide.
-- Descriptive rankings, not certified claims. ORACLE's head is
+- Descriptive rankings, not certified claims. conemass's head is
   deliberately library-heavy — libraries are the attack surface.
 
 ## Published rankings
@@ -115,7 +112,9 @@ dependents_rank`.
 
 Computed 2026-09-02 and published as-is: every future incident either
 involves a package in these files or it does not, and the files are
-dated.
+dated. (2026-09-05: the CSV header row was renamed `oracle_*` →
+`conemass_*`; every data row is unchanged from the 2026-09-02
+computation, as the git history shows.)
 
 ## Background
 
@@ -127,8 +126,9 @@ included in this repo ([PDF](paper/quiet-criticality.pdf)).
 
 ## Provenance and priority
 
-The ORACLE functional (harmonic cone-membership mass, "concentration of
-reach") was derived and registered on **2026-09-01** as the complete
+The metric (harmonic cone-membership mass, "concentration of reach") was
+derived and registered — under its working name **ORACLE**, which the
+frozen study records retain — on **2026-09-01** as the complete
 mechanism of a synthetic growth effect
 ([thefalsework/papers](https://github.com/thefalsework/papers),
 `accretion-study/05-oracle.mjs`, with the derivation in

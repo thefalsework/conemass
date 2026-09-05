@@ -1,21 +1,24 @@
-# Published ORACLE rankings
+# Published conemass rankings
 
 Generated 2026-09-02 with `../conemass.mjs` (cone cap 200; rankings
 are insensitive to cap 50–800 on these corpora — see the
 [cap sweep](https://github.com/thefalsework/papers/blob/main/oracle-scanner/cap-sweep.json)
-in the research repo).
+in the research repo). On 2026-09-05 the header row was renamed
+`oracle_*` → `conemass_*` (the metric's working name in the registered
+studies was ORACLE); every data row is unchanged from the 2026-09-02
+computation.
 
 | file | corpus | snapshot | nodes |
 |---|---|---|---|
 | `debian-trixie-2025-top1000.csv` | Debian main/binary-amd64 | trixie (2025) Packages | 68,750 |
 | `crates-2022-top1000.csv` | crates.io | 2022 dependency snapshot | 84,439 |
 
-**Columns.** `oracle_rank` — rank by concentration of reach (ORACLE =
-Σ 1/|cone| over truncated dependency cones containing the package);
-`oracle` — the raw value; `direct_dependents` — package-level in-degree;
-`dependents_rank` — rank by that count. **The rows that matter for
-supply-chain triage are those where `oracle_rank` is far ahead of
-`dependents_rank`**: quiet packages carrying concentrated load
+**Columns.** `conemass_rank` — rank by concentration of reach (conemass
+= Σ 1/|cone| over truncated dependency cones containing the package);
+`conemass` — the raw value; `direct_dependents` — package-level
+in-degree; `dependents_rank` — rank by that count. **The rows that
+matter for supply-chain triage are those where `conemass_rank` is far
+ahead of `dependents_rank`**: quiet packages carrying concentrated load
 (the liblzma / unicode-ident profile — see
 [the quiet-criticality paper](../paper/quiet-criticality.md)
 for validation, including the xz retrodiction and the comparison against
@@ -37,11 +40,11 @@ of input file ordering (traversal and float accumulation order are
 canonicalized by package name).
 
 **Caveats.** Descriptive rankings, not certified claims; one
-retrodiction is one retrodiction; ORACLE's head is deliberately
+retrodiction is one retrodiction; conemass's head is deliberately
 library-heavy (libraries are the attack surface). Known limitation:
 packages inside a dependency cycle share a score (SCC condensation).
 Ties take the minimum rank; the study scripts behind the paper use
 average rank, so tied positions differ between the two (unicode-ident's
 dependent-count rank is 3,304 here and 3,582 in the paper — same six
-direct dependents, thousands of crates tied at that count; its ORACLE
+direct dependents, thousands of crates tied at that count; its conemass
 rank is #2 under both conventions).

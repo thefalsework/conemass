@@ -116,6 +116,16 @@ dated. (2026-09-05: the CSV header row was renamed `oracle_*` →
 `conemass_*`; every data row is unchanged from the 2026-09-02
 computation, as the git history shows.)
 
+## Beyond package registries
+
+`examples/prove2me/` applies the metric, unmodified, to a third graph
+type: the theorem dependency graph of the
+[Prove2Me](https://prove2.me) formal-mathematics platform (280
+missions, 4,077 nodes, snapshot 2026-09-19). Two rankings —
+definitions by audit priority, open theorems by downstream unlock
+mass — with null-model checks and full reproduction scripts. See
+[`examples/prove2me/REPORT.md`](examples/prove2me/REPORT.md).
+
 ## Background
 
 The validation — the xz retrodiction, the crates.io replication, the

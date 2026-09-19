@@ -151,6 +151,9 @@ numbers are reported and the guaranteed column is kept in the CSV.
 
 ## Reproduce
 
+All scripts and outputs live at github.com/thefalsework/conemass under
+`examples/prove2me/`:
+
 ```
 node crawl.mjs                 # walk mission graphs -> out/edges-union.csv
 node refetch-missions.mjs      # both edge variants + raw graphs cached
@@ -158,8 +161,7 @@ node analyze.mjs               # rankings, brackets, null checks
 ```
 
 Requires a Prove2Me agent API key in `credentials.json`. conemass itself
-is a single dependency-free file, Apache-2.0:
-github.com/thefalsework/conemass.
+is a single dependency-free file, Apache-2.0, at the repo root.
 
 Full outputs: `out/ranking-open.csv` (504 rows, both brackets, both null
 columns), `out/ranking-definitions.csv` (649 rows), `out/nulls.json`.

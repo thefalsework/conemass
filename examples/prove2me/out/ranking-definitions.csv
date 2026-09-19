@@ -1,0 +1,650 @@
+def_rank,name,conemass,direct_dependents,title
+1,CircleMethod_char,49.4141,48,The additive character $e(\theta)=\exp(2\pi i\theta)$ and $\|\theta\|$
+2,StochasticBandit,26.3219,3,
+3,MixingCoefficients,24.8016,58,"Strict stationarity; the $\alpha$-, $\rho$-, $\varphi$-mixing coefficients; asymptotic variance"
+4,BanditPolicy,22.9885,14,
+5,MTT_Arithmetic,21.6433,5,"MTT: cusp forms, modular integrals, periods, and complex critical values"
+6,Erdos9796Mission,21.5546,11,"Convex point sets, equidistant neighbours, and unit-distance counts"
+7,BookSixth,21.4813,26,Sixth-edition theorem interfaces
+8,mm_basic,20.6389,10,"Finite Markov chains: transition matrices, stationarity, irreducibility, period, reversibility"
+9,mme_tensor,20.6181,10,
+10,frame_2026_symplectic_free_modules_interfaces,20.1786,28,Polynomial symplectic-module and Hamiltonian-module interfaces
+11,Freiman_lagrangeSpectrum,19.9198,11,The classical Lagrange spectrum
+12,Freiman_cfValue,19.8228,4,Continued fractions and Perron values
+13,PartialMonitoringGame,19.5356,32,
+14,mme_omega,18.5586,14,
+15,Hirsch_model,18.3346,55,"H-polytopes, edges, and combinatorial diameter"
+16,Polyhedron,18.3027,27,Polyhedron and standard-form polyhedron
+17,PdzPrelim,16.9714,23,Real-algebraic-geometry vocabulary and elimination toolkit
+18,diophantine_descent,16.8383,21,Diophantine triples and finite descent degree
+19,queueing_continuous_time,16.8011,23,
+20,Freiman_symbolicMarkovSpectrum,16.4781,25,The symbolic Lagrange and Markov spectra
+21,Erdos9796Counting_Adapter,16.0212,66,Counting transfer definition Erdos9796Counting_Adapter
+22,mme_tensor_rank,15.3086,21,
+23,erdos180_core1,14.0209,1,"The compactness conjecture, the forbidden family $\mathcal{F}$, and the symplectic generalized quadrangle"
+24,excursion_coupling,13.7840,29,"Completed graph, crossings, and paired routes for $F_\sigma = F_\mu - F_\nu$"
+25,frame_2026_harmonic_building_interfaces,13.6757,17,Euclidean-building harmonic-map order interfaces
+26,erdos180_core2,13.0209,1,"Common-neighbour geometry, non-backtracking four-paths, and the separation constants"
+27,BunkbedPercolation,12.8423,12,"Bernoulli bond percolation, the bunkbed graph, and the bunkbed conjecture"
+28,GameSetMatch,12.8337,1,"Best-ofs, nested best-ofs, scored sets, and match outcomes"
+29,erdos146_core1,12.5836,1,"Degeneracy counterexample: entropy kernel, layered graph and word classification"
+30,erdos180_core3,12.5209,1,"Independent triples, the bad-vertex set $U$, and coordinates on the quadrangle"
+31,rybin2026_p01_matrix_integral,12.3534,22,Problem 01 definitions — Positive definite matrix integral inequality
+32,erdos180_core4,12.1875,63,"Normalising a disjoint line pair, characteristic-two avoidance, and the explicit constants"
+33,ActiveConstraints,12.1380,14,Active constraints at a point of a polyhedron
+34,CannonFloydParry,12.0910,18,Thompson's group $F$ on the unit interval and on the line
+35,MagicSquares,11.8429,22,Magic squares: core definitions and counting functions
+36,GameSetMatchInternal,11.8337,36,"Score contributions, win-loss advantages, hypergeometric weights, and the tie integral"
+37,eulerMascheroni_gompertz,11.7342,6,The Euler–Gompertz constant $\delta$
+38,erdos146_core2,11.5836,36,"Degeneracy counterexample: child arrays, Hamming-ball host and the sampling thresholds"
+39,erdos183_core,11.2728,21,Multicolour triangle Ramsey numbers and the palette-block construction
+40,Erdos9796Counting_Foundation,11.2712,32,Counting transfer definition Erdos9796Counting_Foundation
+41,matrix_completion_basic,11.2392,4,
+42,MSKleene_Core,11.0944,3,Many-sorted algebra: core layer
+43,mm_mixing,10.7722,16,"Total variation distance, mixing time, and couplings"
+44,syracuseStep,10.7076,21,Accelerated (Syracuse) map $T(n) = (3n+1)/2^{v_2(3n+1)}$
+45,CirclePackingConstants,10.5769,13,Equal-circle packing constants in the unit square
+46,MTT_Cohomology,10.1838,23,Compactly supported group cohomology and integral modular-symbol evaluations
+47,HairerSPDE_CameronMartin,9.2261,15,The Cameron–Martin norm and space of a Gaussian measure
+48,FiniteReflectionPositivityMethodsI,9.1000,10,Finite split reflection positivity and infrared-spectrum interface
+49,sipser_gacs_lautemann,9.0534,23,Complexity classes for the Sipser–Gács–Lautemann theorem
+50,mme_strassen_preorder,8.9935,5,
+51,collatzStepMap,8.8951,21,Collatz step map $C(n)$
+52,BrinSquier,8.8168,13,"Supports, piecewise-linear homeomorphisms of the line, and slopes at the ends"
+53,BasicSolution,8.4876,23,Basic solution and basic feasible solution
+54,mm_path,8.4544,5,"Trajectories, return times, and hitting times of a finite chain"
+55,quantum_parallel_repetition_game,8.3076,34,Finite two-player entangled games and parallel repetition
+56,matrix_completion_svd,8.2392,2,
+57,mme_omega_strassen,8.2269,17,
+58,MSKleene_Term,8.0944,9,The free many-sorted algebra $\mathbf{T}_\Sigma(X)$
+59,MCNoSpuriousMinModel,7.8409,11,"Model layer: objective, optimality conditions, auxiliary function $K$, and the good-sample predicate"
+60,matrix_completion_bernoulli,7.7392,7,
+61,Freiman_prefixEval,7.6971,5,Finite continued-fraction prefix acting on a tail
+62,ErdosStraus242,7.6583,13,The distinct Erdős–Straus property
+63,BertsekasCTModel,7.5762,10,"The continuous-time optimal control problem: admissibility, cost, Hamiltonian"
+64,LeopoldtDefect,7.4676,13,The Leopoldt defect $\mathcal{D}_L(\mathbb{K})$ of a number field at $p$
+65,KerrBL_CoordGeometry,7.4665,1,Generic coordinate Christoffel symbols and Ricci tensor on $\mathbb{R}^4$
+66,CappedBaseStock_Model,7.3548,8,"Lost-sales dynamics, admissible policies, and the two-variable cost certificate"
+67,TotalVariationDist,7.3303,5,Total variation distance $\|\mu-\nu\| = \sup_A |\mu(A)-\nu(A)|$
+68,Rectangle_defs,7.1442,22,Axis-parallel rectangles in $\mathbb{C}$: the rectangle border determined by two corners
+69,mme_tau_value,6.9841,11,Unrestricted Coppersmith--Winograd tau-value witnesses
+70,Monotonicity_Theorem_Framework2,6.6186,13,O-minimal structure framework
+71,FiniteMagmaE677,6.5540,10,E677 and E255 for arbitrary binary operations
+72,ShiShallow_Circuit,6.5146,20,"Shallow quantum circuits: gates, layers and acceptance probability"
+73,KerrBL_Kerr_Metric,6.4665,8,"Boyer-Lindquist Kerr metric, closed-form inverse and regular coordinate domain"
+74,TaoFivePrimes_RepresentationCount,6.4573,4,Tao's weighted three-prime representation count (K = 1000)
+75,mme_flattening,6.4019,3,
+76,markov_entanglement,6.3909,4,"Markov entanglement: two-agent MDPs, agent-wise TV distance, entanglement measure"
+77,monopoly_pricing,6.3457,8,
+78,mme_tensor_type_grading,6.2045,7,
+79,GaussianBandit,6.1724,45,
+80,gilbreath_triangle,6.1111,9,The Gilbreath triangle of iterated absolute differences
+81,DiazModulus,6.0943,22,"Logarithms of algebraic numbers, and the conjectures around Diaz's modulus question"
+82,Freiman_lowerInitial,6.0253,1,Freiman lower construction: lowerInitial
+83,mme_tensor_quotient,5.9102,8,
+84,eulerMascheroni_sondow,5.8383,6,"Sondow harmonic sums, logarithmic forms and double integrals"
+85,GittinsIndex,5.8247,1,
+86,OpenGA_AreaEnergyDensities,5.7916,4,Area and energy densities of a vector pair
+87,ReservoirESN,5.7083,7,"Reservoir systems: solutions, uniform bounds, contraction, weighting sequences, fading memory"
+88,mme_CW_coupled_value,5.5620,26,Coupled Coppersmith--Winograd tensor-square constituent
+89,MarkovIterKernel,5.4970,7,The $n$-step transition kernel $P^n$
+90,Rudin_ch10_forms,5.4762,7,"Surfaces, differential forms, chains and the boundary operator"
+91,banditRegret,5.4598,24,
+92,mm_coupling,5.3671,3,"Markovian couplings, the torus, colorings, and the hardcore model"
+93,BSD,5.3667,10,The Birch and Swinnerton-Dyer conjecture: the rank of $E(\mathbb{Q})$ and the L-function of an elliptic curve over $\mathbb{Q}$
+94,FiniteGreenVariationalEnergyV1,5.3111,9,Finite Green variational-energy interface
+95,Vertex,5.2876,16,Vertex and extreme point of a polyhedron
+96,frame_2026_moment_angle_interfaces,5.2839,12,Moment-angle complexes and total integral homology
+97,Freiman_gapCertificate,5.2330,1,Finite four-digit partition certificate semantics
+98,Freiman_continuants,5.1766,4,Continuants with the report’s digit-count convention
+99,ResidueCalcOnRectangles_defs,5.1442,26,"Contour integrals over rectangles in $\mathbb{C}$: horizontal/vertical integrals, $\mathrm{RectangleIntegral}$, $\mathrm{VerticalIntegral}$, and border integrability"
+100,Freiman_lowerSelection,5.0303,1,Freiman lower construction: lowerSelection
+101,KServer_model,5.0061,7,"The $k$-server model: configurations, online algorithms, offline cost, competitiveness"
+102,BunkbedWZRefined,4.9987,2,The refined pair state space and the half-reflection involution
+103,ConvexOptimization_IsBacktrackingStep,4.9659,5,Backtracking line search step
+104,Vino_ramanujan,4.9475,17,Ramanujan sums and the singular series of the three primes problem
+105,MellinCalculus_defs,4.8980,17,"Mellin calculus: multiplicative convolution, the delta-spike approximate identity, and the smoothed indicator $\mathrm{Smooth1}$"
+106,MarkovChainKernel,4.8247,1,Kernel of full Markov-chain trajectories indexed by the initial state
+107,CollapsibleCubics_basic,4.6762,7,Split polynomials and collapsible numbers
+108,opg500_weighted_cycle_models,4.6667,4,"Positive edge weights, geodesic cycles, and peripheral cycles"
+109,Thurston23_bundle,4.6461,6,"Hyperbolic 3-space, its volume and distance, Kleinian actions, and the set of volumes"
+110,PositiveDefinite,4.6290,8,Positive-definite real function
+111,ZengPryadko2019,4.5833,4,Based binary chain complexes and homological distance
+112,matrix_completion_tangent,4.5462,23,
+113,Freiman_lowerCertificates,4.5303,23,Freiman lower construction: lowerCertificates
+114,erdos390_problem,4.3875,13,Erdős Problem 390 — exact finite model and asymptotic target
+115,Vino_dirichlet,4.3538,6,Gauss sums and character-twisted von Mangoldt sums
+116,Chou_Growth,4.3270,7,"Growth of finitely generated groups: balls, exponential growth, exponentially bounded, free subsemigroups"
+117,MarkovChainPathMeasure,4.3247,50,"Chain law from an initial distribution, sample averages, and the CLT property"
+118,mme_CW_tensor,4.3045,23,
+119,mm_lower,4.2992,13,"Bottleneck ratios, distinguishing statistics, and the transition graph"
+120,frame_2026_harmonic_building_conical,4.2605,12,Conical Euclidean buildings and maps homogeneous of order $\alpha$
+121,Freiman_gapCertificateData,4.2330,11,"The supplied lower, upper and forcing partition data"
+122,BertsekasSSPModel,4.2000,5,"The stochastic shortest path model, its DP operators, and discounted variants"
+123,gribov_region_model,4.2000,5,Faddeev--Popov operator model and the Gribov region $\Omega$
+124,agt_social,4.1667,4,"Preferences, social welfare and social choice functions"
+125,eulerMascheroni_p2Approximation,4.1667,3,Explicit second-order Euler approximants and saddle models
+126,metric_npc_cone,4.1449,2,"Metric midpoints, the CN inequality, and metric cones"
+127,ConvexOptimization_lagrangeDuality,4.1429,6,"Lagrange duality: feasible set, Lagrangian, and dual function"
+128,PrimalDualOnline_SkiRentalLP,4.1250,8,Ski-rental fractional LP: primal covering and dual packing programs
+129,Hairer_TestFunctions,4.0750,2,"Scalings, test functions, distributions and the spaces $\mathcal{C}^\alpha_s$"
+130,OpenGA_GeodesicBall,4.0674,3,Open balls for a specified Riemannian metric
+131,rationalEArithmetic,4.0616,5,Rational arithmetic coefficients for E-function specialization
+132,Fejer_fejerKernel,4.0380,5,Fejér kernel
+133,MTT_Measures,4.0330,12,"MTT: p-adic measures, disk moments, and interpolation"
+134,Geometry_AlmostLosslessCore,4.0179,3,Aether Catalog definitions — Geometry_AlmostLosslessCore
+135,ShiShallow_Operator,4.0146,16,Local operators on n qubits
+136,FLTPrelim_Modularity,4.0080,11,Modularity of elliptic curves over ℚ via eigenform coefficients
+137,eulerMascheroni_mixedCover,3.9961,6,An explicit mixed-function family on the logarithmic cover
+138,rybin2026_p16_mutually_unbiased_bases,3.9755,3,Problem 16 definitions — Existence of complete sets of mutually unbiased bases
+139,BunkbedHypergraph,3.9673,10,"Hypergraph percolation, Hollom's hypergraph, and the Wierman-Ziff model"
+140,SelfNormalizedProcess,3.9623,6,
+141,BanditTrajectory,3.9586,14,
+142,Hatcher_VanKampen,3.8667,6,"Hatcher §1.2: the homomorphisms $j_\alpha$, $\Phi$, $i_{\alpha\beta}$ and the normal subgroup $N$ of van Kampen's theorem"
+143,mme_block_tensor,3.8509,2,
+144,MarkovErgodicity,3.8303,47,"Harris ergodicity; geometric, uniform, and polynomial ergodicity"
+145,Freiman_middleCover,3.8145,1,Exact middle-interval cover geometry
+146,BFFPyramidal_arithmetic,3.7917,6,"Greatest prime factor, divisor closure, and the totient measure"
+147,Vino_primes,3.7896,12,Prime-side generating functions of the circle method
+148,eulerMascheroni_factorialQuotient,3.7875,6,Factorial quotient coefficients and their common-denominator condition
+149,mme_modern_entropy_data,3.7716,2,Finite entropy and coordinate marginals for modern laser certificates
+150,EulerMaclaurin_defs,3.7344,32,First Bernoulli function $B_1(x) = \{x\} - \tfrac{1}{2}$ for the first-order Euler–Maclaurin formula
+151,Fourier_defs,3.7344,32,Fourier-analysis scaffolding: coercion of real-valued to complex-valued functions for Fourier transform lemmas
+152,KN_HorizontalPadicL,3.7287,4,Twisted critical values of a modular elliptic curve
+153,Thurston23_mobius,3.6461,4,"The Möbius action of $\mathrm{SL}_2(\mathbb{C})$ on hyperbolic $3$-space, by isometries preserving the volume"
+154,PartialMonitoringStochastic,3.6177,9,Stochastic partial-monitoring feedback experiment
+155,Freiman_middleRoots,3.6145,21,The fifteen exact middle-interval roots
+156,LinearOptimization_NetworkFlowProblem,3.6017,5,Network flow problem and node-arc incidence matrix
+157,Freiman_wordRealization,3.6001,16,Word occurrences and separated block copies
+158,OpenGA_CoordinateBallConnectedSum,3.5671,1,Coordinate-ball connected sums of three-manifolds
+159,mme_rank_bridge,3.5028,17,
+160,ZetaBounds_defs,3.4844,15,"Euler–Maclaurin representation $\zeta_0(N,s)$ of the Riemann zeta function and its derivative"
+161,KerrBL_Kerr_ClosedForms,3.4665,16,"Closed-form derivatives, Christoffel symbols and explicit Ricci expression of the Kerr metric (generated)"
+162,TaoFivePrimes_FourierRepresentation,3.4573,6,Finite Fourier representation of Tao’s weighted prime count
+163,ucbStoppedCenteredSum,3.4226,6,Stopped centered reward stack
+164,CircleMethod_waring,3.4188,20,"Complete exponential sums $S(q,a)$, the singular integral, and local densities"
+165,rybin2026_p01_cross_integral,3.3534,8,"Mixed spherical integral $\operatorname{crossIntegral}(X,Y,P,Q)$"
+166,MTT_Cohomology_Integration,3.3393,11,The cusp-to-cusp integration cocycle
+167,mme_block_subtensor,3.3175,6,
+168,Rudin_ch08_fourier,3.2500,4,"Orthonormal systems, Fourier coefficients, trigonometric polynomials"
+169,erdos788_problem,3.2500,4,Erdős Problem 788 — exact finite model and final propositions
+170,GoldbachSieve,3.2327,2,Finite prime sieve survivors and small-prime sum coverage
+171,Freiman_gapThreshold,3.2144,7,Constants for the interval and gap constructions
+172,MSKleene_Power,3.1999,5,The power $\Sigma$-algebra $A^{\wp}$
+173,BregmanMincWeights,3.1979,5,Radhakrishnan weight functions for Bregman-Minc
+174,CollatzMission,3.1697,9,Collatz mission predicates
+175,MagicSquaresParam3,3.1667,8,MacMahon parametrization of 3x3 magic squares
+176,Erdos9796Counting_CGN_CGN,3.1494,19,Counting transfer definition Erdos9796Counting_CGN_CGN
+177,PrimalDualOnline_SkiRentalAlg,3.1250,7,Ski-rental online algorithms: deterministic cost and fractional primal-dual variables
+178,pd_finite_lp,3.0873,2,Finite Standard-Form Primal and Dual Linear Programs
+179,markov_entanglement_multi,3.0576,3,"Multi-agent separability, weighted distances, and entanglement measures"
+180,mme_CW_auxiliary_RHS,3.0452,12,Coppersmith--Winograd Section 8 auxiliary expression
+181,GYGraphTheory,3.0333,6,Prüfer encoding and decoding of labeled trees
+182,BunkbedWZSurgery,2.9987,4,The path surgery of the involution argument
+183,opg37364_matching_cuts,2.9821,7,Matching cuts and immune high-girth graph packages
+184,FourierMotzkinStep,2.9030,2,Fourier–Motzkin elimination step
+185,BraidsLinksMCG_ArtinBraidGroup,2.8929,6,The abstract braid group $B_n$ by generators and relations
+186,Chou_ElementaryAmenable,2.8641,19,Elementary amenable groups (Day; Chou 1980)
+187,FLTPrelim_FreyPackage,2.8025,7,The Frey package and its Frey curve
+188,BertsekasLQGModel,2.7500,4,"The imperfect-information LQ model: trajectories, estimator, cost, Riccati gains"
+189,VectorSpaceOpt_optimal_control,2.7500,4,Measurable optimal-control framework
+190,single_server_queueing_stability,2.7500,4,
+191,ThompsonSampling,2.7293,22,
+192,CircleMethod_weylsum,2.7247,12,The Weyl sum $S_k(\alpha;N)=\sum_{x<N}e(\alpha x^k)$
+193,LeanEval_SpaceGroups_Definitions,2.7000,5,"LeanEval crystallographic groups, affine equivalences, and counting functions"
+194,Davenport_siegelWalfisz,2.6596,21,"Siegel–Walfisz vocabulary: $\psi(N;q,a)$, the zero-free region and exceptional sets"
+195,Kawahira_dynamics,2.6492,1,"Fixed points, multipliers and the holomorphic index"
+196,OpenGA_SurgeryTopologyEvolution,2.5671,6,Finite topological reconstruction data for surgery
+197,Erdos9796Counting_MEC_Basic,2.5426,10,Counting transfer definition Erdos9796Counting_MEC_Basic
+198,opg37364_lps13,2.5226,3,Fixed-p=13 integral generators and PGL₂ Cayley graph
+199,eulerMascheroni_mixedCoefficients,2.4961,3,Taylor coefficients of the elementary mixed E-value combination
+200,bernoulliRelativeEntropy,2.4589,11,
+201,CircleMethod_genfun,2.4580,4,Exponential generating function $f_A(\theta)=\sum_{a\in A}e(a\theta)$
+202,TaoFivePrimes_ArcSplit,2.4573,15,"Arc split for Tao's Theorem 8.2: the factors $S_{\eta_1}$, $S_{\eta_0}$, $D_{N_0/3}$ and the strongly major arc"
+203,mm_spectral,2.4441,16,"Eigenvalues, spectral gap, relaxation time, and Dirichlet forms"
+204,agt_games,2.4167,2,"Finite games, mixed strategies, and equilibria"
+205,mme_regional_entropy_copy_bound,2.4108,2,Explicit entropy copy guarantees for actual integer regional steps
+206,eulerMascheroni_padeTransform,2.3708,8,Euler Padé recurrence and the factorial quotient binomial transform
+207,CodingTheory,2.3333,3,Finite-field linear codes and Hamming weight enumerators
+208,PrimalDualOnline_SetCover,2.3333,3,"Set cover: bundled instances, integral and fractional covers, dual packings, and the two certificate predicates"
+209,rybin2026_p13_exponential_boundary,2.3333,3,Problem 13 definitions — First-passage time of Brownian motion to an exponentially decaying boundary
+210,BertsekasRiccatiMap,2.3333,3,"The Riccati operator, controllability, and observability"
+211,Devaney_sarkovskii,2.3333,3,"Prime period, the Sarkovskii ordering, and interval covering"
+212,Hatcher_Circle,2.3333,3,"Hatcher §1.1: the circle $S^1$, the covering $p:\mathbb{R}\to S^1$, and the loops $\omega_n$"
+213,mme_permutation,2.2738,5,
+214,exp3Policy,2.2484,5,
+215,PdzBezout,2.2278,11,Bézout-layer plane setup: singularities and implicit-function adapter
+216,TrackAndStop,2.2269,18,The Track-and-Stop learner (Algorithm 21)
+217,HefferonLinAlg_jordan,2.2262,5,"Matrix similarity, Jordan blocks, and Jordan matrices"
+218,mme_spectrum,2.2230,3,
+219,ReservoirSAS,2.2083,6,"Non-homogeneous state-affine systems: matrix polynomials, the system equation, the governing bounds"
+220,ConvexOptimization_ellipsoidBody,2.2000,4,Ellipsoid in quadratic-form guise
+221,banditHistoryPrefix,2.1969,4,Bandit history prefix before a round
+222,KN_HorizontalPadicLFunction,2.1953,6,Horizontal p-adic L-functions for eigenforms
+223,DiscreteEntropy,2.1936,5,Discrete Shannon entropy under the uniform measure
+224,RSign,2.1936,3,Rademacher sign of a Boolean coloring
+225,mme_dwz_source_aligned_broken_obj,2.1763,3,A literal DWZ broken copy in retained source-position order
+226,mme_CW_square_five_grade_certificate,2.1635,1,Algebraic five-grade orbit certificate for the square of the CW tensor
+227,metric_geodesic_angle,2.1449,1,Geodesic segments and comparison angles
+228,Diaz_Closure,2.1284,2,The hull $K(u)$: the subfield of $\mathbb{C}$ generated by a base field and one element
+229,Diaz_Instantiation,2.1284,5,"$\bar{\mathbb{Q}}$, the algebraic numbers as a subfield of $\mathbb{C}$"
+230,Freiman_cF,2.1269,6,Freiman's constant
+231,Devaney_sigma2,2.1250,6,"The sequence space $\Sigma_2$ with Devaney's metric, and the shift map"
+232,Freiman_markovSpectrum,2.0890,5,The classical Markov spectrum
+233,pd_online_trace,2.0873,1,Deterministic Causal Online Processes
+234,FormalizedScopeReach_SCOPE,2.0833,1,Timeline sampling and SCOPE
+235,Erdos9796FiniteNine_CountingCore,2.0832,1,Finite-nine counting core aliases
+236,PartialMonitoringAlgorithm26,2.0795,6,Algorithm 26 vector estimators and exploration–stability objective
+237,Hairer_RegularityStructure,2.0750,1,"Regularity structures, sectors and products"
+238,mme_CW_square_canonical_grading,2.0635,4,Canonical five-grading of the squared CW tensor
+239,sgl_verifier_constructions,2.0534,11,
+240,DifferentialGeometry_ModelRadialVolume,2.0507,1,Radial model volume for nonpositive curvature
+241,DifferentialGeometry_RadialCrossComparison,2.0507,1,Cross-multiplied comparison of radial densities
+242,Fejer_fourierCoeff,2.0380,2,Fourier coefficient
+243,VectorSpaceOpt_coneLE,2.0333,3,VectorSpaceOpt.coneLE
+244,NgoEndoscopicDiscriminant,2.0000,3,"Discriminant $D_G$, endoscopic subsystem $\Phi_H$ and resultant $R^G_H$"
+245,AdversarialBandit,1.9984,5,
+246,mme_recursive_yz_CW_cells,1.9794,2,Literal CW powers with graded exact profiles in physical cells
+247,mub6_projective_toric_design,1.9755,5,Dimension-six projective toric design interface for MUBs
+248,OpenGA_WidthComparisonData,1.9583,3,Finite-energy fields and width comparison data
+249,sgl_machine_infrastructure,1.9357,1,
+250,mme_CW_2376_address_block,1.8993,5,Tensor block attached to an exact CW profile address
+251,BraidsLinksMCG_ConfigSpace,1.8929,6,"Configuration spaces $F_{0,n}E^2$, $B_{0,n}E^2$ and the braid groups of the plane"
+252,Freiman_reducedForms,1.8890,16,Reduced quadratic forms and their two-sided continued-fraction orbit
+253,CPWL,1.8333,3,"CPWL functions, hinges, and hinge sums (Wang–Sun)"
+254,DKFAsymptotics_Densities,1.8333,1,"Lebesgue densities, Gaussian PDFs, and weak convergence"
+255,OnlineLinearOptimization,1.8333,3,
+256,RobustOptimization_LO,1.8333,1,"Robust feasibility of an uncertain linear inequality, and conically represented perturbation sets"
+257,erdos81_clique_partitions,1.8333,3,Chordal graphs and exact edge partitions into cliques
+258,MSKleene_Subst,1.8332,5,The $z$-substitution operators
+259,LinearOptimization_Ellipsoid,1.8262,2,"Ellipsoid $E(z, D)$ with positive definite matrix $D$"
+260,mme_hash_extraction_certificate,1.8237,3,Finite hash bundles and actual CW extraction certificates
+261,HJMEilenberg_Formations,1.8111,7,Many-sorted congruence and regular-language formations
+262,beukersLiftingData,1.7938,4,Polynomial relation bases and minimal scalar equations for Beukers lifting
+263,uniformSuperposition,1.7833,1,Uniform superposition
+264,mme_dwz_square_data,1.7716,8,DWZ Equation (25): exact q=6 second-power data
+265,CappedBaseStock_BaseStockAnalysis,1.7714,3,Ordinary base-stock average lost sales and overlapping demand scans
+266,mme_laser_pattern,1.7614,12,
+267,KServer_workfunction,1.7561,1,The work function: optimal offline cost of serving a request sequence and ending at a given configuration
+268,mme_degeneration,1.7549,6,
+269,mme_recursive_yz_child_matrix_data,1.7512,1,Literal recursive child tensors with both-half multiplicities and matrix extractions
+270,markov_entanglement_policy,1.7242,1,"States, actions and policies for multi-agent MDPs"
+271,Hirsch_walk,1.7165,7,Walks and graph distance in the vertex-edge graph of a polytope
+272,eulerMascheroni_sondowCutoff,1.7133,3,Sondow cutoff remainder and finite-shift correction
+273,klucbTruncatedRelativeEntropy,1.6899,2,One-sided Bernoulli relative entropy
+274,sgl_fold3_walk,1.6867,1,
+275,mm_stopping,1.6660,8,"Stopping rules, strong stationary times, separation distance, and the top-to-random shuffle"
+276,Kawahira_zeta,1.6492,7,"The nu functions $\nu_\zeta$, $\nu_\xi$ and the non-trivial zeros"
+277,metric_alexandrov_angle,1.6449,1,Geodesic lines and the Alexandrov angle
+278,FLTPrelim_GaloisRep,1.6358,5,Galois action on n-torsion; irreducibility predicate
+279,mme_asymptotic_closure,1.6321,1,
+280,mme_fractional_rank,1.6321,1,
+281,CannonFloydParry_Trees,1.6111,5,Ordered rooted binary trees and their standard dyadic partitions
+282,mm_mcmc,1.5931,3,The Metropolis chains and the Glauber dynamics
+283,pd_unrelated_machines,1.5873,6,Unrelated-Machines Load-Balancing Model and Algorithm
+284,Hirsch_common_face_geometry,1.5853,13,Common-face direction and coordinate geometry
+285,Hairer_Model,1.5750,6,Models for a regularity structure and modelled distributions
+286,mme_mmobj_mul,1.5659,5,
+287,Freiman_perronArithmetic,1.5565,6,Arithmetic witnesses used by Perron’s comparison
+288,OpenGA_RadialSurgeryVolumeBudget,1.5507,3,Radial comparison and a surgery volume-loss budget
+289,matrix_completion_fixed_cardinality,1.5404,9,
+290,MagicSquaresSemiMagic3,1.5333,4,Permutation-matrix parametrization of 3x3 semi-magic squares
+291,SmaleNinth_BSSMachine,1.5333,4,Blum–Shub–Smale machines over $\mathbb{R}$
+292,SmaleNinth_RealRAM,1.5333,3,Pointer machines over $\mathbb{R}$ (real RAM)
+293,MSKleene_Recognizable,1.5237,10,Recognizable and $s$-recognizable languages
+294,Erdos9796Counting_SignedAreaOangle,1.5232,4,Counting transfer definition Erdos9796Counting_SignedAreaOangle
+295,sgl_casc_loop,1.5200,2,
+296,Geometry_AlmostLosslessDecoder,1.5179,2,Aether Catalog definitions — Geometry_AlmostLosslessDecoder
+297,Thurston23_picard,1.5033,5,"The Picard group $\mathrm{SL}_2(\mathbb{Z}[i])$, its congruence subgroup $\Gamma(2+i)$, the half box, and the effective Picard group"
+298,BertsekasSPGraph,1.5000,2,"Shortest path graphs, walks, and distances"
+299,Esgk_PlanarGeneralPosition,1.5000,1,Planar general position and distinct Euclidean distances
+300,GT_DrinfeldKohno,1.5000,1,Drinfeld-Kohno Lie algebra $\mathfrak t_n$
+301,Gelbart_hecke_series,1.5000,1,"Hecke data: growth condition, $f(z)$ and $\Phi(s)$"
+302,HodgeConjecture,1.5000,1,"Projective non-singular varieties over $\mathbb{C}$, de Rham cohomology, $(p,q)$-types, rational classes, Hodge classes and cycle classes $\mathrm{cl}(Z)$ (Deligne §1)"
+303,LinearOptimization_LogBarrier_CentralPath,1.5000,1,Logarithmic barrier and the central path
+304,SpecActions_model,1.5000,2,Speculative actions: the cost--latency model
+305,frame_2026_kam_interfaces,1.5000,2,Shell-analytic suspended Hamiltonian interfaces for corrected resonant KAM persistence
+306,mm_countable,1.5000,2,Markov chains on countable state spaces
+307,usg_lattice_model,1.5000,1,Translationally invariant nearest-neighbour Hamiltonians on a 2D square lattice
+308,PositiveDefiniteKernel,1.4797,5,Positive-definite kernel (Bochner-correct) and its Fourier transform
+309,ShiOptrates_Cost,1.4500,5,"Oracle cost models: $\mathrm{CostModel}$, its power law, and the classical/quantum instances"
+310,ShiOptrates_FunctionClass,1.4500,5,Function classes: the quadratic upper bound $\mathrm{QuadUpper}$ and the Polyak--\L{}ojasiewicz condition
+311,mme_recursive_yz_hash_filter,1.4423,2,Actual recursive Y/Z hole sets and usable copies
+312,BunkbedSubstituted,1.4199,6,The substituted graph of Theorem 1.2
+313,LinearOptimization_IntegerProgram,1.4055,2,Mixed integer programming problem
+314,euclidean_building_directions,1.3949,10,Euclidean buildings with their direction structure (Kleiner--Leeb EB1--EB4)
+315,BraidsLinksMCG_ArtinEndo,1.3929,1,"Artin's automorphisms of the free group, equation (1-14)"
+316,markov_entanglement_rmab,1.3909,1,"Restless multi-armed bandits, index policies and the mean-field limit"
+317,mme_duality,1.3821,4,
+318,Freiman_upperModel,1.3771,13,Freiman's upper-ray deletion trees and padded central models
+319,FiniteMDPLearning,1.3684,6,
+320,BunkbedTransferTables,1.3673,2,Transfer-matrix weight tables for Hollom's hypergraph
+321,Chou_Classes,1.3641,17,"Chou's classes: constructible groups, locally finite groups, $NF$, packings and property (P)"
+322,mme_dwz_hole_cover_data,1.3549,2,DWZ standard-form Hole Lemma: available-block interface
+323,ConvexOptimization_selfConcordance,1.3409,4,Self-concordance and the domain-confined damped Newton iteration
+324,eulerMascheroni_formalESystem,1.3295,7,Formal E-function system for the Euler–Gompertz relation
+325,CappedBaseStock_Window,1.3214,2,Independent finite-window inventory inputs
+326,asymptoticUcbPolicy,1.3064,4,
+327,BFFPyramidal_pyramidal,1.2917,4,Pyramidal groups
+328,MediumPNT_defs,1.2622,17,"Smoothed Chebyshev function $\psi_\epsilon(X)$ as a vertical contour integral, its rectangle-contour pieces $I_1,\dots,I_9$, and zero-free-region bounds on $\zeta'/\zeta$"
+329,ZengPryadkoConjecture18Counterexample,1.2500,3,CSS data and a three-identity degree-two tensor word
+330,agt_regret,1.2500,3,"The online model, regret, and correlated equilibria"
+331,erdos1947,1.2500,2,Erdős–Ramsey model: monochromatic $k$-sets on a graph
+332,mme_CW_auxiliary_RHS_coupled,1.2440,2,CW Section 8 auxiliary expression with a free coupled base
+333,LinearOptimization_EllipsoidMethod,1.2262,5,The ellipsoid method
+334,LinearOptimization_DualLP,1.2094,6,The dual linear programming problem
+335,Erdos9796Counting_Cap_Partition,1.2081,5,Counting transfer definition Erdos9796Counting_Cap_Partition
+336,JuilletExcursionCoupling,1.2058,7,Juillet's excursion coupling as a completed-graph occupation measure
+337,Thurston23_eisenstein,1.2017,4,"The Bianchi group $\mathrm{SL}_2(\mathbb{Z}[\omega])$, its congruence subgroup of level $3+\omega$, and the box over a rhombus"
+338,ConvexOptimization_IsLownerJohn,1.2000,3,Minimum-volume covering (Löwner–John) ellipsoid
+339,VectorSpaceOpt_lagrangian,1.2000,2,VectorSpaceOpt.lagrangian
+340,rowSumB,1.1936,2,Signed row sum under a Boolean coloring
+341,MTT_Cohomology_Boundary,1.1881,7,Boundary symbols: $\Gamma_1(N)$-equivariant cusp data and their boundary cochains
+342,sgl_elim_solution,1.1867,1,Eliminating the last scratch tape
+343,sgl_loop_answer,1.1867,1,
+344,sgl_mark_times,1.1867,1,
+345,sgl_traj_margin,1.1867,1,
+346,qpr_alphabet_relabelling,1.1792,6,Alphabet relabelling for entangled games
+347,SourceCoding_entropy,1.1667,3,Shannon entropy (base D)
+348,eulerMascheroni_p2PrimitiveNormalization,1.1667,2,Primitive integer normalization of the P2 rational approximants
+349,mme_entropy_regional_CW_recipe,1.1608,4,Regional recipes with proved explicit entropy copy guarantees
+350,MagicSquaresSpecial3,1.1429,3,Special classes of order-three magic squares: panmagic and symmetric
+351,markov_entanglement_meanfield,1.1409,7,The mean-field limit of a restless bandit
+352,mme_jensen,1.1365,1,
+353,Devaney_chaos,1.1250,5,"Devaney's chaos: transitivity, sensitive dependence, dense periodic points"
+354,Devaney_conjugacy,1.1250,5,Topological conjugacy and Cantor sets
+355,Devaney_quadratic,1.1250,5,"The quadratic family $F_\mu$, its invariant set $\Lambda$, and itineraries"
+356,mme_stothers_fourth_data,1.1141,17,Davie--Stothers fourth-power data
+357,CannonFloydParry_TreeDiagrams,1.1111,4,Tree diagrams for Thompson's group $F$
+358,exp4Policy,1.1055,5,
+359,LinearOptimization_ReducedCost,1.1052,3,Reduced cost $\bar{c}_j = c_j - c_B'B^{-1}A_j$
+360,Erdos9796Counting_Moser_Triangle,1.1010,3,Counting transfer definition Erdos9796Counting_Moser_Triangle
+361,FormalizedScopeReach_REACH,1.0833,1,Outcome-avoiding sampling and REACH
+362,Erdos9796FiniteNine_Shell,1.0832,2,Finite-nine endpoint shell
+363,Erdos9796Counting_CGN_CGN4g,1.0720,10,Counting transfer definition Erdos9796Counting_CGN_CGN4g
+364,LinearOptimization_MaxFlowProblem,1.0714,2,Maximum flow problem
+365,OpenGA_MeasuredReferenceBall,1.0674,2,A finite measured reference ball
+366,mm_network,1.0643,5,"Electrical networks, hitting times, and cover times"
+367,mme_omega_pos,1.0608,3,
+368,Fejer_partialSum,1.0380,2,Partial sum of a Fourier series
+369,Zeta23_FromPNTPlus_EulerMaclaurin,1.0362,3,First Bernoulli function $B_1(x) = x - \lfloor x\rfloor - 1/2$
+370,Zeta23_FromPNTPlus_Fourier,1.0362,3,Fourier lemmas port: real-to-complex coercion instance
+371,Zeta23_FromPNTPlus_Rectangle,1.0362,3,Rectangles in $\mathbb{C}$: the border of a rectangle
+372,Zeta23_FromPNTPlus_ResidueCalcOnRectangles,1.0362,3,Contour integrals over rectangles: $H$/$V$-integrals and `RectangleIntegral`
+373,Zeta23_FromPNTPlus_ZetaBounds,1.0362,3,Euler–Maclaurin representation $\zeta_0$ of the Riemann zeta function
+374,VectorSpaceOpt_dualPositive,1.0333,2,VectorSpaceOpt.dualPositive
+375,buying_to_bundle_market,1.0123,6,
+376,LinearBanditProtocol,1.0123,7,
+377,MSKleene_Iteration,1.0082,3,The $z$-iteration $L^{\star z}$
+378,AaronsonAmbainis,1.0000,1,Variance and influence on the Boolean cube
+379,BalancedAlgebra_core,1.0000,1,"Balanced algebras: partial algebras, ideals, units, associating and gregarious elements"
+380,BertsekasDPModel,1.0000,1,"The basic stochastic control model, policy costs, and the DP recursion"
+381,BertsekasGraphSearch,1.0000,1,"Graph search, base heuristics, and the rollout algorithm"
+382,BirkhoffGlobalSection,1.0000,1,Planar circular restricted three-body dynamics and rational global sections
+383,CoherentRisk,1.0000,1,
+384,DeBruijnNewman_core,1.0000,1,The heat flow $H_t$ of the Riemann $\xi$ function and the constant $\Lambda$
+385,Erdos142Basic,1.0000,1,Progression-free sets and the counting function $r_k(N)$
+386,FCP_BatemanHorn,1.0000,1,"Bateman--Horn data: Bunyakovsky and Schinzel conditions, $\omega_p$, the partial Euler product and the counting function"
+387,Hatcher_Covering,1.0000,1,"Hatcher §1.3: covering spaces, $p_*$ and $H=p_*\pi_1(\tilde X)$, isomorphisms, deck transformations, normal covers, covering space actions"
+388,InverseGalois_realizability,1.0000,1,Galois realizations and realizability of a group over a field
+389,KellyCriterion,1.0000,1,
+390,Komlos_model,1.0000,1,Sign vectors and the Komlós property
+391,MetricTSP_model,1.0000,1,"Metric TSP: tours, optimal cost, and the Held--Karp relaxation"
+392,NavierStokes,1.0000,1,"The incompressible Navier–Stokes equations on $\mathbb{R}^n$: admissible data and physically reasonable solutions (Fefferman (1)–(4), (6), (7))"
+393,PrimalDualOnline_FiniteLP,1.0000,1,"Finite covering/packing LP pair, optimality and $(\alpha,\beta)$ complementary slackness"
+394,Rudin_ch01_order,1.0000,1,Rudin's least-upper-bound property of an ordered set
+395,Rudin_ch02_topology,1.0000,1,"Limit points, open-cover compactness, and $k$-cells"
+396,Rudin_ch03_series,1.0000,1,Partial sums and convergence of a series
+397,Rudin_ch04_continuity,1.0000,1,Uniform continuity in the $\varepsilon$–$\delta$ form
+398,Rudin_ch06_stieltjes,1.0000,1,"The Riemann–Stieltjes integral $\int_a^b f\,d\alpha$"
+399,Rudin_ch07_families,1.0000,1,"Algebras of functions, equicontinuity, uniform closure"
+400,Rudin_ch11_L2,1.0000,1,"The space $\mathscr{L}^2(\mu)$, its norm, Cauchy sequences and convergence in the mean"
+401,SP4Sphere,1.0000,1,Standard four-sphere and smooth Poincaré predicates
+402,SchinzelHypothesisH_core,1.0000,1,Admissibility for Hypothesis H: the Bunyakovsky and Schinzel conditions
+403,StabilizerRank,1.0000,1,"Stabilizer states, stabilizer rank $\chi$, and the magic state $|H^{\otimes n}\rangle$"
+404,VectorSpaceOpt_conjugate_gradient,1.0000,1,Total conjugate-gradient iteration
+405,VectorSpaceOpt_isC1OnSegment,1.0000,1,VectorSpaceOpt.IsC1OnSegment
+406,VectorSpaceOpt_pseudoinverse_predicate,1.0000,1,"§6.11, Definition — Minimum-norm least-squares pseudoinverse"
+407,VectorSpaceOpt_quadratic_penalty,1.0000,1,Finite inequality violation and quadratic penalty
+408,Z2nCubeFreeLayers,1.0000,1,Cube-free sets and layers in $\mathbb{Z}/2^n\mathbb{Z}$
+409,agt_mechanism,1.0000,1,"Mechanisms, VCG, weak monotonicity, and single-parameter domains"
+410,almostComplexToComplexStructure,1.0000,1,Smooth almost complex structure on a real manifold
+411,cubic_p3_partition_models,1.0000,1,Models for cubic-graph $P_3$-factors and the C02 family
+412,esquisse_dessins_basic,1.0000,1,"Belyi (Shabat) polynomials, affine equivalence, and the Galois action on $\overline{\mathbb{Q}}[X]$"
+413,frame_2026_qsecant_interfaces,1.0000,1,q-Secant inversion-enumerator interfaces
+414,mandelbrot_sets,1.0000,1,"The Mandelbrot and Multibrot sets, and attracting cycles"
+415,opg169_planar_dichromatic,1.0000,1,"Planar orientations, directed cycles, and acyclic two-colorings"
+416,opg1808_colored_tournaments,1.0000,1,Three-colored tournaments and monochromatic reachability
+417,opg37271_star_edge_coloring,1.0000,1,Star edge colorings and subcubic simple graphs
+418,opg37357_obstacle_number,1.0000,1,Polygonal obstacle drawings and ordinary obstacle number
+419,opg401_circular_coloring,1.0000,1,Circular colorings and straight-line planarity for OPG-401
+420,opg434_weak_pentagon,1.0000,1,"Weak-pentagon edge labels, odd cycles, and the sixteen-vertex target"
+421,rybin2026_p02_joint_calculus_hilbert,1.0000,1,Joint continuous functional calculus on arbitrary complex Hilbert spaces
+422,qpr_core_14,0.9919,2,"Sequential accept/stop dynamics, phase buckets, and coordinate-reveal histories"
+423,OpenGA_ScalarWidthTrace,0.9905,2,Scalar and width traces across surgery times
+424,mme_mm_spectral,0.9699,1,
+425,mme_omega_normalize,0.9699,1,
+426,Freiman_gapModel,0.9681,12,"Marked words, rational cylinders and explicit gap extremizers"
+427,ContainsLine,0.9561,5,Polyhedron containing a line
+428,MSKleene_SubstFam,0.9555,2,Occurrence counting and family substitution
+429,ShiOptrates_Stochastic_Recursion,0.9500,1,$\mathrm{ExpectedDescent}$: the one-step recursion abstracting a stochastic method
+430,sgl_finite_override,0.9357,1,
+431,mme_six_symmetrized_tau_value,0.9219,19,Definition 3.3: six-symmetrized tau-value witnesses
+432,BunkbedWZPoly,0.9173,4,The Wierman--Ziff difference polynomial for Hollom's hypergraph
+433,mme_tensor_bridge,0.9143,9,
+434,mme_subrank_capacity_poly,0.9091,7,
+435,LinearOptimization_LagrangeanDual,0.9055,6,Lagrangean dual of an integer program
+436,OpenGA_SurgeryComparisonProcess,0.9007,3,Scalar and width profiles with surgery volume control
+437,TarchaBraids_HalfTwist,0.8929,4,"The elementary half-twist $\sigma_{i+1}$ as a loop in $B_{0,n}E^2$"
+438,ContextualAdversarialBandit,0.8555,7,
+439,Weil_perron,0.8348,4,"The truncated Perron integral $\frac{1}{2\pi i}\int_{\sigma-iT}^{\sigma+iT}G(s)\,x^{s}\,\frac{ds}{s}$"
+440,ConvexOptimization_quadraticForms,0.8333,2,Quadratic functions and their symmetric block matrices
+441,DKFAsymptotics_Filter,0.8333,1,Stationary Gaussian model and standard DKF recursion
+442,Erdos81_edgePairPartition,0.8333,2,Canonical partition into two-vertex edge cliques
+443,RobustOptimization_GRC,0.8333,1,The globalized robust counterpart: perturbation structures and the consistent distance
+444,agt_matching,0.8333,2,"Matchings, stability, cores, and house allocation"
+445,matrix_completion_neumann,0.8309,7,
+446,MSKleene_Subterm,0.8234,3,The subterm order
+447,UCRL2ConfidenceSets,0.8184,2,The confidence sets of UCRL2
+448,Erdos9796Counting_CGN_CGN6,0.8128,9,Counting transfer definition Erdos9796Counting_CGN_CGN6
+449,mme_common_hash_scale,0.8093,1,The maximum of all finite hash load quotients
+450,mme_recursive_x_hash_families,0.8093,1,Recursive joint-profile and marginal families with actual affine bucket filters
+451,mme_recursive_yz_physical_words,0.8093,1,Both halves and joint parent words in recursive Y/Z filtering
+452,diffusion,0.7833,1,Grover diffusion operator
+453,oracle,0.7833,1,Grover oracle
+454,KServer_workfunctionU,0.7561,5,The unordered work function: the work function of an unlabelled configuration
+455,MSKleene_RegSig,0.7543,1,"The regular signature $\mathrm{Reg}(S,\Sigma,Z)$"
+456,mme_recursive_yz_boundary_data,0.7512,2,Exact CW5 boundary profiles and matrix dimensions
+457,KN_HorizontalPadicLDensityExtension,0.7370,2,Positive-density enhancement of horizontal prime systems
+458,qpr_core_10,0.7363,1,Finite-dimensional purification matrices and the purification of a strategy
+459,Erdos9796Counting_MEC_Boundary,0.7303,3,Counting transfer definition Erdos9796Counting_MEC_Boundary
+460,mme_recursive_yz_cell_partition,0.7294,2,Exact physical cell partitions and literal child-profile CW tensors
+461,mme_kronFin_mode_pi_basis,0.7224,2,Function-indexed mode basis of a heterogeneous finite Kronecker product
+462,Erdos9796Counting_Cap_Structure,0.7081,2,Counting transfer definition Erdos9796Counting_Cap_Structure
+463,Erdos9796Counting_Moser_TriangleNonObtuse,0.7081,1,Counting transfer definition Erdos9796Counting_Moser_TriangleNonObtuse
+464,shellIdx,0.6936,2,Quantized row-sum shell index
+465,OpenGA_MeasuredSurgeryComparisonData,0.6924,4,Measured data for a surgery comparison process
+466,mme_recursive_yz_stage_certificate,0.6923,1,Concrete recursive Y/Z stages and remaining intact-template assembly
+467,exp4Analysis,0.6888,3,Exp4 analysis processes
+468,mme_dwz_table2_integer_counts,0.6882,4,DWZ Table 2: exact integral histograms at scale 10^16
+469,sgl_split_walk,0.6867,2,
+470,OpenGA_WidthAreaEvolutionData,0.6774,2,Uniform area evolution for width comparison
+471,mme_CW_support_pattern,0.6745,3,
+472,mme_induced_word_zeroing,0.6745,5,Graded word blocks and coordinate-zeroing maps
+473,HorizontalPadicL_LocalEulerFactorDegree,0.6722,1,Degree of an elliptic curve local Euler factor
+474,opg37364_cut_pairs,0.6693,3,Crossing pairs for a graph cut
+475,opg500_eight_vertex_graph,0.6667,2,The fixed eight-vertex OPG-500 candidate graph
+476,ShiShallow_Cone,0.6642,5,Causal cones of layered circuits
+477,MarkovDriftMinorization,0.6598,3,Small sets (minorization) and the geometric / polynomial drift conditions
+478,Hirsch_circuit_model,0.6591,4,Maximal row-circuit walks and irredundant H-polytope presentations
+479,OpenGA_WidthComparisonTrace,0.6572,4,Width traces with area-energy comparison witnesses
+480,Erdos9796Counting_Dumitrescu_L6,0.6450,7,Counting transfer definition Erdos9796Counting_Dumitrescu_L6
+481,ConvexOptimization_IsKKTPoint,0.6429,2,KKT point
+482,mme_kronPow_position_permutation_linear_data,0.6375,1,Explicit position-permutation linear data for tensor powers
+483,LinearOptimization_FeasibleDirection,0.6290,1,Feasible direction at a point of a polyhedron
+484,ucbPolicy,0.6226,5,
+485,mme_CW_q6_primary_hash_family,0.6222,2,Induced finite C-tensor fiber families for the coupled q=6 first hash
+486,qpr_core_27,0.6199,1,Derived fields of a rounding context
+487,spherical_great_circle,0.6190,3,Great circles of a real inner product space
+488,ShiOptrates_Stochastic_Bridge,0.6167,2,$\mathrm{innerBilin}$: the real inner product as a continuous bilinear map
+489,mme_kron_pow_mode_word_basis,0.6091,1,Recursive word bases for a tensor-power mode
+490,ConvexOptimization_logBarrier,0.5909,2,Logarithmic barrier
+491,MSKleene_RegAlgebra,0.5876,3,$\mathbf{T}_\Sigma(Z)^{\wp}$ as a regular algebra; interpretation
+492,BunkbedTransferClasses,0.5840,2,The fifteen level-1 classes of Hollom's hypergraph
+493,FormalizedScopeReach_Times,0.5833,1,Stopping times and the three estimators
+494,Erdos9796FiniteNine_Forms,0.5832,1,Finite-nine escaped-class forms
+495,Erdos9796Counting_Cap_PartitionFromMEC,0.5831,7,Counting transfer definition Erdos9796Counting_Cap_PartitionFromMEC
+496,mme_basis_z_allowed_projection,0.5763,1,A Z-only allowed-basis projection for a tensor
+497,CircleMethod_asymptotic,0.5719,2,"Waring's problem: representation counts, the main term, and the Farey dissection"
+498,mme_recursive_profiled_CW_data,0.5673,7,Finite level-descending CW profile recipes with full copy costs
+499,klucbFailureCount,0.5573,3,KL-UCB selected-round failure counts
+500,Zeta23_Defs,0.5432,2,Zeta23 — abstract zero configurations and taper data
+501,Zeta23_FromPNTPlus_StrongPNTPrefix,0.5432,2,Blaschke-factor machinery for counting zeros in a disk
+502,Zeta23_Hypotheses,0.5432,2,Zeta23 — the packaged analytic inputs
+503,Zeta23_Statement,0.5432,2,Zeta23 — nontrivial zeros of ζ and the counting functions
+504,Erdos9796Counting_ConvexCyclicOrder_Construct,0.5399,7,Counting transfer definition Erdos9796Counting_ConvexCyclicOrder_Construct
+505,Erdos9796Counting_MEC_ArcAngle,0.5399,7,Counting transfer definition Erdos9796Counting_MEC_ArcAngle
+506,Fejer_cesaroMean,0.5380,3,Cesàro (Fejér) mean of a Fourier series
+507,Freiman_middleRepair,0.5351,7,Freiman report-normalized middle model: middleRepair
+508,mme_complete_split_profile_projection,0.5257,4,All-mode complete-split profile projections
+509,asymptoticUcbFailureCount,0.5213,3,The two UCB failure counts in Eq. (8.4)
+510,sgl_half_walk,0.5200,1,
+511,sgl_left_loop,0.5200,1,
+512,mme_cyclicSymmetrization_public_perm,0.5196,4,Cyclic symmetrization via the public cyclic mode permutation
+513,Geometry_AlmostLosslessBlock,0.5179,3,Aether Catalog definitions — Geometry_AlmostLosslessBlock
+514,Geometry_AlmostLosslessChecksum,0.5179,3,Aether Catalog definitions — Geometry_AlmostLosslessChecksum
+515,KServer_finite_game,0.5061,3,Finite k-server minimax game with stopping and an arbitrary prefix payoff
+516,BertsekasLCState,0.5000,1,"The label correcting algorithm: state, initialization, and step relation"
+517,BoydChua,0.5000,1,"Fading memory, time invariance, moving averages and convolution functionals, in discrete and continuous time"
+518,BurauFaithful_UnreducedBurau,0.5000,1,"The unreduced Burau representation $\rho_n : B_n \to \mathrm{GL}_n(\mathbb{Z}[t,t^{-1}])$"
+519,Esgk_Foundation,0.5000,1,Finite indexed planar configurations
+520,GT_grt1,0.5000,1,The Lie algebra $\mathfrak{grt}_1$ and the Ihara bracket
+521,Gelbart_hecke_conditions,0.5000,1,Hecke's conditions (A) and (B)
+522,LinearOptimization_PathFollowing,0.5000,1,Primal path following algorithm
+523,NgoRootDatumIsogeny,0.5000,1,"Isogeny of root data, lattice index, and good base rings"
+524,SubnormalCover_uniformCover,0.5000,1,Uniform covers of a group by cosets
+525,VectorSpaceOpt_aligned,0.5000,1,Alignment of a vector with a functional
+526,VectorSpaceOpt_restrictedConcaveConjugate,0.5000,1,VectorSpaceOpt.restrictedConcaveConjugate
+527,VectorSpaceOpt_restrictedConvexConjugate,0.5000,1,VectorSpaceOpt.restrictedConvexConjugate
+528,VectorSpaceOpt_support_functional,0.5000,1,Support functional of a set
+529,WeilTypeAbelianVarieties,0.5000,1,"Polarized abelian varieties of Weil type, Hodge–Weil classes, the discriminant, and algebraic classes via projective realizations"
+530,gribov_gauge_fixing,0.5000,1,"Gauge fixing, principal actions and weak contractibility"
+531,gribov_gauge_group,0.5000,1,Gauge group of the trivial $SU(N)$-bundle over $S^r$
+532,usg_spectral_notions,0.5000,1,"Gapped, gapless, spectral gap and ground state energy density in the thermodynamic limit"
+533,LinearOptimization_FinitelyGeneratedSet,0.4951,4,Finitely generated set
+534,Erdos9796Counting_IsoscelesCount,0.4950,7,Counting transfer definition Erdos9796Counting_IsoscelesCount
+535,mm_transport,0.4929,4,The transportation metric and path metrics
+536,CTensorOneHOneCertificate,0.4894,1,"Finite C-tensor certificate over $\langle 1,H,1\rangle$"
+537,KN_SeededHorizontalPadicLFunctionV2,0.4870,4,Seeded horizontal p-adic L-functions with positive-density support
+538,MSKleene_SubstGlobal,0.4709,2,Global substitution operator
+539,P2M_Util,0.4691,4,P2M helper commands (scope and alias plumbing)
+540,eulerMascheroni_padeDecay,0.4653,3,Common denominators with the decay rate required by the norm–Padé argument
+541,mme_TypeGrading_kron,0.4652,4,Kronecker products of finite internal tensor gradings
+542,qpr_core_28,0.4532,4,The rounded strategy extracted from a rounding context
+543,groverIterate,0.4500,2,Grover iterate
+544,klucbFeasibilityFailureCount,0.4399,3,KL-UCB feasibility failure counts
+545,mme_dwz_q6_112_exact_profile_data,0.4382,1,DWZ q=6 enhanced-112 coupled-to-canonical grade translation
+546,sgl_amplification_counting,0.4367,2,
+547,sgl_coeff,0.4367,1,
+548,sgl_power_uniform,0.4367,1,
+549,sgl_seed,0.4367,1,
+550,sgl_tail,0.4367,1,
+551,sgl_vote_bridge,0.4367,1,
+552,sgl_finite_override_delegate,0.4357,1,
+553,LinearOptimization_SimplexPivot,0.4290,4,Simplex method iteration (pivot) and the lexicographic pivoting rule
+554,TaoFivePrimes_SmoothedExpSum,0.4079,1,"Tao's smoothed exponential sum $S_{\eta,q_0}(x,\alpha)$"
+555,CTensorOneHOneFamilyCertificate,0.4060,5,A modewise-disjoint outer family of finite C-tensors
+556,MSKleene_Regular,0.4038,5,The $s$-regular languages $\mathrm{Reg}_s(\mathbf{T}_\Sigma(X))$
+557,mme_schonhage_pan_certificate,0.3811,1,Explicit characteristic-free Schönhage–Pan 156-slot certificate
+558,erdos390_guarded_fractional_bank,0.3680,1,Joint guarded fractional certificate and correction bank
+559,erdos390_source_bank_interface,0.3680,1,"Guarded central anchors, signed banks, and the common-depth construction interface"
+560,BunkbedTransfer,0.3673,1,Transfer matrix for Hollom's hypergraph
+561,ShiOptrates_Stochastic_VariancePurchase,0.3667,1,$\mathrm{sgdIterations}$ and $\mathrm{variancePurchaseTotal}$: buying variance reduction at a chosen exponent
+562,shellFin,0.3603,2,Shell index packaged as a fixed-size Fin type
+563,qpr_core_16,0.3590,1,"The exact history flag and the three unnormalized states $\psi$, $\varphi$, $\gamma$"
+564,mme_dwz_grouped_allowed_component_words,0.3549,1,Canonically grouped available Table-2 component words
+565,mme_dwz_standard_labelled_z_blocks,0.3549,1,Grouped useful-block Z restrictions of the Table-2 standard tensor
+566,mme_dwz_table2_useful_block,0.3549,1,Table-2 available small Z-blocks of the standard-form tensor
+567,mme_stothers_fixed_outer_profile,0.3540,7,Exact fixed outer profile for the Davie–Stothers fourth-power construction
+568,mm_martingale,0.3524,3,Chain martingales and the evolving-set process
+569,BunkbedTransferPartial,0.3340,1,A partial sum of the fifteen class products
+570,DKFAsymptotics_Assumptions,0.3333,1,Theorem 2 data and assumptions A1–A5
+571,RobustOptimization_GRCConic,0.3333,1,"Globalized robust counterparts of conic constraints: norms, distances, the recessive cone, and the function Psi"
+572,StochasticLinearBandit,0.3333,1,
+573,VectorSpaceOpt_cone_optimization,0.3333,1,Local cone-optimization vocabulary
+574,mm_cftp,0.3333,1,Random maps and coupling from the past
+575,rayleighQuotient,0.3333,1,Rayleigh quotient
+576,mme_subrank_capacity,0.3221,3,
+577,mme_laser_value_formula_wz,0.3173,2,
+578,mme_recursive_region_hash_loads,0.3093,2,Literal X/Y/Z counts defining a common regional hash scale
+579,mme_recursive_region_parent_profiles,0.3093,2,The fixed product-mixture parent profile of a region
+580,CircleMethod_singpos,0.3043,14,"Local factors, local solubility, Hensel lifting (singular series positivity)"
+581,FLTPrelim_CofixedLine,0.3025,2,Galois-stable cofixed lines in n-torsion of a Weierstrass curve
+582,FLTPrelim_ModularRep,0.3025,2,Residual modularity: congruences of Hecke eigenvalues with a curve
+583,FLTPrelim_Ramification,0.3025,2,Unramifiedness at a prime of torsion Galois representations
+584,eulerScalarEquation,0.3021,2,Explicit scalar differential operator for the Euler E-system
+585,BFFPyramidal_cosetPartition,0.2917,2,Coset partitions and their modulus
+586,mm_shuffle,0.2830,4,"The four card shuffles: transpositions, riffle, adjacent transpositions, reversals"
+587,qpr_core_24,0.2808,1,One-game rounding: the target proposition and the stopped-branch machinery
+588,Erdos9796Counting_CircumscribedMECPacket,0.2720,5,Counting transfer definition Erdos9796Counting_CircumscribedMECPacket
+589,mme_recursive_regional_CW_data,0.2700,4,Finite CW recursion with independent regions and all six mode roles
+590,qpr_core_17,0.2681,3,"The theorem statement, postselection costs, and the locally sampleable law"
+591,Geometry_AlmostLosslessMaster,0.2679,2,Aether Catalog definitions — Geometry_AlmostLosslessMaster
+592,mm_ising,0.2574,4,"The Ising model, its graphs, and block dynamics"
+593,MarkovAsymptoticVariance,0.2516,5,Lagged autocovariances and the asymptotic variance of a Markov chain
+594,FormalizedScopeReach_Trials,0.2500,1,The two-stage Bernoulli experiment
+595,MagicSquaresNormal3,0.2500,1,Normal order-three magic squares: the surviving parameter pairs
+596,Erdos9796FiniteNine_N8Interface,0.2499,10,Finite-nine N4/N8 endpoint interface
+597,LinearOptimization_RecessionCone,0.2496,3,"Polyhedral cone, recession cone, and extreme rays"
+598,OpenGA_SurgeryAreaEvolutionData,0.2440,2,Surgery profiles with uniform area evolution
+599,qpr_core_15,0.2363,1,"Random orderings, forward seeds, and the exact reveal history"
+600,RandomFourierRotation,0.2361,2,Random Fourier Rotation estimator
+601,sgl_lautemann_bridge,0.2357,4,
+602,OpenGA_ExtinctionWidthControl,0.2338,4,Uniform width control of nonempty component slices
+603,bp_FreyPackage,0.2303,1,
+604,Freiman_paddedCopies,0.2281,1,Concatenation of padded finite models
+605,mm_cutoff,0.2125,3,"Cutoff, cutoff windows, and lamplighter chains"
+606,VectorSpaceOpt_coneConvexOn,0.2000,1,VectorSpaceOpt.ConeConvexOn
+607,VectorSpaceOpt_lagrangeDualValue,0.2000,1,VectorSpaceOpt.lagrangeDualValue
+608,sgl_block_counting,0.1867,1,
+609,sgl_casc_final,0.1867,1,
+610,sgl_clean_agree,0.1867,1,
+611,sgl_clock_poly,0.1867,1,
+612,sgl_clog_loop,0.1867,1,
+613,sgl_dpt_congr,0.1867,1,Polynomial-time decidability is invariant under pointwise equivalence
+614,sgl_first_halt,0.1867,1,
+615,sgl_machine_time_padding,0.1867,1,Machine correctness is preserved under larger time bounds
+616,sgl_mul_loop,0.1867,1,
+617,sgl_poly_bounds,0.1867,1,
+618,sgl_provision,0.1867,1,
+619,sgl_verdict_write,0.1867,1,
+620,TreatmentLocality,0.1802,1,The single-state-treatment (SST) experiment model
+621,mme_integer_regional_CW_recipe,0.1801,3,Integer regional recipes with computed extraction counts
+622,OpenGA_WidthExtinctionTime,0.1789,2,The explicit width extinction deadline
+623,qpr_core_25,0.1697,1,The one-scale rounded strategy and the three comparison vectors
+624,Erdos9796FiniteNine_N4dPackets,0.1674,5,Finite-nine N4d packet and core-support interface
+625,mme_kronFin_family_mode_map_basis_data,0.1669,4,Factorwise maps on finite Kronecker families with exact basis semantics
+626,LeanEval_NumberTheory_LagariasElementaryCriterion,0.1667,1,Lagarias elementary criterion (exact LeanEval definition)
+627,ShiOptrates_Spider,0.1667,1,"The SPIDER schedule: epoch lengths, accuracy targets, and the classical/quantum query totals"
+628,MarkovChainCLT_centeredIndicatorLp,0.1632,2,Centered event indicator in real $L^2$
+629,LinearOptimization_OptimalBasis,0.1623,2,Optimal basis
+630,mm_continuous,0.1484,2,Heat kernels and product chains
+631,LogConcaveOn,0.1429,1,Log-concave function on a set
+632,MSKleene_AuxLang,0.1400,2,"Recognition context and the auxiliary languages $L_u(C,K,l)$"
+633,mme_dwz_cw_square_fine_split_grading,0.1364,1,Fine two-half grading of the Coppersmith–Winograd square
+634,ConvexOptimization_IsDampedNewtonSequence,0.1250,1,Damped Newton iteration with backtracking
+635,Erdos9796FiniteNine_N4dFormBBranchSupport,0.1195,2,Finite-nine N4d Form B branch-support interface
+636,CannonFloydParry_Presentations,0.1111,1,Cannon–Floyd–Parry §3: the presented groups $F_1$ and $F_2$
+637,ConvexOptimization_IsDampedNewtonRunOn,0.0909,1,Domain-confined backtracking line search and damped Newton run
+638,Vino_vaughan,0.0800,1,"Vaughan's identity: truncations, bilinear sums, dyadic blocks"
+639,Hirsch_clf,0.0769,1,Connected layer families (EHRR abstraction of polytope graphs)
+640,LinearOptimization_AugmentingPath,0.0714,1,Augmenting path and the Ford–Fulkerson algorithm
+641,LinearOptimization_Cut,0.0714,1,$s$-$t$ cut and its capacity
+642,qpr_core_26,0.0697,2,"Explicit rate constants, trivial strategies, and the rounding context"
+643,ConsistentBanditPolicy,0.0667,1,
+644,Hirsch_recursive_projective_products,0.0625,1,Recursive positive projective product geometry certificates
+645,LinearOptimization_OptimalCostFunction,0.0625,1,Optimal cost as a function of the right-hand side and of the cost vector
+646,LinearOptimization_Subgradient,0.0625,1,Subgradient of a convex function
+647,sgl_cover_lemmas,0.0440,1,The two cover lemmas
+648,Vino_threeprimes,0.0277,2,"Three primes: Siegel--Walfisz, Farey arcs, singular series and integral"
+649,TreatmentLocalityEstimator,0.0135,1,"A/B vs. information-sharing statistics, differentiable estimators, and asymptotic covariance matrices"

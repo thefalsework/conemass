@@ -1,0 +1,12 @@
+credentials.json
+out/graphs/
+out/theorems-raw.json
+out/state.json
+out/crawl-log.txt
+out/refetch-log.txt
+out/introspect-*.json
+out/nodes.json
+out/nodes-missions.json
+out/edges.csv
+out/analysis-report.txt
+out/rank-report.txt

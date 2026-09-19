@@ -1,0 +1,505 @@
+open_rank,name,conemass_union,conemass_guaranteed,direct_dependents,transitive_dependents,chain_depth,title
+1,Richstein2001.segmented_sieve_coverage,1.7327,1.5031,1,13,9,Finite sieve coverage of the Richstein range in blocks of one million
+2,LeanEval.Geometry.SpaceGroupsProblem.space_groups_master_classification,1.7000,1.7000,3,4,2,Master enumeration of the space groups of $\mathbb R^3$: the list of $230$ with its affine and Sohncke bookkeeping
+3,WeakGoldbach.prime_in_4e18_window_from_4e18_to_8875e30,1.5629,1.3333,1,9,7,"A prime in $(x,\, x+4\cdot 10^{18})$ for $4\cdot 10^{18} \le x \le T - 4\cdot 10^{18}$"
+4,WeakGoldbach.symmetric_pair_main_term_above_2e18,1.5391,1.3864,1,11,9,Hardy–Littlewood main-term bound for symmetric prime pairs
+5,hardy_littlewood_conjecture_A,1.5000,1.5000,1,2,2,
+6,WeakGoldbach.verified_range_sieve_coverage,1.3994,1.1698,1,12,9,"Finite sieve coverage of the binary Goldbach range $(4\cdot 10^{14},\,4\cdot 10^{18}]$ in blocks of one million"
+7,Hadamard.exists_orthogonal_pm_one,1.3333,1.3333,1,2,2,"Hadamard's conjecture for odd multipliers, orthogonality form: $MM^{\mathsf T}=4kI$"
+8,Richstein2001.even_goldbach_up_to_4e14,1.2327,1.0031,2,12,8,Richstein finite verification of even Goldbach up to $4\cdot10^{14}$
+9,RybinAI2026.P01.crossIntegral_single_slot_normalized_sum_le_one,1.1867,1.1867,1,10,7,Single-slot normalised mixed-integral bound $m_A/I_A+m_B/I_B\le 1$
+10,RybinAI2026.P16.base_four_partial_hadamards,1.1005,1.0417,1,5,5,Four-family base construction for the dimension-six MUB frontier
+11,RybinAI2026.P16.extend_four_to_five_partial_hadamards,1.1005,1.0417,1,5,5,Four-to-five extension step for the dimension-six MUB frontier
+12,OddPerfectNumber.k_one_deficiency_impossible,1.0739,1.0739,1,5,5,The k = 1 deficiency packaging is impossible for m >= 2
+13,WeakGoldbach.prime_in_4e18_window_to_8875e30,1.0629,0.8333,2,8,6,Prime gaps below $8.875\times 10^{30}$ are smaller than $4\cdot 10^{18}$
+14,flt_s2_gamma0_2_empty,1.0553,1.2000,1,15,13,
+15,zeta_ne_zero_of_strip_of_six_lt_im,1.0519,1.0519,1,5,5,No zeros of $\zeta$ with $\tfrac12<\operatorname{Re} s<1$ in the upper strip $\operatorname{Im} s>6$
+16,WeakGoldbach.symmetric_pair_count_pos_above_2e18,1.0391,0.8864,1,10,8,Positive count of symmetric prime offsets around $m > 2\cdot 10^{18}$
+17,RamareSaouter2003.has_prime_in_interval,1.0000,1.0000,1,1,1,Ramaré–Saouter 2003 exact short-prime interval
+18,green_tao_theorem,1.0000,1.0000,1,1,1,Green–Tao theorem: the primes contain $k$-term arithmetic progressions
+19,RybinAI2026.P01.crossIntegral_normalized_sum_le_one,0.9867,0.9867,2,9,6,Normalised mixed-integral bound $K_A/I_A+K_B/I_B\le 1$
+20,OddPerfectNumber.no_dris_five_s_odd_ge_five,0.9751,0.9751,1,5,5,Dris-index case s >= 5 with s odd is impossible
+21,momentAngle_topSummand_allDegrees_homology,0.9506,0.9506,1,5,5,Top splitting summand in all positive degrees
+22,SymplecticFreeModules.canonical_invariant_submodule_dichotomy,0.9286,0.9286,1,4,4,Canonical invariant-submodule dichotomy
+23,WeakGoldbach.verified_two_primes_4e14_to_4e18,0.8994,0.6698,1,11,8,"Verified binary Goldbach range $(4\cdot 10^{14},\, 4\cdot 10^{18}]$"
+24,syracuse_descent_residual_seven_mod32_mod128,0.8701,0.7719,1,10,7,"Syracuse descent for residues 39, 71, and 103 modulo 128"
+25,OddPerfectNumber.no_dris_thirteen_s_ge_two_not_even,0.8656,0.8656,1,5,5,Dris-index case s ge 2 with s not even is impossible for k >= 13
+26,OddPerfectNumber.no_dris_nine_s_ge_two_not_even,0.8323,0.8323,1,5,5,Dris-index case s ge 2 with s not even is impossible for k = 9
+27,ErdosStraus242.hard_core_840_after_mod11_mod19_mod23_mod31_mod43,0.8250,0.8250,1,5,5,"Remaining modulo-840 prime cases after the mod-11, mod-19, mod-23, mod-31 and mod-43 sieves"
+28,WhitneyEmbedding.exists_uniform_dim_immersion_on_compacts,0.7667,0.7909,1,4,4,Immersions of compact subsets with a uniform target dimension
+29,diophantine_quintuple_fujita_regular,0.7550,0.7550,2,4,4,"Fujita regularity of {a,b,c,d} (explicit d_+ equation)"
+30,HarmonicBuilding.constantOnOpenImpliesConstant,0.7194,0.7382,1,5,5,Unique continuation: locally constant forces globally constant
+31,WeakGoldbach.symmetric_prime_pair_above_2e18,0.7058,0.5531,1,9,7,Symmetric prime pairs around $m$ for $m > 2\cdot 10^{18}$
+32,SymplecticFreeModules.exceptional_artinian_chain_stabilizes,0.7024,0.7024,1,3,3,Exceptional Artinian chain stabilization
+33,MomentAngleSurgery.exists_neighborly_twoComplex_cokernel,0.7006,0.7006,1,5,5,A neighbourly two-complex in a four-sphere with the surgery presentation
+34,WeakGoldbach.verified_two_primes_to_4e18,0.6994,0.4698,2,10,7,Verified binary Goldbach range through $4\times 10^{18}$
+35,syracuse_descent_residual_fifteen_mod16_mod4096,0.6923,0.5941,1,10,7,Residual Syracuse descent inside $n \equiv 15 \pmod{16}$ modulo $4096$
+36,syracuse_descent_residual_twentyseven_mod32_mod4096,0.6923,0.5941,1,10,7,Residual Syracuse descent inside $n \equiv 27 \pmod{32}$ modulo $4096$
+37,CollapsibleCubics.exists_split_product_mod_depressed_cubic_of_not_normForm_repr,0.6762,0.6762,1,3,3,A split representative modulo an obstructed depressed cubic
+38,RybinAI2026.P01.crossIntegral_sum_le_max,0.6534,0.6534,1,7,5,"Mixed integrals sum to at most $\max\{d(A,C),d(B,D)\}$"
+39,WeakGoldbach.three_odd_primes_10pow27_to_exp3100,0.6527,0.5000,1,5,4,All-odd ternary Goldbach for $10^{27} \le n < e^{3100}$
+40,WeakGoldbach.three_odd_primes_ge_exp3100,0.6527,0.5000,1,5,4,All-odd ternary Goldbach for $n \ge e^{3100}$
+41,Leopoldt.rank_oneUnits_le_finrank,0.6342,0.6434,1,5,5,$\operatorname{rank}_{\mathbb{Z}_p} \prod_{\mathfrak{p} \mid p} U_1(\mathbb{F}_\mathfrak{p}) \le [\mathbb{F} : \mathbb{Q}]$
+42,Gilbreath.zero_two_blocks,0.6111,0.6111,1,3,3,The rows of the Gilbreath triangle carry long initial blocks of $0$s and $2$s
+43,RybinAI2026.P16.base_five_partial_hadamards,0.6005,0.5417,1,4,4,Base five-family construction for the dimension-six MUB frontier
+44,RybinAI2026.P16.extend_five_to_six_partial_hadamards,0.6005,0.5417,1,4,4,Extension step for the dimension-six MUB frontier
+45,diophantine_quintuple_not_b_le_3a_of_2a_le,0.5883,0.5883,1,4,4,No ordered Diophantine quintuple has 2a at most b at most 3a
+46,diophantine_quintuple_not_b_lt_2a,0.5883,0.5883,1,4,4,No ordered Diophantine quintuple has b below 2a
+47,DiazModulus.diaz_of_exp_not_real_irrational_angle_period_free_pi_im_algebraic,0.5863,0.7867,1,5,5,"Irrational angle, no period translate but $\pi\,\Im u$ algebraic"
+48,DiazModulus.diaz_of_exp_not_real_irrational_angle_period_free_pi_im_transcendental,0.5863,0.7867,1,5,5,"Irrational angle, $\pi\,\Im u\notin\overline{\mathbb Q}+\pi^{2}\mathbb Q$: the residual"
+49,OddPerfectNumber.k_one_diophantine_m_ge_two,0.5739,0.5739,1,4,4,The k = 1 divisor-sum equation is impossible for m >= 2
+50,Erdos9796Mission.critical_cover_card_le_nine_of_tight_center,0.5637,0.5637,1,5,5,Critical-radius cover bound from a tight center
+51,flt_ribet_contradiction,0.5553,0.7000,1,14,12,
+52,FiniteMagmaE677.cross_boundary_collision_propagates_to_left_successor,0.5540,0.5540,1,4,4,A cross-boundary right-translation collision propagates to the next point of the left orbit
+53,zeta_ne_zero_of_strip_of_five_lt_im,0.5519,0.5519,1,4,4,No zeros of $\zeta$ with $\tfrac12<\operatorname{Re} s<1$ in the upper strip $\operatorname{Im} s>5$
+54,Erdos390.eventual_three_family_disjoint_residual_exists,0.5442,0.3429,1,6,6,Theorem 10.3 — Eventual pairwise disjoint three-family residual existence
+55,DiazModulus.norm_transcendental_of_generic_conj_pair,0.5359,0.9713,1,7,5,Transcendence of the modulus of a generic conjugate pair of logarithms
+56,momentAngle_neighborlyTwoComplex_h1_selfLoopHomology,0.5339,0.5339,1,4,4,First homology of a neighbourly $2$-complex $|K|$ embeds in $H_{s+1}(\\Omega\\mathcal Z_K)$
+57,WeakGoldbach.even_goldbach_to_4e18,0.5327,0.3031,4,9,6,Finite binary Goldbach verification through $4\cdot10^{18}$
+58,RybinAI2026.P01.matrix_integral_inequality_integer_gram_noncollinear,0.5284,0.5284,2,6,4,Integer Gram inequality with overlapping spectra and noncollinear differences
+59,Beal.primitive_reduced_exponents,0.5000,0.5000,1,1,1,Beal conjecture for ordered exponents $4$ or odd primes
+60,Conway99.conway_99_adjacency_matrix_exists,0.5000,0.0000,1,1,1,Adjacency-matrix form of Conway's 99-graph problem: $A^2+A=12I+2J$
+61,Conway99.conway_99_triangle_system_exists,0.5000,0.0000,1,1,1,"Line-system form of Conway's 99-graph problem: $99$ points, $231$ lines of size $3$"
+62,KAMMainCorrected.finiteStagePersistenceData,0.5000,0.5000,1,1,1,Finite-stage KAM exclusions and persistence on the common survivor
+63,Tunnell.even_count_implies_curve_point,0.5000,0.5000,1,1,1,Tunnell even count identity yields a nonzero rational curve point
+64,Tunnell.odd_count_implies_curve_point,0.5000,0.5000,1,1,1,Tunnell odd count identity yields a nonzero rational curve point
+65,WeylHeisenbergSIC.fiducial_exists,0.5000,0.5000,1,1,1,Weyl-Heisenberg SIC fiducial existence in every positive dimension
+66,polignac_conjecture,0.5000,0.5000,1,1,1,
+67,mme_entropy_regional_boundary_match,0.4941,0.4818,1,6,6,Boundary data with dimensions 25 matching a given step output
+68,ErdosStraus242.hard_core_840_after_mod11_mod19_mod23_mod31,0.4917,0.4917,1,4,4,"Remaining modulo-840 prime cases after the mod-11, mod-19, mod-23 and mod-31 sieves"
+69,TaoFivePrimes.mesoscopic_L2_source,0.4917,0.4755,1,5,5,Mesoscopic L2 estimate for the five-primes cutoff
+70,BookSixth.crossing_free_subset_edge_bound,0.4813,0.4813,1,3,3,Planar edge bound for a crossing-free subset of a good drawing
+71,bp_frey_package_yields_newform_level_2,0.4803,0.3929,1,13,9,
+72,OddPerfectNumber.no_dris_five_s_ge_two_not_even,0.4751,0.4751,1,4,4,Dris-index case s ge 2 with s not even is impossible
+73,TaoFivePrimes.strongly_major_arc_prime_sums_to_cutoff_model,0.4718,0.5449,1,5,4,Corrected verified-RH transfer on the strongly major arc
+74,TaoFivePrimes.norm_S0_le_weakly_major_5e6,0.4650,0.4191,1,6,5,Weakly-major-arc bound for the smoothed prime sum
+75,Leopoldt.galois_totallyReal_injection,0.4636,0.4728,1,3,3,Continuous unit injection for totally real Galois fields
+76,syracuse_minimal_period_ge_seventeen_eq_one,0.4583,0.3958,1,5,5,Exclude nontrivial Syracuse cycles of least period at least seventeen
+77,WeakGoldbach.even_goldbach_above_4e18,0.4558,0.3031,3,8,6,Even Goldbach above the verified range $4\cdot 10^{18}$
+78,DiazModulus.diaz_of_exp_not_real_irrational_angle_period_aligned_norm_free,0.4530,0.0000,1,5,5,"Period-aligned, norm not a rational multiple of the aligned datum: the residual half"
+79,DiazModulus.recip_pi_not_log,0.4530,0.0000,1,5,5,No algebraic multiple of $1/(i\pi)$ is a logarithm of an algebraic number
+80,HarmonicBuilding.firstVariationOfEnergyAndMoment,0.4511,0.0000,1,5,5,First variation of the boundary moment and the energy of a harmonic map
+81,HarmonicBuilding.weakFirstVariationData,0.4511,0.0000,1,5,5,Almost-everywhere energy and moment variation for building-valued harmonic maps
+82,momentAngle_h1_selfComplex_topSummand,0.4506,0.4506,1,4,4,First homology of $|K|$ embeds in $H_{s+2}(\\mathcal Z_K)$
+83,TaoFivePrimes.S1_major_arc_L2_mass_corollary49_limit,0.4417,0.0000,1,5,5,Corollary 4.9 central-arc mass for the Section 8 cutoff
+84,TaoFivePrimes.S1_major_arc_L2_mass_corollary49_raw,0.4417,0.0000,1,5,5,Tao Corollary 4.9: normalized raw major-arc mass estimate
+85,KServer.workFnU_growth_sharp_finite_subspaces,0.4394,0.4394,1,5,5,Sharp work-function growth uniformly over finite subspaces (open)
+86,WeakGoldbach.prime_ladder_to_8875e30,0.4342,0.2500,2,5,5,Helfgott–Platt prime-ladder certificate through $8.875\times10^{30}$
+87,WhitneyEmbedding.finite_injective_immersion_from_separating_family,0.4333,0.4576,1,3,3,Finite injective immersion from a separating family
+88,SymplecticFreeModules.canonicalShenLarssonSimplicity,0.4286,0.4286,1,3,3,Simplicity of the canonical Shen–Larsson action at nonexceptional parameters
+89,BSD.birch_swinnerton_dyer_of_analyticOrderAt_le_one,0.4167,0.3333,2,2,2,"Gross–Zagier–Kolyvagin: if $\operatorname{ord}_{s=1} L(E,s) \le 1$ then it equals the rank of $E(\mathbb{Q})$"
+90,BSD.birch_swinnerton_dyer_of_two_le_analyticOrderAt,0.4167,0.3333,2,2,2,"Birch and Swinnerton-Dyer in analytic rank $\ge 2$: if $\operatorname{ord}_{s=1} L(E,s) \ge 2$ then it equals the rank of $E(\mathbb{Q})$"
+91,TaoFivePrimes.smoothedExpSum_dirichlet_bound_005,0.4079,0.4191,1,6,5,Dirichlet-regime bound for the smoothed prime sum
+92,WeakGoldbach.verified_two_odd_primes_to_4e18,0.4027,0.2500,1,5,4,"Verified odd-prime binary Goldbach range $[6,\, 4\cdot 10^{18}]$"
+93,mme_more_asymmetry_cofinal_forward_fields_stage_rate_certificate_v3,0.3937,0.3587,1,7,6,More Asymmetry cofinal stage/rate certificate with forward assembly fields (parenthesized)
+94,Leopoldt.exists_continuous_injective_unitClosure_of_mem_iInf,0.3842,0.3934,1,4,4,"Rank of the $p$-adic closure of $\varphi(\bar{E}(\mathbb{F}))\cdot\langle h_1,\dots,h_m\rangle$ is at most $\mathbb{Z}_p\text{-rk}\,\bar{E}(\mathbb{F}) + m$"
+95,Leopoldt.le_finrank_of_continuous_injective_semilocalUnits,0.3842,0.3934,1,4,4,The $\mathbb{Z}_p$-rank of the semilocal units $U_p(\mathbb{F})$ is at most $[\mathbb{F} : \mathbb{Q}]$
+96,ReservoirSAS.monomial_sas_realization,0.3750,0.3750,1,2,2,Exact contracting SAS realization of one history monomial
+97,goldbach_large,0.3725,0.2198,1,7,5,Goldbach's Conjecture for $n \ge 30$
+98,syracuse_descent_seven_mod_thirtytwo,0.3701,0.2719,1,9,6,Syracuse descent for $n \equiv 7 \pmod{32}$
+99,SymplecticFreeModules.irreducible_off_exceptional,0.3690,0.3690,1,2,2,Generic simplicity outside the exceptional parameters
+100,SymplecticFreeModules.not_simple_on_exceptional,0.3690,0.3690,1,2,2,Nonsimplicity at exceptional parameters
+101,Erdos390.eventual_guarded_fractional_bank_data_exists,0.3680,0.0000,1,5,5,Eventual joint guarded fractional certificate and universal bank
+102,momentAngle_exists_neighborly_twoComplex_subcomplex_blocks,0.3673,0.3673,1,4,4,Uniform torsion blocks in a neighbourly two-complex inside a simplicial $4$-sphere
+103,OddPerfectNumber.no_dris_thirteen_s_ge_two,0.3656,0.3656,1,4,4,Dris-index case k >= 13 with s >= 2 is impossible
+104,BookSixth.latin_bounds,0.3646,0.3646,2,2,2,"Chapter 37, Theorem 2: Latin square count"
+105,CannonFloydParry.mem_closure_mapA_mapB_of_standardDyadicPartition,0.3611,0.3611,1,2,2,A map given by a pair of standard dyadic partitions is a word in $A$ and $B$
+106,syracuse_descent_fifteen_mod_sixteen,0.3590,0.2608,1,9,6,Syracuse descent for $n \equiv 15 \pmod{16}$
+107,syracuse_descent_twentyseven_mod_thirtytwo,0.3590,0.2608,1,9,6,Syracuse descent for $n \equiv 27 \pmod{32}$
+108,flt_wiles_coprime,0.3553,0.3667,1,13,11,
+109,FiniteMagmaE677.orbit_right_collision_or_fixer,0.3540,0.3540,2,3,3,An orbit right-collision forces a fixer
+110,FiniteMagmaE677.unique_left_orbit_complement_collision_gives_fixer,0.3540,0.3540,1,3,3,A right-translation collision across a one-element left-orbit complement gives a fixer
+111,RybinAI2026.P16.six_unbiased_partial_hadamards,0.3505,0.2917,1,3,3,Six mutually unbiased partial Hadamard matrices with five columns
+112,EulerMascheroni.Arithmetic.gompertz_prime_local_bounds_conjecture,0.3486,0.3909,1,6,6,Conjectural prime-local denominator bounds at Gompertz factorial endpoints
+113,Erdos390.eventual_guarded_four_family_assembly,0.3442,0.1429,1,5,5,Theorem 10.3 — Guarded four-family joint upper product assembly
+114,markov_brothers_integer_grid_v2,0.3429,0.0000,1,4,4,
+115,CollapsibleCubics.depressed_cubic_collapsible_of_not_normForm_repr,0.3429,0.3429,1,2,2,Collapsibility of depressed cubics beyond the norm-form case
+116,HorizontalPadicL.ellipticCurve_minimalModularLevel_iff_localEulerFactorDegree_lt_two,0.3389,0.3391,1,3,3,The minimal modular level detects subquadratic local Euler factors
+117,TaoFivePrimes.rosser_psi_finite_middle,0.3383,0.3250,1,3,3,Finite Rosser bound between 1000 and 10^8
+118,TaoFivePrimes.schoenfeld_psi_error_large,0.3383,0.3250,1,3,3,Explicit two-sided Chebyshev error above 10^8
+119,BSD.modularity_implies_analytic_continuation,0.3333,0.2500,1,2,2,Modularity of an elliptic curve implies analytic continuation of its L-function
+120,BSD.modularity_of_elliptic_curve,0.3333,0.2500,1,2,2,"Every elliptic curve over $\mathbb{Q}$ is modular (Wiles, Taylor-Wiles, Breuil-Conrad-Diamond-Taylor)"
+121,Erdos390.eventual_three_family_residual_exists,0.3333,0.3333,1,1,1,Theorem 10.3 — Eventual existence of three-family residual partition
+122,Erdos81.dense_chordal_clique_partition,0.3333,0.3333,1,1,1,Dense regime of Erdős Problem 81
+123,Hadamard.odd_multiplier_exists,0.3333,0.3333,1,1,1,Hadamard matrices of order $4k$ for odd $k$
+124,RybinAI2026.P13.exponential_boundary_elementary_abel_solution,0.3333,0.3333,1,1,1,An elementary expression for a nonnegative exponential-boundary Abel solution
+125,OddPerfectNumber.no_dris_nine_s_ge_two,0.3323,0.3323,1,4,4,Dris-index case k = 9 with s >= 2 is impossible
+126,Chou.isFinitelyPresented_of_isFinitelyPresented_of_finite_quotient,0.3270,0.3270,3,3,2,An extension of a finitely presented group by a finite group is finitely presented
+127,Chou.isFinitelyPresented_of_isNilpotent_of_fg,0.3270,0.3270,3,3,2,Finitely generated nilpotent groups are finitely presented (external)
+128,Hairer.reconstruction_existence_pointwise_nonpos,0.3250,0.3250,1,2,2,Existence of the reconstruction of a modelled distribution for $\alpha<\gamma\le 0$
+129,Hairer.reconstruction_existence_pointwise_pos,0.3250,0.3250,1,2,2,Existence of the reconstruction of a modelled distribution for $\gamma>0$
+130,OddPerfectNumber.k_one_sigma_diophantine,0.3239,0.3239,1,3,3,The special-exponent-one divisor-sum equation is impossible
+131,WeightedRootIntegralIdentity.weighted_geometric_mean_cauchy_boundary_integral,0.3095,0.3095,2,4,3,Cauchy boundary-integral form of the weighted geometric mean
+132,WeightedRootIntegralIdentity.weighted_root_keyhole_contour_boundary_balance,0.3095,0.3095,1,4,2,Cauchy boundary balance for the weighted-root keyhole contour
+133,WeightedRootIntegralIdentity.weighted_root_keyhole_contour_identity,0.3095,0.3095,1,4,1,Keyhole-contour identity for a weighted root product
+134,TaoFivePrimes.strongly_major_arc_discrete_to_cutoff_model,0.3052,0.3449,2,4,3,Strongly major arc: reduction to the cutoff convolution
+135,zeta_ne_zero_of_strip_of_two_lt_im,0.3019,0.3019,1,3,3,No zeros of $\zeta$ with $\tfrac12<\operatorname{Re} s<1$ in the upper strip $\operatorname{Im} s>2$
+136,goldbach,0.2955,0.1429,3,6,4,
+137,ErdosStraus242.hard_core_840_after_mod11_mod19_mod23,0.2917,0.2917,1,3,3,"Remaining modulo-840 prime cases after the modulo 11, 19 and 23 sieves"
+138,DiazModulus.diaz_of_exp_real_generic,0.2859,0.7213,2,6,4,The generic real case: both parts of u non-zero
+139,BSD.exists_cuspForm_qCoeff_eq_lFunction,0.2833,0.2000,1,2,2,"Modularity theorem, coefficient form: $a_n(f) = a_n(E)$ for a weight-two normalized eigenform $f$"
+140,BSD.lSeriesSummable,0.2833,0.2000,1,2,2,Convergence of the Hasse–Weil L-series of an elliptic curve over $\mathbb{Q}$ for $\operatorname{Re} s > 3/2$ (Hasse)
+141,CuspForm.exists_differentiable_eq_lSeries_qCoeff,0.2833,0.2000,1,2,2,Hecke: the L-series of a weight-two cusp form on $\Gamma_0(N)$ extends to an entire function
+142,Gilbreath.second_column,0.2778,0.2778,1,2,2,The second column of the Gilbreath triangle is bounded by $2$
+143,WhitneyEmbedding.exists_proper_self_transverse_immersion,0.2667,0.0000,1,2,2,General position: a proper self-transverse immersion in $\mathbb{R}^{2n}$
+144,WhitneyEmbedding.injective_immersion_of_self_transverse_immersion,0.2667,0.0000,1,2,2,"Whitney trick: removing the double points of a self-transverse immersion, $n \ge 3$"
+145,WhitneyEmbedding.strong_embedding_low_dimensions,0.2667,0.0000,1,2,2,Strong Whitney embedding in dimensions $n \le 2$
+146,TaoFivePrimes.minor_arc_Linfty_dirichlet,0.2650,0.2191,1,5,4,"(8.18), Dirichlet regime: $KT_0/(4\pi x) < \|\alpha\| < 32/N_0$"
+147,TaoFivePrimes.minor_arc_Linfty_weakly_major,0.2650,0.2191,1,5,4,"(8.18), weakly major regime: $T_0/(3.6\pi x) < \|\alpha\| \le KT_0/(4\pi x)$"
+148,collatz_descent_fifteen_mod_sixteen,0.2590,0.1608,1,8,5,Collatz descent for $n \equiv 15 \pmod{16}$
+149,collatz_descent_seven_mod_thirtytwo,0.2590,0.1608,1,8,5,Collatz descent for $n \equiv 7 \pmod{32}$
+150,collatz_descent_twentyseven_mod_thirtytwo,0.2590,0.1608,1,8,5,Collatz descent for $n \equiv 27 \pmod{32}$
+151,diophantine_quadruple_extension_criterion,0.2550,0.2550,1,3,3,Fujita-Miyazaki extension criterion (per-case thresholds)
+152,diophantine_quintuple_abde_irregular,0.2550,0.2550,1,3,3,"Irregularity of {a,b,d,e} in a quintuple"
+153,diophantine_quintuple_b_gt_3a,0.2550,0.2550,1,3,3,Quintuple gap b > 3a (Cipu-Filipin-Fujita)
+154,DiazModulus.diaz_of_exp_not_real_irrational_angle_period_aligned,0.2530,0.4534,1,4,4,"Irrational angle, period-aligned: a rational multiple of u has a two-point algebraic fibre"
+155,DiazModulus.diaz_of_exp_not_real_irrational_angle_period_free,0.2530,0.4534,1,4,4,"Irrational angle, period-free: every exponential fibre meets the locus once"
+156,ArithmeticE.algebraic_e_combination_zero_singularity,0.2529,0.1250,3,6,6,Arithmetic zero-singularity theorem for algebraic combinations of rational E-series
+157,HarmonicBuilding.orderAtLeastOne,0.2511,0.4604,1,4,4,The order gap: a nonconstant harmonic map has order at least one
+158,HarmonicBuilding.surfaceFrequencyMonotoneOn,0.2511,0.4604,1,4,4,Almgren monotonicity of the frequency
+159,Erdos287.mixed_gap_core,0.2500,0.2500,1,1,1,Residual core of Erdős #287: no gap-$\le 2$ representation of $1$ with two unit gaps
+160,TaoFivePrimes.S1_major_arc_L2_mass_626,0.2417,0.2255,1,4,4,Correctly normalized eta₁ mass on the strongly major arc
+161,TaoFivePrimes.minor_arc_L2_full_circle_8001,0.2417,0.2255,1,4,4,Full-circle mesoscopic L² bound for eta₁
+162,Leopoldt.zpRankBelow_unitClosure_le_add_of_finiteIndex,0.2414,0.2505,1,3,3,The $\mathbb{Z}_p$-rank of the $p$-adic closure of the units grows by at most the number of new unit generators
+163,BanditAlgorithm.linear_bandit_unit_ball_stopped_loss_change_of_measure,0.2361,0.0000,1,2,2,Stopped loss change of measure for the unit-ball linear bandit
+164,WhitneyEmbedding.finite_injective_immersion,0.2333,0.2576,1,2,2,Finite-dimensional injective immersion for a noncompact manifold
+165,BookSixth.drawing_sampling_bound,0.2313,0.2313,1,2,2,Vertex-sampling inequality for a good plane drawing
+166,Erdos9796Mission.critical_radius_cover_card_le_nine,0.2304,0.2304,1,4,4,Open geometric core: critical-radius cover has at most nine vertices
+167,bp_no_frey_package,0.2303,0.1429,1,12,8,
+168,OddPerfectNumber.no_dris_special_exponent_five_s_ge_two,0.2251,0.2251,1,3,3,No Dris-index solution for the Euler equation with special exponent $k = 5$ and $s \ge 2$
+169,HarmonicBuilding.constantOnBallImpliesConstant,0.2194,0.2382,1,4,4,A harmonic map constant on a disc is constant on the domain
+170,HarmonicBuilding.isPlanarKSHarmonicAt_minimizes_on_small_balls,0.2194,0.2382,1,4,4,An energy minimizer at one radius minimizes at every smaller radius
+171,RybinAI2026.P01.matrix_integral_inequality_integer_gram_overlapping_spectra,0.2173,0.2173,1,3,3,Integer Gram inequality with overlapping relative spectral intervals
+172,Hirsch.common_face_diameter_of_dim_ge_six,0.2171,0.2171,1,9,9,Polynomial diameter of common faces of dimension at least six
+173,EulerMascheroni.Mixed.decaying_algebraic_mixed_quotient_conjecture,0.2161,0.2167,1,4,4,Conjectural arithmetic quotient for the local mixed E-value relation
+174,flt_wiles,0.2124,0.1667,1,12,10,
+175,collatz_descent_three_mod_four,0.2114,0.1132,1,7,4,Collatz descent for $n \equiv 3 \pmod 4$
+176,FiniteMagmaE677.two_left_orbit_complement_elements_escape_gives_fixer,0.2111,0.2111,1,2,2,Right-translation escape with two elements outside the left orbit gives a fixer
+177,FiniteMagmaE677.unique_left_orbit_complement_escape_gives_fixer,0.2111,0.2111,1,2,2,Right-translation escape with one element outside the left orbit gives a fixer
+178,SymplecticFreeModules.exceptionalArtinian,0.2024,0.2024,1,2,2,Exceptional symplectic polynomial modules are Artinian
+179,Chou.fg_of_isFinitelyPresented_quotient,0.2020,0.2020,2,2,2,"Milnor's lemma, Chou's form: finitely presented quotients of exponentially bounded groups have finitely generated kernels (external)"
+180,Chou.hall_finite_subgroups_of_index,0.2020,0.2020,1,2,2,M. Hall: a finitely generated group has finitely many subgroups of each index (external)
+181,Chou.milnor_wolf,0.2020,0.2020,1,2,2,Milnor–Wolf: exponentially bounded solvable groups are almost nilpotent (external)
+182,Erdos390.eventual_guarded_central_residual_split,0.2013,0.0000,2,4,4,Theorem 10.3 — Guarded central and residual split of complement product
+183,momentAngle_exists_full_neighborly_twoComplex_blocks,0.2006,0.2006,1,3,3,Uniform torsion blocks in a full neighbourly two-complex inside a simplicial $4$-sphere
+184,momentAngle_fullNeighborlyTwoComplex_h1_loopHomology,0.2006,0.2006,1,3,3,First homology of a full neighbourly two-complex embeds in loop homology
+185,momentAngle_fullSubcomplex_h1_homology,0.2006,0.2006,1,3,3,First homology of a full subcomplex embeds in moment-angle homology
+186,LeanEval.Geometry.SpaceGroupsProblem.space_groups_OP_classification,0.2000,0.2000,1,1,1,A complete irredundant list of the $230$ space-group types
+187,LeanEval.Geometry.SpaceGroupsProblem.space_groups_affine_classification,0.2000,0.2000,1,1,1,A complete irredundant list of the $219$ affine classes of space groups
+188,LeanEval.Geometry.SpaceGroupsProblem.space_groups_sohncke_classification,0.2000,0.2000,1,1,1,A complete irredundant list of the $65$ Sohncke space-group types
+189,SmaleNinth.smale_ninth_real_ram,0.2000,0.2000,1,1,1,"Smale's ninth problem, real-RAM form (open)"
+190,Freiman.lower_geometry_cover,0.1970,0.1970,1,5,5,Freiman lower construction: geometry cover
+191,KServer.workFnU_growth_sharp_large,0.1894,0.1894,1,4,4,Sharp injective total growth beyond the known small cases (open)
+192,TaoFivePrimes.minor_arc_Linfty_corrected,0.1881,0.1357,3,4,3,Estimate (8.18) with sharpened constant: $L^\infty$ bound off the strongly major arc ($0.05$)
+193,PoincareFormalization.ExtinctionEndgame.nonempty_homeomorph_sphere_of_connected_sum_spheres,0.1879,0.1667,1,2,2,A connected sum of three-spheres is a three-sphere
+194,PoincareFormalization.ExtinctionEndgame.not_simply_connected_sphere_handle,0.1879,0.1667,1,2,2,The sphere handle is not simply connected
+195,PoincareFormalization.ExtinctionEndgame.simply_connected_factors_of_connected_sum,0.1879,0.1667,1,2,2,Simply connected connected sums have simply connected factors
+196,Hirsch.common_face_diameter_of_dim_ge_five,0.1877,0.1877,1,8,8,Polynomial diameter of common faces of dimension at least five
+197,SipserGacsLautemann.ternary_amplification_scheduler_reports_accepts_under_halt_bound,0.1867,0.0000,1,12,8,Amplification-depth ternary scheduler under a halt bound
+198,WeakGoldbach.prime_in_window_4e18_add_two,0.1842,0.0000,1,4,4,"Prime ladder step: a prime in $[n-4\cdot 10^{18}-2,\, n-4]$ for each odd $n \le 8.875\times 10^{30}$"
+199,RybinAI2026.P16.six_hadamards_five_by_five_constraints,0.1838,0.1250,1,2,2,Six Hadamard matrices with five-by-five modulus constraints
+200,EulerMascheroni.Arithmetic.factorial_division_denominators_conjecture,0.1820,0.2242,1,5,5,Conjectural arithmetic division bounds for the Gompertz factorial quotient
+201,TaoFivePrimes.strongly_major_arc,0.1802,0.2020,2,3,2,Proposition 8.3 — strongly major arc estimate
+202,SymplecticFreeModules.canonicalSimpleShenLarssonExists,0.1786,0.1786,1,2,2,Existence and simplicity of the canonical Shen--Larsson action
+203,zeta_ne_zero_of_strip_of_two_lt_abs_im,0.1769,0.1769,1,2,2,No zeros of $\zeta$ with $\tfrac12<\operatorname{Re} s<1$ above height $2$
+204,collatz_descent,0.1697,0.0715,3,6,3,Collatz descent principle: every $n > 1$ eventually drops below $n$
+205,ErdosStraus242.hard_core_840_after_mod11,0.1667,0.1667,1,2,2,Remaining modulo-840 prime cases after the three-class modulo-11 sieve
+206,BanditAlgorithm.chernoff_stopping_time_le_integrable_plus_linear,0.1667,0.1667,1,1,1,Track-and-Stop stops after an integrable time plus (1+ε)c*(ν)log(1/δ)
+207,EulerMascheroni.P2.f_saddle_limit,0.1667,0.1667,1,1,1,Complex-saddle asymptotic for the explicit Euler remainder
+208,EulerMascheroni.P2.phase_compatible_primitive_saving,0.1667,0.1667,1,1,1,Candidate P2 arithmetic obligation: phase-compatible primitive saving
+209,LeanEval.NumberTheory.lagarias_robin_oscillation,0.1667,0.1667,1,1,1,Robin oscillation under failure of RH (Lagarias Proposition 3.2)
+210,LeanEval.NumberTheory.lagarias_robin_upper_bound,0.1667,0.1667,1,1,1,Robin conditional upper bound (Lagarias Proposition 3.1)
+211,RybinAI2026.P01.crossIntegral_add_double_pair_coefficients,0.1667,0.0000,1,1,1,Doubled-denominator coefficient budget for two numerators
+212,RybinAI2026.P01.crossIntegral_add_l2_coefficients,0.1667,0.0000,1,1,1,Square-summable coefficients for adding one quadratic denominator
+213,OddPerfectNumber.no_euler_ge_nine_eq_nine,0.1656,0.1656,1,3,3,Euler equation with special exponent k = 9 has no solution
+214,OddPerfectNumber.no_euler_ge_nine_ge_thirteen,0.1656,0.1656,1,3,3,Euler equation with special exponent k ge 13 has no solution
+215,Hirsch.common_face_diameter_of_dim_ge_four,0.1591,0.1591,1,7,7,Polynomial diameter of common faces of dimension at least four
+216,mme_CW_coupled_raw_cyclic_value_of_ratio,0.1591,0.1250,1,6,6,Raw cyclic value from the coupled CW pruning condition
+217,OddPerfectNumber.no_odd_perfect_k_one_odd_m,0.1573,0.1573,1,2,2,Special-exponent case k = 1 with m odd is impossible
+218,PoincareFormalization.measured_surgery_data_of_not_homeomorph_sphere,0.1539,0.1539,1,3,3,Construct measured surgery data from a hypothetical counterexample
+219,WeakGoldbach.three_odd_primes_ge_10pow27,0.1527,0.0000,2,4,3,Ternary Goldbach with odd primes for $n \ge 10^{27}$
+220,WeakGoldbach.verified_three_odd_primes_to_8875e30,0.1527,0.0000,2,4,3,"Verified all-odd ternary Goldbach range $[9,\, 8.875\times 10^{30}]$"
+221,mme_CW_square_laser_2376_profile_pruning,0.1526,0.1526,1,2,2,Finite CW square laser extraction at the exact 2.376 profile
+222,mme_CW_square_laser_frequent_witness_of_coupled,0.1452,0.1111,1,6,6,Finite CW tensor-square laser witnesses from the coupled constituent
+223,HorizontalPadicL.disjointRamification_seededFrobeniusClass_exists_v2,0.1441,0.1451,1,5,5,Simultaneous Frobenius class from the actual Galois characters
+224,HorizontalPadicL.newEigenform_residualRepresentation_exists,0.1441,0.1451,1,5,5,Residual Galois representation attached to a new eigenform
+225,HorizontalPadicL.positiveDensityOrderlySet_to_primeSystem,0.1441,0.1451,1,5,5,Enumerating a positive-density orderly-prime set
+226,HorizontalPadicL.seedCyclotomicGaloisCharacters_exist_v2,0.1441,0.1451,1,5,5,Finite Galois realization of the cyclotomic and seed characters
+227,HorizontalPadicL.seededEigenform_padicPlace_exists,0.1441,0.1451,1,5,5,A p-adic place for eigenform coefficients and a seed character
+228,HorizontalPadicL.seededFrobeniusClass_positiveDensity,0.1441,0.1451,1,5,5,Positive density of the seeded Frobenius class
+229,mme_more_asymmetry_cofinal_hash_extraction_certificate,0.1437,0.1087,1,6,5,"More Asymmetry: joint cofinal hash, source and rate certificate"
+230,CannonFloydParry.exists_conj_supp_subset_Icc,0.1429,0.1429,1,1,1,"$[F,F]$ conjugates each of its elements into a prescribed dyadic interval"
+231,CannonFloydParry.exists_dyadic_interval_image_disjoint,0.1429,0.1429,1,1,1,A nontrivial element of $F$ pushes a dyadic interval off itself
+232,CannonFloydParry.mem_closure_commutator_supp_Icc,0.1429,0.1429,1,1,1,Maps supported strictly inside a dyadic interval are products of commutators supported in it
+233,CollapsibleCubics.cubic_collapsible_of_not_normForm_repr,0.1429,0.1429,1,1,1,Cubic collapsibility when every collapsing polynomial has degree $\ge 4$
+234,Rudin.ch10_stokes_surface,0.1429,0.0000,1,1,1,Stokes' theorem for a single $(m+1)$-surface
+235,TarchaBraids.thm_3_11_half_twists_generate,0.1429,0.1429,1,1,1,"Teorema 3.11: the half-twists generate $\pi_1(B_{0,n}E^2)$"
+236,TarchaBraids.thm_3_15_half_twist_hom_injective,0.1429,0.1429,1,1,1,"Teorema 3.15, step 3 — the half-twist homomorphism $B_n \to \pi_1(B_{0,n}E^2)$ is injective"
+237,TarchaBraids.thm_3_15_half_twists_satisfy_relations,0.1429,0.1429,1,1,1,Teorema 3.15 (homomorphism step): the half-twists satisfy Artin's relations
+238,WeightedRootIntegralIdentity.weighted_geometric_mean_integral_identity,0.1429,0.1429,1,1,1,Weighted geometric-mean integral identity
+239,DiazModulus.diaz_of_exp_not_real_irrational_angle,0.1419,0.2534,1,3,3,Off both axes with irrational angle: the genuine residual
+240,HorizontalPadicL.ellipticCurve_attachedForm_isNormalizedEigenform,0.1389,0.1391,1,2,2,The modular form attached to an elliptic curve is a normalized eigenform
+241,TaoFivePrimes.rosser_schoenfeld_psi_bound,0.1383,0.1250,1,2,2,"Rosser–Schoenfeld: $\psi(x) \lt 1.03883\,x$"
+242,RybinAI2026.P01.matrix_integral_inequality_integer_gram_small_regularizer,0.1339,0.1339,1,2,2,Integer Gram inequality below the proved regularization threshold
+243,Hirsch.polynomial_edge_refinement_of_circuit_walks_of_high_carrier,0.1335,0.1335,1,6,6,Polynomial edge refinement of circuit walks with a high-dimensional common face
+244,Leopoldt.defect_pos_of_defect_pos,0.1303,0.1394,1,2,2,A positive Leopoldt defect is inherited by finite extensions
+245,Leopoldt.leopoldt_totallyReal_galois,0.1303,0.1394,1,2,2,Leopoldt's conjecture for totally real Galois fields
+246,momentAngle_fourSphere_uniformTorsionBlocks,0.1292,0.1292,1,2,2,"Arbitrary torsion in a moment-angle manifold over a simplicial $4$-sphere, for the uniform block group $\mathbb{Z}^k \oplus (\mathbb{Z}/n)^k$"
+247,ArithmeticE.beukers_rational_system_lifting,0.1279,0.0000,1,5,5,Classical Beukers linear lifting for rational-coefficient E-systems
+248,Chou.fg_of_isFinitelyPresented_quotient_of_not_hasFreeSubsemigroupOfRankTwo,0.1250,0.1250,1,1,1,Rosenblatt's Lemmas 4.8 and 4.9 with $A$ not necessarily abelian: a normal subgroup with finitely presented quotient is finitely generated when $B$ has no free subsemigroup
+249,Chou.isVirtuallyNilpotent_of_extension_of_not_hasFreeSubsemigroupOfRankTwo,0.1250,0.1250,1,1,1,Rosenblatt's form of Lemma 3.1 (external)
+250,Hairer.reconstruction_operator,0.1250,0.1250,1,1,1,Existence of a linear reconstruction operator for arbitrary $\gamma$
+251,ReservoirSAS.polynomial_sas_realization,0.1250,0.1250,1,1,1,Exact realization of finite-history polynomials by bounded contracting SAS
+252,syracuse_minimal_period_ge_eight_eq_one,0.1250,0.0625,1,4,4,Exclude nontrivial Syracuse cycles of least period at least eight
+253,TaoFivePrimes.minor_arc_L2_corrected,0.1167,0.0588,2,3,3,Proposition 8.4 with corrected constant: $L^2$ estimate off the strongly major arc ($7.4$)
+254,DiazModulus.diaz_of_exp_ne_one,0.1135,0.3304,1,3,3,"Real exponential other than 1, non-real argument"
+255,diophantine_degree_ge_two_case_five_quintuple,0.1121,0.1121,1,2,2,"Exclusion of degree at least two — Theorem 9, case V"
+256,diophantine_degree_ge_two_case_four_quintuple,0.1121,0.1121,1,2,2,"Exclusion of degree at least two — Theorem 9, case IV"
+257,diophantine_degree_ge_two_case_one_quintuple,0.1121,0.1121,1,2,2,"Exclusion of degree at least two — Theorem 9, case I"
+258,diophantine_degree_ge_two_case_three_quintuple,0.1121,0.1121,1,2,2,"Exclusion of degree at least two — Theorem 9, case III"
+259,diophantine_degree_ge_two_case_two_quintuple,0.1121,0.1121,1,2,2,"Exclusion of degree at least two — Theorem 9, case II"
+260,diophantine_quintuple_acb_upper_bound,0.1121,0.1121,1,2,2,Quintuple range upper bound (ac < 180.45 b^3)
+261,diophantine_quintuple_global_bound,0.1121,0.1121,1,2,2,Global bounds for a quintuple (Proposition 5)
+262,Freiman.lower_one_step,0.1111,0.1111,1,4,4,Freiman lower construction: one step
+263,Gilbreath.good_blocks,0.1111,0.1111,1,1,1,Existence of blocks of $0$s and $2$s in the Gilbreath triangle
+264,Hirsch.polynomial_edge_refinement_of_circuit_walks_dim_ge_four,0.1091,0.1091,1,5,5,Polynomial edge refinement of circuit walks in dimension at least four
+265,HarmonicBuilding.frequencyLimitExistsAndAtLeastOne,0.1083,0.1271,1,3,3,The frequency converges and its limit is at least one
+266,HarmonicBuilding.nonconstantOnSmallCircles,0.1083,0.1271,1,3,3,A nonconstant harmonic map is nonconstant on every small circle
+267,WeakGoldbach.verified_three_primes_to_8875e30,0.1072,0.0000,1,3,3,Verified ternary Goldbach range through $8.875\times10^{30}$
+268,strong_goldbach_conjecture,0.1072,0.0000,2,3,3,
+269,KServer.workFnU_sharp_potential,0.1061,0.1061,1,3,3,Sharp work-function potential: an open sufficient condition
+270,mme_more_asymmetry_six_symmetric_tau_value_surplus,0.1053,0.0702,1,5,4,More Asymmetry: six-symmetric tau-value surplus
+271,PoincareFormalization.ExtinctionEndgame.exists_area_evolution_surgery_topology,0.1046,0.0833,1,3,3,Construct surgery topology with uniform area evolution
+272,FiniteMagmaE677.fixer_exists,0.1000,0.1000,1,1,1,Fixer existence: an equivalent form of the main target
+273,RybinAI2026.P01.matrix_integral_inequality_integer_gram_ratio_residual,0.1000,0.1000,1,1,1,Remaining integer-Gram matrix inequality beyond uniform-ratio certificates
+274,mme_CW_q6_coupled_hash_survivors_below_raw,0.0913,0.0000,1,8,8,Salem--Spencer hashing produces enough mode-disjoint coupled survivors
+275,EulerMascheroni.Arithmetic.factorial_division_decay_conjecture,0.0911,0.1333,1,4,4,Conjectural denominator decay sufficient for Gompertz transcendence
+276,Chou.isVirtuallyNilpotent_or_hasExponentialGrowth_of_extension,0.0909,0.0909,1,1,1,Lemma 3.1: extensions of almost nilpotent by almost nilpotent groups
+277,EulerMascheroni.Mixed.beukers_e_value_linear_lifting,0.0879,0.0000,1,4,4,Classical Beukers lifting specialized to the Euler E-function system
+278,bp_flt_for_p_ge_5,0.0874,0.0000,1,11,7,
+279,flt_odd_prime_gt_5,0.0874,0.0000,1,11,9,
+280,Hirsch.polynomial_edge_refinement_of_circuit_walks,0.0853,0.0853,1,4,4,Polynomial edge refinement of irredundant circuit walks — open research
+281,Weil.perron_contour_shift,0.0848,0.0000,1,4,4,Shifting the Perron contour into the zero-free region
+282,Weil.perron_truncation,0.0848,0.0000,1,4,4,Truncated Perron formula for coefficients of von Mangoldt size
+283,BSD.analytic_continuation,0.0833,0.0000,1,1,1,Analytic continuation of the elliptic-curve L-function
+284,BSD.exists_isLFunction,0.0833,0.0000,1,1,1,"Analytic continuation of the Hasse–Weil L-series to an entire function (Wiles, Taylor–Wiles, Breuil–Conrad–Diamond–Taylor)"
+285,BSD.rank_order_equality,0.0833,0.0000,1,1,1,Rank equals the analytic order of vanishing
+286,PoincareFormalization.surgery_comparison_process_of_not_homeomorph_sphere,0.0825,0.0825,1,2,2,Volume-controlled width profiles from a hypothetical Poincare counterexample
+287,OddPerfectNumber.no_euler_equation_special_exponent_five,0.0823,0.0823,1,2,2,Euler equation for an odd perfect number with special exponent $k = 5$ has no solution
+288,OddPerfectNumber.no_euler_equation_special_exponent_ge_nine,0.0823,0.0823,1,2,2,Euler equation for an odd perfect number with special exponent $k \\ge 9$ has no solution
+289,mme_more_asymmetry_entropy_regional_surplus_certificate,0.0775,0.0651,1,4,4,Construct a successful finite regional entropy recipe for omega < 2.37134
+290,CirclePackingConstants.c_n_eight,0.0769,0.0769,1,1,1,Exact packing constant for n = 8
+291,CirclePackingConstants.c_n_seven,0.0769,0.0769,1,1,1,Exact packing constant for n = 7
+292,CirclePackingConstants.c_n_six,0.0769,0.0769,1,1,1,Exact packing constant for n = 6
+293,CirclePackingConstants.c_n_sixteen,0.0769,0.0769,1,1,1,Exact packing constant for n = 16
+294,CirclePackingConstants.c_n_thirty_six,0.0769,0.0769,1,1,1,Exact packing constant for n = 36
+295,CirclePackingConstants.c_n_twenty_five,0.0769,0.0769,1,1,1,Exact packing constant for n = 25
+296,zeta_ne_zero_of_half_lt_re,0.0769,0.0769,1,1,1,$\zeta$ has no zeros in the half-plane $\operatorname{Re} s>1/2$
+297,DiazModulus.diaz_of_exp_not_real_off_axes,0.0705,0.1534,1,2,2,"Non-real exponential, argument off both axes"
+298,goldbach_odd_variant,0.0702,1.0000,1,2,2,
+299,mme_more_asymmetry_fixed_tau_cofinal_six_extraction_real_tau,0.0695,0.0345,1,4,3,More Asymmetry: cofinal six-symmetric finite extraction at real tau
+300,KServer.finite_game_uniform_value_bound,0.0690,0.0690,1,2,2,Open uniform bound for the competitive finite-game values
+301,TaoFivePrimes.minor_arc_bound,0.0690,0.0000,1,2,2,Minor arc bound (8.17) for the five-primes circle method
+302,ErdosStraus242.hard_core_840,0.0667,0.0667,1,1,1,The residual hard case at six squares mod 840 - genuinely open
+303,WhitneyEmbedding.finite_immersion_and_proper_function_of_noncompact,0.0667,0.0909,1,1,1,Finite-dimensional immersion and smooth exhaustion data for a noncompact manifold
+304,WhitneyEmbedding.strong_embedding_from_closed_weak_embedding,0.0667,0.0909,1,1,1,Strong Whitney step from a smooth closed embedding in dimension $2n+1$
+305,flt_n_odd_prime,0.0652,0.0000,1,10,7,
+306,flt_wiles_coprime_case,0.0652,0.0000,1,10,1,
+307,modularity_semistable_elliptic,0.0652,0.0976,1,10,3,
+308,ribet_level_lowering,0.0652,0.0476,1,10,2,
+309,HarmonicBuilding.orderExistsAndAtLeastOne,0.0648,0.0745,1,2,2,The order of a nonconstant harmonic map into a Euclidean building is well defined and $\ge 1$
+310,DiazModulus.diaz_of_exp_real_self_not_real,0.0635,0.1875,1,2,2,"Real exponential, non-real argument"
+311,Hirsch.polynomial_access_to_given_supporting_face,0.0626,0.0626,1,3,3,Polynomial routing to a prescribed supporting face
+312,MomentAngle_arbitraryTorsionNormalForm,0.0625,0.0625,1,1,1,"Arbitrary torsion in a moment-angle manifold over a simplicial $4$-sphere, for a group in normal form"
+313,RybinAI2026.P01.matrix_integral_inequality_integer_gram,0.0625,0.0625,1,1,1,Matrix integral inequality for integer Gram matrices with positive integer regularization
+314,syracuse_periodic_ge_seven_eq_one,0.0625,0.0000,1,3,3,No nontrivial Syracuse periodic point of iterate period at least seven
+315,HorizontalPadicL.seededHorizontalPadicLFunction_exists_of_primeSystem,0.0608,0.0617,1,4,4,Seeded horizontal measure from modular symbols
+316,HorizontalPadicL.seededPositiveDensityPrimeSystem_exists,0.0608,0.0617,1,4,4,Positive-density orderly primes for a seeded twist
+317,Leopoldt.leopoldt_totallyReal,0.0588,0.0625,1,1,1,Leopoldt's conjecture for totally real fields
+318,RybinAI2026.P16.projectiveToricMUBDesign36_exists,0.0588,0.0000,1,1,1,Existence of a 36-point projective toric MUB design in dimension six
+319,RybinAI2026.P16.six_mutually_unbiased_hadamards,0.0588,0.0000,1,1,1,Six mutually unbiased complex Hadamard matrices of order six
+320,catalan_ne_rat_mul_sqrt_three_LChiMinusThree,0.0588,0.0667,1,1,1,"$L(2,\chi_{-4})$ and $\sqrt{3}\,L(2,\chi_{-3})$ are not rationally related"
+321,PoincareFormalization.ExtinctionEndgame.exists_measured_surgery_topology,0.0546,0.0333,1,2,2,Construct measured surgery topology for the extinction endgame
+322,CollatzMission.syracuse_odd_conjecture,0.0542,0.0000,1,2,2,Accelerated Collatz conjecture on positive odd integers
+323,CollatzMission.bounded_orbit_of_avoids_one,0.0530,0.0345,1,2,2,One-avoiding Collatz orbits are bounded
+324,mme_CW_square_laser_2376_cofinal_extraction_of_coupled,0.0526,0.0526,1,1,1,Cofinal finite CW square extractions at the exact 2.376 profile
+325,EulerMascheroni.Arithmetic.gompertz_transcendental,0.0494,0.0500,1,3,3,Transcendence of the Gompertz constant
+326,EulerMascheroni.Mixed.e_values_linear_independent,0.0494,0.0500,2,3,3,"Classical algebraic linear independence of 1, e, and e Ein(1)"
+327,EulerMascheroni.Mixed.local_intersection_algebraicity_conjecture,0.0494,0.0500,2,3,3,Conjectural E/Y intersection algebraicity for the Gompertz value
+328,diophantine_quintuple_degree_ge_two,0.0455,0.0455,1,1,1,Theorem 9 — exclusion of degree at least two
+329,diophantine_quintuple_degree_one,0.0455,0.0455,1,1,1,Theorem 8 — exclusion of degree one
+330,diophantine_quintuple_degree_zero,0.0455,0.0455,1,1,1,Theorem 7 — exclusion of the Euler case
+331,HorizontalPadicL.eigenform_seededHorizontalPadicLConstruction_v2,0.0447,0.0453,1,3,3,Construction of seeded horizontal p-adic L-functions
+332,HorizontalPadicL.seededHorizontalPadicLConstruction_implies_corollary_5_17_v2,0.0447,0.0453,1,3,3,Seeded horizontal measures imply Corollary 5.17
+333,mme_more_asymmetry_integer_regional_surplus_certificate,0.0417,0.0294,1,3,3,An efficient finite integer recipe for the More Asymmetry bound
+334,Hirsch.polynomial_target_face_access,0.0408,0.0408,1,2,2,Polynomial access to a supporting face of the target vertex (conjectural)
+335,CollatzMission.periodic_point_reaches_one,0.0403,0.5000,1,2,2,Every positive periodic Collatz orbit visits 1
+336,Chou.residuallyFinite_freeGroup,0.0370,0.0625,1,1,1,Free groups are residually finite (external)
+337,PoincareFormalization.persistent_comparison_data_of_not_homeomorph_sphere,0.0370,0.0370,1,1,1,Comparison data from a hypothetical Poincare counterexample
+338,SymplecticFreeModules.canonicalHamiltonianApplication,0.0357,0.0357,1,1,1,Simple modules over the canonical Hamiltonian Lie algebra of Witt type
+339,SymplecticFreeModules.exceptionalFiniteLength,0.0357,0.0357,1,1,1,"At exceptional $c$, $\tau(c,\varphi)$ has finite length and Jordan--H\ddot{o}lder uniqueness"
+340,SymplecticFreeModules.simplicityCriterion,0.0357,0.0357,1,1,1,"$\tau(c,\varphi)$ is simple iff $c$ is not exceptional"
+341,mme_more_asymmetry_fourth_fixed_tau_value_surplus,0.0351,0.0000,2,3,2,More Asymmetry: strict fourth-power value surplus at tau = 3952233/5000000
+342,WeakGoldbach.three_primes,0.0345,0.0000,1,1,1,Every Odd Number Greater Than 1 is the Sum of at Most 3 Primes
+343,Freiman.lower_refinement_alternative,0.0342,0.0342,1,3,3,Freiman lower construction: refinement alternative
+344,mme_CW_coupled_piece_value,0.0341,0.0000,1,5,5,Value lower bound for the coupled CW constituent
+345,mme_CW_square_laser_value_of_coupled,0.0341,0.0000,1,5,5,CW tensor-square laser value from the coupled constituent
+346,KServer.finite_horizon_uniform_bound,0.0333,0.0333,1,1,1,"The k-server conjecture on finite request sets and horizons, with a uniform additive constant"
+347,TaoFivePrimes.representationCount_pos,0.0333,0.0909,1,1,1,Positivity of Tao’s weighted representation count (K = 1000)
+348,OddPerfectNumber.no_odd_perfect_special_exponent_ge_five,0.0323,0.0323,1,1,1,"Odd perfect number conjecture, special-exponent case $k \ge 5$"
+349,OddPerfectNumber.no_odd_perfect_special_exponent_one,0.0323,0.0323,1,1,1,"Odd perfect number conjecture, special-exponent case $k = 1$"
+350,BookSixth.crossing_lemma,0.0313,0.0313,1,1,1,"Chapter 45, Theorem 4: crossing lemma (drawing form)"
+351,BookSixth.high_girth_chromatic,0.0313,0.0313,1,1,1,"Chapter 45, Theorem 3: high girth and chromatic number"
+352,BookSixth.latin_asymptotic,0.0313,0.0313,1,1,1,"Chapter 37, Corollary: Latin square asymptotic"
+353,BookSixth.round_circle_unlink,0.0313,0.0313,1,1,1,"Chapter 15, Theorem 1: pairwise unlinked round circles"
+354,EulerMascheroni.Mixed.value_relation_lifting_conjecture,0.0309,0.0000,1,2,2,Conjectural arithmetic lifting for the explicit Euler–Gompertz mixed system
+355,Erdos9796Mission.minimal_counterexample_removable,0.0304,0.0304,1,3,3,Descent: a minimal counterexample with more than nine vertices has a removable vertex
+356,HarmonicBuildingKL.orderDenominatorDividesWeylWD,0.0303,0.0345,1,1,1,The order of a harmonic map into a building has denominator dividing the Weyl group
+357,HarmonicBuildingKL.orderExistsAndAtLeastOneWD,0.0303,0.0345,1,1,1,The order of a nonconstant harmonic map into a building exists and is at least one
+358,HorizontalPadicL.friedberg_hoffstein_quadratic_twist_nonzero,0.0290,0.0295,1,2,2,Friedberg–Hoffstein nonvanishing quadratic twist
+359,HorizontalPadicL.quadratic_seed_implies_corollary_5_17,0.0290,0.0295,1,2,2,Prime-by-prime horizontal propagation from a quadratic seed
+360,mme_dwz_fourth_value_surplus_witness,0.0286,0.0000,1,2,2,DWZ fourth-power surplus certificate witness
+361,DiazModulus.diaz_of_exp_not_real,0.0250,0.0625,1,1,1,Diaz's conjecture when the exponential is not real
+362,DiazModulus.diaz_of_exp_real,0.0250,0.0625,1,1,1,Diaz's conjecture when the exponential is real
+363,PoincareFormalization.ExtinctionEndgame.exists_width_controlled_surgery_topology,0.0213,0.0000,1,1,1,Construct uniform width-controlled surgery topology
+364,PoincareFormalization.ExtinctionEndgame.nonempty_homeomorph_sphere_of_standard_decomposition,0.0213,0.0000,1,1,1,The simply connected endgame for a standard connected-sum decomposition
+365,PoincareFormalization.exists_smooth_structure_three,0.0213,0.0000,1,1,1,Moise's theorem: every topological $3$-manifold admits a smooth structure
+366,PoincareFormalization.nonempty_sdiffeomorph_sphere_three,0.0213,0.0000,1,1,1,Three-dimensional smooth Poincaré conjecture — Mathlib statement
+367,Hirsch.balanced_polynomial_bound,0.0200,0.0200,1,1,1,Polynomial Hirsch bound for balanced H-polytopes
+368,CollatzMission.no_divergent_counterexamples,0.0185,0.0000,1,1,1,No one-avoiding non-cyclic orbits
+369,CollatzMission.no_eventual_cycle_counterexamples,0.0185,0.0000,1,1,1,No one-avoiding eventual cycles
+370,CollatzMission.odd_inputs_conjecture,0.0185,0.0000,1,1,1,Collatz conjecture for positive odd inputs
+371,HorizontalPadicL.corollary_5_17,0.0139,0.0141,1,1,1,Corollary 5.17 for new eigenforms
+372,HorizontalPadicL.ellipticCurve_eigenform_specialization,0.0139,0.0141,1,1,1,Specialization from a modular elliptic curve to a new eigenform
+373,EulerMascheroni.Sondow.fractional_lower_bound_conjecture,0.0133,0.0000,1,1,1,Open Sondow fractional-part condition for Euler irrationality
+374,EulerMascheroni.Sondow.scaled_integral_bounds,0.0133,0.0000,1,1,1,Sondow scaled positive remainder bound
+375,EulerMascheroni.gamma_transcendental,0.0133,0.0000,1,1,1,Euler's constant is transcendental
+376,Freiman.lower_models,0.0129,0.0129,1,2,2,Freiman lower construction: models
+377,mme_more_asymmetry_finite_regional_surplus_certificate,0.0123,0.0000,1,2,2,Construct a finite regional CW certificate with strict More Asymmetry surplus
+378,mme_CW_subrank_capacity_poly_lower,0.0110,0.0000,1,2,2,
+379,mme_dwz_fourth_fixed_tau_value_surplus,0.0059,0.0000,1,1,1,DWZ fourth-power strict value surplus above 2401
+380,mme_omega_lt_237134,0.0059,0.0000,1,1,1,More Asymmetry bound: omega < 2.37134
+381,Freiman.lower_interval,0.0050,0.0050,1,1,1,The lower interval in the Lagrange spectrum
+382,AaronsonAmbainis.aaronson_ambainis_conjecture,0.0000,0.0000,0,0,0,Aaronson--Ambainis conjecture: bounded low-degree polynomials have an influential variable
+383,AlmostComplexToComplex.every_closed_almost_complex_manifold_admits_complex_structure,0.0000,0.0000,0,0,0,Almost-complex-to-complex conjecture for closed manifolds
+384,BSD.birch_swinnerton_dyer,0.0000,0.0000,0,0,0,"Birch and Swinnerton-Dyer conjecture: $\operatorname{ord}_{s=1} L(E,s) = \operatorname{rank} E(\mathbb{Q})$ for every elliptic curve $E/\mathbb{Q}$ (Clay Millennium Prize Problem)"
+385,BanditAlgorithm.chernoff_stopping_time_sample_complexity,0.0000,0.0000,0,0,0,$\\limsup_{\\delta\\to0}\\mathbb{E}[\\tau_\\delta]/\\log(1/\\delta)\\le c^*(\\nu)$ under optimal tracking
+386,BanditAlgorithm.gaussian_ts_pull_count_rhs_bound,0.0000,0.0000,0,0,0,Gaussian tail sums in the Thompson-sampling pull-count decomposition
+387,BanditAlgorithm.linear_bandit_unit_ball_coordinate_flip_stopped_loss_lower_bound,0.0000,0.0000,0,0,0,Coordinate-flip stopped-loss lower bound for unit-ball linear bandits
+388,Beal_Conjecture,0.0000,0.0000,0,0,0,
+389,BirkhoffGlobalSection.birkhoff_retrograde_global_section,0.0000,0.0000,0,0,0,Birkhoff's retrograde rational global-section conjecture
+390,BookSixth.sixthEditionExtension,0.0000,0.0000,0,0,0,Sixth-edition extension: 21 precise formalization targets
+391,BoydChua.solution,0.0000,0.0000,0,0,0,Theorem 1: approximation by a bank of linear filters and a polynomial readout
+392,BraidsLinksMCG.thm_1_8_artin_presentation,0.0000,0.0000,0,0,0,"Theorem 1.8 (Artin, 1925): $B_n \cong \pi_1 B_{0,n}E^2$"
+393,BurauFaithful.burau_faithful_four,0.0000,0.0000,0,0,0,The Burau representation $\rho_4$ of $B_4$ is faithful
+394,Chens_Theorem,0.0000,0.0000,0,0,0,
+395,Chou.hasPackingProperty_freeGroup,0.0000,0.0000,0,0,0,Free groups have property (P)
+396,Chou.isVirtuallyNilpotent_or_hasExponentialGrowth_of_elementaryAmenable,0.0000,0.0000,0,0,0,Theorem 3.2: finitely generated elementary amenable groups are almost nilpotent or of exponential growth
+397,Chou.isVirtuallyNilpotent_or_hasFreeSubsemigroupOfRankTwo_of_elementaryAmenable,0.0000,0.0000,0,0,0,Theorem 3.2′: finitely generated elementary amenable groups are almost nilpotent or contain a free subsemigroup on two generators
+398,CirclePackingConstants.c_all,0.0000,0.0000,0,0,0,All currently formalized exact circle-packing constants
+399,CollapsibleCubics.cubic_collapsible,0.0000,0.0000,0,0,0,Every cubic algebraic number is collapsible
+400,CollatzMission.collatz_conjecture,0.0000,0.0000,0,0,0,Collatz conjecture
+401,Congruent_Number_Tunnell_Even_Converse,0.0000,0.0000,0,0,0,
+402,Congruent_Number_Tunnell_Odd_Converse,0.0000,0.0000,0,0,0,
+403,Conway99.conway_99,0.0000,0.0000,0,0,0,"Conway's 99-graph problem: a strongly regular graph with parameters $(99,14,1,2)$"
+404,CubicP3Partition.root_problem,0.0000,0.0000,0,0,0,OPG-46613: $P_3$-partitions of cubic 3-connected graphs
+405,DeBruijnNewman.debruijn_newman_constant_nonneg,0.0000,0.0000,0,0,0,Theorem 1 - the de Bruijn-Newman constant satisfies $\Lambda \ge 0$
+406,DiazModulus.diaz_modulus_conjecture,0.0000,0.0000,0,0,0,Diaz's modulus conjecture
+407,Erdos142.erdos_142_variants_lower,0.0000,0.0000,0,0,0,Erdős #142 (`variants.lower`): $r_k(N) = o_k(N/\log N)$
+408,Erdos287.max_gap_ge_three,0.0000,0.0000,0,0,0,Erdős Problem 287: some gap between the denominators is at least three
+409,Erdos390.eventual_central_tail_split,0.0000,0.0000,0,0,0,Theorem 10.3 — Central anchor and tail quotient decomposition
+410,Erdos390.eventual_residual_assembly_of_central_anchor,0.0000,0.0000,0,0,0,Theorem 10.3 — Residual tail exactification given central anchor
+411,Erdos81.root_problem,0.0000,0.0000,0,0,0,Erdos Problem 81: n²/6 plus a linear remainder
+412,ErdosStraus242.erdos_242,0.0000,0.0000,0,0,0,The Erdős–Straus conjecture - unresolved root goal
+413,Esgk.general_position_distinct_distances_superlinear,0.0000,0.0000,0,0,0,Superlinear growth of distinct distances in general position
+414,Esquisse.galois_action_faithful_on_belyi_polynomials,0.0000,0.0000,0,0,0,$\mathrm{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$ acts faithfully on dessins d'enfants (plane trees)
+415,EulerMascheroni.exists_int_linear_forms_tendsto_zero,0.0000,0.0000,0,0,0,Vanishing integer linear forms in $\gamma$
+416,EulerMascheroni.gamma_irrational,0.0000,0.0000,0,0,0,Euler's constant is irrational
+417,FCP.BatemanHorn.bateman_horn_conjecture,0.0000,0.0000,0,0,0,Bateman--Horn conjecture
+418,FiniteMagmaE677.e677_implies_e255_finite,0.0000,0.0000,0,0,0,E677 implies E255 for finite magmas
+419,Freiman.maximal_hall_ray,0.0000,0.0000,0,0,0,Freiman's maximal Hall ray
+420,Freiman.middle_cover_realization,0.0000,0.0000,0,0,0,middle cover realization
+421,Freiman.middle_good38,0.0000,0.0000,0,0,0,middle good38
+422,Freiman.middle_initial_cover,0.0000,0.0000,0,0,0,middle initial cover
+423,Freiman.middle_path_choice,0.0000,0.0000,0,0,0,middle path choice
+424,Freiman.middle_path_realized,0.0000,0.0000,0,0,0,middle path realized
+425,Freiman.middle_step,0.0000,0.0000,0,0,0,middle step
+426,Gelbart.hecke_correspondence,0.0000,0.0000,0,0,0,Theorem 1 (Hecke): automorphy ⟺ nice Dirichlet series
+427,Gilbreath.gilbreath_conjecture,0.0000,0.0000,0,0,0,Gilbreath's conjecture
+428,Goldbachs_Weak_Conjecture,0.0000,0.0000,0,0,0,
+429,Green_Tao_Theorem,0.0000,0.0000,0,0,0,
+430,Gribov.no_continuous_gauge_fixing,0.0000,0.0000,0,0,0,Singer's Corollary 4: no continuous gauge exists
+431,GrothendieckTeichmuller.deligne_drinfeld_ihara,0.0000,0.0000,0,0,0,"Deligne-Drinfeld-Ihara conjecture: $\mathfrak{grt}_1$ is free on $\sigma_3, \sigma_5, \sigma_7, \dots$"
+432,Hadamard_Conjecture,0.0000,0.0000,0,0,0,
+433,Hairer.reconstruction_operator_nonpos,0.0000,0.0000,0,0,0,Existence of a linear reconstruction operator for $\alpha<\gamma\le 0$
+434,Hairer.reconstruction_theorem,0.0000,0.0000,0,0,0,"Reconstruction theorem (Hairer, Theorem 3.10) for $\gamma>0$"
+435,HairerSPDE.cameronMartin_quasiInvariant,0.0000,0.0000,0,0,0,Cameron-Martin quasi-invariance of a centred Gaussian measure
+436,HarmonicBuilding.circleLocalGeodesicSpeed,0.0000,0.0000,0,0,0,In the constant-distance case the circle map has constant speed $\alpha L$
+437,HarmonicBuilding.constantOnCircleImpliesConstantOnBall,0.0000,0.0000,0,0,0,A harmonic map constant on a circle is constant on the disc
+438,HarmonicBuildingKL.orderReducesToHomogeneousWD,0.0000,0.0000,0,0,0,Reduction to a homogeneous map on a conical building with directions
+439,HarmonicBuildingKL.possibleOrdersOfBuildingWithDirections,0.0000,0.0000,0,0,0,"Possible orders of harmonic maps into Euclidean buildings, over the Kleiner--Leeb axioms"
+440,Hirsch.polynomial_hirsch_conjecture,0.0000,0.0000,0,0,0,The polynomial Hirsch conjecture
+441,HorizontalPadicL.eigenform_horizontalPadicLFunction_exists,0.0000,0.0000,0,0,0,Existence of a nonzero horizontal 2-adic L-function
+442,HorizontalPadicL.elliptic_curve_nonvanishing,0.0000,0.0000,0,0,0,Theorem 1.1(1) — fixed-order nonvanishing for one elliptic curve
+443,HorizontalPadicL.horizontalPadicLFunction_implies_corollary_5_17,0.0000,0.0000,0,0,0,A nonzero horizontal p-adic L-function implies fixed-order nonvanishing
+444,InverseGalois.inverse_galois_problem,0.0000,0.0000,0,0,0,The inverse Galois problem
+445,KAMMainCorrected.poincareTreshchevPersistence,0.0000,0.0000,0,0,0,Corrected Poincaré–Treshchev persistence under almost-periodic perturbations
+446,KServer.kserver_conjecture,0.0000,0.0000,0,0,0,The deterministic $k$-server conjecture
+447,Komlos.komlos_conjecture,0.0000,0.0000,0,0,0,The Komlós conjecture
+448,LeanEval.Geometry.SpaceGroupsProblem.space_groups,0.0000,0.0000,0,0,0,"230 space groups: the exact 230, 219, and 65 counts"
+449,LeanEval.Geometry.WhitneyEmbeddingProblem.whitney_embedding,0.0000,0.0000,0,0,0,"Whitney embedding theorem: strong dimension 2n, including noncompact manifolds"
+450,LeanEval.NumberTheory.riemann_hypothesis_iff_lagarias_elementary_criterion,0.0000,0.0000,0,0,0,Lagarias criterion is equivalent to RH
+451,Leopoldt.leopoldt_CM,0.0000,0.0000,0,0,0,Leopoldt's conjecture holds in CM fields for odd $p$
+452,MTT.Cohomology.eichler_shimura_hecke_compatible,0.0000,0.0000,0,0,0,The Eichler–Shimura decomposition is compatible with the prime Hecke operators
+453,MagicSquares.semi_magic_polynomial,0.0000,0.0000,0,0,0,BCCG Theorem 1: the counting polynomial of semi-magic squares
+454,Mandelbrot.mandelbrot_locally_connected,0.0000,0.0000,0,0,0,MLC: the Mandelbrot set is locally connected
+455,MetricTSP.four_thirds_conjecture,0.0000,0.0000,0,0,0,The 4/3 conjecture for the subtour LP
+456,NavierStokes.existence_and_smoothness_R3,0.0000,0.0000,0,0,0,Fefferman (A): existence and smoothness of Navier–Stokes solutions on $\mathbb{R}^3$ (Clay Millennium Prize Problem)
+457,NgoFL.isogeny_weyl_equivariant,0.0000,0.0000,0,0,0,1.12.4 / 1.12.6: $\psi_*$ conjugates $W_1$ onto $W_2$
+458,OPG169.root_problem,0.0000,0.0000,0,0,0,OPG-169: the Two Color Conjecture for planar digraphs
+459,OPG1808.root_problem,0.0000,0.0000,0,0,0,OPG-1808: rainbow directed triangle or monochromatic source
+460,OPG37271.root_problem,0.0000,0.0000,0,0,0,OPG-37271: six colors for every finite subcubic graph
+461,OPG37357.universal_planar_bound,0.0000,0.0000,0,0,0,OPG-37357: a universal obstacle bound for planar graphs
+462,OPG401.root_problem,0.0000,0.0000,0,0,0,OPG-401: circular chromatic number at most 20/7
+463,OPG434.root_problem,0.0000,0.0000,0,0,0,OPG-434: the weak pentagon problem
+464,PoincareFormalization.nonempty_homeomorph_sphere_three,0.0000,0.0000,0,0,0,Three-dimensional topological Poincaré conjecture — Mathlib statement
+465,PoincareFormalization.persistent_profiles_of_not_homeomorph_sphere,0.0000,0.0000,0,0,0,Persistent profiles from a hypothetical Poincare counterexample
+466,ReservoirSAS.sas_universal,0.0000,0.0000,0,0,0,Universality of SAS reservoir computers (Thm. 3.12)
+467,RobustOptimization.grc_conic_decomposition,0.0000,0.0000,0,0,0,"The globalized robust counterpart of a conic constraint decomposes (Ben-Tal et al., Proposition 11.3.3)"
+468,RybinAI2026.P01.matrix_integral_inequality,0.0000,0.0000,0,0,0,Problem 01 Goal — Matrix integral inequality
+469,RybinAI2026.P01.matrix_integral_inequality_integer_gram_reindex_residual,0.0000,0.0000,0,0,0,Integer-Gram residual beyond ratio and crossed-permutation certificates
+470,RybinAI2026.P01.matrix_integral_inequality_rational_gram,0.0000,0.0000,0,0,0,Matrix integral inequality for rational regularized Gram matrices
+471,RybinAI2026.P01.matrix_integral_kernel_sum_le_max,0.0000,0.0000,0,0,0,"Sign-free kernel bound $I_1+I_2\le\max(d(A,C),d(B,D))$ for the matrix integral inequality"
+472,RybinAI2026.P02Hilbert.hilbert_compression_rigidity,0.0000,0.0000,0,0,0,Compression rigidity on arbitrary complex Hilbert spaces
+473,RybinAI2026.P13.exponential_boundary_elementary_density,0.0000,0.0000,0,0,0,Problem 13 Goal — Exponential boundary elementary density
+474,RybinAI2026.P16.complete_MUB_dimension_six,0.0000,0.0000,0,0,0,Problem 16 Goal — Complete MUB dimension six
+475,SIC_POVM_Conjecture,0.0000,0.0000,0,0,0,
+476,SP4Mission.smooth_poincare_4,0.0000,0.0000,0,0,0,Smooth four-dimensional Poincaré conjecture — sphere form
+477,SchinzelHypothesisH.hypothesis_H,0.0000,0.0000,0,0,0,Schinzel's Hypothesis H
+478,SmaleNinth.ram_to_bss_quadratic,0.0000,0.0000,0,0,0,Real RAM to tape machine: quadratic-overhead compilation
+479,SmaleNinth.smale_ninth_problem,0.0000,0.0000,0,0,0,Smale's 9th problem: polynomial-time LP feasibility over $\mathbb{R}$
+480,StabilizerRank.stabRank_hState_not_bigO,0.0000,0.0000,0,0,0,Super-polynomial lower bound on the stabilizer rank of $|H^{\otimes n}\rangle$
+481,SymplecticFreeModules.symplecticFreeModulesMain,0.0000,0.0000,0,0,0,Theorems 1.1–1.3 — Symplectic polynomial modules and Hamiltonian application
+482,TaoFivePrimes.even_goldbach_verified,0.0000,0.0000,0,0,0,Numerical verification of the even Goldbach conjecture up to 4 * 10^14
+483,TaoFivePrimes.five_primes,0.0000,0.0000,0,0,0,Every odd number greater than 1 is the sum of at most five primes
+484,TaoFivePrimes.major_arc_estimate,0.0000,0.0000,0,0,0,Proposition 8.3: the strongly major arc estimate (8.12)
+485,TaoFivePrimes.minor_arc_L2,0.0000,0.0000,0,0,0,Proposition 8.4: the $L^2$ estimate off the strongly major arc
+486,TaoFivePrimes.minor_arc_Linfty,0.0000,0.0000,0,0,0,Estimate (8.18): the $L^\infty$ bound off the strongly major arc
+487,TaoFivePrimes.prime_in_short_interval,0.0000,0.0000,0,0,0,A prime in every short interval above 1.1 * 10^10 (Ramare-Saouter)
+488,TaoFivePrimes.three_primes_near,0.0000,0.0000,0,0,0,"Three odd primes summing into [x - N0, x - 2] (circle-method core)"
+489,TarchaBraids.thm_3_15_artin_presentation,0.0000,0.0000,0,0,0,"Teorema 3.15 (Artin): $\pi_1(B_{0,n}E^2) \cong \langle \sigma_i \mid \text{braid relations}\rangle$, generator by generator"
+490,Thurston23.thurston_question_23,0.0000,0.0000,0,0,0,Goal - the volumes of hyperbolic 3-manifolds are not all rationally related
+491,UndecidableSpectralGap.usg_spectral_gap_main,0.0000,0.0000,0,0,0,Theorem 3 - undecidability of the spectral gap (main theorem)
+492,WeightedRootIntegralIdentity.weighted_root_integral_identity,0.0000,0.0000,0,0,0,Weighted root integral identity
+493,WeilTypeCycles.hodge_weil_classes_of_abelian_sixfolds_of_discriminant_neg_one_are_algebraic,0.0000,0.0000,0,0,0,Theorem 1.5.1 — Hodge–Weil classes of abelian sixfolds of Weil type of discriminant $-1$ are algebraic
+494,Z2nFiveEighths.cubeFree_card_le_five_eighths,0.0000,0.0000,0,0,0,Long-Wagner Conjecture 5.1: a cube-free set mod $2^n$ has size at most $\frac{5}{8}2^n$
+495,bernoulli_tangent_sampling_concentration_formula_bound_dense,0.0000,0.0000,0,0,0,
+496,least_squares_certificate_normal_bound_from_neumann_term_bounds,0.0000,0.0000,0,0,0,
+497,mme_CW_square_laser_value_2376_of_coupled,0.0000,0.0000,0,0,0,CW tensor-square tau-value at the exact 2.376 profile
+498,mme_laser_per_N_witness,0.0000,0.0000,0,0,0,
+499,mme_omega_lt_237193,0.0000,0.0000,0,0,0,Duan–Wu–Zhou fourth-power bound: omega < 2.37193
+500,momentAngle_arbitrary_torsion,0.0000,0.0000,0,0,0,Theorem 1.7 — Arbitrary torsion in moment-angle and loop-space homology
+501,no_diophantine_quintuple,0.0000,0.0000,0,0,0,There is no Diophantine quintuple
+502,odd_perfect_number_conjecture,0.0000,0.0000,0,0,0,
+503,riemann_hypothesis,0.0000,0.0000,0,0,0,
+504,twin_prime_conjecture,0.0000,0.0000,0,0,0,

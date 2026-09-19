@@ -1,0 +1,225 @@
+{
+  "open_stratum_size": 504,
+  "bracket": {
+    "multi_sketch_note": "union 8333 edges vs guaranteed 7895",
+    "spearman_union_vs_guaranteed": 0.8747,
+    "top40_overlap": 34
+  },
+  "null_transitive_dependents": {
+    "spearman_vs_conemass": 0.7995,
+    "top40_overlap": 16
+  },
+  "null_chain_depth": {
+    "spearman_vs_conemass": 0.805,
+    "top40_overlap": 16
+  },
+  "divergent_top40_conemass_but_outside_trans_top40": [
+    {
+      "name": "green_tao_theorem",
+      "massU": 1,
+      "deps": 1,
+      "trans": 1,
+      "depth": 1,
+      "transRank": 283,
+      "depthRank": 281
+    },
+    {
+      "name": "RamareSaouter2003.has_prime_in_interval",
+      "massU": 1,
+      "deps": 1,
+      "trans": 1,
+      "depth": 1,
+      "transRank": 282,
+      "depthRank": 280
+    },
+    {
+      "name": "Hadamard.exists_orthogonal_pm_one",
+      "massU": 1.3333,
+      "deps": 1,
+      "trans": 2,
+      "depth": 2,
+      "transRank": 210,
+      "depthRank": 202
+    },
+    {
+      "name": "hardy_littlewood_conjecture_A",
+      "massU": 1.5,
+      "deps": 1,
+      "trans": 2,
+      "depth": 2,
+      "transRank": 209,
+      "depthRank": 201
+    },
+    {
+      "name": "CollapsibleCubics.exists_split_product_mod_depressed_cubic_of_not_normForm_repr",
+      "massU": 0.6762,
+      "deps": 1,
+      "trans": 3,
+      "depth": 3,
+      "transRank": 159,
+      "depthRank": 146
+    },
+    {
+      "name": "SymplecticFreeModules.exceptional_artinian_chain_stabilizes",
+      "massU": 0.7024,
+      "deps": 1,
+      "trans": 3,
+      "depth": 3,
+      "transRank": 158,
+      "depthRank": 145
+    },
+    {
+      "name": "diophantine_quintuple_fujita_regular",
+      "massU": 0.755,
+      "deps": 2,
+      "trans": 4,
+      "depth": 4,
+      "transRank": 109,
+      "depthRank": 93
+    },
+    {
+      "name": "WhitneyEmbedding.exists_uniform_dim_immersion_on_compacts",
+      "massU": 0.7667,
+      "deps": 1,
+      "trans": 4,
+      "depth": 4,
+      "transRank": 108,
+      "depthRank": 92
+    },
+    {
+      "name": "SymplecticFreeModules.canonical_invariant_submodule_dichotomy",
+      "massU": 0.9286,
+      "deps": 1,
+      "trans": 4,
+      "depth": 4,
+      "transRank": 107,
+      "depthRank": 91
+    },
+    {
+      "name": "LeanEval.Geometry.SpaceGroupsProblem.space_groups_master_classification",
+      "massU": 1.7,
+      "deps": 3,
+      "trans": 4,
+      "depth": 2,
+      "transRank": 106,
+      "depthRank": 200
+    },
+    {
+      "name": "WeakGoldbach.three_odd_primes_ge_exp3100",
+      "massU": 0.6527,
+      "deps": 1,
+      "trans": 5,
+      "depth": 4,
+      "transRank": 72,
+      "depthRank": 95
+    },
+    {
+      "name": "WeakGoldbach.three_odd_primes_10pow27_to_exp3100",
+      "massU": 0.6527,
+      "deps": 1,
+      "trans": 5,
+      "depth": 4,
+      "transRank": 71,
+      "depthRank": 94
+    },
+    {
+      "name": "MomentAngleSurgery.exists_neighborly_twoComplex_cokernel",
+      "massU": 0.7006,
+      "deps": 1,
+      "trans": 5,
+      "depth": 5,
+      "transRank": 70,
+      "depthRank": 53
+    },
+    {
+      "name": "HarmonicBuilding.constantOnOpenImpliesConstant",
+      "massU": 0.7194,
+      "deps": 1,
+      "trans": 5,
+      "depth": 5,
+      "transRank": 69,
+      "depthRank": 52
+    },
+    {
+      "name": "ErdosStraus242.hard_core_840_after_mod11_mod19_mod23_mod31_mod43",
+      "massU": 0.825,
+      "deps": 1,
+      "trans": 5,
+      "depth": 5,
+      "transRank": 68,
+      "depthRank": 51
+    },
+    {
+      "name": "OddPerfectNumber.no_dris_nine_s_ge_two_not_even",
+      "massU": 0.8323,
+      "deps": 1,
+      "trans": 5,
+      "depth": 5,
+      "transRank": 67,
+      "depthRank": 50
+    },
+    {
+      "name": "OddPerfectNumber.no_dris_thirteen_s_ge_two_not_even",
+      "massU": 0.8656,
+      "deps": 1,
+      "trans": 5,
+      "depth": 5,
+      "transRank": 66,
+      "depthRank": 49
+    },
+    {
+      "name": "momentAngle_topSummand_allDegrees_homology",
+      "massU": 0.9506,
+      "deps": 1,
+      "trans": 5,
+      "depth": 5,
+      "transRank": 65,
+      "depthRank": 48
+    },
+    {
+      "name": "OddPerfectNumber.no_dris_five_s_odd_ge_five",
+      "massU": 0.9751,
+      "deps": 1,
+      "trans": 5,
+      "depth": 5,
+      "transRank": 64,
+      "depthRank": 47
+    },
+    {
+      "name": "zeta_ne_zero_of_strip_of_six_lt_im",
+      "massU": 1.0519,
+      "deps": 1,
+      "trans": 5,
+      "depth": 5,
+      "transRank": 63,
+      "depthRank": 46
+    },
+    {
+      "name": "OddPerfectNumber.k_one_deficiency_impossible",
+      "massU": 1.0739,
+      "deps": 1,
+      "trans": 5,
+      "depth": 5,
+      "transRank": 62,
+      "depthRank": 45
+    },
+    {
+      "name": "RybinAI2026.P16.extend_four_to_five_partial_hadamards",
+      "massU": 1.1005,
+      "deps": 1,
+      "trans": 5,
+      "depth": 5,
+      "transRank": 61,
+      "depthRank": 44
+    },
+    {
+      "name": "RybinAI2026.P16.base_four_partial_hadamards",
+      "massU": 1.1005,
+      "deps": 1,
+      "trans": 5,
+      "depth": 5,
+      "transRank": 60,
+      "depthRank": 43
+    }
+  ]
+}

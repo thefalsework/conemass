@@ -126,6 +126,14 @@ definitions by audit priority, open theorems by downstream unlock
 mass — with null-model checks and full reproduction scripts. See
 [`examples/prove2me/REPORT.md`](examples/prove2me/REPORT.md).
 
+`examples/github-issues/` is a recorded negative result: unlock-mass
+ranking of GitHub issues by blocking relationships, killed at
+feasibility because public GitHub projects do not record blocking
+edges densely enough to form cones (eight large repos probed; the
+densest tracking structure found is depth-1 epic stars). See
+[`examples/github-issues/REPORT.md`](examples/github-issues/REPORT.md)
+before retrying the idea.
+
 ## Background
 
 The validation — the xz retrodiction, the crates.io replication, the

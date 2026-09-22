@@ -3,7 +3,7 @@
 ## Dependency concentration as a criticality signal
 
 **Author.** Chris Brink (independent)
-**Version.** Draft v0.7, 2026-09-05 (v0.2: retitled; artifacts section.
+**Version.** Draft v0.8, 2026-09-22 (v0.2: retitled; artifacts section.
 v0.3: package-versus-repository distinction made explicit; recommendation
 section ends on the artifact; CLI gained direct Cargo.lock support.
 v0.4: tool and rankings split to their own repo,
@@ -18,7 +18,10 @@ archival record. v0.7, 2026-09-05: the metric is named conemass
 throughout this text and in the tool's CSV columns; ORACLE remains its
 working name in the frozen registered studies and earlier archived
 versions. Pure rename — no computation, ranking, or data row changed,
-as the git history of the published CSVs shows).
+as the git history of the published CSVs shows. v0.8, 2026-09-22:
+closest-prior-work note added, positioning conemass against Pfeiffer's
+PageRank-plus-truck-factor approach (MSR 2021); shell-dependent
+gameability added to limitations. No computation or ranking changed).
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers; each script
 states its expectations in a header written before the run and its
@@ -78,6 +81,17 @@ or 84,439 crates, single-threaded, under fifteen seconds each). Second,
 it is structurally different from every input the incumbent uses:
 dependent counts, PageRank-style measures, and the criticality score's
 signals all reward volume or visibility, and rank-correlate accordingly.
+
+The closest prior work is Pfeiffer (MSR 2021),² which makes the same
+diagnosis of the incumbent — popularity over criticality — and identifies
+quiet-critical packages (six, idna) via PageRank on the reversed
+dependency graph combined with low truck factor. conemass shares the
+diagnosis and the goal but is a different functional: harmonic
+cone-membership mass rather than random-walk centrality. The two
+separate empirically where it matters — on pre-disclosure Debian,
+liblzma5 ranks 36 by PageRank and 8 by conemass (Result 1 below) — and
+Pfeiffer's maintainer-surface pairing composes with conemass exactly as
+it does with PageRank, for anyone who wants a risk-to-capacity ratio.
 
 The functional was originally derived as the closed-form expected-gain
 law of a synthetic graph-growth model, where it provably and completely
@@ -252,6 +266,17 @@ piece is descriptive throughout.
 - **Mappings are hand-curated.** Package-to-repository mappings for the
   join are a table in the published script; errors in it are ours and
   correctable.
+- **The metric is gameable by shell dependents.** A package whose
+  dependency cone is near-empty donates a large per-cone credit to
+  everything it depends on (a cone of size one donates a full 1.0), so
+  publishing shell packages that depend on a target inflates the
+  target's mass. Dependent count is gameable by the same move, but the
+  failure mode should be named rather than discovered: the attack has a
+  detectable signature — mass arriving predominantly from tiny cones —
+  and the same profile occurs naturally as wrapper restatements in the
+  proof-graph application (`examples/prove2me/REPORT.md` in this
+  repository), where it is filtered by cross-checking transitive
+  dependents.
 
 ## Recommendation, ending on the artifact
 
@@ -311,5 +336,10 @@ postscripts.
 Storage) was unavailable at retrieval time: the bucket returns "the
 billing account for the owning project is disabled." We used the most
 recent obtainable artifact of the score as consumed.
+
+² R.-H. Pfeiffer, "Identifying Critical Projects via PageRank and
+Truck Factor," Proceedings of the 18th International Conference on
+Mining Software Repositories (MSR 2021).
+https://www.itu.dk/~ropf/blog/assets/msr2021_pfeiffer.pdf
 
 **Disclosure.** Drafting was AI-assisted under direction.

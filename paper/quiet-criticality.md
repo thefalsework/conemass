@@ -24,7 +24,10 @@ PageRank-plus-truck-factor approach (MSR 2021); shell-dependent
 gameability added to limitations. v0.9, 2026-09-23: evidentiary status
 of the title's two halves made explicit — the zlib half is the measured
 claim, the Kubernetes half a category observation, since Kubernetes has
-no node in the corpora studied and the symmetric test remains not run.
+no node in the corpora studied and the symmetric test remains not run;
+also, the unicode-ident dependent-count tie convention is now stated in
+the text (average-rank 3,582 in the study scripts vs min-rank 3,304 in
+the published CSVs, previously reconciled only in rankings/README.md).
 No computation or ranking changed).
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers; each script
@@ -68,7 +71,11 @@ on the last Debian release before the xz backdoor, it ranks liblzma5
 eighth in the archive, against #173 by dependent count; on crates.io it
 ranks unicode-ident — six direct dependents, one maintainer, present in
 nearly every Rust build — second in the registry, against #3,582 by
-dependent count. The metric is not a
+dependent count. (Tie convention: thousands of crates share that
+six-dependent count; the study scripts rank ties by average position,
+giving 3,582, while the published CSVs in the repository use minimum
+position, giving 3,304. Same data, same six dependents; conemass rank
+is #2 under both.) The metric is not a
 replacement for criticality scoring. It measures a different quantity —
 load rather than fame — and the two disagree exactly where
 prioritization mistakes are most expensive.

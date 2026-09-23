@@ -18,6 +18,9 @@ count and chain depth, and the caveats.
   builds both edge variants (sketch-union and guaranteed intersection).
 - `analyze.mjs` — runs conemass on both variants, joins theorem statuses,
   computes the null models and brackets, writes the ranking CSVs.
+- `pagerank-null.mjs` — post-hoc PageRank comparison (added 2026-09-23):
+  Spearman 0.81, 33/40 top-40 overlap. See the null-checks section of
+  `REPORT.md` for what this does and does not change.
 - `out/ranking-open.csv`, `out/ranking-definitions.csv`, `out/nulls.json`,
   `out/edges-union.csv`, `out/edges-guaranteed.csv` — the outputs behind
   `REPORT.md` (snapshot 2026-09-19, platform v0.10.6).

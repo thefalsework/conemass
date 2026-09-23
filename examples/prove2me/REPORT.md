@@ -148,6 +148,26 @@ Spearman 0.81 and again 16/40 (exact values 0.7995 and 0.805 in
 the top, which is where an allocation signal is consumed: 24 of the top
 40 are rows the null models miss.
 
+**PageRank (added 2026-09-23, post-hoc).** The original nulls above were
+registered before the rankings were read; this one was added later,
+after a conemass run on the Mathlib declaration graph (308K nodes) found
+near-coincidence with PageRank there (Spearman 0.96), which made the
+same check on this graph obligatory. Result: over all 4,034 ranked
+nodes, Spearman 0.81 and **33/40 top-40 overlap** — PageRank
+(alpha=0.85, same edge orientation) surfaces nearly the same head,
+including `StochasticBandit` at PageRank #2. So the practical top of
+these rankings is not unique to conemass; a reader who would have used
+PageRank instead loses little here. What the coincidence does not
+touch: the comparisons against what the platform actually uses
+(dependent count and `closability`, where the head genuinely diverges),
+and the unlock-mass exactness — Property 1 gives sketch edges
+AND-semantics, so closing a theorem releases exactly its mass, a
+statement with no PageRank analog. Script: `pagerank-null.mjs`. The
+emerging pattern across graph types is that conemass separates from
+PageRank on shallow, many-rooted ecosystem graphs (Debian: liblzma5 at
+PageRank 36 vs conemass 8) and coincides with it on deep uniform proof
+graphs; that boundary is documented rather than hidden.
+
 Where a parent theorem has several accepted sketches (182 of 1,565
 sketch-bearing parents), only one alternative needs to complete, so cone
 mass under the sketch-union is an upper bound on unlock; a second run

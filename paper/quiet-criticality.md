@@ -3,7 +3,7 @@
 ## Dependency concentration as a criticality signal
 
 **Author.** Chris Brink (independent)
-**Version.** Draft v0.8, 2026-09-22 (v0.2: retitled; artifacts section.
+**Version.** Draft v0.9, 2026-09-23 (v0.2: retitled; artifacts section.
 v0.3: package-versus-repository distinction made explicit; recommendation
 section ends on the artifact; CLI gained direct Cargo.lock support.
 v0.4: tool and rankings split to their own repo,
@@ -21,7 +21,11 @@ versions. Pure rename — no computation, ranking, or data row changed,
 as the git history of the published CSVs shows. v0.8, 2026-09-22:
 closest-prior-work note added, positioning conemass against Pfeiffer's
 PageRank-plus-truck-factor approach (MSR 2021); shell-dependent
-gameability added to limitations. No computation or ranking changed).
+gameability added to limitations. v0.9, 2026-09-23: evidentiary status
+of the title's two halves made explicit — the zlib half is the measured
+claim, the Kubernetes half a category observation, since Kubernetes has
+no node in the corpora studied and the symmetric test remains not run.
+No computation or ranking changed).
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers; each script
 states its expectations in a header written before the run and its
@@ -36,7 +40,17 @@ Software Heritage.
 
 The OpenSSF criticality-score top-1000 — the list consumed by the
 Securing Critical Projects working group — contains Kubernetes and misses
-zlib. It also misses serde, syn, proc-macro2, libexpat, and libxml2, and
+zlib. The two halves of that sentence carry different kinds of support,
+and the difference should be on the table from the start. The zlib half
+is the measured claim this piece documents. The Kubernetes half is a
+category observation, not a conemass comparison: Kubernetes is an
+intensively monitored application that no package depends on — it has
+no node in the dependency graphs studied here — sitting at the head of
+a list whose purpose is to surface unwatched load-bearing dependencies.
+We have not shown Kubernetes scores low on conemass (see the symmetric-
+test limitation below); we observe that it is the wrong *kind* of thing
+to top such a list. The incumbent also misses serde, syn, proc-macro2,
+libexpat, and libxml2, and
 its collection pipeline, which enumerates GitHub-hosted source
 repositories, could not have ranked the xz project at any position in
 2022, because xz was hosted elsewhere. One distinction runs through this
@@ -230,7 +244,13 @@ piece is descriptive throughout.
   symmetric test requires a corpus-mapping exercise we have not done.
   Until it is done, the correct statement is that conemass's head is
   invisible to the incumbent — not that the two rankings are
-  anti-correlated.
+  anti-correlated. This is also why the title's Kubernetes half is a
+  category observation rather than a measured comparison, as stated in
+  the summary: Kubernetes has no node in either published corpus
+  (neither string matches any row of the Debian or crates top-1000s,
+  and Debian does not package it), so conemass can say nothing about
+  its rank, only that a dependency-graph metric cannot see it at all —
+  which is, in miniature, the difference between the two instruments.
 - **One retrodiction is one retrodiction.** liblzma at #8 is a single
   post-hoc case, chosen because it is the consensus catastrophe. The
   metric's forward value is untested. The honest deployment model is a

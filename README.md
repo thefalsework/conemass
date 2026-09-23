@@ -59,6 +59,18 @@ of its size. High conemass with a low dependent count is the quiet
 load-bearing profile. The rows that matter for triage are the ones where
 `conemass_rank` is far ahead of `dependents_rank`.
 
+**How is this not PageRank?** Different functional (harmonic
+cone-membership mass, not random-walk diffusion), and the difference is
+measured rather than claimed: against dependent count the top-40s
+overlap only 12/40 (Debian) and 19/40 (crates); against PageRank,
+22/40 on Debian — where conemass surfaces deep gateway chains PageRank
+buries (libkeyutils1: PageRank 981, conemass 30) — but 35/40 on
+crates, where PageRank ranks unicode-ident #1 outright. Where the two
+coincide, conemass is the zero-parameter, deterministic, auditable one:
+a score is a finite sum you can enumerate, not a fixed point. The full
+accounting, including the cases that favor PageRank, is in the paper's
+head-versus-bulk section.
+
 ## Usage
 
 ```

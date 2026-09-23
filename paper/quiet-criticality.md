@@ -28,7 +28,13 @@ no node in the corpora studied and the symmetric test remains not run;
 also, the unicode-ident dependent-count tie convention is now stated in
 the text (average-rank 3,582 in the study scripts vs min-rank 3,304 in
 the published CSVs, previously reconciled only in rankings/README.md).
-No computation or ranking changed).
+No computation or ranking changed. v0.10, 2026-09-23: head-overlap
+section added with measured top-40/top-100 overlap against dependent
+count and PageRank on both corpora (`06-head-overlap.mjs`), including
+the facts that cut against us: PageRank places unicode-ident #1 on
+crates and liblzma5 at 36 on Debian — the differentiation against
+PageRank is narrower than against dependent count, and is now stated
+with numbers rather than left for a reader to discover).
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers; each script
 states its expectations in a header written before the run and its
@@ -108,11 +114,12 @@ diagnosis of the incumbent — popularity over criticality — and identifies
 quiet-critical packages (six, idna) via PageRank on the reversed
 dependency graph combined with low truck factor. conemass shares the
 diagnosis and the goal but is a different functional: harmonic
-cone-membership mass rather than random-walk centrality. The two
-separate empirically where it matters — on pre-disclosure Debian,
-liblzma5 ranks 36 by PageRank and 8 by conemass (Result 1 below) — and
-Pfeiffer's maintainer-surface pairing composes with conemass exactly as
-it does with PageRank, for anyone who wants a risk-to-capacity ratio.
+cone-membership mass rather than random-walk centrality. How far the
+two separate in practice is measured, not asserted — per-corpus
+head-overlap numbers, including the cases that favor PageRank, are in
+the head-versus-bulk section below — and Pfeiffer's maintainer-surface
+pairing composes with conemass exactly as it does with PageRank, for
+anyone who wants a risk-to-capacity ratio.
 
 The functional was originally derived as the closed-form expected-gain
 law of a synthetic graph-growth model, where it provably and completely
@@ -206,6 +213,62 @@ near-zero independent scrutiny, and presence in a large fraction of all
 builds is a supply-chain target profile, and dependent-count scoring
 cannot surface it even in principle: the count is one.
 
+## Head versus bulk: what the ranking actually buys
+
+Global rank correlation between conemass and volume metrics is high —
+Spearman 0.95–0.99 across full registries — and that number, read
+alone, invites the wrong conclusion. Nobody consumes rank 40,000 of a
+criticality list. The artifact a registry operator or working group
+consumes is the head — a top-40 watchlist, a top-100 review queue —
+and the head is where the orderings come apart. Measured directly
+(top-k set overlap, `06-head-overlap.mjs`, run 2026-09-23 on the same
+corpora as Results 1 and 2):
+
+| comparison | Debian 2023 | crates.io 2022 |
+|---|---|---|
+| conemass vs dependent count, top-40 | 12/40 | 19/40 |
+| conemass vs dependent count, top-100 | 35/100 | 47/100 |
+| conemass vs PageRank, top-40 | 22/40 | 35/40 |
+| conemass vs PageRank, top-100 | 63/100 | 75/100 |
+
+Against dependent count — the signal the incumbent's ecosystem
+actually consumes, via deps.dev — the head disagreement is the
+product: two-thirds of the Debian top-40 and half the crates top-40
+are rows dependent-count ranking does not surface, and Results 1 and 2
+document that those rows are the quiet load-bearing class, not noise.
+
+Against PageRank the honest picture is narrower, and it splits by
+corpus. On Debian the two genuinely diverge at the head (22/40), and
+the rows conemass surfaces that PageRank buries are a coherent class:
+the Kerberos gateway chain (libkrb5support0 at PageRank 263,
+libk5crypto3 at 345, libkeyutils1 at **981** — all conemass top-30),
+libcom-err2 (251), libgdbm-compat4 (143, dependent-count rank 3,836).
+These are deep shared-runtime chains sitting under every cone their
+gateway reaches — the same topology as the xz attack path. On
+crates.io, by contrast, PageRank's head nearly coincides with ours
+(35/40), and the two facts that cut against us most directly are
+these: PageRank ranks unicode-ident **#1** on crates — more prominent
+than conemass's #2 — and places liblzma5 at 36 on pre-disclosure
+Debian, inside a top-40 watchlist (conemass: 8; dependent count: 173).
+A team already running PageRank on its dependency graph would have had
+both headline packages on a 40-row watchlist. We are aware of no
+evidence that anyone was; the incumbent does not use PageRank, and
+Pfeiffer's proposal (the one published exception) was not adopted.
+
+What conemass offers over PageRank is therefore not, on current
+evidence, the discovery of rows PageRank cannot see — Debian's
+gateway-chain class excepted. It is: zero parameters against a tuned
+damping factor; a deterministic, enumerable score (a package's mass is
+a finite sum you can list — these cones, this much credit each) where
+a PageRank value is a fixed point with no operational reading, which
+matters when a triage decision has to be defended; and exactness
+theorems on AND-semantics graphs (documented in the proof-graph
+application in this repository) that diffusion metrics do not have.
+Where the two coincide, conemass is the cheaper and more auditable of
+the pair; where they diverge, the divergence has so far favored the
+quiet class the paper is about. Both facts are now measured, and the
+overlap table above is the one a skeptical reader should check first.
+
 ## Result 3: the incumbent comparison
 
 We mapped the conemass top-10 of crates.io, the watchlists above, and the
@@ -280,8 +343,17 @@ piece is descriptive throughout.
   single run).
 - **Global rank correlation with volume metrics is high** (Spearman
   0.95–0.99 across full registries). The divergence is concentrated at
-  the head of the ranking — which is where prioritization decisions are
-  made, but a reader should not picture two unrelated orderings.
+  the head of the ranking; the head-versus-bulk section gives the exact
+  per-corpus overlap numbers, and a reader should not picture two
+  unrelated orderings.
+- **PageRank catches the headline rows too.** As measured in the
+  head-versus-bulk section: unicode-ident is PageRank #1 on crates and
+  liblzma5 is PageRank 36 on pre-disclosure Debian. The claim this
+  paper can support against PageRank is the Debian gateway-chain class,
+  the zero-parameter/auditable form, and the AND-graph exactness — not
+  unique discovery of the two headline packages. Against dependent
+  count and against the incumbent's fame-and-activity signals, the
+  headline rows remain invisible without concentration weighting.
 - **Library enrichment is by design.** conemass's head is almost entirely
   libraries and build plumbing. For growth or importance claims that
   would be a confound; for supply-chain risk it is the point — libraries

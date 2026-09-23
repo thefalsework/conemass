@@ -162,11 +162,15 @@ touch: the comparisons against what the platform actually uses
 (dependent count and `closability`, where the head genuinely diverges),
 and the unlock-mass exactness — Property 1 gives sketch edges
 AND-semantics, so closing a theorem releases exactly its mass, a
-statement with no PageRank analog. Script: `pagerank-null.mjs`. The
-emerging pattern across graph types is that conemass separates from
-PageRank on shallow, many-rooted ecosystem graphs (Debian: liblzma5 at
-PageRank 36 vs conemass 8) and coincides with it on deep uniform proof
-graphs; that boundary is documented rather than hidden.
+statement with no PageRank analog. Script: `pagerank-null.mjs`. (An
+earlier version of this paragraph, pushed the same morning, claimed a
+clean boundary — separation on ecosystem graphs, coincidence on proof
+graphs. Running the overlap on all four corpora the same day falsified
+the clean version: top-40 conemass/PageRank overlap is 22/40 on
+Debian, 35/40 on crates.io, 33/40 here, and ~coincident on Mathlib
+(Spearman 0.96). The separation is strongest on Debian's layered
+base-system topology and is not a simple package-vs-proof distinction;
+the full numbers are in the paper's head-versus-bulk section.)
 
 Where a parent theorem has several accepted sketches (182 of 1,565
 sketch-bearing parents), only one alternative needs to complete, so cone

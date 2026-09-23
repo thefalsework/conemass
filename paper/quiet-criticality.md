@@ -50,7 +50,12 @@ replicates — unicode-ident absent until it did not exist, then #2 on
 arrival, inheriting the literal seat of unicode-xid — while top-100
 monitorability does NOT transfer to a hypergrowth registry (median 35
 genuine arrivals per step, over the registered dead threshold;
-reported, not patched).
+reported, not patched). v0.14, 2026-09-23: graph-anatomy study
+(`10-graph-anatomy.mjs`, fifteen graphs, four registered shape
+predictors): three predictors failed including the registered primary;
+mean truncated-cone depth survived (rho -0.73, correct family
+ordering) and is stated as a candidate with a disclosed unresolved
+band, not a law.
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers; each script
 states its expectations in a header written before the run and its
@@ -284,6 +289,30 @@ Where the two coincide, conemass is the cheaper and more auditable of
 the pair; where they diverge, the divergence has so far favored the
 quiet class the paper is about. Both facts are now measured, and the
 overlap table above is the one a skeptical reader should check first.
+
+Can the divergence be predicted from the graph alone, before running
+either metric? We tested four registered shape statistics across
+fifteen graphs (ten Debian snapshots 2007–2025, four crates snapshots
+2016–2022, one theorem-dependency graph; `10-graph-anatomy.mjs`,
+predictors and directions fixed before twelve of the fifteen outcomes
+were seen). Three failed, including the registered primary — chain
+fraction, the statistic our own gateway-chain reading suggested, came
+back near zero (rho −0.14), and two others had the wrong sign. One
+survived: mean truncated-cone depth (rho −0.73, with the family
+ordering right — Debian, the separator, is the deep family at ~5;
+crates and the proof graph sit at 2.5–4 and coincide). The mechanism
+reading is direct: conemass credit traverses a dependency chain
+undamped, PageRank decays per hop and splits across links, so the two
+diverge where cones are deep and agree where the mass sits a hop or
+two away. An out-of-family check on the Mathlib declaration graph
+(prediction stated before measuring) came back directionally right but
+not discriminating: truncated depth 4.45, below Debian's median yet
+inside its range, while Mathlib coincides with PageRank — so depth
+alone is not sufficient, and 4–5 is the disclosed unresolved band. The
+falsifiable statement for the next new graph: truncated-cone depth
+above 5 predicts head separation, below 4 predicts coincidence. One
+surviving predictor out of four registered, on effectively three graph
+families, is a candidate, not a law.
 
 ## Result 3: the incumbent comparison
 

@@ -40,7 +40,11 @@ with numbers rather than left for a reader to discover. v0.11,
 entered the archive at #8 and never climbed, so the monitorable
 signal is arrival-into-the-head, not drift; an earlier drift-as-
 climbing framing used in outreach is corrected here with the
-measurement that killed it).
+measurement that killed it. v0.12, 2026-09-23: the registered
+succession-filter follow-up was run (`08-arrival-filter.mjs`) and
+Result 4's churn paragraph now carries the measured verdict — median
+13 genuine arrivals per release, monitorable under the registered
+threshold).
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers; each script
 states its expectations in a header written before the run and its
@@ -346,14 +350,23 @@ the ecosystem visibly de-concentrating the xz path after the
 backdoor. A metric that shows both the exposure forming and the fix
 landing is a metric an operator can watch.
 
-Stated against the registered thresholds: top-100 churn between
+Stated against the registered thresholds: raw top-100 churn between
 adjacent releases has a median of 23 new entrants, which fell in the
-registered grey zone (≤15 monitorable, ≥30 dead) — neither verdict
-fires. The entrant lists are dominated by mechanical version
-successions (`gcc-N-base`, `libicuNN`, `python3.N`, the 2025 t64 ABI
-renames) that a name-succession filter would remove, leaving roughly
-5–8 genuine arrivals per release; that filtered rerun is the obvious
-next cell and has not been run.
+registered grey zone (≤15 monitorable, ≥30 dead). The entrant lists
+are dominated by mechanical version successions (`gcc-N-base`,
+`libicuNN`, `python3.N`, the 2025 t64 ABI renames), so the registered
+follow-up (`08-arrival-filter.mjs`) applied a name-succession filter —
+normalize names by stripping digits and ABI suffixes; an entrant whose
+stem was already in the previous top-100 is a succession, not an
+arrival — and re-counted. Result: **median 13 genuine arrivals per
+release** (range 8–19), under the ≤15 threshold; the verdict closes as
+monitorable. The filter confirms every known case at its date (liblzma
+2011, lz4 2017, zstd 2019, keyutils 2009, the Kerberos stack 2011) and
+correctly absorbs the renames, including `libkrb53` → `libkrb5-3`. For
+an entire OS distribution, that is roughly seven alert rows per year.
+The genuine-arrival lists still carry payload-implausible rows (doc
+and font packages); filtering those is a product decision, not a
+metric one, and is left visible.
 
 ## Limitations
 

@@ -138,6 +138,15 @@ definitions by audit priority, open theorems by downstream unlock
 mass — with null-model checks and full reproduction scripts. See
 [`examples/prove2me/REPORT.md`](examples/prove2me/REPORT.md).
 
+`examples/mathlib/` is the fourth graph type and a recorded
+no-finding: the declaration-level dependency graph of Mathlib (308,060
+declarations, 8.4M edges), where conemass near-coincides with PageRank
+(Spearman 0.960) and the head is foundational plumbing every metric
+finds. Registered before running, kill conditions and all; the result
+is load-bearing for the paper's graph-anatomy section (where the
+metric separates from PageRank and where it doesn't). See
+[`examples/mathlib/REPORT.md`](examples/mathlib/REPORT.md).
+
 `examples/github-issues/` is a recorded negative result: unlock-mass
 ranking of GitHub issues by blocking relationships, killed at
 feasibility because public GitHub projects do not record blocking

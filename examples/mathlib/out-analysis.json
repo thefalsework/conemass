@@ -1,0 +1,15 @@
+{
+  "spearman": {
+    "pagerank": 0.9602284450205222,
+    "in_degree": 0.9530882365385128,
+    "dag_layer": 0.8372245210381589
+  },
+  "top40_overlap": {
+    "pagerank": 21,
+    "in_degree": 18
+  },
+  "verdicts": {
+    "F2_foundational_head": 17,
+    "F3_instances_head": 1
+  }
+}

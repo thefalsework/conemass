@@ -55,9 +55,16 @@ reported, not patched). v0.14, 2026-09-23: graph-anatomy study
 predictors): three predictors failed including the registered primary;
 mean truncated-cone depth survived (rho -0.73, correct family
 ordering) and is stated as a candidate with a disclosed unresolved
-band, not a law.
+band, not a law. v0.15, 2026-09-23: the Mathlib declaration-graph
+study — registration, verification gate, null analysis, rankings, and
+the depth measurement this paper's anatomy section cites — is
+published at `examples/mathlib/` in the conemass repository; it had
+been complete but local, which contradicted the artifact promise
+below. No number changed.
 All computations cited here are committed with their code and raw output
-in `oracle-scanner/` at github.com/thefalsework/papers; each script
+in `oracle-scanner/` at github.com/thefalsework/papers — except the
+Mathlib declaration-graph study, which lives at `examples/mathlib/` in
+this repository alongside the other per-corpus applications; each script
 states its expectations in a header written before the run and its
 results in a dated postscript. Code is Apache-2.0; text is CC-BY-4.0.
 Archived: this repository at DOI 10.5281/zenodo.22261990; the conemass

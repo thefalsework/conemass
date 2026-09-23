@@ -44,7 +44,13 @@ measurement that killed it. v0.12, 2026-09-23: the registered
 succession-filter follow-up was run (`08-arrival-filter.mjs`) and
 Result 4's churn paragraph now carries the measured verdict — median
 13 genuine arrivals per release, monitorable under the registered
-threshold).
+threshold. v0.13, 2026-09-23: the arrival pattern tested on the second
+ecosystem (`09-crates-arrival.mjs`, four dated crates snapshots):
+replicates — unicode-ident absent until it did not exist, then #2 on
+arrival, inheriting the literal seat of unicode-xid — while top-100
+monitorability does NOT transfer to a hypergrowth registry (median 35
+genuine arrivals per step, over the registered dead threshold;
+reported, not patched).
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers; each script
 states its expectations in a header written before the run and its
@@ -350,6 +356,24 @@ the ecosystem visibly de-concentrating the xz path after the
 backdoor. A metric that shows both the exposure forming and the fix
 landing is a metric an operator can watch.
 
+**The pattern replicates on the second ecosystem.** The same
+computation on four dated crates.io snapshots (2016, 2018, 2020, 2022;
+`09-crates-arrival.mjs`, expectations registered before the run):
+unicode-ident is absent from every snapshot before it existed, then
+**#2 of 84,439 on arrival** — one step, on the ecosystem's adoption
+decision, when proc-macro2 and syn swapped it in during 2022. The seat
+is literal: unicode-xid, the crate it displaced, ran 158 → 12 → 2
+across 2016–2020 and fell to 135 in 2022; the #2 load position changed
+occupants, not size. Nor is it an isolated case — the entire macro
+toolchain arrived as a block in 2018 (proc-macro2 absent → 13, syn
+absent → 15, quote absent → 16), then sat. Two ecosystems, same law:
+load arrives, it does not climb. One caveat recorded rather than
+discovered: a dependency *swap* changes the package name, so the
+succession filter below does not absorb it — the new occupant fires as
+a genuine arrival. That is the correct behavior; "a crate that did not
+exist a year ago now holds the #2 load position previously held by a
+watched crate" is precisely the alert an operator wants loudest.
+
 Stated against the registered thresholds: raw top-100 churn between
 adjacent releases has a median of 23 new entrants, which fell in the
 registered grey zone (≤15 monitorable, ≥30 dead). The entrant lists
@@ -366,7 +390,18 @@ correctly absorbs the renames, including `libkrb53` → `libkrb5-3`. For
 an entire OS distribution, that is roughly seven alert rows per year.
 The genuine-arrival lists still carry payload-implausible rows (doc
 and font packages); filtering those is a product decision, not a
-metric one, and is left visible.
+metric one, and is left visible. On crates.io the monitorability
+verdict goes the other way and is reported as registered: median 35
+genuine arrivals per two-year step (47 → 35 → 25 across the window),
+over the ≥30 dead threshold — top-100 arrival alerting is too noisy
+on a registry that doubled in size every two years of the sample. The
+churn there is real growth, not renames (the succession filter
+removed zero rows; crates version inside one name), and it declines
+monotonically as the registry matures. A growth-adjusted or narrower
+head would need its own registered thresholds and has not been run.
+So the deployment claim is scoped honestly: arrival-into-the-head is
+the signal on both ecosystems; the alert volume is proven manageable
+on a curated distribution and not yet on a hypergrowth open registry.
 
 ## Limitations
 

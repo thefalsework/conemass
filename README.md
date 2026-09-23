@@ -136,7 +136,9 @@ type: the theorem dependency graph of the
 missions, 4,077 nodes, snapshot 2026-09-19). Two rankings —
 definitions by audit priority, open theorems by downstream unlock
 mass — with null-model checks and full reproduction scripts. See
-[`examples/prove2me/REPORT.md`](examples/prove2me/REPORT.md).
+[`examples/prove2me/REPORT.md`](examples/prove2me/REPORT.md); a design
+spec for driving agent proof-scheduling with unlock mass is at
+[`examples/prove2me/SCHEDULER-SPEC.md`](examples/prove2me/SCHEDULER-SPEC.md).
 
 `examples/mathlib/` is the fourth graph type and a recorded
 no-finding: the declaration-level dependency graph of Mathlib (308,060

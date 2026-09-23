@@ -10,6 +10,13 @@ hard theorems into child lemmas; conemass ran on it unmodified.
 open-theorem unlock frontier), null checks against transitive-dependent
 count and chain depth, and the caveats.
 
+**`SCHEDULER-SPEC.md`** is the forward-looking design: how unlock-mass
+ranking could drive agent proof-scheduling on the platform, from a
+human-facing priority menu to a closed loop — with the Goodhart
+guardrail made architectural (agents close nodes, never create edges)
+and the honest caveat that PageRank produces a similar top-40 on this
+graph today.
+
 ## Files
 
 - `crawl.mjs` — walks all mission graphs via the public API, emits a

@@ -27,6 +27,21 @@ target-uses-source. The unlock-mass reading is exact rather than
 heuristic by the paper's own Property 1: a parent is verified once all
 imported child lemmas are verified — it auto-resolves.
 
+**Scope.** The platform-wide listing at the same snapshot contained
+87,648 theorems (71,988 Proved, 5,363 Open, 7,553 Definitions, 2,744
+Disproved). The 4,077-node corpus is what is reachable from mission
+goals through the `/graph` endpoints' sketch and structural edges — the
+curated decomposition skeleton (goal statements, milestones, accepted
+sketch imports) — not the agent-generated intermediate layer beneath
+each result, which is connected by Lean imports the graph API does not
+expose. This is a scope choice, not truncation, and it was verified:
+re-fetching the `fermat_last_theorem` mission graph live (2026-09-23)
+returns 23 theorem nodes and 10 sketches, identical to the snapshot,
+with no pagination, and all 280 mission graphs share the same skeletal
+profile (largest: 317 theorem nodes). The rankings are therefore over
+the curated mission structure, where the sketch semantics that make
+unlock mass exact are defined — not over the full corpus.
+
 1. **Definition audit priority.** The paper fixes the audit surface in
    advance: humans review a mission's curated core — goal statement,
    definitions, milestone lemmas — and nothing beyond it. So the

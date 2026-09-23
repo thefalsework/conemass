@@ -34,7 +34,13 @@ count and PageRank on both corpora (`06-head-overlap.mjs`), including
 the facts that cut against us: PageRank places unicode-ident #1 on
 crates and liblzma5 at 36 on Debian — the differentiation against
 PageRank is narrower than against dependent count, and is now stated
-with numbers rather than left for a reader to discover).
+with numbers rather than left for a reader to discover. v0.11,
+2026-09-23: Result 4 added — registered vintage-trajectory study
+(`07-drift.mjs`) across the ten dated Debian snapshots: liblzma
+entered the archive at #8 and never climbed, so the monitorable
+signal is arrival-into-the-head, not drift; an earlier drift-as-
+climbing framing used in outreach is corrected here with the
+measurement that killed it).
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers; each script
 states its expectations in a header written before the run and its
@@ -301,6 +307,54 @@ limitation; it would have excluded xz even under a perfect score. We
 note it separately because it was the binding failure for the one
 package everyone in this field agrees was the catastrophe.
 
+## Result 4: ten releases of vintage — load arrives, it does not climb
+
+If concentration is a warning signal, the operational question is
+*when it appears*. The same computation was run on all ten archived
+Debian stable releases, 2007–2025, with the expectation registered
+before the run (`07-drift.mjs`): that liblzma's load predated the
+takeover and would show no climb during the attacker's window. It
+holds, more strongly than guessed:
+
+| release | 2007 | 2009 | 2011 | 2013 | 2015 | 2017 | 2019 | 2021 | 2023 | 2025 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| liblzma conemass rank | — | — | **8** | 8 | 8 | 6 | 8 | 10 | 8 | 19 |
+
+liblzma entered the archive at **#8 on arrival** — squeeze, 2011, the
+release where dpkg adopted xz compression — and sat pinned in the top
+ten for fourteen years. There is no takeover-window movement at all
+(2019 → 2023: 8 → 10 → 8). The attacker did not add a single edge to
+this graph; Debian's own adoption decision built the position in 2011,
+and the attacker selected a package whose blast radius already
+existed. Two consequences:
+
+**The monitorable signal is arrival, not drift.** A "watch packages
+climbing the rankings" alert — a framing we ourselves used in early
+outreach — is measured here and killed: rank trajectories at the head
+are nearly flat between releases. What the trajectory data does
+support is an *arrival* alert: a new package entering the top ranks
+directly, which is the moment load is created and the moment scrutiny
+is furthest behind it. That alert would have fired on the entire
+compression-library class years before any incident: liblzma (2011,
+on arrival), lz4 (2017, from rank 1,482), zstd (2019, from 1,243) —
+and on libkeyutils1 (2009, from 989), the Kerberos-chain package that
+the head-versus-bulk section shows PageRank buries at 981.
+
+**The instrument also records the remediation.** liblzma5's one large
+move in eighteen years is the drop from 8 to 19 in trixie (2025) —
+the ecosystem visibly de-concentrating the xz path after the
+backdoor. A metric that shows both the exposure forming and the fix
+landing is a metric an operator can watch.
+
+Stated against the registered thresholds: top-100 churn between
+adjacent releases has a median of 23 new entrants, which fell in the
+registered grey zone (≤15 monitorable, ≥30 dead) — neither verdict
+fires. The entrant lists are dominated by mechanical version
+successions (`gcc-N-base`, `libicuNN`, `python3.N`, the 2025 t64 ABI
+renames) that a name-succession filter would remove, leaving roughly
+5–8 genuine arrivals per release; that filtered rerun is the obvious
+next cell and has not been run.
+
 ## Limitations
 
 Stated in full, because the comparison above is one-directional and the
@@ -421,8 +475,9 @@ just checked:
   above proc-macro2 with three.
 
 `oracle-scanner/` at github.com/thefalsework/papers also contains the
-four studies behind this piece
-(retrodiction, cap sweep, crates replication, incumbent join), their
+six studies behind this piece
+(retrodiction, cap sweep, crates replication, incumbent join, head
+overlap, vintage trajectories), their
 raw outputs, the incumbent CSV as retrieved, and the hand-curated
 mapping table. Dependency snapshots and their extraction scripts are in
 `debian-study/` and `software-study/`. Every script's expectations were

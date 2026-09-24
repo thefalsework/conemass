@@ -91,6 +91,7 @@ const rows = pub.map((r) => ({
   unlockG: G.mass.get(r.name) ?? 0,
 }));
 const byNew = [...rows].sort((a, b) => b.unlockU - a.unlockU || (a.name < b.name ? -1 : 1));
+const byNewG = [...rows].sort((a, b) => b.unlockG - a.unlockG || (a.name < b.name ? -1 : 1));
 const byOld = [...rows].sort((a, b) => b.massU - a.massU || (a.name < b.name ? -1 : 1));
 
 // ---- comparisons ----
@@ -111,8 +112,22 @@ console.log(`published rows with guaranteed > union: ${pub.filter((r) => r.massG
 console.log(`open-only rows with guaranteed > union: ${rows.filter((r) => r.unlockG > r.unlockU + 1e-9).length}/${rows.length}`);
 console.log(`isolated on open-only union subgraph (unlock 0): ${rows.filter((r) => r.unlockU === 0).length}`);
 
-// ---- PageRank null on the corrected object ----
+// The edge-set choice matters (nothing bounds anything), so report the
+// guaranteed ordering alongside the union one the CSV is sorted by.
 {
+  const t40u = top(byNew, 40), t40g = top(byNewG, 40);
+  console.log(`top-40 overlap, open-only union vs open-only guaranteed: ${[...t40u].filter((x) => t40g.has(x)).length}/40`);
+  const t10u = top(byNew, 10), t10g = top(byNewG, 10);
+  console.log(`top-10 overlap, open-only union vs open-only guaranteed: ${[...t10u].filter((x) => t10g.has(x)).length}/10`);
+  const rg = rankMap(byNewG);
+  console.log('report-named rows, rank under union / guaranteed ordering:');
+  for (const nm of rows.map((r) => r.name).filter((n) =>
+    /Richstein2001\.segmented_sieve_coverage|space_groups_master_classification|zeta_ne_zero_of_strip_of_six_lt_im/.test(n)))
+    console.log(`  ${rn.get(nm)} / ${rg.get(nm)}  ${nm}`);
+}
+
+// ---- PageRank null on the corrected object, both edge sets ----
+function pagerankNull(rawEdges, ordering, label) {
   const names = [];
   const idx = new Map();
   const id = (nm) => {
@@ -120,7 +135,7 @@ console.log(`isolated on open-only union subgraph (unlock 0): ${rows.filter((r) 
     if (i === undefined) { i = names.length; idx.set(nm, i); names.push(nm); }
     return i;
   };
-  const edges = U.edges.map(([a, b]) => [id(a), id(b)]);
+  const edges = rawEdges.map(([a, b]) => [id(a), id(b)]);
   const n = names.length;
   const outDeg = new Int32Array(n);
   for (const [a] of edges) outDeg[a]++;
@@ -139,10 +154,12 @@ console.log(`isolated on open-only union subgraph (unlock 0): ${rows.filter((r) 
   const prByName = new Map(names.map((nm, i) => [nm, pr[i]]));
   const inGraph = rows.filter((r) => prByName.has(r.name));
   const byPR = [...inGraph].sort((a, b) => prByName.get(b.name) - prByName.get(a.name) || (a.name < b.name ? -1 : 1));
-  const t40u = top(byNew.filter((r) => prByName.has(r.name)), 40);
+  const t40u = top(ordering.filter((r) => prByName.has(r.name)), 40);
   const t40p = top(byPR, 40);
-  console.log(`PageRank null on open-only object (${inGraph.length} in-graph nodes): top-40 overlap ${[...t40u].filter((x) => t40p.has(x)).length}/40`);
+  console.log(`PageRank null, open-only ${label} (${inGraph.length} in-graph nodes): top-40 overlap ${[...t40u].filter((x) => t40p.has(x)).length}/40`);
 }
+pagerankNull(U.edges, byNew, 'union edges vs union ordering');
+pagerankNull(G.edges, byNewG, 'guaranteed edges vs guaranteed ordering');
 
 // ---- emit corrected ranking ----
 const q = (s) => (/[",]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s);

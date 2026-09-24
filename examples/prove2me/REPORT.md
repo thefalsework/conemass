@@ -223,10 +223,17 @@ against the published frontier the corrected one has top-40 overlap
 Richstein 1→4, space-groups 2→2, the two WeakGoldbach lemmas 3→7 and
 4→8, the zeta lemma 15→13. The bracket violation persists on the
 corrected object (36/504), so the corrected wording is permanent, not
-re-derived. The PageRank null rerun on the corrected object gives
-top-40 overlap **18/40** (vs 33/40 on the published object) —
-remaining-work unlock is more distinct from centrality than structural
-load was. The definition ranking is unaffected: for drift-audit the
+re-derived. Edge-set labeling, since nothing bounds anything and the
+choice therefore matters: the comparison numbers just quoted are for
+the **union** edge set, which is the CSV's sort order. On the
+**guaranteed** edge set (the scheduler spec's recommendation for
+dispatch) the corrected ordering agrees with the union one 37/40 in
+the top-40 (7/10 in the top-10), and the named rows sit at Richstein
+6, space-groups 2, zeta 10 — the CSV carries both columns. The
+PageRank null rerun on the corrected object gives top-40 overlap
+**18/40** on union edges and **23/40** on guaranteed edges (vs 33/40
+on the published object) — under either edge set, remaining-work
+unlock is more distinct from centrality than structural load was. The definition ranking is unaffected: for drift-audit the
 full graph is the correct object, since a drifted definition
 contaminates proved work too.
 

@@ -77,7 +77,13 @@ corrected; the archival DOI's "this repository" label clarified. The
 same review found two false claims in the Prove2Me example's report
 and scheduler spec (bracket direction and score exactness), corrected
 there with a dated section and a corrected open-only unlock ranking
-(`examples/prove2me/unlock-open.mjs`).
+(`examples/prove2me/unlock-open.mjs`). (e) Same day, second pass: this
+paper itself repeated the exactness claim twice — "exactness theorems
+on AND-semantics graphs" in Result 3 and "AND-graph exactness" in the
+limitations — although the repo contains no such theorem. Both now
+state what is true: on AND-semantics graphs the released set is
+enumerable and checkable; the mass is a fractional share over it,
+never exact.
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers — except the
 Mathlib declaration-graph study, which lives at `examples/mathlib/` in
@@ -307,9 +313,14 @@ gateway-chain class excepted. It is: zero parameters against a tuned
 damping factor; a deterministic, enumerable score (a package's mass is
 a finite sum you can list — these cones, this much credit each) where
 a PageRank value is a fixed point with no operational reading, which
-matters when a triage decision has to be defended; and exactness
-theorems on AND-semantics graphs (documented in the proof-graph
-application in this repository) that diffusion metrics do not have.
+matters when a triage decision has to be defended; and, on graphs with
+AND-semantics (the proof-graph application in this repository), an
+enumerable dispatch claim — closing this node is required by exactly
+these listed parents — that a diffusion metric cannot state. (An
+earlier version of this sentence said "exactness theorems"; there is
+no such theorem, and the mass itself is not exact — the exactness
+belongs to the enumerated list, as the dated correction in the
+Prove2Me report spells out.)
 Where the two coincide, conemass is the cheaper and more auditable of
 the pair; where they diverge, the divergence has so far favored the
 quiet class the paper is about. Both facts are now measured, and the
@@ -519,7 +530,9 @@ piece is descriptive throughout.
   head-versus-bulk section: unicode-ident is PageRank #1 on crates and
   liblzma5 is PageRank 36 on pre-disclosure Debian. The claim this
   paper can support against PageRank is the Debian gateway-chain class,
-  the zero-parameter/auditable form, and the AND-graph exactness — not
+  the zero-parameter/auditable form, and the enumerable released-set
+  reading on AND-semantics graphs (a property of the list, not of the
+  score — see Result 3) — not
   unique discovery of the two headline packages. Against dependent
   count and against the incumbent's fame-and-activity signals, the
   headline rows remain invisible without concentration weighting.

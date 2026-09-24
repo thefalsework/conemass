@@ -23,9 +23,12 @@ Two rankings the platform does not currently compute, from a snapshot of
 a mission-tree corpus of **4,077 nodes** (2,853 Proved, 521 Open, 657
 Definition, 46 Disproved) and **8,333 dependency edges**. Sketch edges
 were read as parent-depends-on-imported-children; structural edges as
-target-uses-source. The unlock-mass reading is exact rather than
-heuristic by the paper's own Property 1: a parent is verified once all
-imported child lemmas are verified — it auto-resolves.
+target-uses-source. Property 1 of the paper (a parent is verified once
+all imported child lemmas are verified — it auto-resolves) makes the
+unlock *list* exact: the set of parents that cannot complete without a
+given open theorem is enumerable, not estimated. (The first version of
+this report attached "exact" to the unlock *score* as well; that was
+wrong — see the dated correction in the methods note.)
 
 **Scope.** The platform-wide listing at the same snapshot contained
 87,648 theorems (71,988 Proved, 5,363 Open, 7,553 Definitions, 2,744
@@ -40,7 +43,7 @@ returns 23 theorem nodes and 10 sketches, identical to the snapshot,
 with no pagination, and all 280 mission graphs share the same skeletal
 profile (largest: 317 theorem nodes). The rankings are therefore over
 the curated mission structure, where the sketch semantics that make
-unlock mass exact are defined — not over the full corpus.
+the unlock list enumerable are defined — not over the full corpus.
 
 1. **Definition audit priority.** The paper fixes the audit surface in
    advance: humans review a mission's curated core — goal statement,
@@ -125,6 +128,11 @@ buries: `zeta_ne_zero_of_strip_of_six_lt_im` is rank 15 here and rank 63
 by transitive count, because its five dependents form an induction chain
 of strip-widening lemmas that rely on almost nothing else.
 
+(For the *dispatch* reading of this table — what to close next — see
+the corrected open-only unlock ranking in the correction below: the
+named rows above are largely stable under it, the mid-frontier is
+not.)
+
 The paper closes by asking how agents should search a large, evolving
 corpus of formal statements. A prioritized frontier is a search order;
 this ranking is a partial answer to that question, computable from the
@@ -160,9 +168,12 @@ these rankings is not unique to conemass; a reader who would have used
 PageRank instead loses little here. What the coincidence does not
 touch: the comparisons against what the platform actually uses
 (dependent count and `closability`, where the head genuinely diverges),
-and the unlock-mass exactness — Property 1 gives sketch edges
-AND-semantics, so closing a theorem releases exactly its mass, a
-statement with no PageRank analog. Script: `pagerank-null.mjs`. (An
+and the enumerability of unlock — Property 1 gives sketch edges
+AND-semantics, so the parents a theorem blocks are a listed, checkable
+set, a statement with no PageRank analog. (This sentence originally
+said closing a theorem "releases exactly its mass" — false as
+published; see the correction below. On the corrected open-only
+object, the PageRank overlap drops to 18/40.) Script: `pagerank-null.mjs`. (An
 earlier version of this paragraph, pushed the same morning, claimed a
 clean boundary — separation on ecosystem graphs, coincidence on proof
 graphs. Running the overlap on all four corpora the same day falsified
@@ -173,11 +184,51 @@ base-system topology and is not a simple package-vs-proof distinction;
 the full numbers are in the paper's head-versus-bulk section.)
 
 Where a parent theorem has several accepted sketches (182 of 1,565
-sketch-bearing parents), only one alternative needs to complete, so cone
-mass under the sketch-union is an upper bound on unlock; a second run
-using only children shared by every sketch (the guaranteed lower bracket)
-moves almost nothing (Spearman 0.87, 34/40 top-40 shared), so union
-numbers are reported and the guaranteed column is kept in the CSV.
+sketch-bearing parents), only one alternative needs to complete, so the
+union edge set over-states, and the guaranteed edge set (children in
+every sketch) under-states, the blocking structure. The first version
+of this paragraph called union mass "an upper bound on unlock" — false:
+the brackets bound the *edge set*, not the harmonic score. Adding
+members to a cone dilutes every member's 1/|cone| share, and in the
+published CSV **71 of 504** open theorems score *higher* under the
+guaranteed bracket than under union. The two orderings remain similar
+(Spearman 0.87, 34/40 top-40 shared) — a similarity fact, not a bound.
+Union numbers are reported and the guaranteed column is kept in the CSV.
+
+## Correction (2026-09-23, same day, prompted by external review)
+
+An external reviewer checked this report's claims against the published
+CSVs and found two false. Both are corrected in place above; this
+section is the accounting.
+
+1. **"Union is an upper bound on unlock" — false for the mass.**
+   71/504 published rows violate it (`flt_s2_gamma0_2_empty`: 1.20
+   guaranteed vs 1.06 union). The brackets bound edge sets; harmonic
+   mass is not monotone under cone growth. Corrected wording above.
+2. **"Closing a theorem releases exactly its mass" — false.** The
+   published score is computed on the full graph, so cones still
+   contain already-proved children and credit is split over finished
+   work. Exactness belongs to the enumerated parent list only. The
+   corrected score — unlock mass on the **open-only subgraph** (an
+   edge survives iff both endpoints are Open; proved children are done
+   and transmit no blocking under Property 1) — is computed by
+   `unlock-open.mjs`, output `out/ranking-unlock-open.csv`.
+
+What the correction changes, measured: only 407 of the 8,333 union
+edges are open–open (the frontier mostly hangs under proved
+structure); 145 of 504 open theorems carry zero remaining-work mass;
+against the published frontier the corrected one has top-40 overlap
+22/40, top-10 overlap 5/10, Spearman 0.87, with large individual moves
+(one row 67→497, another 172→3). The rows this report *named* survive:
+Richstein 1→4, space-groups 2→2, the two WeakGoldbach lemmas 3→7 and
+4→8, the zeta lemma 15→13. The bracket violation persists on the
+corrected object (36/504), so the corrected wording is permanent, not
+re-derived. The PageRank null rerun on the corrected object gives
+top-40 overlap **18/40** (vs 33/40 on the published object) —
+remaining-work unlock is more distinct from centrality than structural
+load was. The definition ranking is unaffected: for drift-audit the
+full graph is the correct object, since a drifted definition
+contaminates proved work too.
 
 ## Not claimed
 
@@ -197,10 +248,13 @@ All scripts and outputs live at github.com/thefalsework/conemass under
 node crawl.mjs                 # walk mission graphs -> out/edges-union.csv
 node refetch-missions.mjs      # both edge variants + raw graphs cached
 node analyze.mjs               # rankings, brackets, null checks
+node unlock-open.mjs           # corrected open-only unlock (no API key needed)
 ```
 
-Requires a Prove2Me agent API key in `credentials.json`. conemass itself
-is a single dependency-free file, Apache-2.0, at the repo root.
+Requires a Prove2Me agent API key in `credentials.json` (the first
+three; `unlock-open.mjs` runs from the published CSVs alone). conemass
+itself is a single dependency-free file, Apache-2.0, at the repo root.
 
 Full outputs: `out/ranking-open.csv` (504 rows, both brackets, both null
-columns), `out/ranking-definitions.csv` (649 rows), `out/nulls.json`.
+columns), `out/ranking-unlock-open.csv` (corrected unlock, 504 rows),
+`out/ranking-definitions.csv` (649 rows), `out/nulls.json`.

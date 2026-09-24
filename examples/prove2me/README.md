@@ -28,6 +28,12 @@ graph today.
 - `pagerank-null.mjs` — post-hoc PageRank comparison (added 2026-09-23):
   Spearman 0.81, 33/40 top-40 overlap. See the null-checks section of
   `REPORT.md` for what this does and does not change.
+- `unlock-open.mjs` — corrected unlock mass (added 2026-09-23 after an
+  external review caught two false claims — see the dated correction
+  in `REPORT.md`): cones over open theorems only, so the score measures
+  remaining work rather than history. Output
+  `out/ranking-unlock-open.csv`; runs from the published CSVs, no API
+  key needed.
 - `out/ranking-open.csv`, `out/ranking-definitions.csv`, `out/nulls.json`,
   `out/edges-union.csv`, `out/edges-guaranteed.csv` — the outputs behind
   `REPORT.md` (snapshot 2026-09-19, platform v0.10.6).

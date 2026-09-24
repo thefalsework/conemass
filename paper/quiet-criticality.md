@@ -3,7 +3,7 @@
 ## Dependency concentration as a criticality signal
 
 **Author.** Chris Brink (independent)
-**Version.** Draft v0.9, 2026-09-23 (v0.2: retitled; artifacts section.
+**Version.** Draft v0.16, 2026-09-23 (v0.2: retitled; artifacts section.
 v0.3: package-versus-repository distinction made explicit; recommendation
 section ends on the artifact; CLI gained direct Cargo.lock support.
 v0.4: tool and rankings split to their own repo,
@@ -60,16 +60,34 @@ study — registration, verification gate, null analysis, rankings, and
 the depth measurement this paper's anatomy section cites — is
 published at `examples/mathlib/` in the conemass repository; it had
 been complete but local, which contradicted the artifact promise
-below. No number changed.
+below. No number changed. v0.16, 2026-09-23: corrections from an
+external review that checked this paper's claims against the published
+artifacts. (a) The anatomy section's Mathlib verdict mixed measures —
+"coincides" was a Spearman fact while the study's registered outcome
+is top-40 overlap, on which Mathlib (21/40) separates like Debian
+(22/40); the out-of-family point is consistent with the depth
+candidate, not against it, and the section now says so with the
+original wording quoted. (b) Cycle handling disclosed in the artifacts
+section: the tool condenses cycles, so a cycle donates one unit total,
+a departure from the printed formula. (c) "Two ecosystems, same law"
+reworded to match the paper's own candidate-not-law discipline. (d)
+The version header had been left at v0.9 while the changelog grew;
+the stale study count in the artifacts section (six, actually eleven)
+corrected; the archival DOI's "this repository" label clarified. The
+same review found two false claims in the Prove2Me example's report
+and scheduler spec (bracket direction and score exactness), corrected
+there with a dated section and a corrected open-only unlock ranking
+(`examples/prove2me/unlock-open.mjs`).
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers — except the
 Mathlib declaration-graph study, which lives at `examples/mathlib/` in
 this repository alongside the other per-corpus applications; each script
 states its expectations in a header written before the run and its
 results in a dated postscript. Code is Apache-2.0; text is CC-BY-4.0.
-Archived: this repository at DOI 10.5281/zenodo.22261990; the conemass
-tool and dated rankings at DOI 10.5281/zenodo.22261985; both also at
-Software Heritage.
+Archived: the research-record repository (thefalsework/papers, study
+scripts and preprint source) at DOI 10.5281/zenodo.22261990; the
+conemass tool and dated rankings — this repository — at DOI
+10.5281/zenodo.22261985; both also at Software Heritage.
 
 ---
 
@@ -312,14 +330,25 @@ reading is direct: conemass credit traverses a dependency chain
 undamped, PageRank decays per hop and splits across links, so the two
 diverge where cones are deep and agree where the mass sits a hop or
 two away. An out-of-family check on the Mathlib declaration graph
-(prediction stated before measuring) came back directionally right but
-not discriminating: truncated depth 4.45, below Debian's median yet
-inside its range, while Mathlib coincides with PageRank — so depth
-alone is not sufficient, and 4–5 is the disclosed unresolved band. The
-falsifiable statement for the next new graph: truncated-cone depth
-above 5 predicts head separation, below 4 predicts coincidence. One
-surviving predictor out of four registered, on effectively three graph
-families, is a candidate, not a law.
+(prediction stated before measuring) was first reported here as a miss:
+"truncated depth 4.45, inside Debian's range, while Mathlib coincides
+with PageRank — 4–5 is the disclosed unresolved band." A same-day
+external review caught that this verdict mixed two measures. The
+study's registered outcome is top-40 overlap, and on that measure
+Mathlib is **21/40** — numerically the same head separation as Debian's
+22/40 — while "coincides" was a verdict about Spearman over all 308K
+declarations (0.96). Measured consistently, the Mathlib point (depth
+4.45, overlap 21/40) *fits* the depth trend rather than breaking it.
+What actually distinguishes Mathlib from Debian is the content of the
+divergence, not its size: Mathlib's conemass-only rows are foundational
+plumbing rather than quiet risk (its registered finding criterion
+failed on row quality, with overlap one row over the kill line). The
+falsifiable statement for the next new graph, corrected: truncated-cone
+depth above ~4 predicts head divergence from PageRank, below ~4
+predicts coincidence — and whether the divergence is *interesting* is a
+property of the corpus, not of the shape statistic. One surviving
+predictor out of four registered, on three graph families plus one
+consistent out-of-family point, is a candidate, not a law.
 
 ## Result 3: the incumbent comparison
 
@@ -402,8 +431,10 @@ is literal: unicode-xid, the crate it displaced, ran 158 → 12 → 2
 across 2016–2020 and fell to 135 in 2022; the #2 load position changed
 occupants, not size. Nor is it an isolated case — the entire macro
 toolchain arrived as a block in 2018 (proc-macro2 absent → 13, syn
-absent → 15, quote absent → 16), then sat. Two ecosystems, same law:
-load arrives, it does not climb. One caveat recorded rather than
+absent → 15, quote absent → 16), then sat. Two ecosystems, same
+pattern — load arrives, it does not climb — measured twice, which by
+this paper's own discipline makes it a replicated observation, not a
+law. One caveat recorded rather than
 discovered: a dependency *swap* changes the package name, so the
 succession filter below does not absorb it — the new occupant fires as
 a genuine arrival. That is the correct behavior; "a crate that did not
@@ -551,17 +582,22 @@ just checked:
 - **A standalone CLI** (same repo, Apache-2.0): a single zero-dependency
   Node script that takes any dependency graph — a `Cargo.lock` directly,
   an edge-list CSV of `dependent,dependency` pairs, or a JSON graph —
-  handles cycles, and emits a deterministic ranking. A 100,000-node
-  registry takes seconds. Run it on your own graph and inspect the rows
-  where `conemass_rank` is far ahead of `dependents_rank`. The repo's
-  eight-package `test-cargo.lock` reproduces the metric's whole argument
-  in one command: unicode-ident ranks first with two direct dependents,
-  above proc-macro2 with three.
+  handles cycles, and emits a deterministic ranking. One methods detail
+  disclosed here because it departs from the formula as printed: cycles
+  are condensed before cones are computed, so a dependency cycle hands
+  out **one** unit of credit total (not one per member), counts as one
+  element inside other cones, and its members share a score. A
+  100,000-node registry takes seconds. Run it on your own graph and
+  inspect the rows where `conemass_rank` is far ahead of
+  `dependents_rank`. The repo's eight-package `test-cargo.lock`
+  reproduces the metric's whole argument in one command: unicode-ident
+  ranks first with two direct dependents, above proc-macro2 with three.
 
 `oracle-scanner/` at github.com/thefalsework/papers also contains the
-six studies behind this piece
-(retrodiction, cap sweep, crates replication, incumbent join, head
-overlap, vintage trajectories), their
+eleven studies behind this piece
+(retrodiction, cap sweep, crates replication, incumbent join, RustSec
+retrodiction, head overlap, vintage trajectories, arrival filter,
+crates arrival, graph anatomy, falsework tightness), their
 raw outputs, the incumbent CSV as retrieved, and the hand-curated
 mapping table. Dependency snapshots and their extraction scripts are in
 `debian-study/` and `software-study/`. Every script's expectations were

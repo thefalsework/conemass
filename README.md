@@ -98,6 +98,14 @@ top N rows. `--out F` write CSV to a file instead of stdout.
 **Output columns:** `conemass_rank, name, conemass, direct_dependents,
 dependents_rank`.
 
+For a project-level list, compute conemass per package and sum within
+each project (Debian study 13: 2 of the true top-40 buried;
+src:xz-utils ranks 7 of 34149); keep the per-package breakdown,
+because a project total does not say which package carries the score.
+Treating a project's packages as dependencies of one another before
+computing (study 13, arm A) kept only 1 of the true top-40 on Debian,
+against 2 for a size-matched random grouping.
+
 ## Guarantees and caveats
 
 - **Deterministic.** The same graph produces byte-identical output

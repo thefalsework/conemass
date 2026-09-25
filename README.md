@@ -98,7 +98,7 @@ top N rows. `--out F` write CSV to a file instead of stdout.
 **Output columns:** `conemass_rank, name, conemass, direct_dependents,
 dependents_rank`.
 
-For a project-level list, compute conemass per package and sum within
+**Project-level lists.** Compute conemass per package and sum within
 each project (Debian study 13: 2 of the true top-40 buried;
 src:xz-utils ranks 7 of 34149); keep the per-package breakdown,
 because a project total does not say which package carries the score.

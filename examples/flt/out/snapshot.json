@@ -1,0 +1,60 @@
+{
+ "repo": "https://github.com/ImperialCollegeLondon/FLT",
+ "commit": "f6c6a2fe9796d6d89cd2a0d24e8a453729d881ff",
+ "commitDate": "2026-10-02T13:32:48+01:00",
+ "chapters": [
+  "chapter/ch01introduction.tex",
+  "chapter/ch02reductions.tex",
+  "chapter/ch03freyreduction.tex",
+  "chapter/ch04overview.tex",
+  "chapter/ch05automorphicformexample.tex",
+  "chapter/ch06automorphicrepresentations.tex",
+  "chapter/ch07exampleGLn.tex",
+  "chapter/FrobeniusProject.tex",
+  "chapter/AdeleMiniproject.tex",
+  "chapter/HaarCharacterProject.tex",
+  "chapter/FujisakiProject.tex",
+  "chapter/QuaternionAlgebraProject.tex",
+  "chapter/HeckeOperatorProject.tex",
+  "chapter/chtopbestiary.tex",
+  "chapter/biblio.tex"
+ ],
+ "nodes": 233,
+ "edges": 272,
+ "danglingEdges": 9,
+ "proved": 137,
+ "open": 96,
+ "notready": 27,
+ "byType": {
+  "lemma": {
+   "total": 88,
+   "proved": 79,
+   "stated": 83,
+   "notready": 0
+  },
+  "corollary": {
+   "total": 21,
+   "proved": 13,
+   "stated": 15,
+   "notready": 1
+  },
+  "definition": {
+   "total": 51,
+   "proved": 31,
+   "stated": 31,
+   "notready": 10
+  },
+  "theorem": {
+   "total": 71,
+   "proved": 12,
+   "stated": 46,
+   "notready": 16
+  },
+  "proposition": {
+   "total": 2,
+   "proved": 2,
+   "stated": 2,
+   "notready": 0
+  }
+ }
+}

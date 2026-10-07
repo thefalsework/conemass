@@ -1,0 +1,5239 @@
+[
+ {
+  "id": "FermatLastTheorem.of_odd_primes",
+  "type": "lemma",
+  "chapter": "ch02reductions",
+  "lean": [
+   "FermatLastTheorem.of_odd_primes"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If there is a counterexample to Fermat's Last Theorem, then there is a counterexample $a^p+b^p=c^p$ with $p$ an odd prime.",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "fermatLastTheoremThree",
+  "type": "lemma",
+  "chapter": "ch02reductions",
+  "lean": [
+   "fermatLastTheoremThree"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "There are no solutions in positive integers to $a^3+b^3=c^3$.",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "FermatLastTheorem.of_p_ge_5",
+  "type": "corollary",
+  "chapter": "ch02reductions",
+  "lean": [
+   "FermatLastTheorem.of_p_ge_5"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "fermatLastTheoremThree",
+   "FermatLastTheorem.of_odd_primes"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If there is a counterexample to Fermat's Last Theorem, then there is a counterexample $a^p+b^p=c^p$ with $p$ prime and $p\\geq 5$.",
+  "proved": true,
+  "uses": [
+   "fermatLastTheoremThree",
+   "FermatLastTheorem.of_odd_primes"
+  ]
+ },
+ {
+  "id": "FreyPackage",
+  "type": "definition",
+  "chapter": "ch02reductions",
+  "lean": [
+   "FreyPackage"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "A \\emph{Frey package} $(a,b,c,p)$ is three nonzero pairwise-coprime integers $a$, $b$, $c$, with $a\\equiv3\\pmod4$ and $b\\equiv0\\pmod2$, and ",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "FreyPackage.of_not_FermatLastTheorem_p_ge_5",
+  "type": "lemma",
+  "chapter": "ch02reductions",
+  "lean": [
+   "FreyPackage.of_not_FermatLastTheoremFor_p_ge_5"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "FreyPackage"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If Fermat's Last Theorem is false for $p \\ge 5$ and prime, then there exists a Frey package.",
+  "proved": true,
+  "uses": [
+   "FreyPackage"
+  ]
+ },
+ {
+  "id": "FreyCurve",
+  "type": "definition",
+  "chapter": "ch02reductions",
+  "lean": [
+   "FreyPackage.freyCurve"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "FreyPackage"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Given a Frey package $(a,b,c,p)$, the corresponding \\emph{Frey curve} (considered by Frey and, before him, Hellegouarch) is the elliptic cur",
+  "proved": true,
+  "uses": [
+   "FreyPackage"
+  ]
+ },
+ {
+  "id": "Mazur_Frey",
+  "type": "theorem",
+  "chapter": "ch02reductions",
+  "lean": [
+   "FreyPackage.mazur"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "FreyCurve"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": true,
+  "hasProof": true,
+  "title": "If $\\rho$ is the mod $p$ Galois representation associated to a Frey package $(a,b,c,p)$ then $\\rho$ is irreducible.",
+  "proved": false,
+  "uses": [
+   "FreyCurve"
+  ]
+ },
+ {
+  "id": "Wiles_Frey",
+  "type": "theorem",
+  "chapter": "ch02reductions",
+  "lean": [
+   "FLT.Bosses.B4_proof"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "FreyCurve"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $\\rho$ is the mod $p$ Galois representation associated to a Frey package $(a,b,c,p)$ then $\\rho$ is reducible.",
+  "proved": false,
+  "uses": [
+   "FreyCurve"
+  ]
+ },
+ {
+  "id": "FreyPackage.false",
+  "type": "corollary",
+  "chapter": "ch02reductions",
+  "lean": [
+   "FLT.Bosses.B3_proof"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Mazur_Frey",
+   "Wiles_Frey"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "There is no Frey package.",
+  "proved": false,
+  "uses": [
+   "Mazur_Frey",
+   "Wiles_Frey"
+  ]
+ },
+ {
+  "id": "FLT",
+  "type": "corollary",
+  "chapter": "ch02reductions",
+  "lean": [
+   "flt"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "FermatLastTheorem.of_p_ge_5",
+   "FreyPackage.false",
+   "FreyPackage.of_not_FermatLastTheorem_p_ge_5"
+  ],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Fermat's Last Theorem is true. In other words, there are no positive integers $a,b,c$ and natural $n\\geq3$ such that $a^n+b^n=c^n$.",
+  "proved": false,
+  "uses": [
+   "FermatLastTheorem.of_p_ge_5",
+   "FreyPackage.false",
+   "FreyPackage.of_not_FermatLastTheorem_p_ge_5"
+  ]
+ },
+ {
+  "id": "hardly_ramified",
+  "type": "definition",
+  "chapter": "ch03freyreduction",
+  "lean": [
+   "GaloisRepresentation.IsHardlyRamified"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Let $R$ be a coefficient ring with finite residue field of characteristic $\\ell\\geq3$. Let $V$ be a finite free $R$-module of rank~2, equipp",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "Frey_curve_hardly_ramified",
+  "type": "theorem",
+  "chapter": "ch03freyreduction",
+  "lean": [
+   "FreyCurve.torsion_isHardlyRamified"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "hardly_ramified"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The $\\ell$-torsion $\\rho:\\GQ\\to\\GL_2(\\Z/\\ell\\Z)$ in the Frey curve associated to a Frey package $(a,b,c,\\ell)$ is hardly ramified.",
+  "proved": false,
+  "uses": [
+   "hardly_ramified"
+  ]
+ },
+ {
+  "id": "hardly_ramified_reducible",
+  "type": "theorem",
+  "chapter": "ch03freyreduction",
+  "lean": [
+   "FreyCurve.torsion_not_isIrreducible"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "If $\\ell\\geq 3$ is a prime and $\\rho:\\GQ\\to\\GL_2(\\Z/\\ell\\Z)$ is hardly ramified, then $\\rho$ is reducible.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "Wiles_Frey_again",
+  "type": "theorem",
+  "chapter": "ch03freyreduction",
+  "lean": [
+   "FLT.Bosses.B4_proof"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "Frey_curve_hardly_ramified",
+   "hardly_ramified_reducible"
+  ],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $\\overline{\\rho}$ is the mod $p$ Galois representation associated to a Frey package $(a,b,c,p)$ then $\\overline{\\rho}$ is reducible.",
+  "proved": false,
+  "uses": [
+   "Frey_curve_hardly_ramified",
+   "hardly_ramified_reducible"
+  ]
+ },
+ {
+  "id": "hardly_ramified_lifts",
+  "type": "theorem",
+  "chapter": "ch03freyreduction",
+  "lean": [
+   "GaloisRepresentation.IsHardlyRamified.lifts"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "hardly_ramified"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $\\ell\\geq3$ is prime and $\\overline{\\rho}:\\GQ\\to\\GL_2(\\Z/\\ell\\Z)$ is hardly ramified and irreducible, then there exists a finite extensio",
+  "proved": false,
+  "uses": [
+   "hardly_ramified"
+  ]
+ },
+ {
+  "id": "hardly_ramified_spreads_out",
+  "type": "theorem",
+  "chapter": "ch03freyreduction",
+  "lean": [
+   "GaloisRepresentation.IsHardlyRamified.mem_isCompatible"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "hardly_ramified"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $\\ell\\geq3$ is prime, $K$ is a finite extension of $\\Q_\\ell$ with integers $\\calO$ and if $\\rho:\\GQ\\to\\GL_2(\\calO)$ is a hardly ramified ",
+  "proved": false,
+  "uses": [
+   "hardly_ramified"
+  ]
+ },
+ {
+  "id": "hardly_ramified_mod3_reducible",
+  "type": "theorem",
+  "chapter": "ch03freyreduction",
+  "lean": [
+   "GaloisRepresentation.IsHardlyRamified.mod_three"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "hardly_ramified"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Suppose $k$ is a finite field of characteristic 3, and suppose $\\overline{rho}:\\GQ\\to\\GL_2(k)$ is hardly ramified. Then $\\overline{\\rho}$ is",
+  "proved": false,
+  "uses": [
+   "hardly_ramified"
+  ]
+ },
+ {
+  "id": "hardly_ramified_3adic_reducible",
+  "type": "theorem",
+  "chapter": "ch03freyreduction",
+  "lean": [
+   "GaloisRepresentation.IsHardlyRamified.three_adic"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "hardly_ramified",
+   "hardly_ramified_mod3_reducible"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Suppose $L/\\Q_3$ is a finite extension, with integer ring $\\calO_L$, and suppose $\\rho_3:\\GQ\\to\\GL_2(\\calO_L)$ is hardly ramified. Then (con",
+  "proved": false,
+  "uses": [
+   "hardly_ramified",
+   "hardly_ramified_mod3_reducible"
+  ]
+ },
+ {
+  "id": "modularity_lifting_theorem",
+  "type": "theorem",
+  "chapter": "ch04overview",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "Skinner_Wiles_CFT_trick",
+   "local_galois_coh_dim_two",
+   "local_galois_coh_top_degree",
+   "local_galois_coh_poincare",
+   "local_galois_coh_euler_poincare",
+   "IsDedekindDomain.FiniteAdeleRing.baseChangeAlgEquiv",
+   "automorphic_representation_local_decomposition",
+   "cuspidal_automorphic_representation",
+   "Galois_representation_from_automorphic_representation_on_GL_2_form",
+   "moret-bailly",
+   "local_galois_coh_finite"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $\\rhobar$ is modular of level $\\Gamma_1(S)$ and $\\rho:G_F\\to\\GL_2(\\calO)$ is an $S$-good lift of $\\rhobar$ to $\\calO$, the integers of a ",
+  "proved": false,
+  "uses": [
+   "Skinner_Wiles_CFT_trick",
+   "local_galois_coh_dim_two",
+   "local_galois_coh_top_degree",
+   "local_galois_coh_poincare",
+   "local_galois_coh_euler_poincare",
+   "IsDedekindDomain.FiniteAdeleRing.baseChangeAlgEquiv",
+   "automorphic_representation_local_decomposition",
+   "cuspidal_automorphic_representation",
+   "Galois_representation_from_automorphic_representation_on_GL_2_form",
+   "moret-bailly",
+   "local_galois_coh_finite"
+  ]
+ },
+ {
+  "id": "ZHat",
+  "type": "definition",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "ZHat"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The profinite completion $\\Zhat$ of $\\Z$ is the set of all compatible collections $c=(c_N)_N$ of elements of $\\Z/N\\Z$ indexed by $\\N^+:=\\{1,",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "ZHat.commRing",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "ZHat.commRing"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "ZHat"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$\\Zhat$ is a subring of $\\prod_{N\\geq1}(Z/N\\Z)$ and in particular is a ring.",
+  "proved": true,
+  "uses": [
+   "ZHat"
+  ]
+ },
+ {
+  "id": "ZHat.nontrivial",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "ZHat.nontrivial"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "ZHat.commRing"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$0\\not=1$ in $\\Zhat$.",
+  "proved": true,
+  "uses": [
+   "ZHat.commRing"
+  ]
+ },
+ {
+  "id": "ZHat.charZero",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "ZHat.charZero"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The map from the naturals into $\\Zhat$ sending $n$ to $n$ is injective.",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "ZHat.e",
+  "type": "definition",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "ZHat.e"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "ZHat.commRing"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The infinite sum $0!+1!+2!+3!+4!+5!+\\cdots$ looks like it makes no sense at all; it is the sum of an infinite series of larger and larger po",
+  "proved": true,
+  "uses": [
+   "ZHat.commRing"
+  ]
+ },
+ {
+  "id": "ZHat.e_def",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "ZHat.e_def"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "ZHat.e"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The collection $(e_N)_N$ is an element of $\\Zhat$.",
+  "proved": true,
+  "uses": [
+   "ZHat.e"
+  ]
+ },
+ {
+  "id": "ZHat.e_not_in_Int",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "ZHat.e_not_in_Int"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "ZHat.e"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The element $(e_N)_N$ of $\\Zhat$ is not in $\\Z$.",
+  "proved": true,
+  "uses": [
+   "ZHat.e"
+  ]
+ },
+ {
+  "id": "ZHat.torsionfree",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "ZHat.torsionfree"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "ZHat.commRing",
+   "ZHat.charZero"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $0<N$ is an integer then multiplication by $N$ is injective on $\\Zhat$.",
+  "proved": true,
+  "uses": [
+   "ZHat.commRing",
+   "ZHat.charZero"
+  ]
+ },
+ {
+  "id": "ZHat.multiples",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "ZHat.multiples"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "ZHat.commRing"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The multiples of~$N$ in $\\Zhat$ are precisely the compatible collections $(z_i)_i\\in\\Zhat$ with $z_N=0$.",
+  "proved": true,
+  "uses": [
+   "ZHat.commRing"
+  ]
+ },
+ {
+  "id": "QHat",
+  "type": "definition",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "QHat"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "ZHat"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The profinite completion $\\Qhat$ of $\\Q$ is the tensor product $\\Q\\otimes_{\\Z}\\Zhat$, or $\\Qhat=\\Q\\otimes\\Zhat$ for short.",
+  "proved": true,
+  "uses": [
+   "ZHat"
+  ]
+ },
+ {
+  "id": "QHat.canonicalForm",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "QHat.canonicalForm"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "QHat",
+   "ZHat.commRing"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Every element of $\\Qhat:=\\Q\\otimes\\Zhat$ can be written as $q\\otimes_t z$ with $q\\in\\Q$ and $z\\in\\Zhat$. Furthermore one can even assume tha",
+  "proved": true,
+  "uses": [
+   "QHat",
+   "ZHat.commRing"
+  ]
+ },
+ {
+  "id": "QHat.IsCoprime",
+  "type": "definition",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "QHat.IsCoprime"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "ZHat.commRing"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "If $N\\in\\N^+$ and $z\\in\\Zhat$ then we say that $N$ and $z$ are \\emph{coprime} if $z_N\\in(\\Z/N\\Z)^\\times$. We write $z/N$ as notation for the",
+  "proved": true,
+  "uses": [
+   "ZHat.commRing"
+  ]
+ },
+ {
+  "id": "QHat.lowestTerms",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "QHat.lowestTerms"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "QHat.IsCoprime"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Every element of $\\Qhat$ can be uniquely written as $z/N$ with $z\\in\\Zhat$, $N\\in\\N^+$, and with $N$ and $z$ coprime.",
+  "proved": false,
+  "uses": [
+   "QHat.IsCoprime"
+  ]
+ },
+ {
+  "id": "QHat.injective_rat",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "QHat.injective_rat"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "QHat",
+   "ZHat.commRing"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The ring homomorphism $\\Q\\to\\Qhat$ sending $q$ to $q\\otimes_t 1$ is injective.",
+  "proved": true,
+  "uses": [
+   "QHat",
+   "ZHat.commRing"
+  ]
+ },
+ {
+  "id": "QHat.injective_zHat",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "QHat.injective_zHat"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "QHat",
+   "ZHat.torsionfree"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The ring homomorphism $\\Zhat\\to\\Qhat$ sending $z$ to $1\\otimes_t z$ is injective.",
+  "proved": true,
+  "uses": [
+   "QHat",
+   "ZHat.torsionfree"
+  ]
+ },
+ {
+  "id": "QHat.rat_meet_zHat",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "QHat.rat_meet_zHat"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "QHat",
+   "ZHat.commRing"
+  ],
+  "proofUses": [
+   "QHat.lowestTerms"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The intersection of $\\Q$ and $\\Zhat$ in $\\Qhat$ is $\\Z$.",
+  "proved": true,
+  "uses": [
+   "QHat",
+   "ZHat.commRing",
+   "QHat.lowestTerms"
+  ]
+ },
+ {
+  "id": "QHat.rat_join_zHat",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "QHat.rat_join_zHat"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "QHat",
+   "ZHat.commRing"
+  ],
+  "proofUses": [
+   "QHat.canonicalForm"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The sum of $\\Q$ and $\\Zhat$ in $\\Qhat$ is $\\Qhat$. More precisely, every element of $\\Qhat$ can be written as $q+z$ with $q\\in\\Q$ and $z\\in\\",
+  "proved": true,
+  "uses": [
+   "QHat",
+   "ZHat.commRing",
+   "QHat.canonicalForm"
+  ]
+ },
+ {
+  "id": "Qhat.unitsrat_meet_unitszHat",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "QHat.unitsrat_meet_unitszHat"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "QHat",
+   "ZHat.commRing"
+  ],
+  "proofUses": [
+   "QHat.lowestTerms",
+   "QHat.rat_meet_zHat"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The intersection of $\\Q^\\times$ and $\\Zhat^\\times$ in $\\Qhat^\\times$ is $\\Z^\\times$.",
+  "proved": true,
+  "uses": [
+   "QHat",
+   "ZHat.commRing",
+   "QHat.lowestTerms",
+   "QHat.rat_meet_zHat"
+  ]
+ },
+ {
+  "id": "QHat.unitsrat_join_unitszHat",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "QHat.unitsrat_join_unitszHat"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "QHat",
+   "ZHat.commRing"
+  ],
+  "proofUses": [
+   "ZHat.multiples",
+   "ZHat.eq_zero_of_mul_eq_zero",
+   "QHat.canonicalForm"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The product of $\\Q^\\times$ and $\\Zhat^\\times$ in $\\Qhat^\\times$ is all of $\\Qhat^\\times$. More precisely, every element of $\\Qhat^\\times$ ca",
+  "proved": true,
+  "uses": [
+   "QHat",
+   "ZHat.commRing",
+   "ZHat.multiples",
+   "ZHat.eq_zero_of_mul_eq_zero",
+   "QHat.canonicalForm"
+  ]
+ },
+ {
+  "id": "Hurwitz",
+  "type": "definition",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The Hurwitz quaternions are the set $\\calO := \\Z\\oplus\\Z \\omega\\oplus\\Z i\\oplus \\Z i\\omega$ (as an abstract abelian group or as a subgroup o",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "Hurwitz.ring",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.ring"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The Hurwitz quaternions form a ring.",
+  "proved": true,
+  "uses": [
+   "Hurwitz"
+  ]
+ },
+ {
+  "id": "Hurwitz.starRing",
+  "type": "definition",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.starRing"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz.ring"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "There's a conjugation map (which we'll call \"star\") from the Hurwitz quaternions to themselves, sending integers to themselves and purely im",
+  "proved": true,
+  "uses": [
+   "Hurwitz.ring"
+  ]
+ },
+ {
+  "id": "Hurwitz.norm",
+  "type": "definition",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.norm"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The Hurwitz quaternions come equipped with an integer-valued norm, which is $a^2+b^2+c^2+d^2$ on $a+bi+cj+dk$ but needs to be modified a bit",
+  "proved": true,
+  "uses": [
+   "Hurwitz"
+  ]
+ },
+ {
+  "id": "Hurwitz.norm_eq_mul_conj",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.norm_eq_mul_conj"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "Hurwitz.norm",
+   "Hurwitz.starRing"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "We have $N(x)=x\\overline{x}$.",
+  "proved": true,
+  "uses": [
+   "Hurwitz.norm",
+   "Hurwitz.starRing"
+  ]
+ },
+ {
+  "id": "Hurwitz.norm_zero",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.norm_zero"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz.norm"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The norm of $0$ is $0$.",
+  "proved": true,
+  "uses": [
+   "Hurwitz.norm"
+  ]
+ },
+ {
+  "id": "Hurwitz.norm_one",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.norm_one"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz.norm"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The norm of $1$ is $1$.",
+  "proved": true,
+  "uses": [
+   "Hurwitz.norm"
+  ]
+ },
+ {
+  "id": "Hurwitz.norm_mul",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.norm_mul"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz.norm"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The norm of a product is the product of the norms.",
+  "proved": true,
+  "uses": [
+   "Hurwitz.norm"
+  ]
+ },
+ {
+  "id": "Hurwitz.norm_nonneg",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.norm_nonneg"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz.norm"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The norm of an element is nonnegative.",
+  "proved": true,
+  "uses": [
+   "Hurwitz.norm"
+  ]
+ },
+ {
+  "id": "Hurwitz.norm_eq_zero",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.norm_eq_zero"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz.norm"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The norm of an element is zero if and only if the element is zero.",
+  "proved": true,
+  "uses": [
+   "Hurwitz.norm"
+  ]
+ },
+ {
+  "id": "Hurwitz.exists_near",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.exists_near"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz.norm"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Given a ``usual'' quaternion $a=x+yi+zj+wk$ with $x,y,z,w\\in\\R$, there exists a Hurwitz quaternion $q$ such that $N(a-q)<1$.",
+  "proved": true,
+  "uses": [
+   "Hurwitz.norm"
+  ]
+ },
+ {
+  "id": "Hurwitz.quot_rem",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.quot_rem"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz.norm",
+   "Hurwitz.exists_near"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Given two Hurwitz quaternions $a$ and $b$ with $b$ nonzero, there exists $q$ and $r$ such that $a=qb+r$ and $N(r)<N(b)$.",
+  "proved": true,
+  "uses": [
+   "Hurwitz.norm",
+   "Hurwitz.exists_near"
+  ]
+ },
+ {
+  "id": "Hurwitz.left_ideal_princ",
+  "type": "corollary",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "Hurwitz.left_ideal_princ"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz.norm"
+  ],
+  "proofUses": [
+   "Hurwitz.quot_rem"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "All left ideals of $\\calO$ are principal.",
+  "proved": true,
+  "uses": [
+   "Hurwitz.norm",
+   "Hurwitz.quot_rem"
+  ]
+ },
+ {
+  "id": "Hurwitz.surjective_pnat_quotient",
+  "type": "theorem",
+  "chapter": "ch05automorphicformexample",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Hurwitz"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $N$ is a positive natural then the obvious map $\\calO\\to\\calOhat/N\\calOhat$ is surjective.",
+  "proved": false,
+  "uses": [
+   "Hurwitz"
+  ]
+ },
+ {
+  "id": "HurwitzRatHat.canonicalForm",
+  "type": "lemma",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "HurwitzRatHat.canonicalForm"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "QHat",
+   "ZHat",
+   "Hurwitz"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Every element of $\\widehat{D}$ can be written as $z/N$ with $z\\in\\calOhat$ and $N\\in\\N^+$.",
+  "proved": false,
+  "uses": [
+   "QHat",
+   "ZHat",
+   "Hurwitz"
+  ]
+ },
+ {
+  "id": "HurwitzRatHat.completed_units",
+  "type": "theorem",
+  "chapter": "ch05automorphicformexample",
+  "lean": [
+   "HurwitzRatHat.completed_units"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "HurwitzRatHat.canonicalForm"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The group of units of $\\widehat{D}$ is $D^\\times\\calOhat^\\times$. More precisely, every element of $\\widehat{D}^\\times$ can be written as a ",
+  "proved": false,
+  "uses": [
+   "HurwitzRatHat.canonicalForm"
+  ]
+ },
+ {
+  "id": "MatrixRing.isCentralSimple",
+  "type": "lemma",
+  "chapter": "ch06automorphicrepresentations",
+  "lean": [],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $n\\geq1$ then the $n\\times n$ matrices $M_n(K)$ are a central simple algebra over~$K$.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "IsCentralSimple.baseChange",
+  "type": "lemma",
+  "chapter": "ch06automorphicrepresentations",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $D$ is a central simple algebra over~$K$ and $L/K$ is a field extension, then $L\\otimes_KD$ is a central simple algebra over~$L$.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "AutomorphicForm.GLn.IsSmooth",
+  "type": "definition",
+  "chapter": "ch07exampleGLn",
+  "lean": [
+   "AutomorphicForm.GLn.IsSmooth"
+  ],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "A function $f:\\GL_n(\\A_{\\Q}^f)\\times\\GL_n(\\R)\\to\\bbC$ is \\emph{smooth} if it has the following three properties. \\begin{enumerate} \\item $f$",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "AutomorphicForm.GLn.IsSlowlyIncreasing",
+  "type": "definition",
+  "chapter": "ch07exampleGLn",
+  "lean": [
+   "AutomorphicForm.GLn.IsSlowlyIncreasing"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "We say that a function $f:\\GL_n(\\R)\\to\\bbC$ is \\emph{slowly-increasing} if there's some real constant $C$ and positive integer $n$ such that",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "AutomorphicForm.GLn.Weight",
+  "type": "definition",
+  "chapter": "ch07exampleGLn",
+  "lean": [
+   "AutomorphicForm.GLn.Weight"
+  ],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The \\emph{weight} of an automorphic form for $\\GL_n/\\Q$ can be thought of as a finite-dimensional continuous complex representation $\\rho$ o",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "instLieAlgebraAction",
+  "type": "definition",
+  "chapter": "ch07exampleGLn",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "There is a natural action of the real Lie algebra of $\\GL_n(\\R)$ on the complex vector space of smooth complex-valued functions on $\\GL_n(\\R",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "instComplexLieAlgebraAction",
+  "type": "definition",
+  "chapter": "ch07exampleGLn",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "instLieAlgebraAction"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "This extends to is a natural complex Lie algebra action of the complexification of the real Lie algebra, on the smooth complex functions on ",
+  "proved": false,
+  "uses": [
+   "instLieAlgebraAction"
+  ]
+ },
+ {
+  "id": "instUniversalEnvelopingAlgebraAction",
+  "type": "definition",
+  "chapter": "ch07exampleGLn",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "instComplexLieAlgebraAction"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "By functoriality, we get an action of the universal enveloping algebra of this complexified Lie algebra on the smooth complex functions.",
+  "proved": false,
+  "uses": [
+   "instComplexLieAlgebraAction"
+  ]
+ },
+ {
+  "id": "instCentreAction",
+  "type": "definition",
+  "chapter": "ch07exampleGLn",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "instUniversalEnvelopingAlgebraAction"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Thus the \\emph{centre} $\\Z_n$ of this universal enveloping algebra also acts on the smooth complex functions.",
+  "proved": false,
+  "uses": [
+   "instUniversalEnvelopingAlgebraAction"
+  ]
+ },
+ {
+  "id": "AutomorphicForm.GLn.AutomorphicFormForGLnOverQ",
+  "type": "definition",
+  "chapter": "ch07exampleGLn",
+  "lean": [
+   "AutomorphicForm.GLn.AutomorphicFormForGLnOverQ"
+  ],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "AutomorphicForm.GLn.IsSmooth",
+   "AutomorphicForm.GLn.IsSlowlyIncreasing",
+   "AutomorphicForm.GLn.Weight",
+   "instCentreAction"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "A smooth function $f:\\GL_n(\\A_{\\Q}^f)\\times\\GL_n(\\R)\\to\\bbC$ is an $O_n(\\R)$-\\emph{automorphic form} on $\\GL_n(\\A_{\\Q})$ if it satisfies the",
+  "proved": false,
+  "uses": [
+   "AutomorphicForm.GLn.IsSmooth",
+   "AutomorphicForm.GLn.IsSlowlyIncreasing",
+   "AutomorphicForm.GLn.Weight",
+   "instCentreAction"
+  ]
+ },
+ {
+  "id": "IsFractionRing.stabilizerHom",
+  "type": "definition",
+  "chapter": "FrobeniusProject",
+  "lean": [
+   "IsFractionRing.stabilizerHom"
+  ],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Choose $g\\in D_Q$. Then the action of $g$ on $B$ gives us an induced $A/P$-algebra automorphism of $B/Q$ which extends to a $K$-algebra auto",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "IsFractionRing.stabilizerHom_surjective",
+  "type": "theorem",
+  "chapter": "FrobeniusProject",
+  "lean": [
+   "IsFractionRing.stabilizerHom_surjective"
+  ],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [
+   "IsFractionRing.stabilizerHom"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "\\mathlibok The map $g\\mapsto \\phi_g$ from $D_Q$ to $\\Aut(L/K)$ defined above is surjective.",
+  "proved": false,
+  "uses": [
+   "IsFractionRing.stabilizerHom"
+  ]
+ },
+ {
+  "id": "MulSemiringAction.charpoly",
+  "type": "definition",
+  "chapter": "FrobeniusProject",
+  "lean": [
+   "MulSemiringAction.charpoly"
+  ],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "\\mathlibok If $b\\in B$ then define the \\emph{characteristic polynomial} $F_b(X) \\in B[X]$ of $b$ to be $\\prod_{g\\in G}(X-g\\cdot b)$.",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "MulSemiringAction.monic_charpoly",
+  "type": "lemma",
+  "chapter": "FrobeniusProject",
+  "lean": [
+   "MulSemiringAction.monic_charpoly"
+  ],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [
+   "MulSemiringAction.charpoly"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "\\mathlibok $F_b$ is monic.",
+  "proved": true,
+  "uses": [
+   "MulSemiringAction.charpoly"
+  ]
+ },
+ {
+  "id": "Algebra.IsInvariant.charpoly_mem_lifts",
+  "type": "lemma",
+  "chapter": "FrobeniusProject",
+  "lean": [
+   "Algebra.IsInvariant.charpoly_mem_lifts"
+  ],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [
+   "MulSemiringAction.charpoly"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "\\mathlibok $F_b$ is the lift of some monic polynomial $M_b$ in $A[X]$.",
+  "proved": true,
+  "uses": [
+   "MulSemiringAction.charpoly"
+  ]
+ },
+ {
+  "id": "Algebra.IsInvariant.isIntegral",
+  "type": "theorem",
+  "chapter": "FrobeniusProject",
+  "lean": [
+   "Algebra.IsInvariant.isIntegral"
+  ],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MulSemiringAction.monic_charpoly",
+   "Algebra.IsInvariant.charpoly_mem_lifts"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "\\mathlibok $B/A$ is integral.",
+  "proved": true,
+  "uses": [
+   "MulSemiringAction.monic_charpoly",
+   "Algebra.IsInvariant.charpoly_mem_lifts"
+  ]
+ },
+ {
+  "id": "fixed_of_fixed1_aux1",
+  "type": "lemma",
+  "chapter": "FrobeniusProject",
+  "lean": [],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "Algebra.IsInvariant.charpoly_mem_lifts"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "\\mathlibok There exist elements $a,b \\in B$, with $a \\notin Q$ and $a$ in the image of $A$ such that for all $g\\in G$, \\begin{itemize} \\item",
+  "proved": true,
+  "uses": [
+   "Algebra.IsInvariant.charpoly_mem_lifts"
+  ]
+ },
+ {
+  "id": "fixed_of_fixed1_aux2",
+  "type": "lemma",
+  "chapter": "FrobeniusProject",
+  "lean": [],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "fixed_of_fixed1_aux1"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "\\mathlibok Let $b_0 \\in B$. Suppose that the image of $b_0$ in the quotient $B/Q$ is fixed by the stabilizer subgroup $D_Q$. Then there exis",
+  "proved": true,
+  "uses": [
+   "fixed_of_fixed1_aux1"
+  ]
+ },
+ {
+  "id": "FixedPoints.toAlgAut_surjective",
+  "type": "theorem",
+  "chapter": "FrobeniusProject",
+  "lean": [
+   "FixedPoints.toAlgAut_surjective"
+  ],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Let $H$ be a finite group acting on a field $F$ by field automorphisms. Then the map $H \\to \\Aut(F/F^H)$ is surjective. \\mathlibok",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "fixed_of_fixed1",
+  "type": "proposition",
+  "chapter": "FrobeniusProject",
+  "lean": [],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [
+   "IsFractionRing.stabilizerHom"
+  ],
+  "proofUses": [
+   "fixed_of_fixed1_aux1",
+   "fixed_of_fixed1_aux2"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "\\mathlibok Let $b_0 \\in B/Q$. Suppose that $b_0$ is fixed by the stabilizer subgroup $D_Q$. Then $b_0$ is fixed by $\\Aut(L/K)$.",
+  "proved": true,
+  "uses": [
+   "IsFractionRing.stabilizerHom",
+   "fixed_of_fixed1_aux1",
+   "fixed_of_fixed1_aux2"
+  ]
+ },
+ {
+  "id": "IsAlgebraic.exists_smul_eq_mul",
+  "type": "lemma",
+  "chapter": "FrobeniusProject",
+  "lean": [
+   "IsAlgebraic.exists_smul_eq_mul"
+  ],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "\\mathlibok If $R/S$ is an algebraic extension of integral domains, then any fraction $a/b$ with $a,b\\in R$ can be written as $c/d$ with $c\\i",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "fixed_of_fixed2",
+  "type": "proposition",
+  "chapter": "FrobeniusProject",
+  "lean": [],
+  "stated": true,
+  "mathlibok": true,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "fixed_of_fixed1",
+   "Algebra.IsInvariant.isIntegral",
+   "IsAlgebraic.exists_smul_eq_mul"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "\\mathlibok Let $x \\in L$. Suppose that $x$ is fixed by the stabilizer subgroup $D_Q$. Then $x$ is fixed by the automorphism group $\\Aut(L/K)",
+  "proved": true,
+  "uses": [
+   "fixed_of_fixed1",
+   "Algebra.IsInvariant.isIntegral",
+   "IsAlgebraic.exists_smul_eq_mul"
+  ]
+ },
+ {
+  "id": "NumberField.instCompactSpaceAdicCompletionIntegers",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.instCompactSpaceAdicCompletionIntegers"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $K$ is a number field and $v$ is a nonzero prime ideal of the integers of $K$, then the integers of $K_v$ is a compact open subgroup.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "NumberField.AdeleRing.locallyCompactSpace",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.AdeleRing.locallyCompactSpace"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.instCompactSpaceAdicCompletionIntegers"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The adeles of a number field are locally compact.",
+  "proved": false,
+  "uses": [
+   "NumberField.instCompactSpaceAdicCompletionIntegers"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.HeightOneSpectrum.valuation_comap",
+  "type": "lemma",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.HeightOneSpectrum.valuation_comap"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $i:K\\to L$ denotes the inclusion then for $k\\in K$ we have $e\\times w(i(k))=v(k)$, where $e$ is the ramification index of $w/v$ (recall t",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom",
+  "type": "definition",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.valuation_comap"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "There's a natural ring map $K_v\\to L_w$ extending the map $K\\to L$. It is defined by completing the inclusion $K\\to L$ at the finite places ",
+  "proved": true,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.valuation_comap"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.HeightOneSpectrum.Extension.valued_adicCompletionSemialgHom",
+  "type": "lemma",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.valued_adicCompletionSemialgHom"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.valuation_comap",
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $i_v:K_v\\to L_w$ denotes the map of the previous definition then for $x\\in K_v$ we have $e\\times w(i(k))=v(k)$, where $e$ is the ramifica",
+  "proved": true,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.valuation_comap",
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom_image_adicCompletionIntegers",
+  "type": "lemma",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom_image_adicCompletionIntegers"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.valued_adicCompletionSemialgHom"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The map $i_v:K_v\\to L_w$ sends the integer ring $A_v$ into $B_w$.",
+  "proved": true,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.valued_adicCompletionSemialgHom"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.HeightOneSpectrum.adicCompletion.instIsModuleTopology",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.instIsModuleTopology"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Giving $L_w$ the $K_v$-algebra structure coming from the natural map $K_v\\to L_w$, the $w$-adic topology on $L_w$ is the $K_v$-module topolo",
+  "proved": false,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.HeightOneSpectrum.Extension.finite",
+  "type": "lemma",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.finite"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "There are only finitely many primes $w$ of $B$ lying above $v$.",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "IsDedekindDomain.HeightOneSpectrum.adicCompletion.semialgHomPi",
+  "type": "definition",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.semialgHomPi"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The product of the maps $K_v\\to L_w$ for $w|v$ is a natural ring map $K_v\\to\\prod_{w|v}L_w$ lying over $K\\to L$.",
+  "proved": true,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.HeightOneSpectrum.adicCompletion.baseChangeAlgEquiv",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.baseChangeAlgEquiv"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.semialgHomPi",
+   "IsDedekindDomain.HeightOneSpectrum.Extension.finite"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The induced $L$-algebra homomorphism $L\\otimes_KK_v\\to\\prod_{w|v}L_w$ is an isomorphism of rings.",
+  "proved": false,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.semialgHomPi",
+   "IsDedekindDomain.HeightOneSpectrum.Extension.finite"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.HeightOneSpectrum.adicCompletion.instIsModuleTopologyPi",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.instIsModuleTopologyPi"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.instIsModuleTopology"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "For $v$ fixed, the product topology on $\\prod_{w|v}L_w$ is the $K_v$-module topology.",
+  "proved": true,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.instIsModuleTopology"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.HeightOneSpectrum.adicCompletion.baseChangeContinuousAlgEquiv",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.baseChangeContinuousAlgEquiv"
+  ],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.instIsModuleTopologyPi"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If we give $L\\otimes_KK_v$ the $K_v$-module topology then the $L$-algebra isomorphism $L\\otimes_K K_v\\cong\\prod_{w|v}L_w$ is also a homeomor",
+  "proved": false,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.instIsModuleTopologyPi"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.HeightOneSpectrum.range_baseChange_comp_tensorAdicCompletionTo_eq_pi",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.HeightOneSpectrum.range_baseChange_comp_tensorAdicCompletionTo_eq_pi"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.baseChangeAlgEquiv"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The isomorphism $L\\otimes_KK_v\\to\\prod_{w|v}L_w$ induces an isomorphism $B\\otimes_AA_v\\to \\prod_{w|v}B_w$ for all $v$ in the height one spec",
+  "proved": true,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.adicCompletion.baseChangeAlgEquiv"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.FiniteAdeleRing.mapSemialgHom",
+  "type": "definition",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.FiniteAdeleRing.mapSemialgHom"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom",
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom_image_adicCompletionIntegers"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "There's a natural ring homomorphism $\\A_{A,K}^\\infty\\to\\A_{B,L}^\\infty$ lying over $K\\to L$.",
+  "proved": true,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom",
+   "IsDedekindDomain.HeightOneSpectrum.Extension.adicCompletionSemialgHom_image_adicCompletionIntegers"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.FiniteAdeleRing.baseChangeAlgEquiv",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.FiniteAdeleRing.baseChangeAlgEquiv"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.range_baseChange_comp_tensorAdicCompletionTo_eq_pi",
+   "RestrictedProduct.relabelIso",
+   "IsDedekindDomain.FiniteAdeleRing.baseChangeIntegralAlgEquiv",
+   "IsDedekindDomain.AKLB.tensorProduct_module_algEquiv"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "This natural map $L\\otimes_K\\A_{A,K}^\\infty\\to\\A_{B,L}^\\infty$ is an isomorphism.",
+  "proved": false,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.range_baseChange_comp_tensorAdicCompletionTo_eq_pi",
+   "RestrictedProduct.relabelIso",
+   "IsDedekindDomain.FiniteAdeleRing.baseChangeIntegralAlgEquiv",
+   "IsDedekindDomain.AKLB.tensorProduct_module_algEquiv"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.FiniteAdeleRing.baseChangeContinuousAlgEquiv",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.FiniteAdeleRing.baseChangeContinuousAlgEquiv"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.HeightOneSpectrum.range_baseChange_comp_tensorAdicCompletionTo_eq_pi"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The induced $L$-algebra morphism $L\\otimes_K\\A_{A,K}^\\infty\\to\\A_{B,L}^\\infty$ is a topological isomorphism.",
+  "proved": false,
+  "uses": [
+   "IsDedekindDomain.HeightOneSpectrum.range_baseChange_comp_tensorAdicCompletionTo_eq_pi"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.dvd_norm",
+  "type": "lemma",
+  "chapter": "AdeleMiniproject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $0\\not=b\\in B$ then there exists $0\\not=a\\in A$ such that $b$ divides the image of $a$ in $B$.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "IsDedekindDomain.AKLB.surjective_tensorProduct_map",
+  "type": "corollary",
+  "chapter": "AdeleMiniproject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.dvd_norm"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The $A$-bilinear map $B\\times K\\to L$ sending $(b,k)$ to $bk$ is surjective.",
+  "proved": false,
+  "uses": [
+   "IsDedekindDomain.dvd_norm"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.FiniteAdeleRing.tensorProduct_algEquiv",
+  "type": "corollary",
+  "chapter": "AdeleMiniproject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.dvd_norm"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The natural map $B\\otimes_AK\\to L$ is a $B$-algebra isomorphism.",
+  "proved": false,
+  "uses": [
+   "IsDedekindDomain.dvd_norm"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.AKLB.tensorProduct_module_algEquiv",
+  "type": "corollary",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "IsDedekindDomain.linearEquivTensorProductModule"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $M$ is any $K$-module then the canonical map $B\\otimes_A M\\to L\\otimes_K M$ is an isomorphism.",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "IsDedekindDomain.AKLB.finitePresentation",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$B$ is a finitely-presented $A$-module.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "pi_tensorProduct_of_finitePresentation",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $R$ is a commutative ring, if $M$ is a finitely presented $R$-module and if $N_i$ are a collection of $R$-modules, then the canonical map",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "IsDedekindDomain.pi_tensorProduct",
+  "type": "corollary",
+  "chapter": "AdeleMiniproject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.AKLB.finitePresentation",
+   "pi_tensorProduct_of_finitePresentation"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $S$ is a finite set of nonzero primes of $A$ then the natural map $B\\otimes((\\prod_{v\\in S}K_v)\\times(\\prod_{v\\notin S}A_v))\\to (\\prod_{v",
+  "proved": false,
+  "uses": [
+   "IsDedekindDomain.AKLB.finitePresentation",
+   "pi_tensorProduct_of_finitePresentation"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.FiniteAdeleRing.IntegraltensorProductAlgEquiv_aux1",
+  "type": "corollary",
+  "chapter": "AdeleMiniproject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "IsDedekindDomain.pi_tensorProduct"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The natural map $B\\otimes_A\\A_K^\\infty\\to R$ is a $B$-algebra isomorphism.",
+  "proved": false,
+  "uses": [
+   "IsDedekindDomain.pi_tensorProduct"
+  ]
+ },
+ {
+  "id": "RestrictedProduct.relabelIso",
+  "type": "definition",
+  "chapter": "AdeleMiniproject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Let $V$ and $W$ be index sets, and let $f:W\\to V$ be a map with finite fibres. Let $X_v$ be sets, with subsets $C_v$, let $Y_w$ be sets with",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "IsDedekindDomain.FiniteAdeleRing.IntegraltensorProductAlgEquiv_aux2",
+  "type": "corollary",
+  "chapter": "AdeleMiniproject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "RestrictedProduct.relabelIso"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The ring $R$ introduced above (the restricted product of the $B\\otimes_A K_v$ with respect to the $B\\otimes_A A_v$) is isomorphic to $\\mathb",
+  "proved": false,
+  "uses": [
+   "RestrictedProduct.relabelIso"
+  ]
+ },
+ {
+  "id": "IsDedekindDomain.FiniteAdeleRing.baseChangeIntegralAlgEquiv",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "RestrictedProduct.relabelIso",
+   "IsDedekindDomain.FiniteAdeleRing.IntegraltensorProductAlgEquiv_aux1",
+   "IsDedekindDomain.FiniteAdeleRing.IntegraltensorProductAlgEquiv_aux2"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The natural map $B\\otimes_A\\A_K^\\infty\\to\\A_L^\\infty$ is a $B$-algebra isomorphism.",
+  "proved": false,
+  "uses": [
+   "RestrictedProduct.relabelIso",
+   "IsDedekindDomain.FiniteAdeleRing.IntegraltensorProductAlgEquiv_aux1",
+   "IsDedekindDomain.FiniteAdeleRing.IntegraltensorProductAlgEquiv_aux2"
+  ]
+ },
+ {
+  "id": "NumberField.InfinitePlace.Completion.denseRange_algebraMap_subtype_pi",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfinitePlace.Completion.denseRange_algebraMap_subtype_pi"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Let $S$ be a set of infinite places of $K$. The image of $K$ under the embedding $K\\hookrightarrow (K_v)_{v\\in S}; k \\mapsto (k)_v$ is dense",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "NumberField.InfinitePlace.Completion.finrank_pi_eq_finrank_tensorProduct",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfinitePlace.Completion.finrank_pi_eq_finrank_tensorProduct"
+  ],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "For a fixed infinite place $v$ of $K$, we have $\\text{dim}_{K_v} \\prod_{w\\mid v} L_w = \\text{dim}_{K_v} L\\otimes_K K_v$.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "NumberField.InfinitePlace.Completion.piExtension",
+  "type": "definition",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfinitePlace.Completion.piExtension"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Let $v$ be an infinite place of $K$. There is a continuous $K$-algebra homomorphism $K_v \\to \\prod_{w\\mid v}L_w$, whose restriction to $K$ c",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "NumberField.InfinitePlace.Completion.baseChange",
+  "type": "definition",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfinitePlace.Completion.baseChange"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.InfinitePlace.Completion.piExtension"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Let $v$ be an infinite place of $K$. There is a natural $L$-algebra homomorphism $L\\otimes_K K_v \\to \\prod_{w\\mid v}L_w$, whose restriction ",
+  "proved": true,
+  "uses": [
+   "NumberField.InfinitePlace.Completion.piExtension"
+  ]
+ },
+ {
+  "id": "NumberField.InfinitePlace.Completion.baseChange_surjective",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfinitePlace.Completion.baseChange_surjective"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.InfinitePlace.Completion.denseRange_algebraMap_subtype_pi"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "For a fixed infinite place $v$ of $K$, the map $L\\otimes_K K_v \\to\\prod_{w\\mid v}L_w$ is surjective.",
+  "proved": false,
+  "uses": [
+   "NumberField.InfinitePlace.Completion.denseRange_algebraMap_subtype_pi"
+  ]
+ },
+ {
+  "id": "NumberField.InfinitePlace.Completion.baseChange_injective",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfinitePlace.Completion.baseChange_injective"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.InfinitePlace.Completion.finrank_pi_eq_finrank_tensorProduct"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "For a fixed infinite place $v$ of $K$, the map $L\\otimes_K K_v \\to\\prod_{w\\mid v}L_w$ is injective.",
+  "proved": false,
+  "uses": [
+   "NumberField.InfinitePlace.Completion.finrank_pi_eq_finrank_tensorProduct"
+  ]
+ },
+ {
+  "id": "NumberField.InfinitePlace.Completion.instIsModuleTopologyValEqComapAlgebraMap_fLT",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfinitePlace.Completion.instIsModuleTopologyValEqComapAlgebraMap_fLT"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $w \\mid v$ is an infinite place of $L$ lying above the infinite place $v$ of $K$, then $L_w$ has the $K_v$-module topology.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "NumberField.InfinitePlace.Completion.baseChangeEquiv",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfinitePlace.Completion.baseChangeEquiv"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.InfinitePlace.Completion.baseChange",
+   "NumberField.InfinitePlace.Completion.baseChange_surjective",
+   "NumberField.InfinitePlace.Completion.baseChange_injective",
+   "NumberField.InfinitePlace.Completion.instIsModuleTopologyValEqComapAlgebraMap_fLT"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Let $v$ be an infinite place of $K$. There is a natural $L$-algebra homeomorphism $L\\otimes_K K_v \\cong_L \\prod_{w\\mid v}L_w$, whose restric",
+  "proved": false,
+  "uses": [
+   "NumberField.InfinitePlace.Completion.baseChange",
+   "NumberField.InfinitePlace.Completion.baseChange_surjective",
+   "NumberField.InfinitePlace.Completion.baseChange_injective",
+   "NumberField.InfinitePlace.Completion.instIsModuleTopologyValEqComapAlgebraMap_fLT"
+  ]
+ },
+ {
+  "id": "NumberField.InfinitePlace.Completion.piEquiv",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfinitePlace.Completion.piEquiv"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.InfinitePlace.Completion.baseChangeEquiv"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Let $v$ be an infinite place of $K$. There is a natural $K_v$-linear homeomorphism $K_v^{[L:K]} \\cong_{K_v} \\prod_{w\\mid v}L_w$.",
+  "proved": false,
+  "uses": [
+   "NumberField.InfinitePlace.Completion.baseChangeEquiv"
+  ]
+ },
+ {
+  "id": "NumberField.InfiniteAdeleRing.piEquiv",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfiniteAdeleRing.piEquiv"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.InfinitePlace.Completion.piEquiv"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "There is a natural $K_{\\infty}$-linear homeomorphism $K_{\\infty}^{[L:K]} \\cong_{K_{\\infty}} L_{\\infty}$.",
+  "proved": false,
+  "uses": [
+   "NumberField.InfinitePlace.Completion.piEquiv"
+  ]
+ },
+ {
+  "id": "NumberField.InfiniteAdeleRing.instIsModuleTopology_fLT",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfiniteAdeleRing.instIsModuleTopology_fLT"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.InfiniteAdeleRing.piEquiv"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$L_{\\infty}$ has the $K_{\\infty}$-module topology.",
+  "proved": false,
+  "uses": [
+   "NumberField.InfiniteAdeleRing.piEquiv"
+  ]
+ },
+ {
+  "id": "NumberField.InfiniteAdeleRing.baseChangeAlgEquiv",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfiniteAdeleRing.baseChangeAlgEquiv"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.InfinitePlace.Completion.baseChangeEquiv"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "There is a natural $L$-algebra isomorphism $L \\otimes_K K_{\\infty} \\cong_L L_{\\infty}$.",
+  "proved": false,
+  "uses": [
+   "NumberField.InfinitePlace.Completion.baseChangeEquiv"
+  ]
+ },
+ {
+  "id": "NumberField.InfiniteAdeleRing.baseChangeEquiv",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.InfiniteAdeleRing.baseChangeEquiv",
+   "NumberField.InfiniteAdeleRing.instIsModuleTopology_fLT"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.InfiniteAdeleRing.baseChangeAlgEquiv"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $K\\to L$ is a ring homomorphism between two number fields then there is a natural isomorphism (both topological and algebraic) $L\\otimes_",
+  "proved": false,
+  "uses": [
+   "NumberField.InfiniteAdeleRing.baseChangeAlgEquiv"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.baseChangeEquiv",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.AdeleRing.baseChangeEquiv"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.InfiniteAdeleRing.baseChangeEquiv",
+   "IsDedekindDomain.FiniteAdeleRing.baseChangeAlgEquiv"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $K\\to L$ is a ring homomorphism between two number fields then there is a natural isomorphism (both topological and algebraic) $L\\otimes_",
+  "proved": true,
+  "uses": [
+   "NumberField.InfiniteAdeleRing.baseChangeEquiv",
+   "IsDedekindDomain.FiniteAdeleRing.baseChangeAlgEquiv"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.baseChange_moduleTopology",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.AdeleRing.instIsModuleTopology"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.baseChangeEquiv"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $K\\to L$ is a ring homomorphism between two number fields then the topology on $\\A_L$ is the $\\A_K$-module topology, where the module str",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.baseChangeEquiv"
+  ]
+ },
+ {
+  "id": "Rat.AdeleRing.zero_discrete",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "Rat.AdeleRing.zero_discrete"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "There's an open subset of $\\A_{\\Q}$ whose intersection with $\\Q$ is $\\{0\\}$.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "NumberField.AdeleRing.zero_discrete",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.AdeleRing.zero_discrete"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Rat.AdeleRing.zero_discrete",
+   "NumberField.AdeleRing.baseChangeEquiv"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "There's an open subset of $\\A_{K}$ whose intersection with $K$ is $\\{0\\}$.",
+  "proved": false,
+  "uses": [
+   "Rat.AdeleRing.zero_discrete",
+   "NumberField.AdeleRing.baseChangeEquiv"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.discrete",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.AdeleRing.discrete"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.zero_discrete"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The additive subgroup $K$ of $\\A_K$ is discrete.",
+  "proved": false,
+  "uses": [
+   "NumberField.AdeleRing.zero_discrete"
+  ]
+ },
+ {
+  "id": "Rat.AdeleRing.cocompact",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "Rat.AdeleRing.cocompact"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The quotient $\\A_{\\Q}/\\Q$ is compact.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "NumberField.AdeleRing.cocompact",
+  "type": "theorem",
+  "chapter": "AdeleMiniproject",
+  "lean": [
+   "NumberField.AdeleRing.cocompact"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "Rat.AdeleRing.cocompact",
+   "NumberField.AdeleRing.baseChangeEquiv"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The quotient $\\A_K/K$ is compact.",
+  "proved": false,
+  "uses": [
+   "Rat.AdeleRing.cocompact",
+   "NumberField.AdeleRing.baseChangeEquiv"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar",
+  "type": "definition",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "If $A$ is a locally compact topological additive abelian group, if $\\mu$ is a regular Haar measure on $A$, and if $\\phi:A\\to A$ is an additi",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_eq",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_eq"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$d_A(\\phi)$ is independent of choice of regular Haar measure.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_smul_map",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_smul_map"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar_eq"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $\\mu$ is any regular Haar measure on $A$ then $d_A(\\phi)(\\phi_*\\mu) = \\mu.$",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_eq"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_comap",
+  "type": "corollary",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_smul_eq_comap"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar_smul_map"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $\\mu$ is any regular Haar measure on $A$ then $d_A(\\phi)\\mu = \\phi^*\\mu.$",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_smul_map"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_smul_preimage",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_smul_preimage"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar"
+  ],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_smul_map"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $X$ is a Borel set then $\\mu(X)=d_A(\\phi)\\mu(\\phi^{-1}X)$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar",
+   "MeasureTheory.addEquivAddHaarChar_smul_map"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_smul_integral_map",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_smul_integral_map"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar"
+  ],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_smul_map"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $f:A\\to\\R$ is a Borel measurable function then $d_A(\\phi)\\int f(x)d\\phi_*\\mu(x)=\\int f(x)d\\mu(x)$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar",
+   "MeasureTheory.addEquivAddHaarChar_smul_map"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_smul_integral_comap",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.integral_comap_eq_addEquivAddHaarChar_smul"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar_comap"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $f:A\\to\\R$ is a Borel measurable function then $d_A(\\phi)\\int f(x)d\\mu(x)=\\int f(x)d\\phi^*\\mu(x)$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_comap"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_refl",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_refl"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar"
+  ],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_eq"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$d_A(id)=1.$",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar",
+   "MeasureTheory.addEquivAddHaarChar_eq"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_trans",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_trans"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar"
+  ],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_smul_preimage"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$d_A(\\phi\\circ\\psi)=d_A(\\phi)d_A(\\psi).$",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar",
+   "MeasureTheory.addEquivAddHaarChar_smul_preimage"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar",
+  "type": "definition",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar",
+   "MeasureTheory.addEquivAddHaarChar_refl",
+   "MeasureTheory.addEquivAddHaarChar_trans"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "We define $\\delta_R(u)$ (or just $\\delta(u)$ when the ring $R$ is clear) to be $d_R(\\ell_u)$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar",
+   "MeasureTheory.addEquivAddHaarChar_refl",
+   "MeasureTheory.addEquivAddHaarChar_trans"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar_mul_integral",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar_mul_integral"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.ringHaarChar"
+  ],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_smul_integral_map"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $f:R\\to\\R$ is a Borel measurable function and $u\\in R^\\times$ then $\\delta_R(u)\\int f(ux)d\\mu(x)=\\int f(x)d\\mu(x)$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.ringHaarChar",
+   "MeasureTheory.addEquivAddHaarChar_smul_integral_map"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar_mul_volume",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar_mul_volume"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.ringHaarChar",
+   "MeasureTheory.addEquivAddHaarChar_smul_preimage"
+  ],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_smul_preimage"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $X$ is a Borel subset of $R$ and $r\\in R^\\times$ then $\\mu(rX)=\\delta_R(r)\\mu(X)$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.ringHaarChar",
+   "MeasureTheory.addEquivAddHaarChar_smul_preimage"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar_continuous",
+  "type": "corollary",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar_continuous"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.ringHaarChar"
+  ],
+  "proofUses": [
+   "MeasureTheory.ringHaarChar_mul_integral"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The function $\\delta_R:R^\\times\\to\\R_{>0}$ is continuous.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.ringHaarChar",
+   "MeasureTheory.ringHaarChar_mul_integral"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar_real",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar_real"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.ringHaarChar_mul_volume"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $R=\\R$ then $\\delta_R(u)=|u|$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.ringHaarChar_mul_volume"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar_complex",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar_complex"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.ringHaarChar_mul_volume"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $R=\\bbC$ then $\\delta_R(u)=|u|^2$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.ringHaarChar_mul_volume"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar_padic",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar_padic"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.ringHaarChar_mul_volume"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $R=\\Q_p$ then $\\delta_R(u)=|u|_p$, the usual $p$-adic norm.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.ringHaarChar_mul_volume"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_eq_ringHaarChar_det",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_eq_ringHaarChar_det",
+   "MeasureTheory.addEquivAddHaarChar_eq_ringHaarChar_det_of_existsListTransvecEtc"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.ringHaarChar"
+  ],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Assume that there's an $F$-basis for $V$ such that $\\phi$ is a product of elementary and diagonal matrices (note that this is automatic if $",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.ringHaarChar",
+   "MeasureTheory.addEquivAddHaarChar"
+  ]
+ },
+ {
+  "id": "MeasureTheory.algebra_ringHaarChar_eq_ringHaarChar_det",
+  "type": "corollary",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.algebra_ringHaarChar_eq_ringHaarChar_det"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_eq_ringHaarChar_det"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $u\\in R^\\times$ then $\\delta_R(u)=\\delta_F(\\det(\\ell_u))$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_eq_ringHaarChar_det"
+  ]
+ },
+ {
+  "id": "IsSimpleRing.mulLeft_det_eq_mulRight_det",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "IsSimpleRing.mulLeft_det_eq_mulRight_det"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Say $B$ is a finite-dimensional central simple algebra over a field~$k$, and $u\\in B^\\times$. Let $\\ell_u:B\\to B$ be the $k$-linear mapping ",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "IsSimpleRing.ringHaarChar_eq_addEquivAddHaarChar_mulRight",
+  "type": "corollary",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "IsSimpleRing.ringHaarChar_eq_addEquivAddHaarChar_mulRight"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "IsSimpleRing.mulLeft_det_eq_mulRight_det",
+   "MeasureTheory.addEquivAddHaarChar_eq_ringHaarChar_det"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $B$ is a central simple algebra over a locally compact field $F$, and if $u\\in B^\\times$, then $d_B(r_u)=\\delta_B(u)$ (recall that the la",
+  "proved": true,
+  "uses": [
+   "IsSimpleRing.mulLeft_det_eq_mulRight_det",
+   "MeasureTheory.addEquivAddHaarChar_eq_ringHaarChar_det"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_prodCongr",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_prodCongr"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $(A,+)$ and $(B,+)$ are locally compact topological abelian groups, and if $\\phi:A\\to A$ and $\\psi:B\\to B$ are additive homeomorphisms, t",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_piCongrRight",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_piCongrRight"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar_prodCongr"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $A_i$ are a finite collection of locally compact topological abelian groups, with $\\phi_i:A_i\\to A_i$ additive homeomorphisms, then $d_{\\",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_prodCongr"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar_prod",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar_prod"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar_prodCongr"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $R$ and $S$ are locally compact topological rings, then $\\delta_{R\\times S}(r,s)=\\delta_R(r)\\times\\delta_S(s)$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_prodCongr"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar_pi",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar_pi"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "MeasureTheory.addEquivAddHaarChar_piCongrRight"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $R_i$ are a finite collection of locally compact topological rings, and $u_i\\in R_i^\\times$ then $\\delta_{\\prod_i R_i}((u_i)_i)=\\prod_i\\d",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_piCongrRight"
+  ]
+ },
+ {
+  "id": "Topology.IsOpenEmbedding.isHaarMeasure_comap",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "Topology.IsOpenEmbedding.isHaarMeasure_comap"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Let $A$ and $B$ be locally compact topological groups and let $f:A\\to B$ be both a group homomorphism and open embedding. The pullback along",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "Topology.IsOpenEmbedding.regular_comap",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "Topology.IsOpenEmbedding.regular_comap"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The pullback of a regular Borel measure along an open embedding is a regular Borel measure.",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "MeasureTheory.mulEquivHaarChar_eq_one_of_compactSpace",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.mulEquivHaarChar_eq_one_of_compactSpace"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.mulEquivHaarChar_smul_preimage"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Say $A$ is a compact topological additive group and $\\phi:A\\to A$ is an additive isomorphism. Then $d_A(\\phi)=1.$",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.mulEquivHaarChar_smul_preimage"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_eq_addEquivAddHaarChar_of_isOpenEmbedding",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_eq_addEquivAddHaarChar_of_isOpenEmbedding"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "Topology.IsOpenEmbedding.isHaarMeasure_comap",
+   "Topology.IsOpenEmbedding.regular_comap",
+   "MeasureTheory.addEquivAddHaarChar_smul_integral_comap"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $f:A\\to B$ is a group homomorphism and open embedding between locally compact topological additive groups and if $\\alpha:A\\to A$ and $\\be",
+  "proved": true,
+  "uses": [
+   "Topology.IsOpenEmbedding.isHaarMeasure_comap",
+   "Topology.IsOpenEmbedding.regular_comap",
+   "MeasureTheory.addEquivAddHaarChar_smul_integral_comap"
+  ]
+ },
+ {
+  "id": "Continuous.restrictedProduct_congrRight",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "Continuous.restrictedProduct_congrRight"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If the $A_i$ and $B_i$ are topological spaces and the $\\phi_i$ are continuous functions, then the restricted product $\\phi = \\prod'_i\\phi_i$",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "MeasureTheory.addEquivAddHaarChar_restrictedProductCongrRight",
+  "type": "theorem",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addEquivAddHaarChar_restrictedProductCongrRight"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_eq_addEquivAddHaarChar_of_isOpenEmbedding",
+   "MeasureTheory.mulEquivHaarChar_eq_one_of_compactSpace",
+   "MeasureTheory.addEquivAddHaarChar_piCongrRight",
+   "Continuous.restrictedProduct_congrRight",
+   "MeasureTheory.addEquivAddHaarChar_prodCongr"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "With $A$, $A_i$, $C_i$, $\\phi_i$, $\\phi$ defined as above, we have $\\delta_A(\\phi)=\\prod_i\\delta_{A_i}(\\phi_i)$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_eq_addEquivAddHaarChar_of_isOpenEmbedding",
+   "MeasureTheory.mulEquivHaarChar_eq_one_of_compactSpace",
+   "MeasureTheory.addEquivAddHaarChar_piCongrRight",
+   "Continuous.restrictedProduct_congrRight",
+   "MeasureTheory.addEquivAddHaarChar_prodCongr"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar_restrictedProduct",
+  "type": "corollary",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar_restrictedProduct"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_restrictedProductCongrRight"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $u=(u_i)_i\\in R^\\times$ then $\\delta_R(u)=\\prod_i\\delta_{R_i}(u_i)$.",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_restrictedProductCongrRight"
+  ]
+ },
+ {
+  "id": "IsModuleTopology.continuous_bilinear_of_finite_left",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "IsModuleTopology.continuous_bilinear_of_finite_left"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Say $R$ and $S$ are topological rings, and $S$ is an $R$-algebra, finite as an $R$-module. Assume that the topology on $S$ is the $R$-module",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "NumberField.AdeleRing.ModuleBaseChangeContinuousLinearEquiv",
+  "type": "corollary",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "NumberField.AdeleRing.ModuleBaseChangeContinuousLinearEquiv"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "IsModuleTopology.continuous_bilinear_of_finite_left"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $K$ is a number field and $V$ is an $K$-module, then the natural isomorphism $V\\otimes_K\\A_K=V\\otimes_{\\Q}\\A_{\\Q}$ induced by the natural",
+  "proved": true,
+  "uses": [
+   "IsModuleTopology.continuous_bilinear_of_finite_left"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.isCentralSimple_addHaarScalarFactor_left_mul_eq_right_mul",
+  "type": "theorem",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "NumberField.AdeleRing.isCentralSimple_addHaarScalarFactor_left_mul_eq_right_mul"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_restrictedProductCongrRight",
+   "IsSimpleRing.ringHaarChar_eq_addEquivAddHaarChar_mulRight"
+  ],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Let $B$ be a finite-dimensional central simple $K$-algebra. Say $u\\in B_{\\A}^\\times$, and define $\\ell_u$ and $r_u:B_{\\A}\\to B_{\\A}$ by $\\el",
+  "proved": false,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_restrictedProductCongrRight",
+   "IsSimpleRing.ringHaarChar_eq_addEquivAddHaarChar_mulRight"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar_adeles_rat",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar_adeles_rat"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_prodCongr",
+   "MeasureTheory.ringHaarChar_real",
+   "MeasureTheory.addEquivAddHaarChar_restrictedProductCongrRight",
+   "MeasureTheory.ringHaarChar_padic"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $x\\in\\A_{\\Q}^\\times$ then $\\delta_{\\A_{\\Q}}(x)=\\prod_v|x_v|_v.$",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_prodCongr",
+   "MeasureTheory.ringHaarChar_real",
+   "MeasureTheory.addEquivAddHaarChar_restrictedProductCongrRight",
+   "MeasureTheory.ringHaarChar_padic"
+  ]
+ },
+ {
+  "id": "MeasureTheory.ringHaarChar_adeles_units_rat_eq_one",
+  "type": "lemma",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.ringHaarChar_adeles_units_rat_eq_one"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.ringHaarChar_adeles_rat"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $x\\in\\Q^\\times\\subseteq\\A_{\\Q}^\\times$ then $\\delta_{\\A_{\\Q}}(x)=1.$",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.ringHaarChar_adeles_rat"
+  ]
+ },
+ {
+  "id": "MeasureTheory.addHaarScalarFactor_tensor_adeles_eq_one",
+  "type": "theorem",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "MeasureTheory.addHaarScalarFactor_tensor_adeles_eq_one"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.addEquivAddHaarChar_eq_ringHaarChar_det",
+   "MeasureTheory.addEquivAddHaarChar_restrictedProductCongrRight",
+   "NumberField.AdeleRing.ModuleBaseChangeContinuousLinearEquiv"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "In the above situation ($V$ a finite-dimensional $\\Q$-vector space, $\\phi:V\\cong V$ is $\\Q$-linear, $\\phi_{\\A}$ the base extension to $V_{\\A",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addEquivAddHaarChar_eq_ringHaarChar_det",
+   "MeasureTheory.addEquivAddHaarChar_restrictedProductCongrRight",
+   "NumberField.AdeleRing.ModuleBaseChangeContinuousLinearEquiv"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.units_mem_ringHaarCharacter_ker",
+  "type": "corollary",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "NumberField.AdeleRing.units_mem_ringHaarCharacter_ker"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.addHaarScalarFactor_tensor_adeles_eq_one"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $B$ is a finite-dimensional $\\Q$-algebra (for example a number field, or a quaternion algebra over a number field), if $B_{\\A}$ denotes t",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addHaarScalarFactor_tensor_adeles_eq_one"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.addEquivAddHaarChar_mulRight_unit_eq_one",
+  "type": "corollary",
+  "chapter": "HaarCharacterProject",
+  "lean": [
+   "NumberField.AdeleRing.addEquivAddHaarChar_mulRight_unit_eq_one"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "MeasureTheory.addHaarScalarFactor_tensor_adeles_eq_one"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $B$ is a finite-dimensional $\\Q$-algebra and if $b\\in B^\\times$ then right multiplication by $b$ does not change Haar measure on $B_{\\A}$",
+  "proved": true,
+  "uses": [
+   "MeasureTheory.addHaarScalarFactor_tensor_adeles_eq_one"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.compact_quotient",
+  "type": "theorem",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.compact_quotient"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "If $D$ is a division algebra then the quotient $D^\\times\\backslash D_{\\A}^{(1)}$ with its quotient topology coming from $D_{\\A}^{(1)}$, is c",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.existsE",
+  "type": "lemma",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.existsE"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "There's a compact subset $E$ of $D_{\\A}$ with the property that for all $x\\in D_{\\A}^{(1)}$, the obvious map $xE\\to D\\backslash D_{\\A}$ is n",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.E",
+  "type": "definition",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.E"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.existsE"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "We let $E$ denote any compact set satisfying the hypothesis of the previous lemma.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.existsE"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.X",
+  "type": "definition",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.E"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Define $X:=E-E:=\\{e-f:e,f\\in E\\}\\subseteq D_{\\A}$.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.E"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.Y",
+  "type": "definition",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.Y"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Define $Y:=X.X:=\\{xy:x,y\\in X\\}\\subseteq D_{\\A}$.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.X_compact",
+  "type": "lemma",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X_compact"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$X$ is a compact subset of $D_{\\A}$.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.Y_compact",
+  "type": "lemma",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.Y_compact"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.Y"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$Y$ is a compact subset of $D_{\\A}$.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.Y"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.X_meets_kernel",
+  "type": "lemma",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X_meets_kernel"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.E"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $\\beta\\in D_{\\A}^{(1)}$ then $\\beta X\\cap D^\\times\\not=\\emptyset$.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.E"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.X_meets_kernel'",
+  "type": "lemma",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X_meets_kernel'"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X"
+  ],
+  "proofUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.E",
+   "addHaarScalarFactor.left_mul_eq_right_mul"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Similarly, if $\\beta\\in D_{\\A}^{(1)}$ then $X\\beta^{-1}\\cap D^\\times\\not=\\emptyset$.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.E",
+   "addHaarScalarFactor.left_mul_eq_right_mul"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.T",
+  "type": "definition",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.T"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.Y"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Let $T:=Y\\cap D^\\times$.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.Y"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.T_finite",
+  "type": "lemma",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.T_finite"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.T"
+  ],
+  "proofUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.Y_compact"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$T$ is finite.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.T",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.Y_compact"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.C",
+  "type": "definition",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.C"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.T",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Define $C:= (T^{-1}.X) \\times X\\subset D_{\\A}\\times D_{\\A}$.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.T",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.C_compact",
+  "type": "lemma",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.C_compact"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.C",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.T_finite",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X_compact"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$C$ is compact.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.C",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.T_finite",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X_compact"
+  ]
+ },
+ {
+  "id": "NumberField.AdeleRing.DivisionAlgebra.Aux.antidiag_mem_C",
+  "type": "lemma",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.antidiag_mem_C"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.C"
+  ],
+  "proofUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.E",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X_meets_kernel",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X_meets_kernel'",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.C"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "For every $\\beta\\in D_{\\A}^{(1)}$, there exists $b\\in D^\\times$ and $\\nu\\in D_{\\A}^{(1)}$ such that $\\beta=b\\nu$ and $(\\nu,\\nu^{-1})\\in C.$",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.C",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.E",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X_meets_kernel",
+   "NumberField.AdeleRing.DivisionAlgebra.Aux.X_meets_kernel'"
+  ]
+ },
+ {
+  "id": "NumberField.FiniteAdeleRing.DivisionAlgebra.units_cocompact",
+  "type": "theorem",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.FiniteAdeleRing.DivisionAlgebra.units_cocompact"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "NumberField.AdeleRing.DivisionAlgebra.compact_quotient"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$D^\\times\\backslash(D\\otimes_K\\A_K^\\infty)^\\times$ is compact.",
+  "proved": true,
+  "uses": [
+   "NumberField.AdeleRing.DivisionAlgebra.compact_quotient"
+  ]
+ },
+ {
+  "id": "NumberField.FiniteAdeleRing.DivisionAlgebra.finiteDoubleCoset",
+  "type": "theorem",
+  "chapter": "FujisakiProject",
+  "lean": [
+   "NumberField.FiniteAdeleRing.DivisionAlgebra.finiteDoubleCoset"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "NumberField.FiniteAdeleRing.DivisionAlgebra.units_cocompact"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $U$ is an open subgroup of $(D\\otimes_K \\A_K^\\infty)^\\times$ then the double coset space $D^\\times\\backslash(D\\otimes_K \\A_K^\\infty)^\\tim",
+  "proved": true,
+  "uses": [
+   "NumberField.FiniteAdeleRing.DivisionAlgebra.units_cocompact"
+  ]
+ },
+ {
+  "id": "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm",
+  "type": "definition",
+  "chapter": "QuaternionAlgebraProject",
+  "lean": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The space of $R$-valued \\emph{automorphic forms} for $D^\\times$ is the set of functions $f:D_{\\A^\\infty}^\\times\\to R$ satisfying the followi",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.addCommGroup",
+  "type": "definition",
+  "chapter": "QuaternionAlgebraProject",
+  "lean": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.addCommGroup"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Pointwise addition $(f_1+f_2)(g):=f_1(g)+f_2(g)$ makes $S^D(R)$ into an additive abelian group.",
+  "proved": true,
+  "uses": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm"
+  ]
+ },
+ {
+  "id": "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.module",
+  "type": "definition",
+  "chapter": "QuaternionAlgebraProject",
+  "lean": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.module"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.addCommGroup"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "If $R$ is a commutative ring then pointwise scalar multiplication $(r\\cdot f)(g):= r\\cdot(f(g))$ makes $S^D(R)$ into an $R$-module.",
+  "proved": true,
+  "uses": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.addCommGroup"
+  ]
+ },
+ {
+  "id": "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.distribMulAction",
+  "type": "definition",
+  "chapter": "QuaternionAlgebraProject",
+  "lean": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.distribMulAction"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.addCommGroup",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.module"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The group $D_{\\A^f}^\\times$ acts on the additive abelian group $S^D(R)$ by $(g\\cdot f)(x)=f(xg)$.",
+  "proved": true,
+  "uses": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.addCommGroup",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.module"
+  ]
+ },
+ {
+  "id": "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicFormOfLevel",
+  "type": "definition",
+  "chapter": "QuaternionAlgebraProject",
+  "lean": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.LevelStruct.form"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.addCommGroup",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.distribMulAction",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.module"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The quaternionic modular forms of level $U$, with notation $S^D(U;R)$, are the $U$-invariants for the $D_{\\A^\\infty}^\\times$-action on $S^D(",
+  "proved": true,
+  "uses": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.addCommGroup",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.distribMulAction",
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.module"
+  ]
+ },
+ {
+  "id": "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.finiteDimensional",
+  "type": "theorem",
+  "chapter": "QuaternionAlgebraProject",
+  "lean": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.LevelStruct.instFiniteSubtypeMemSubmoduleFormOfIsSufficientlySmallOfIsFinite"
+  ],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.LevelStruct.form",
+   "TotallyDefiniteQuaternionAlgebra.instIsFinite"
+  ],
+  "proofUses": [
+   "NumberField.FiniteAdeleRing.DivisionAlgebra.units_cocompact",
+   "NumberField.FiniteAdeleRing.DivisionAlgebra.finiteDoubleCoset"
+  ],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Let $k$ be a field. Then the space $S^D(U;k)$ is a finite-dimensional $k$-vector space.",
+  "proved": false,
+  "uses": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.LevelStruct.form",
+   "TotallyDefiniteQuaternionAlgebra.instIsFinite",
+   "NumberField.FiniteAdeleRing.DivisionAlgebra.units_cocompact",
+   "NumberField.FiniteAdeleRing.DivisionAlgebra.finiteDoubleCoset"
+  ]
+ },
+ {
+  "id": "AbstractHeckeOperator.HeckeOperatorToFun",
+  "type": "definition",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "AbstractHeckeOperator.heckeOperator.toFun"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Assuming $UgV$ is a finite union of cosets $g_iV$, we define $[UgV]:A^V\\to A^U$ to be the map sending $a\\in A^V$ to $\\sum_i g_ia.$",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "AbstractHeckeOperator.HeckeOperator",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "AbstractHeckeOperator.heckeOperator"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "AbstractHeckeOperator.heckeOperator.toFun"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "This function is well-defined (that is, independent of the choice of $g_i$), has image in $A^U$ and is $R$-linear.",
+  "proved": true,
+  "uses": [
+   "AbstractHeckeOperator.heckeOperator.toFun"
+  ]
+ },
+ {
+  "id": "AbstractHeckeOperator.comm",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "AbstractHeckeOperator.comm"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "AbstractHeckeOperator.heckeOperator"
+  ],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Say $g,h\\in G$ and we have $UgU=\\coprod_i g_iU$ and $UhU=\\coprod_j h_j$ and we have $g_ih_j=h_jg_i$ for all $i,j$. Then $[UgU][UhU]=[UhU][Ug",
+  "proved": true,
+  "uses": [
+   "AbstractHeckeOperator.heckeOperator"
+  ]
+ },
+ {
+  "id": "QuotientGroup.mk_image_finite_of_compact_of_open",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "QuotientGroup.mk_image_finite_of_compact_of_open"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $U$ and $V$ are compact subgroups of a topological group~$G$, if $V$ is also open, and if $g\\in G$, then the double coset space $UgV$ is ",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "Homeomorph.restrictedProductProd",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "Homeomorph.restrictedProductProd"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $A_i$ is a family of topological spaces equipped with open subsets $B_i$, and if $C_i$ is a family of topological spaces equipped with op",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "Homeomorph.restrictedProductPi",
+  "type": "corollary",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "Homeomorph.restrictedProductPi"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "Homeomorph.restrictedProductProd"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "Restricted products (with respect to open subspaces) commute with finite products. In other words, if $j$ runs through a finite set $J$ and ",
+  "proved": true,
+  "uses": [
+   "Homeomorph.restrictedProductProd"
+  ]
+ },
+ {
+  "id": "Homeomorph.restrictedProductMatrix",
+  "type": "corollary",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "Homeomorph.restrictedProductMatrix"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "Homeomorph.restrictedProductPi"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $X_i$ are topological spaces and the $Y_i$ are open subspaces, then the obvious map $M_n(\\prod'_iX_i)=\\prod'_iM_n(X_i)$ is a homeomorphis",
+  "proved": true,
+  "uses": [
+   "Homeomorph.restrictedProductPi"
+  ]
+ },
+ {
+  "id": "Submonoid.units_isOpen",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "Submonoid.units_isOpen"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $M$ is a topological monoid and $U$ is an open submonoid, then the units $U^\\times$ of $U$ are naturally an open subgroup of $M^\\times$.",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "Submonoid.units_isCompact",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "Submonoid.units_isCompact"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $M$ is a Hausdorff topological monoid and $U$ is a compact submonoid, then the units $U^\\times$ of $U$ are naturally a compact subgroup o",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "ContinuousMulEquiv.piUnits",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "ContinuousMulEquiv.piUnits"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $U_i$ are topological monoids then the canonical group isomorphism $(\\prod_i U_i)^\\times=\\prod_i(U_i^\\times)$ is a homeomorphism.",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "ContinuousMulEquiv.restrictedProductUnits",
+  "type": "theorem",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "ContinuousMulEquiv.restrictedProductUnits"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "ContinuousMulEquiv.piUnits",
+   "Submonoid.units_isOpen"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $M_i$ are a family of topological monoids equipped with open submonoids $U_i$, then the canonical map $(\\prod'_iM_i)^\\times\\to\\prod'_i(M_",
+  "proved": true,
+  "uses": [
+   "ContinuousMulEquiv.piUnits",
+   "Submonoid.units_isOpen"
+  ]
+ },
+ {
+  "id": "NumberField.isOpenAdicCompletionIntegers",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "NumberField.isOpenAdicCompletionIntegers"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$\\calO_v$ is an open subring of $K_v$.",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "M2.localFullLevel.isOpen",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "IsDedekindDomain.M2.localFullLevel.isOpen"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "NumberField.isOpenAdicCompletionIntegers"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$M_2(\\calO_v)$ is an open subring of $M_2(K_v)$.",
+  "proved": true,
+  "uses": [
+   "NumberField.isOpenAdicCompletionIntegers"
+  ]
+ },
+ {
+  "id": "M2.localFullLevel.isCompact",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "IsDedekindDomain.M2.localFullLevel.isCompact"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "NumberField.instCompactSpaceAdicCompletionIntegers"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$M_2(\\calO_v)$ is a compact subring of $M_2(K_v)$.",
+  "proved": true,
+  "uses": [
+   "NumberField.instCompactSpaceAdicCompletionIntegers"
+  ]
+ },
+ {
+  "id": "nolean-compactopen-GL2",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "nolean-compactopen-matrix",
+   "Submonoid.units_isOpen",
+   "Submonoid.units_isCompact"
+  ],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$GL_2(\\calO_v)$ is a compact open subgroup of $GL_2(K_v)$.",
+  "proved": false,
+  "uses": [
+   "nolean-compactopen-matrix",
+   "Submonoid.units_isOpen",
+   "Submonoid.units_isCompact"
+  ]
+ },
+ {
+  "id": "nolean-compactopen-U1p",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "Submonoid.units_isOpen",
+   "Submonoid.units_isCompact"
+  ],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$U_v$ is a compact open subgroup of $GL_2(K_v)$.",
+  "proved": false,
+  "uses": [
+   "Submonoid.units_isOpen",
+   "Submonoid.units_isCompact"
+  ]
+ },
+ {
+  "id": "bijOn_unipotent_mul_diagU1_U1diagU1",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "TotallyDefiniteQuaternionAlgebra.WeightTwoAutomorphicForm.HeckeOperator.Local.bijOn_unipotentMulDiagU1"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "The double coset space $UgU$ is the disjoint union of $g_tU$ as $t$ ranges through $\\calO_v/\\alpha\\calO_v$ and $g_t:=\\begin{pmatrix}\\alpha&\\",
+  "proved": true,
+  "uses": []
+ },
+ {
+  "id": "GL2.restrictedProduct",
+  "type": "theorem",
+  "chapter": "HeckeOperatorProject",
+  "lean": [
+   "IsDedekindDomain.FiniteAdeleRing.GL2.restrictedProduct"
+  ],
+  "stated": true,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [
+   "ContinuousMulEquiv.restrictedProductUnits",
+   "Homeomorph.restrictedProductMatrix",
+   "ContinuousMulEquiv.restrictedProductMatrixUnits"
+  ],
+  "proofLeanok": true,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$G$ is isomorphic and homeomorphic to the restricted product of $GL_2(K_v)$ with respect to the compact open subgroups $GL_2(\\calO_v)$.",
+  "proved": true,
+  "uses": [
+   "ContinuousMulEquiv.restrictedProductUnits",
+   "Homeomorph.restrictedProductMatrix",
+   "ContinuousMulEquiv.restrictedProductMatrixUnits"
+  ]
+ },
+ {
+  "id": "nolean-hecke-algebra-commutative-noetherian",
+  "type": "theorem",
+  "chapter": "HeckeOperatorProject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Say~$R$ is a Noetherian ring. Then the subalgebra of the $R$-linear endomorphisms of $A^U$ generated by the Hecke operators $T_v$ for $v\\not",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "nolean-product-of-U-alpha",
+  "type": "lemma",
+  "chapter": "HeckeOperatorProject",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $v\\in S$ and $\\begin{pmatrix}1&*\\\\0&1\\end{pmatrix}\\subseteq\\Gamma_v\\subseteq\\begin{pmatrix}*&*\\\\0&*\\end{pmatrix}$ then $U_{\\alpha,v}U_{\\b",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "maximal_unramified_extension_of_p-adic_field",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The maximal unramified extension $K^{un}$ in a given algebraic closure of $K$ is Galois over $K$ with Galois group ``canonically'' isomorphi",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "local_Weil_group",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "maximal_unramified_extension_of_p-adic_field"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The topological group described above is called the \\emph{Weil group} of $K$.",
+  "proved": false,
+  "uses": [
+   "maximal_unramified_extension_of_p-adic_field"
+  ]
+ },
+ {
+  "id": "local_class_field_theory",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "local_Weil_group"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $K$ is a finite extension of $\\Q_p$ then there are two ``canonical'' isomorphisms of topological abelian groups, between $K^\\times$ and t",
+  "proved": false,
+  "uses": [
+   "local_Weil_group"
+  ]
+ },
+ {
+  "id": "local_galois_coh_finite",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $M$ is finite then the cohomology groups $H^i(G_K,M)$ all finite.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "local_galois_coh_dim_two",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $M$ is torsion then $H^i(G_K,M)=0$ if $i>2$.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "local_galois_coh_top_degree",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "$H^2(G_K,\\mu_n)$ is ``canonically'' isomorphic to $\\Z/n\\Z$.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "local_galois_coh_poincare",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": true,
+  "hasProof": true,
+  "title": "If $\\mu=\\bigcup_{n\\geq1}\\mu_n$ and $M':=\\Hom(M,\\mu)$ is the dual of $M$ then for $0\\leq i\\leq 2$ the cup product pairing $H^i(G_K,M)\\times H",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "local_galois_coh_euler_poincare",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "If $h^i(M)$ denotes the order of $H^i(G_K,M)$ then $h^0(M)-h^1(M)+h^2(M)=0$.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "global_class_field_theory",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "local_class_field_theory"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": true,
+  "hasProof": true,
+  "title": "If $N$ is a finite extension of $\\Q$ then there are two ``canonical'' isomorphisms of topological groups between the profinite abelian group",
+  "proved": false,
+  "uses": [
+   "local_class_field_theory"
+  ]
+ },
+ {
+  "id": "Skinner_Wiles_CFT_trick",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "global_class_field_theory"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Let $S$ be a finite set of places of a number field $K$ . For each $v \\in S$ let $L_v/K_v$ be a finite Galois extension. Then there is a fin",
+  "proved": false,
+  "uses": [
+   "global_class_field_theory"
+  ]
+ },
+ {
+  "id": "topology_on_affine_variety_points",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "If $X$ is an affine scheme of finite type over $K$, and if $R$ is a $K$-algebra which is also a topological ring, then we define a topology ",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "topology_on_affine_variety_computation",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "topology_on_affine_variety_points"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $X$ is as above and $X\\to\\mathbb{A}^n_K$ is a closed immersion, then the induced map from $X(R)$ with its topology as above to $R^n$ is a",
+  "proved": false,
+  "uses": [
+   "topology_on_affine_variety_points"
+  ]
+ },
+ {
+  "id": "manifold_on_algebraic_variety_points",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Let $K$ be a field equipped with an isomorphism to the reals, complexes, or a finite extension of the $p$-adic numbers. Let $X$ be a smooth ",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "manifold_on_algebraic_variety_computation",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "manifold_on_algebraic_variety_points"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "If $X$ is as in the previous definition and $X\\to\\mathbb{A}^n_K$ is a closed immersion, then the induced map from $X(K)$ with its manifold s",
+  "proved": false,
+  "uses": [
+   "manifold_on_algebraic_variety_points"
+  ]
+ },
+ {
+  "id": "lie_group_from_algebraic_group",
+  "type": "corollary",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "manifold_on_algebraic_variety_computation"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "If $G$ is an affine algebraic group of finite type over $K=\\R$ or $\\bbC$ then $G(K)$ is naturally a real or complex Lie group.",
+  "proved": false,
+  "uses": [
+   "manifold_on_algebraic_variety_computation"
+  ]
+ },
+ {
+  "id": "connected_reductive_group",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "An affine algebraic group~$G$ of finite type over a field~$k$ is said to be \\emph{connected} if it is connected as a scheme, and \\emph{reduc",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "slowly_increasing",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "A function $f : G(N_\\infty)\\to\\bbC$ is \\emph{slowly-increasing} if there exists some $C>0$ and $n\\geq1$ such that $|f(x)\\leq C||x||_\\rho^n$.",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "slowly_increasing_well_defined",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "slowly_increasing"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "This is independent of the choice of $\\rho$ as above.",
+  "proved": false,
+  "uses": [
+   "slowly_increasing"
+  ]
+ },
+ {
+  "id": "automorphic_form",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "slowly_increasing_well_defined",
+   "connected_reductive_group",
+   "lie_group_from_algebraic_group",
+   "topology_on_affine_variety_computation"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "An \\emph{automorphic form} is a function $\\phi:G(\\A_N)\\to\\bbC$ satisfying the following conditions: \\begin{itemize} \\item $\\phi$ is locally ",
+  "proved": false,
+  "uses": [
+   "slowly_increasing_well_defined",
+   "connected_reductive_group",
+   "lie_group_from_algebraic_group",
+   "topology_on_affine_variety_computation"
+  ]
+ },
+ {
+  "id": "cuspidal_automorphic_form",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "automorphic_form"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "An automorphic form is \\emph{cuspidal} (or ``a cusp form'') if it furthermore satisfies $\\int_{U(N)\\backslash U(\\A_N)}\\phi(ux)du=0$, where $",
+  "proved": false,
+  "uses": [
+   "automorphic_form"
+  ]
+ },
+ {
+  "id": "automorphic_form_actions",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "automorphic_form"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The group $G(\\A_N)$ acts on itself on the right, and this induces a left action of its subgroup $G(\\A_N^f)\\times U_\\infty$ on the spaces of ",
+  "proved": false,
+  "uses": [
+   "automorphic_form"
+  ]
+ },
+ {
+  "id": "cuspidal_automorphic_form_decomposition",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [
+   "cuspidal_automorphic_form",
+   "automorphic_form_actions"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "The cusp forms decompose as a (typically infinite) direct sum of irreducible $(G(\\A_N^f)\\times U_\\infty,\\mathfrak{g})$-modules.",
+  "proved": false,
+  "uses": [
+   "cuspidal_automorphic_form",
+   "automorphic_form_actions"
+  ]
+ },
+ {
+  "id": "cuspidal_automorphic_representation",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "cuspidal_automorphic_form_decomposition"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "A cuspidal automorphic representation is an irreducible $(G(\\A_N^f)\\times U_\\infty,\\mathfrak{g})$-module isomorphic to an irreducible summan",
+  "proved": false,
+  "uses": [
+   "cuspidal_automorphic_form_decomposition"
+  ]
+ },
+ {
+  "id": "automorphic_representation",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "automorphic_form_actions"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "An automorphic representation is an irreducible $(G(\\A_N^f)\\times U_\\infty,\\mathfrak{g})$-module isomorphic to an irreducible subquotient of",
+  "proved": false,
+  "uses": [
+   "automorphic_form_actions"
+  ]
+ },
+ {
+  "id": "automorphic_representation_local_decomposition",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "automorphic_representation"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": true,
+  "title": "An irreducible admissible $(G(\\A_N^f)\\times U_\\infty,\\mathfrak{g})$-module is a restricted tensor product of irreducible representations $\\p",
+  "proved": false,
+  "uses": [
+   "automorphic_representation"
+  ]
+ },
+ {
+  "id": "compatible_family",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": false,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Let $N$ be a number field. A \\emph{compatible family of $d$-dimensional Galois representations over $N$} is a finite set of finite places $S",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "Galois_representation_from_automorphic_representation_on_GL_2_form",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [
+   "automorphic_representation",
+   "Shimura_varieties",
+   "compatible_family"
+  ],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Given an automorphic representation $\\pi$ for an inner form of $\\GL_2$ over a totally real field and with reflex field~$E$, such that $\\pi$ ",
+  "proved": false,
+  "uses": [
+   "automorphic_representation",
+   "Shimura_varieties",
+   "compatible_family"
+  ]
+ },
+ {
+  "id": "Shimura_varieties",
+  "type": "definition",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "We need the definition of (the canonical model over $F$ of) the Shimura curve attached to an inner form of $\\GL_2$ with precisely one split ",
+  "proved": false,
+  "uses": []
+ },
+ {
+  "id": "moret-bailly",
+  "type": "theorem",
+  "chapter": "chtopbestiary",
+  "lean": [],
+  "stated": false,
+  "mathlibok": false,
+  "notready": true,
+  "stmtUses": [],
+  "proofUses": [],
+  "proofLeanok": false,
+  "proofNotready": false,
+  "hasProof": false,
+  "title": "Let $K^{\\avoid}/K$ be a Galois extension of number fields. Suppose also that $S$ is a finite set of places of $K$. For $v\\in S$ let $L_v/K_v",
+  "proved": false,
+  "uses": []
+ }
+]

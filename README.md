@@ -168,6 +168,17 @@ propagate through furthest, joined to downstream-submission and
 author-diversity columns and to live endorsement counts. See
 [`examples/lax/REPORT.md`](examples/lax/REPORT.md).
 
+`examples/flt/` is the second graph for the unlock-mass scheduler: the
+[FLT project](https://github.com/ImperialCollegeLondon/FLT) blueprint
+(233 statements, 96 open, snapshot 2026-10-02), a human-curated
+dependency graph with machine-readable proved/open status. Open-only
+unlock mass separates from blocked-descendant count at the head (4/10)
+for a structural reason: blocked count ranks every link of a long
+`\notready` chain alike, unlock mass credits the node whose proof closes
+dependents outright. A 37-node ready menu with immediate-closure counts
+falls out of a file the maintainers already write. See
+[`examples/flt/REPORT.md`](examples/flt/REPORT.md).
+
 `examples/github-issues/` is a recorded negative result: unlock-mass
 ranking of GitHub issues by blocking relationships, killed at
 feasibility because public GitHub projects do not record blocking

@@ -1,0 +1,22 @@
+{
+ "direct open dependents": {
+  "spearman": 0.6955,
+  "top10": 2,
+  "top20": 5
+ },
+ "blocked descendants": {
+  "spearman": 0.8973,
+  "top10": 4,
+  "top20": 9
+ },
+ "PageRank open-only": {
+  "spearman": 0.9195,
+  "top10": 5,
+  "top20": 14
+ },
+ "conemass full graph": {
+  "spearman": 0.8609,
+  "top10": 8,
+  "top20": 16
+ }
+}

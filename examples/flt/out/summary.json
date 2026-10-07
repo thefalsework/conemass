@@ -1,0 +1,121 @@
+{
+ "nodes": 233,
+ "open": 96,
+ "proved": 137,
+ "edges": 272,
+ "openOnlyEdges": 73,
+ "openIsolated": 16,
+ "openWithZeroUnlock": 31,
+ "readyOpen": 37,
+ "notreadyOpen": 27,
+ "maxBlockedDescendants": 11,
+ "readyWithSoleBlocked": 12,
+ "readyWithUnlockGe1": 14,
+ "largestOpenCone": {
+  "id": "modularity_lifting_theorem",
+  "openCone": 37
+ },
+ "byChapter": {
+  "ch02reductions": {
+   "open": 4,
+   "ready": 1,
+   "notready": 1,
+   "unlockSum": 1.999
+  },
+  "ch03freyreduction": {
+   "open": 7,
+   "ready": 5,
+   "notready": 0,
+   "unlockSum": 2
+  },
+  "ch04overview": {
+   "open": 1,
+   "ready": 0,
+   "notready": 1,
+   "unlockSum": 0
+  },
+  "ch05automorphicformexample": {
+   "open": 4,
+   "ready": 3,
+   "notready": 0,
+   "unlockSum": 1
+  },
+  "ch06automorphicrepresentations": {
+   "open": 2,
+   "ready": 2,
+   "notready": 0,
+   "unlockSum": 0
+  },
+  "ch07exampleGLn": {
+   "open": 7,
+   "ready": 3,
+   "notready": 0,
+   "unlockSum": 4.001
+  },
+  "FrobeniusProject": {
+   "open": 1,
+   "ready": 1,
+   "notready": 0,
+   "unlockSum": 0
+  },
+  "AdeleMiniproject": {
+   "open": 33,
+   "ready": 14,
+   "notready": 0,
+   "unlockSum": 19.218
+  },
+  "HaarCharacterProject": {
+   "open": 1,
+   "ready": 1,
+   "notready": 0,
+   "unlockSum": 0
+  },
+  "FujisakiProject": {
+   "open": 1,
+   "ready": 1,
+   "notready": 0,
+   "unlockSum": 0
+  },
+  "QuaternionAlgebraProject": {
+   "open": 1,
+   "ready": 1,
+   "notready": 0,
+   "unlockSum": 0
+  },
+  "HeckeOperatorProject": {
+   "open": 5,
+   "ready": 3,
+   "notready": 0,
+   "unlockSum": 2
+  },
+  "chtopbestiary": {
+   "open": 29,
+   "ready": 2,
+   "notready": 25,
+   "unlockSum": 16.779
+  }
+ },
+ "depthOpen": 8,
+ "nulls": {
+  "direct open dependents": {
+   "spearman": 0.6955,
+   "top10": 2,
+   "top20": 5
+  },
+  "blocked descendants": {
+   "spearman": 0.8973,
+   "top10": 4,
+   "top20": 9
+  },
+  "PageRank open-only": {
+   "spearman": 0.9195,
+   "top10": 5,
+   "top20": 14
+  },
+  "conemass full graph": {
+   "spearman": 0.8609,
+   "top10": 8,
+   "top20": 16
+  }
+ }
+}

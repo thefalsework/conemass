@@ -1,0 +1,316 @@
+{
+  "snapshot": {
+    "commit": "a4697a725b079db87c0d6a41a6b8abc9a0d44273",
+    "commitDate": "2026-10-07T14:59:35Z"
+  },
+  "concepts": 1313,
+  "conceptsWithEdges": 1305,
+  "definitions": 515,
+  "edges": {
+    "concepts": 4978,
+    "union": 5723,
+    "assumptionOnly": 745
+  },
+  "primary": {
+    "set": "union",
+    "cap": 200
+  },
+  "coverageOfArchiveByTopDefinitions": {
+    "5": {
+      "concepts": 575,
+      "share": 0.438
+    },
+    "10": {
+      "concepts": 638,
+      "share": 0.486
+    },
+    "20": {
+      "concepts": 777,
+      "share": 0.592
+    },
+    "40": {
+      "concepts": 863,
+      "share": 0.657
+    }
+  },
+  "endorsements": {
+    "fetchedAt": "2026-10-07T15:38:09.700Z",
+    "conceptsWithEndorsement": 0,
+    "conceptsWithFlag": 0,
+    "top20DefinitionsEndorsed": 0,
+    "top40AllEndorsed": 0,
+    "submissionsWithEndorsement": [
+      {
+        "submission": "lax-10",
+        "endorse": 1,
+        "massRank": 63
+      },
+      {
+        "submission": "lax-214022",
+        "endorse": 1,
+        "massRank": 90
+      },
+      {
+        "submission": "lax-379983",
+        "endorse": 1,
+        "massRank": 77
+      },
+      {
+        "submission": "lax-41",
+        "endorse": 1,
+        "massRank": 66
+      },
+      {
+        "submission": "lax-68",
+        "endorse": 1,
+        "massRank": 11
+      },
+      {
+        "submission": "lax-881656",
+        "endorse": 1,
+        "massRank": 89
+      }
+    ],
+    "submissionsWithFlag": []
+  },
+  "quietLoadBearing": [
+    {
+      "id": "Lax434930.PolynomialTime",
+      "rank": 1,
+      "ddRank": 62,
+      "dd": 20,
+      "downstreamSubs": 19
+    },
+    {
+      "id": "Lax808846.Ram",
+      "rank": 3,
+      "ddRank": 127,
+      "dd": 9,
+      "downstreamSubs": 17
+    },
+    {
+      "id": "Lax132576.LabelledAutomata",
+      "rank": 7,
+      "ddRank": 369,
+      "dd": 2,
+      "downstreamSubs": 4
+    },
+    {
+      "id": "Lax132576.RationalRelations",
+      "rank": 9,
+      "ddRank": 132,
+      "dd": 8,
+      "downstreamSubs": 4
+    },
+    {
+      "id": "Lax808846.RamComputes",
+      "rank": 11,
+      "ddRank": 88,
+      "dd": 13,
+      "downstreamSubs": 9
+    },
+    {
+      "id": "Lax199508.GraphClasses",
+      "rank": 12,
+      "ddRank": 145,
+      "dd": 7,
+      "downstreamSubs": 3
+    },
+    {
+      "id": "Lax765601.MealyMachine",
+      "rank": 13,
+      "ddRank": 102,
+      "dd": 12,
+      "downstreamSubs": 3
+    },
+    {
+      "id": "Lax496464.FlowShop",
+      "rank": 15,
+      "ddRank": 163,
+      "dd": 6,
+      "downstreamSubs": 0
+    },
+    {
+      "id": "Lax12.GraphClasses",
+      "rank": 17,
+      "ddRank": 163,
+      "dd": 6,
+      "downstreamSubs": 1
+    },
+    {
+      "id": "Lax759944.BinaryWordEncoding",
+      "rank": 19,
+      "ddRank": 268,
+      "dd": 3,
+      "downstreamSubs": 9
+    },
+    {
+      "id": "Lax68.GraphMinors",
+      "rank": 20,
+      "ddRank": 163,
+      "dd": 6,
+      "downstreamSubs": 3
+    },
+    {
+      "id": "Lax314295.MSOLogic",
+      "rank": 21,
+      "ddRank": 113,
+      "dd": 11,
+      "downstreamSubs": 0
+    },
+    {
+      "id": "Lax434930.Certificates",
+      "rank": 22,
+      "ddRank": 163,
+      "dd": 6,
+      "downstreamSubs": 17
+    },
+    {
+      "id": "Lax253009.BooleanFourier",
+      "rank": 23,
+      "ddRank": 132,
+      "dd": 8,
+      "downstreamSubs": 2
+    },
+    {
+      "id": "Lax323828.BooleanFourier",
+      "rank": 24,
+      "ddRank": 132,
+      "dd": 8,
+      "downstreamSubs": 0
+    },
+    {
+      "id": "Lax17.Paths",
+      "rank": 27,
+      "ddRank": 219,
+      "dd": 4,
+      "downstreamSubs": 0
+    },
+    {
+      "id": "Lax429075.CNF",
+      "rank": 28,
+      "ddRank": 219,
+      "dd": 4,
+      "downstreamSubs": 10
+    },
+    {
+      "id": "Lax765601.CompositionClosure",
+      "rank": 31,
+      "ddRank": 268,
+      "dd": 3,
+      "downstreamSubs": 5
+    },
+    {
+      "id": "Lax871432.HomomorphismCounts",
+      "rank": 33,
+      "ddRank": 145,
+      "dd": 7,
+      "downstreamSubs": 0
+    },
+    {
+      "id": "Lax765601.Continuity",
+      "rank": 35,
+      "ddRank": 88,
+      "dd": 13,
+      "downstreamSubs": 3
+    },
+    {
+      "id": "Lax54.GraphDefinitions",
+      "rank": 36,
+      "ddRank": 132,
+      "dd": 8,
+      "downstreamSubs": 1
+    },
+    {
+      "id": "Lax68.StraightLineDrawings",
+      "rank": 37,
+      "ddRank": 369,
+      "dd": 2,
+      "downstreamSubs": 1
+    },
+    {
+      "id": "Lax916827.TwoWayTransducers",
+      "rank": 38,
+      "ddRank": 127,
+      "dd": 9,
+      "downstreamSubs": 0
+    },
+    {
+      "id": "Lax117284.Scheduling",
+      "rank": 40,
+      "ddRank": 188,
+      "dd": 5,
+      "downstreamSubs": 0
+    }
+  ],
+  "nulls": {
+    "primary": {
+      "set": "union",
+      "cap": 200
+    },
+    "currentVersionsOnly": {
+      "label": "current versions only (superseded submissions removed) vs primary, over current concepts",
+      "conceptsRemoved": 200,
+      "edgesRemoved": 439,
+      "spearman": 0.9994,
+      "top40": 38
+    },
+    "againstNulls": [
+      {
+        "label": "direct dependents",
+        "spearman": 0.8572,
+        "top40": 13
+      },
+      {
+        "label": "transitive dependents",
+        "spearman": 0.9133,
+        "top40": 21
+      },
+      {
+        "label": "downstream submissions",
+        "spearman": 0.5054,
+        "top40": 18
+      },
+      {
+        "label": "PageRank (alpha 0.85)",
+        "spearman": 0.9574,
+        "top40": 30
+      }
+    ],
+    "capSensitivity": [
+      {
+        "label": "cap 50 vs 200 (union)",
+        "spearman": 0.9998,
+        "top40": 40
+      },
+      {
+        "label": "cap 800 vs 200 (union)",
+        "spearman": 1,
+        "top40": 40
+      }
+    ],
+    "edgeSetSensitivity": [
+      {
+        "cap": 50,
+        "label": "concepts-only vs union at cap 50",
+        "spearman": 0.8438,
+        "top40": 37,
+        "spearmanNote": "primary is union cap 200; this compares concepts-only at the given cap against it"
+      },
+      {
+        "cap": 200,
+        "label": "concepts-only vs union at cap 200",
+        "spearman": 0.8438,
+        "top40": 37,
+        "spearmanNote": "primary is union cap 200; this compares concepts-only at the given cap against it"
+      },
+      {
+        "cap": 800,
+        "label": "concepts-only vs union at cap 800",
+        "spearman": 0.8438,
+        "top40": 37,
+        "spearmanNote": "primary is union cap 200; this compares concepts-only at the given cap against it"
+      }
+    ]
+  }
+}

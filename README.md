@@ -157,6 +157,17 @@ is load-bearing for the paper's graph-anatomy section (where the
 metric separates from PageRank and where it doesn't). See
 [`examples/mathlib/REPORT.md`](examples/mathlib/REPORT.md).
 
+`examples/lax/` is the fifth graph type: the concept dependency graph
+of the [Lax Lean Archive](https://laxarchive.org) (1,313 concepts in 96
+registered submissions, snapshot 2026-10-07), where the kernel checks
+every proof but nothing checks that a definition means what its prose
+says — the archive answers that with public endorsements, and at the
+snapshot none of the 1,313 concept pages had one. The ranking is an
+endorsement schedule: which definitions a faithfulness error would
+propagate through furthest, joined to downstream-submission and
+author-diversity columns and to live endorsement counts. See
+[`examples/lax/REPORT.md`](examples/lax/REPORT.md).
+
 `examples/github-issues/` is a recorded negative result: unlock-mass
 ranking of GitHub issues by blocking relationships, killed at
 feasibility because public GitHub projects do not record blocking

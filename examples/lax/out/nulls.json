@@ -1,0 +1,70 @@
+{
+  "primary": {
+    "set": "union",
+    "cap": 200
+  },
+  "currentVersionsOnly": {
+    "label": "current versions only (superseded submissions removed) vs primary, over current concepts",
+    "conceptsRemoved": 200,
+    "edgesRemoved": 439,
+    "spearman": 0.9994,
+    "top40": 38
+  },
+  "againstNulls": [
+    {
+      "label": "direct dependents",
+      "spearman": 0.8572,
+      "top40": 13
+    },
+    {
+      "label": "transitive dependents",
+      "spearman": 0.9133,
+      "top40": 21
+    },
+    {
+      "label": "downstream submissions",
+      "spearman": 0.5054,
+      "top40": 18
+    },
+    {
+      "label": "PageRank (alpha 0.85)",
+      "spearman": 0.9574,
+      "top40": 30
+    }
+  ],
+  "capSensitivity": [
+    {
+      "label": "cap 50 vs 200 (union)",
+      "spearman": 0.9998,
+      "top40": 40
+    },
+    {
+      "label": "cap 800 vs 200 (union)",
+      "spearman": 1,
+      "top40": 40
+    }
+  ],
+  "edgeSetSensitivity": [
+    {
+      "cap": 50,
+      "label": "concepts-only vs union at cap 50",
+      "spearman": 0.8438,
+      "top40": 37,
+      "spearmanNote": "primary is union cap 200; this compares concepts-only at the given cap against it"
+    },
+    {
+      "cap": 200,
+      "label": "concepts-only vs union at cap 200",
+      "spearman": 0.8438,
+      "top40": 37,
+      "spearmanNote": "primary is union cap 200; this compares concepts-only at the given cap against it"
+    },
+    {
+      "cap": 800,
+      "label": "concepts-only vs union at cap 800",
+      "spearman": 0.8438,
+      "top40": 37,
+      "spearmanNote": "primary is union cap 200; this compares concepts-only at the given cap against it"
+    }
+  ]
+}

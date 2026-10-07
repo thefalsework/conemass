@@ -1,0 +1,95 @@
+rank,submission,superseded_by,title,authors,mass_sum,concepts,endorsed_concepts,submission_endorse,submission_flag,top_concept,top_concept_mass
+1,lax-904597,,Descriptive complexity: first-order reductions and the NP core,Pierre Senellart; Claude (Anthropic),135.4354,10,0,0,0,Lax904597.Problems,39.8451
+2,lax-434930,,Classical Complexity Classes,Édouard Bonnet; Codex 5.6 and 6,71.2436,19,0,0,0,Lax434930.PolynomialTime,41.1304
+3,lax-253009,lax-323828,Håstad’s inapproximability of Max Clique,Édouard Bonnet; Codex 6,58.6790,66,0,0,0,Lax253009.FiniteProbability,10.5418
+4,lax-323828,,Håstad’s inapproximability of Max Clique,Édouard Bonnet; Codex 6,55.3424,66,0,0,0,Lax323828.FiniteProbability,10.4811
+5,lax-485149,,"Descriptive complexity: L, NL and transitive closure",Pierre Senellart; Claude (Anthropic),46.6321,34,0,0,0,Lax485149.Problems,12.4562
+6,lax-132576,,"Transducers, Part B: Rational Functions",Mikołaj Bojańczyk; Aristotle (Harmonic),43.8840,42,0,0,0,Lax132576.LabelledAutomata,15.3044
+7,lax-496464,,Just-in-Time Scheduling in Two-Stage Flexible Flow Shops,Yuval Itzhaki; Claude,40.5471,72,0,0,0,Lax496464.FlowShop,10.4848
+8,lax-765601,,"Transducers, Part A: Mealy Machines",Mikołaj Bojańczyk; Aristotle (Harmonic),38.1294,22,0,0,0,Lax765601.MealyMachine,11.7373
+9,lax-808846,,The Word RAM,Jan Dreier; Claude Fable 5 (Anthropic),34.4739,2,0,0,0,Lax808846.Ram,22.1090
+10,lax-17,,$\Tilde{A}$n Exponent $8$ Bound for the Grid-Minor Theorem,Édouard Bonnet; Codex 5.5; Codex 5.6,32.9997,40,0,0,0,Lax17.Paths,6.6888
+11,lax-68,,Planar Graph Classes,Clemens Kuske,30.7870,38,0,1,0,Lax68.GraphMinors,8.9298
+12,lax-429075,,The Cook–Levin Theorem,Édouard Bonnet; Codex 5.6 and 6,26.5561,17,0,0,0,Lax429075.CNF,6.6836
+13,lax-799700,,Descriptive complexity: a catalog of thirty NP-complete problems,Pierre Senellart; Claude (Anthropic),23.9184,21,0,0,0,Lax799700.Problems,6.1751
+14,lax-535992,,"Descriptive complexity: PTIME, fixed points and the Immerman–Vardi theorem",Pierre Senellart; Claude (Anthropic),22.4757,24,0,0,0,Lax535992.HornFragment,4.5420
+15,lax-759944,,Computability and polynomial-time equivalence of Turing machines and word RAMs,Szymon Toruńczyk; GPT 5.6,20.4270,7,0,0,0,Lax759944.BinaryWordEncoding,9.0156
+16,lax-199508,,"Sparsity Lectures: Nowhere Denseness, Quasi-Wideness, and Generalized Coloring Numbers",Jan Dreier; Claude Fable 5 (Anthropic),20.1439,15,0,0,0,Lax199508.GraphClasses,11.9342
+17,lax-871432,,"Logical Equivalences, Homomorphism Indistinguishability, and Forbidden Minors",Tim Seppelt,20.1416,29,0,0,0,Lax871432.HomomorphismCounts,5.6333
+18,lax-366625,,"Descriptive complexity: counting problems, #P, and FP",Pierre Senellart; Claude (Anthropic),18.3832,22,0,0,0,Lax366625.CountingProblems,5.0485
+19,lax-392996,,ProvSQL: provenance-aware query rewriting and probabilistic query evaluation are correct,Pierre Senellart,16.0000,18,0,0,0,Lax392996.SemiringsWithMonus,4.5115
+20,lax-314295,,"Transducers, Part C: Regular Functions in Terms of Logic",Mikołaj Bojańczyk; Aristotle (Harmonic),15.6096,26,0,0,0,Lax314295.MSOLogic,8.8357
+21,lax-12,lax-199508,"Sparsity Lectures: Nowhere Denseness, Quasi-Wideness, and Generalized Coloring Numbers",Jan Dreier; Claude Fable 5 (Anthropic),15.4249,15,0,0,0,Lax12.GraphClasses,9.2254
+22,lax-194892,,"Transducers, Part D: Polyregular Functions",Mikołaj Bojańczyk; Aristotle (Harmonic),13.9862,21,0,0,0,Lax194892.PebbleTransducers,5.0000
+23,lax-18,,Szemerédi's Regularity Lemma,Fatemeh Ghasemi,13.7291,10,0,0,0,Lax18.EdgeDensity,3.0674
+24,lax-624099,,"Descriptive complexity: recursive enumerability, Trakhtenbrot and halting",Pierre Senellart; Claude (Anthropic),12.7495,26,0,0,0,Lax624099.Problems,2.2834
+25,lax-489179,,"ETH, SETH, Weighted APSP, and 3SUM",Édouard Bonnet; gpt-6-astra,12.6357,18,0,0,0,Lax489179.Algorithms,4.1976
+26,lax-362205,,The Immerman–Szelepcsényi Theorem,Édouard Bonnet; Codex 5.6 and 6,11.2299,15,0,0,0,Lax362205.Reachability,3.4310
+27,lax-733996,lax-362205,The Immerman–Szelepcsényi Theorem,Édouard Bonnet; Codex 5.6 and 6,11.2299,15,0,0,0,Lax733996.Reachability,3.4310
+28,lax-117284,,Fair Repetitive Interval Scheduling,Yuval Itzhaki; Claude,11.0579,38,0,0,0,Lax117284.Scheduling,5.2824
+29,lax-560851,,Certified structural representations of finite data,Jan Dreier; Szymon Toruńczyk; GPT (5.6 and 6),10.9412,12,0,0,0,Lax560851.StructuralPresentation,4.5956
+30,lax-888481,,Interval Scheduling with Eligible Machine Sets,Yuval Itzhaki; Claude,10.7781,17,0,0,0,Lax888481.ParameterizedComplexity,4.0758
+31,lax-916827,,"Transducers, Part C: Regular Functions, Two-Way Transducers and Streaming String Transducers",Mikołaj Bojańczyk; Aristotle (Harmonic),10.5147,29,0,0,0,Lax916827.TwoWayTransducers,5.5468
+32,lax-762056,lax-222097,Max Independent Set Remains NP-hard when Excluding a Planar Induced Minor,Édouard Bonnet; Codex 5.6 and 6,8.9159,15,0,0,0,Lax762056.GraphEncoding,1.8138
+33,lax-751879,,The Immerman–Vardi theorem,Szymon Toruńczyk; GPT 6,8.7334,8,0,0,0,Lax751879.OrderedStructures,4.5095
+34,lax-689614,lax-783278,Arc Kayles is PSPACE-complete,Édouard Bonnet; gpt-6-astra,8.5110,14,0,0,0,Lax689614.ArcKayles,3.0722
+35,lax-783278,,Arc Kayles is PSPACE-complete,Édouard Bonnet; gpt-6-astra,8.5110,14,0,0,0,Lax783278.ArcKayles,3.0722
+36,lax-470956,lax-888481,Interval Scheduling with Eligible Machine Sets,Yuval Itzhaki; Claude,8.1965,17,0,0,0,Lax470956.Scheduling,4.1095
+37,lax-54,,Erdős–Hajnal for graphs with no 5-hole,Édouard Bonnet; Codex 5.6 and 6,8.0272,8,0,0,0,Lax54.GraphDefinitions,5.5729
+38,lax-222097,,Max Independent Set Remains NP-hard when Excluding a Planar Induced Minor,Édouard Bonnet; Codex 5.6 and 6,7.8555,15,0,0,0,Lax222097.InducedMinors,1.5870
+39,lax-228581,,Twin-width can be exponential in treewidth,Édouard Bonnet; Jan Dreier; Claude Fable 5 (Anthropic); Codex (OpenAI),7.3480,3,0,0,0,Lax228581.Treewidth,4.1480
+40,lax-146103,,MSO-automata,Szymon Toruńczyk; GPT 5.6,6.9986,7,0,0,0,Lax146103.MSOSyntax,3.1659
+41,lax-666725,lax-115662,Randomized Complexity Classes,Édouard Bonnet; Codex,6.7844,9,0,0,0,Lax666725.ProbabilisticMachines,3.3361
+42,lax-251941,,Undecidability of the Post Correspondence Problem,Mikołaj Bojańczyk; Aristotle (Harmonic),6.4000,9,0,0,0,Lax251941.TuringMachines,2.7500
+43,lax-271696,,Algorithmic Experiments on a Random Access Machine,Jan Dreier; Claude Fable 5 (Anthropic),6.3046,7,0,0,0,Lax271696.GraphEncoding,4.7454
+44,lax-280166,,Descriptive complexity: a catalog of parsimoniously #P-complete problems,Pierre Senellart; Claude (Anthropic),6.1770,33,0,0,0,Lax280166.CountingCliques,0.5827
+45,lax-564036,,"Descriptive complexity: coNP, DP and the polynomial hierarchy",Pierre Senellart; Claude (Anthropic),6.1669,23,0,0,0,Lax564036.Hierarchy,1.7522
+46,lax-683916,,Graph Representations,Clemens Kuske; Codex (OpenAI),6.0000,11,0,0,0,Lax683916.MultigraphIsomorphism,2.0000
+47,lax-3,,First-Order Model Checking on Nowhere Dense Graph Classes in Almost Linear Time,Jan Dreier; Claude Fable 5 (Anthropic),5.8617,12,0,0,0,Lax3.ColoredGraphs,3.5838
+48,lax-134656,,"Descriptive complexity: PSPACE, partial fixed points, and the Abiteboul–Vianu theorem",Pierre Senellart; Claude (Anthropic),5.8175,22,0,0,0,Lax134656.PartialFixedPoint,1.0907
+49,lax-842588,,MSO and tree automata on finite ranked trees,Szymon Toruńczyk; GPT 5.6,5.1302,10,0,0,0,Lax842588.RankedTree,2.4992
+50,lax-115662,,Randomized Complexity Classes,Édouard Bonnet; Codex,5.1074,9,0,0,0,Lax115662.ProbabilisticMachines,2.8929
+51,lax-303562,,"Panoptic Quality: exact rules for inclusion, removal and duplication, the sharpness of the matching threshold, and the annotator ceiling",Joel Cruz Cabrera,5.0000,7,0,0,0,Lax303562.PanopticQuality,5.0000
+52,lax-503819,,Undecidability of positive first-order definability on words,Denis Kuperberg; GPT-6 Astra (OpenAI),4.9999,7,0,0,0,Lax503819.Words,2.5833
+53,lax-391470,,Scheduling with Two Non-Unit Job Lengths Is NP-Complete,Yuval Itzhaki; Claude,4.8558,9,0,0,0,Lax391470.Scheduling,3.2306
+54,lax-895169,,Descriptive complexity: AC⁰ as a logic,Pierre Senellart; Claude (Anthropic),4.7829,11,0,0,0,Lax895169.BitPredicate,3.2299
+55,lax-9,,χ-Boundedness and Neighbourhood Complexity of Bounded Merge-Width Graphs,Édouard Bonnet,4.0000,5,0,0,0,Lax9.MergeWidth,3.0000
+56,lax-56,lax-570090,Large Finite Point Sets Have 4 Collinear Points or a 6-Clique,Édouard Bonnet; Codex 6,3.9999,6,0,0,0,Lax56.Geometry,2.0333
+57,lax-570090,,Large Finite Point Sets Have 4 Collinear Points or a 6-Clique,Édouard Bonnet; Codex 6,3.9999,6,0,0,0,Lax570090.Geometry,2.0333
+58,lax-195003,,Near-Linear Time Computation of Welzl Orders on Graphs with Linear Neighborhood Complexity,Clemens Kuske; Codex (OpenAI),3.6250,6,0,0,0,Lax195003.WelzlOrders,2.1250
+59,lax-420092,,Conjunctive query evaluation and containment are NP-complete,Pierre Senellart; Claude (Anthropic),3.5894,12,0,0,0,Lax420092.QueryDatabases,1.0982
+60,lax-345067,,Finite Ramsey Theorems for Pairs and Tuples,Jan Dreier; Claude Fable 5 (Anthropic),3.4438,4,0,0,0,Lax345067.MulticolorRamsey,1.6426
+61,lax-57,,Erdős–Hajnal for the five-vertex path,Édouard Bonnet; Codex 5.6 and 6,3.2434,10,0,0,0,Lax57.GraphDefinitions,1.7838
+62,lax-14,lax-345067,Finite Ramsey Theorems for Pairs and Tuples,Jan Dreier; Claude Fable 5 (Anthropic),3.0761,4,0,0,0,Lax14.MulticolorRamsey,1.4587
+63,lax-10,,Graphs without a 3-Connected Subgraph are 4-Colourable,Édouard Bonnet,3.0000,4,0,1,0,Lax10.ThreeConnectedAndColorable,2.5000
+64,lax-242665,,An Introduction to Lax,Édouard Bonnet; Jan Dreier; Clemens Kuske,3.0000,4,0,0,0,Lax242665.Primes,2.5000
+65,lax-296731,lax-965890,Constructive Lovász Local Lemma,"Édouard Bonnet, Codex 5.6 and 6",3.0000,4,0,0,0,Lax296731.MoserTardosDefinitions,2.5000
+66,lax-41,lax-296731,Constructive Lovász Local Lemma,Édouard Bonnet,3.0000,4,0,1,0,Lax41.MoserTardosDefinitions,2.5000
+67,lax-965890,,Constructive Lovász Local Lemma,"Édouard Bonnet, Codex 5.6 and 6",3.0000,4,0,0,0,Lax965890.MoserTardosDefinitions,2.5000
+68,lax-218471,,Compositional polynomial-time computation with black-box subroutines,Szymon Toruńczyk; GPT,2.9999,5,0,0,0,Lax218471.PolynomialTime,1.8333
+69,lax-859101,,Descriptive complexity: one-call and subtractive counting reductions,Pierre Senellart; Claude (Anthropic),2.8454,20,0,0,0,Lax859101.CountingAllSets,0.3792
+70,lax-945089,,Descriptive complexity: games and inexpressibility,Pierre Senellart; Claude (Anthropic),2.8041,18,0,0,0,Lax945089.EhrenfeuchtGames,0.6172
+71,lax-5,lax-710763,Almost Linear Neighborhood Complexity of Monadically Dependent Graph Classes,Jan Dreier; Claude Fable 5 (Anthropic),2.4992,7,0,0,0,Lax5.GraphClasses,0.8421
+72,lax-710763,,Almost Linear Neighborhood Complexity of Monadically Dependent Graph Classes,Jan Dreier; Claude Fable 5 (Anthropic),2.4992,7,0,0,0,Lax710763.GraphClasses,0.8421
+73,lax-11,lax-271696,Algorithmic Experiments on a Random Access Machine,Jan Dreier; Claude Fable 5 (Anthropic),2.4584,7,0,0,0,Lax11.GraphEncoding,1.4583
+74,lax-48,lax-228581,Twin-Width Can Be Exponential in Treewidth,Édouard Bonnet; Jan Dreier; Claude Fable 5 (Anthropic); Codex (OpenAI),2.2000,3,0,0,0,Lax48.TwinWidth,1.7000
+75,lax-153141,,Functional Equivalence of Twin-Width and Mixed Minor Number,Édouard Bonnet; Claude Fable 5 (Anthropic); Codex (OpenAI),1.8000,5,0,0,0,Lax153141.MixedMinorNumber,1.2000
+76,lax-49,lax-153141,Functional Equivalence of Twin-Width and Mixed Minor Number,Édouard Bonnet; Claude Fable 5 (Anthropic); Codex (OpenAI),1.8000,5,0,0,0,Lax49.MixedMinorNumber,1.2000
+77,lax-379983,,Feedback vertex and edge numbers,Jakub Balabán; OpenAI Codex,1.5000,4,0,1,0,Lax379983.FeedbackVertexNumber,1.0000
+78,lax-709149,,"Transducers, Part C: Regular Functions in Terms of Combinators",Mikołaj Bojańczyk; Aristotle (Harmonic),1.4762,4,0,0,0,Lax709149.Types,1.2540
+79,lax-604544,,Descriptive complexity: degrees and graph isomorphism,Pierre Senellart; Claude (Anthropic),1.2939,10,0,0,0,Lax604544.RelationIsomorphism,0.5855
+80,lax-988886,,Fagin’s theorem,Szymon Toruńczyk; GPT 6,1.2667,4,0,0,0,Lax988886.FiniteStructures,0.8667
+81,lax-117614,,Graph crawling is NP-complete,Pierre Senellart; Claude (Anthropic),1.2605,7,0,0,0,Lax117614.WebsiteGraphs,0.6183
+82,lax-689794,,Finding Tree Decompositions of Small Treewidth,Yuval Itzhaki; Claude,1.0024,3,0,0,0,Lax689794.GraphWords,0.8345
+83,lax-13,lax-67,The Word RAM,Jan Dreier; Claude Fable 5 (Anthropic),1.0000,2,0,0,0,Lax13.Ram,1.0000
+84,lax-67,lax-808846,The Word RAM,Jan Dreier; Claude Fable 5 (Anthropic),1.0000,2,0,0,0,Lax67.Ram,1.0000
+85,lax-894236,,"Smooth hypersurfaces: the Euler characteristic as a binomial tail, its parity, the Kodaira trichotomy, and the Noether–Lefschetz window as the sequence A005581",Joel Cruz Cabrera,1.0000,5,0,0,0,Lax894236.GeometricGenus,1.0000
+86,lax-47,lax-614640,Tight Inapproximability of Max Independent Set in Triangle-Free Graphs,Édouard Bonnet; Codex 5.6; Codex 6,0.9390,5,0,0,0,Lax47.Machine,0.6137
+87,lax-614640,,Tight Inapproximability of Max Independent Set in Triangle-Free Graphs,Édouard Bonnet; Codex 5.6; Codex 6,0.9390,5,0,0,0,Lax614640.Machine,0.6137
+88,lax-175070,,Descriptive complexity: decision classes defined by counting,Pierre Senellart; Claude (Anthropic),0.6683,8,0,0,0,Lax175070.CountDefinability,0.3389
+89,lax-881656,,Barnette's Conjecture,Clemens Kuske,0.5716,5,0,1,0,Lax881656.Bipartite,0.1429
+90,lax-214022,,Welzl Orders of Cographs,Clemens Kuske; Codex (OpenAI),0.5000,3,0,1,0,Lax214022.Cographs,0.5000
+91,lax-332265,,Hadwiger's Conjecture for t = 7,Clemens Kuske; Codex (OpenAI),0.5000,2,0,0,0,Lax332265.SixColorable,0.5000
+92,lax-345332,,"NP-Hardness of (3,4)-SAT and [2,3]-Bounded 3-SAT",Yuval Itzhaki; Claude,0.3362,4,0,0,0,Lax345332.Construction,0.1481
+93,lax-426240,,The determinant of the least-common-multiple matrix,Joel Cruz Cabrera,0.0000,1,0,0,0,Lax426240.LcmDeterminant,0.0000
+94,lax-712553,,Congruent number curves: the quadratic twist formula for a_p and the parity of Tunnell's representation counts,Joel Cruz Cabrera,0.0000,3,0,0,0,Lax712553.Involution,0.0000

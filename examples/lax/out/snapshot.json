@@ -1,0 +1,26 @@
+{
+  "database": "https://github.com/lax-archive/lax-database",
+  "commit": "a4697a725b079db87c0d6a41a6b8abc9a0d44273",
+  "commitDate": "2026-10-07T14:59:35Z",
+  "extractedAt": "2026-10-07T15:17:58.386Z",
+  "recordsByState": {
+    "registered": 96,
+    "deleted": 15,
+    "draft": 17,
+    "init": 14
+  },
+  "registeredSubmissions": 96,
+  "supersededRegistered": 18,
+  "concepts": 1313,
+  "statements": 1745,
+  "proofs": 1734,
+  "edges": {
+    "concepts": 4978,
+    "union": 5723,
+    "assumptionOnly": 745
+  },
+  "dangling": {
+    "imports": 0,
+    "assumptions": 0
+  }
+}

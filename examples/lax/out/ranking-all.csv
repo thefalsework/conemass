@@ -1,0 +1,1314 @@
+rank,concept,type,submission,superseded_by,title,mass_union200,mass_concepts200,mass_union50,mass_union800,mass_current200,direct_dependents,dependents_rank,transitive_dependents,downstream_submissions,downstream_first_authors,pagerank_rank,endorse,flag
+1,Lax434930.PolynomialTime,definition,lax-434930,,The complexity class P,41.1304,47.0258,41.1729,41.1304,30.1384,20,62,197,19,1,2,0,0
+2,Lax904597.Problems,definition,lax-904597,,Decision problems on finite structures,39.8451,42.3384,39.9005,39.8451,39.8451,232,1,295,15,0,1,0,0
+3,Lax808846.Ram,definition,lax-808846,,The word RAM,22.1090,22.3082,22.1196,22.1090,19.4737,9,127,132,17,4,5,0,0
+4,Lax904597.Interpretations,definition,lax-904597,,First-order interpretations and first-order reductions,21.1784,23.6718,21.2338,21.1784,21.1784,146,3,263,15,0,3,0,0
+5,Lax904597.SecondOrder,definition,lax-904597,,Second-order definability with bounded alternation,17.8856,20.3789,17.9410,17.8856,17.8856,113,6,251,15,0,6,0,0
+6,Lax904597.Relativized,definition,lax-904597,,Relativized first-order interpretations,16.9118,19.4051,16.9672,16.9118,16.9118,120,5,250,15,0,10,0,0
+7,Lax132576.LabelledAutomata,definition,lax-132576,,Automata with labelled transitions,15.3044,15.7675,15.3044,15.3044,15.3044,2,369,63,4,0,9,0,0
+8,Lax904597.Classes,definition,lax-904597,,"Complexity classes, cofinal hardness, and NP",13.6566,16.1499,13.7120,13.6566,13.6566,180,2,233,15,0,4,0,0
+9,Lax132576.RationalRelations,definition,lax-132576,,Nondeterministic automata with output and rational relations,12.8044,13.2675,12.8044,12.8044,12.8044,8,132,60,4,0,11,0,0
+10,Lax485149.Problems,definition,lax-485149,,Problems given by a property of structures,12.4562,12.4077,12.1116,12.4562,12.4562,113,6,152,9,0,16,0,0
+11,Lax808846.RamComputes,definition,lax-808846,,Computing a function within a time bound,12.3649,13.1189,12.3649,12.3649,9.9911,13,88,86,9,2,7,0,0
+12,Lax199508.GraphClasses,definition,lax-199508,,Graph classes,11.9342,12.9750,11.9342,11.9342,11.9521,7,145,29,3,1,17,0,0
+13,Lax765601.MealyMachine,definition,lax-765601,,Mealy machines,11.7373,12.0917,11.7373,11.7373,11.7373,12,102,35,3,0,22,0,0
+14,Lax253009.FiniteProbability,theorem,lax-253009,lax-323828,Uniform finite probability and even-moment tail bounds,10.5418,13.6136,10.5727,10.5418,,27,32,45,2,0,12,0,0
+15,Lax496464.FlowShop,definition,lax-496464,,Just-in-Time Scheduling in a Two-Stage Flexible Flow Shop,10.4848,10.5445,10.4848,10.4848,10.4848,6,163,31,0,0,15,0,0
+16,Lax323828.FiniteProbability,theorem,lax-323828,,Uniform finite probability and even-moment tail bounds,10.4811,13.6136,10.4927,10.4811,10.4847,25,40,41,0,0,13,0,0
+17,Lax12.GraphClasses,definition,lax-12,lax-199508,Graph classes,9.2254,10.0833,9.2254,9.2254,,6,163,19,1,0,24,0,0
+18,Lax904597.Sat,definition,lax-904597,,"SAT, propositional satisfiability",9.1772,8.2951,9.2326,9.1772,9.1772,133,4,165,13,0,18,0,0
+19,Lax759944.BinaryWordEncoding,definition,lax-759944,,Binary encoding of finite words,9.0156,9.2526,8.9949,9.0156,7.6184,3,268,73,9,3,19,0,0
+20,Lax68.GraphMinors,definition,lax-68,,Graph minors,8.9298,10.2345,8.9298,8.9298,8.9298,6,163,34,3,1,36,0,0
+21,Lax314295.MSOLogic,definition,lax-314295,,Monadic second-order logic on strings,8.8357,9.7750,8.8357,8.8357,8.8357,11,113,21,0,0,29,0,0
+22,Lax434930.Certificates,definition,lax-434930,,Binary encoding of an input and a certificate,8.5956,12.8227,8.6381,8.5956,7.2612,6,163,90,17,1,14,0,0
+23,Lax253009.BooleanFourier,theorem,lax-253009,lax-323828,Fourier analysis on a finite Boolean cube,7.5314,6.5735,7.5023,7.5314,,8,132,38,2,0,47,0,0
+24,Lax323828.BooleanFourier,theorem,lax-323828,,Fourier analysis on a finite Boolean cube,7.4708,6.5735,7.4623,7.4708,7.4743,8,132,34,0,0,48,0,0
+25,Lax132576.RationalFunctions,definition,lax-132576,,Rational functions,6.9211,7.2508,6.9211,6.9211,6.9211,21,59,43,4,0,28,0,0
+26,Lax904597.Machines,definition,lax-904597,,Nondeterministic Turing machines as finite structures,6.7635,7.4751,6.8189,6.7635,6.7635,98,8,132,11,0,31,0,0
+27,Lax17.Paths,definition,lax-17,,"Paths, linkages, and separators",6.6888,7.4333,6.6888,6.6888,6.6888,4,219,23,0,0,32,0,0
+28,Lax429075.CNF,definition,lax-429075,,Conjunctive normal form,6.6836,6.6878,6.6836,6.6836,6.3035,4,219,66,10,1,20,0,0
+29,Lax485149.Complement,definition,lax-485149,,The complement of a decision problem,6.2601,6.1712,5.9155,6.2601,6.2601,87,9,141,10,0,42,0,0
+30,Lax485149.SecondOrderAtoms,definition,lax-485149,,Atoms in second-order relation variables,6.2268,6.1379,5.8822,6.2268,6.2268,40,24,141,10,0,118,0,0
+31,Lax765601.CompositionClosure,definition,lax-765601,,Closure of a family of functions under composition,6.2171,6.4341,6.2171,6.2171,6.2171,3,268,36,5,0,58,0,0
+32,Lax799700.Problems,definition,lax-799700,,Problems given by a property of structures,6.1751,8.3441,6.2105,6.1751,6.1751,34,28,109,6,0,25,0,0
+33,Lax871432.HomomorphismCounts,definition,lax-871432,,Homomorphism counts,5.6333,5.6333,5.6333,5.6333,5.6333,7,145,17,0,0,79,0,0
+34,Lax434930.NondeterministicPolynomialTime,definition,lax-434930,,The complexity class NP,5.6294,9.6925,5.6718,5.6294,4.4949,24,51,74,17,1,21,0,0
+35,Lax765601.Continuity,definition,lax-765601,,Continuous string-to-string functions,5.6206,5.6206,5.6206,5.6206,5.6206,13,88,13,3,0,63,0,0
+36,Lax54.GraphDefinitions,definition,lax-54,,Finite graph notions for the five-cycle Erdős–Hajnal theorem,5.5729,12.5000,5.5729,5.5729,5.5729,8,132,17,1,0,26,0,0
+37,Lax68.StraightLineDrawings,definition,lax-68,,Straight-line graph drawings,5.5714,6.8762,5.5714,5.5714,5.5714,2,369,25,1,0,61,0,0
+38,Lax916827.TwoWayTransducers,definition,lax-916827,,Two-way transducers,5.5468,5.5786,5.5468,5.5468,5.5468,9,127,12,0,0,52,0,0
+39,Lax904597.NPClass,theorem,lax-904597,,NP is a complexity class,5.4818,0.0000,5.5172,5.4818,5.4818,42,23,115,11,0,38,0,0
+40,Lax117284.Scheduling,definition,lax-117284,,Fair Repetitive Interval Scheduling,5.2824,6.6063,5.2824,5.2824,5.2824,5,188,22,0,0,50,0,0
+41,Lax434930.SpaceMachines,definition,lax-434930,,Finite Turing machines with a read-only input tape,5.2333,6.2087,5.2333,5.2333,3.7551,3,268,30,4,0,30,0,0
+42,Lax366625.CountingProblems,definition,lax-366625,,Counting problems and parsimonious reductions,5.0485,5.8887,5.1011,5.0485,5.0485,82,11,82,3,0,8,0,0
+43,Lax194892.PebbleTransducers,definition,lax-194892,,Pebble transducers,5.0000,5.2500,5.0000,5.0000,5.0000,5,188,11,0,0,66,0,0
+43,Lax303562.PanopticQuality,definition,lax-303562,,Panoptic Quality as a function of its four counts,5.0000,5.0000,5.0000,5.0000,5.0000,5,188,5,0,0,95,0,0
+45,Lax271696.GraphEncoding,definition,lax-271696,,Compressed sparse row encoding of a graph,4.7454,5.0339,4.7454,4.7454,4.3577,7,145,29,5,1,72,0,0
+46,Lax17.Degree,definition,lax-17,,Degree bounds,4.7182,5.6333,4.7182,4.7182,4.7182,12,102,18,0,0,46,0,0
+47,Lax759944.RamPolytime,definition,lax-759944,,Polynomial-time computation by a word RAM,4.6927,4.5387,4.7032,4.6927,4.2851,10,121,61,9,3,23,0,0
+48,Lax759944.TuringPolytime,definition,lax-759944,,Polynomial-time computation by a Turing machine,4.6458,3.1306,4.6651,4.6458,3.7570,5,188,57,7,2,37,0,0
+49,Lax560851.StructuralPresentation,definition,lax-560851,,Structural presentations of finite data,4.5956,4.5956,4.5956,4.5956,4.5956,2,369,15,1,1,41,0,0
+50,Lax535992.HornFragment,definition,lax-535992,,The Horn fragment of existential second-order logic,4.5420,4.4076,4.3374,4.5420,4.5420,19,63,117,9,0,183,0,0
+51,Lax904597.CookLevin,theorem,lax-904597,,"The Cook–Levin theorem, by first-order reductions",4.5354,0.0000,4.5708,4.5354,4.5354,5,188,95,7,0,140,0,0
+52,Lax392996.SemiringsWithMonus,definition,lax-392996,,Semirings with monus,4.5115,4.5206,4.5115,4.5115,4.5115,10,121,11,0,0,75,0,0
+53,Lax751879.OrderedStructures,definition,lax-751879,,Finite ordered relational structures and queries,4.5095,4.5095,4.5095,4.5095,4.5095,3,268,10,1,0,53,0,0
+54,Lax194892.ForTransducers,definition,lax-194892,,For-transducers,4.3131,4.5833,4.3131,4.3131,4.3131,11,113,11,0,0,68,0,0
+55,Lax253009.ProductMoments,theorem,lax-253009,lax-323828,Mixed moments of balanced predicates on independent coordinates,4.2476,2.4902,4.1785,4.2476,,4,219,32,2,0,98,0,0
+56,Lax489179.Algorithms,definition,lax-489179,,Deterministic and bounded-error algorithms,4.1976,4.1976,4.1976,4.1976,4.1976,2,369,15,0,0,90,0,0
+57,Lax323828.ProductMoments,theorem,lax-323828,,Mixed moments of balanced predicates on independent coordinates,4.1869,2.4902,4.1785,4.1869,4.1905,4,219,28,0,0,99,0,0
+58,Lax228581.Treewidth,definition,lax-228581,,Treewidth,4.1480,4.3111,4.1480,4.1480,4.1480,4,219,12,3,2,102,0,0
+59,Lax535992.ClassPTIME,definition,lax-535992,,The classes PTIME and coPTIME,4.1170,3.9826,4.0324,4.1170,4.1170,85,10,114,9,0,91,0,0
+60,Lax470956.Scheduling,definition,lax-470956,lax-888481,Interval scheduling with eligible machine sets,4.1095,4.1095,4.1095,4.1095,,4,219,12,0,0,80,0,0
+61,Lax888481.ParameterizedComplexity,definition,lax-888481,,Parameterized Problems and FPT-Reductions on a Word RAM,4.0758,4.6324,4.0758,4.0758,4.4282,11,113,41,2,0,27,0,0
+62,Lax392996.Databases,definition,lax-392996,,Relations and databases with multiset semantics,4.0449,4.0540,4.0449,4.0449,4.0449,13,88,13,0,0,43,0,0
+63,Lax765601.MapLifting,definition,lax-765601,,Map lifting,4.0338,4.1425,4.0338,4.0338,4.0338,4,219,26,4,0,94,0,0
+64,Lax888481.Scheduling,definition,lax-888481,,Interval Scheduling with Eligible Machine Sets,4.0260,4.1095,4.0260,4.0260,4.0260,4,219,12,0,0,83,0,0
+65,Lax429075.Encoding,definition,lax-429075,,Binary encoding of CNF formulas,3.9116,4.1973,3.9116,3.9116,3.6399,3,268,47,8,1,33,0,0
+66,Lax253009.LongCode,definition,lax-253009,lax-323828,Long codes and the complete nonadaptive test,3.7146,4.8059,3.7455,3.7146,,6,163,20,2,0,70,0,0
+67,Lax17.Linkedness,definition,lax-17,,Linked terminal sets,3.6888,4.4333,3.6888,3.6888,3.6888,5,188,20,0,0,49,0,0
+68,Lax323828.LongCode,definition,lax-323828,,Long codes and the complete nonadaptive test,3.6539,4.8059,3.6655,3.6539,3.6575,6,163,16,0,0,71,0,0
+69,Lax3.ColoredGraphs,definition,lax-3,,Colored graphs and walk distance,3.5838,3.6000,3.5838,3.5838,3.5838,3,268,10,0,0,105,0,0
+70,Lax765601.StateTransformations,definition,lax-765601,,State transformations of a pre-automaton,3.4373,3.6833,3.4373,3.4373,3.4373,7,145,14,2,0,69,0,0
+71,Lax362205.Reachability,definition,lax-362205,,Bounded reachability,3.4310,4.6845,3.4310,3.4310,3.4310,2,369,13,0,0,44,0,0
+71,Lax733996.Reachability,definition,lax-733996,lax-362205,Bounded reachability,3.4310,4.6845,3.4310,3.4310,,2,369,13,0,0,45,0,0
+73,Lax535992.InflationaryFixedPoint,definition,lax-535992,,First-order logic with inflationary fixed points,3.3438,3.4298,3.3466,3.3438,3.3438,55,18,58,5,0,97,0,0
+74,Lax666725.ProbabilisticMachines,definition,lax-666725,lax-115662,Polynomial-time probabilistic Turing machines,3.3361,4.4635,3.3786,3.3361,,4,219,20,4,0,39,0,0
+75,Lax496464.Conditions,definition,lax-496464,,The Two Conditions on a Feasible Set,3.2333,3.2333,3.2333,3.2333,3.2333,6,163,11,0,0,88,0,0
+76,Lax391470.Scheduling,definition,lax-391470,,Single Machine Scheduling with Release Times and Deadlines,3.2306,3.3707,3.2306,3.2306,3.2306,2,369,8,0,0,113,0,0
+77,Lax895169.BitPredicate,definition,lax-895169,,Ranks in a finite linear order and the BIT predicate,3.2299,2.8393,2.9426,3.2299,3.2299,11,113,59,5,0,154,0,0
+78,Lax228581.TwinWidth,definition,lax-228581,,Twin-width,3.2000,3.3333,3.2000,3.2000,3.2000,5,188,7,2,1,123,0,0
+79,Lax496464.EstOrder,definition,lax-496464,,"Earliest-Start-Time Order, and Distinct Endpoints",3.1917,3.1917,3.1917,3.1917,3.1917,5,188,12,0,0,82,0,0
+80,Lax146103.MSOSyntax,definition,lax-146103,,Monadic second-order syntax,3.1659,3.1992,3.1659,3.1659,3.1659,4,219,12,1,0,107,0,0
+81,Lax916827.RegularFunctions,definition,lax-916827,,Regular functions,3.0838,3.1925,3.0838,3.0838,3.0838,18,67,23,3,0,35,0,0
+82,Lax689614.ArcKayles,definition,lax-689614,lax-783278,Arc Kayles,3.0722,3.1957,3.0722,3.0722,,2,369,10,0,0,100,0,0
+82,Lax783278.ArcKayles,definition,lax-783278,,Arc Kayles,3.0722,3.1957,3.0722,3.0722,3.0722,2,369,10,0,0,101,0,0
+84,Lax18.EdgeDensity,definition,lax-18,,Edge density between two vertex sets,3.0674,2.4944,3.0674,3.0674,3.0674,1,529,18,2,1,132,0,0
+85,Lax535992.DeterministicMachines,definition,lax-535992,,Acceptance by deterministic Turing machines,3.0273,2.6311,2.9027,3.0273,3.0273,45,20,79,8,0,151,0,0
+86,Lax314295.KTypes,definition,lax-314295,,The k-type of a string,3.0000,3.0000,3.0000,3.0000,3.0000,4,219,4,0,0,160,0,0
+86,Lax9.MergeWidth,definition,lax-9,,Merge-Width,3.0000,3.0000,3.0000,3.0000,3.0000,4,219,4,0,0,117,0,0
+88,Lax485149.TransitiveClosure,definition,lax-485149,,First-order logic with a transitive closure,2.9920,3.0541,2.9947,2.9920,2.9920,51,19,61,6,0,106,0,0
+89,Lax68.Planar,definition,lax-68,,Planar graphs,2.9230,3.7595,2.9230,2.9230,2.9230,15,80,15,1,0,51,0,0
+90,Lax115662.ProbabilisticMachines,definition,lax-115662,,Polynomial-time probabilistic Turing machines,2.8929,3.0000,2.8929,2.8929,2.8929,4,219,8,0,0,57,0,0
+91,Lax429075.Satisfiability,definition,lax-429075,,The satisfiability language and verifier,2.8689,3.4711,2.8689,2.8689,2.7189,13,88,37,6,1,34,0,0
+92,Lax799700.Common,definition,lax-799700,,"Clauses, literals and binary numbers",2.8435,3.2937,2.8789,2.8435,2.8435,6,163,73,5,0,202,0,0
+93,Lax485149.KromFragment,definition,lax-485149,,The Krom fragment of existential second-order logic,2.8221,2.9430,2.8249,2.8221,2.8221,22,55,65,6,0,245,0,0
+94,Lax17.TerminalConnectivity,definition,lax-17,,Terminal element connectivity and split-off operations,2.7726,3.0000,2.7726,2.7726,2.7726,3,268,9,0,0,141,0,0
+95,Lax251941.TuringMachines,definition,lax-251941,,Single-tape Turing machines as string rewriting,2.7500,2.5000,2.7500,2.7500,2.7500,3,268,4,0,0,163,0,0
+96,Lax799700.CliqueFamily,theorem,lax-799700,,"Clique, Independent Set and Vertex Cover",2.7493,1.7211,2.7847,2.7493,2.7493,35,26,66,4,0,62,0,0
+97,Lax434930.SpaceBounds,definition,lax-434930,,Deterministic and nondeterministic space bounds,2.7462,3.5897,2.7462,2.7462,2.2615,6,163,21,4,0,40,0,0
+98,Lax434930.MachineModels,definition,lax-434930,,Finite-stack and elementary single-tape definitions of P,2.7231,2.0769,2.7231,2.7231,2.6013,4,219,33,8,1,133,0,0
+99,Lax485149.ClassNL,definition,lax-485149,,The classes NL and coNL,2.6971,2.8180,2.6999,2.6971,2.6971,62,12,64,6,0,147,0,0
+100,Lax485149.DeterministicTransitiveClosure,definition,lax-485149,,First-order logic with a deterministic transitive closure,2.6586,2.7208,2.6614,2.6586,2.6586,57,16,60,6,0,129,0,0
+101,Lax799700.ThreeSat,theorem,lax-799700,,3SAT,2.6435,1.8080,2.6789,2.6435,2.6435,29,29,71,5,0,201,0,0
+102,Lax496464.ParameterizedComplexity,definition,lax-496464,,Parameterized Problems and FPT-Reductions on a Word RAM,2.6080,2.7700,2.6080,2.6080,2.6080,2,369,20,0,0,89,0,0
+103,Lax503819.Words,definition,lax-503819,,Words over an ordered alphabet,2.5833,2.5833,2.5833,2.5833,2.5833,1,529,5,0,0,119,0,0
+104,Lax253009.ExponentialBounds,theorem,lax-253009,lax-323828,Exponential concentration on finite product spaces,2.5814,1.6235,2.6123,2.5814,,4,219,29,2,0,134,0,0
+105,Lax392996.RelationalAlgebra,definition,lax-392996,,"The relational algebra with multiset semantics, as syntax",2.5449,2.5540,2.5449,2.5449,2.5449,11,113,11,0,0,124,0,0
+106,Lax485149.ClassL,definition,lax-485149,,The classes L and coL,2.5336,2.5958,2.5364,2.5336,2.5336,56,17,59,6,0,167,0,0
+107,Lax323828.ExponentialBounds,theorem,lax-323828,,Exponential concentration on finite product spaces,2.5208,1.6235,2.5323,2.5208,2.5243,4,219,25,0,0,136,0,0
+108,Lax10.ThreeConnectedAndColorable,definition,lax-10,,3-connected graphs and 4-colorability,2.5000,2.5000,2.5000,2.5000,2.5000,2,369,3,0,0,173,0,0
+108,Lax242665.Primes,definition,lax-242665,,Prime numbers,2.5000,3.0000,2.5000,2.5000,2.5000,3,268,3,0,0,161,0,0
+108,Lax296731.MoserTardosDefinitions,definition,lax-296731,lax-965890,Definitions for the Moser–Tardos resampling algorithm,2.5000,2.5000,2.5000,2.5000,,2,369,3,0,0,175,0,0
+108,Lax41.MoserTardosDefinitions,definition,lax-41,lax-296731,Definitions for the Moser–Tardos resampling algorithm,2.5000,2.5000,2.5000,2.5000,,2,369,3,0,0,176,0,0
+108,Lax871432.LoopGraphs,definition,lax-871432,,Graphs with loops,2.5000,2.5000,2.5000,2.5000,2.5000,3,268,3,0,0,200,0,0
+108,Lax965890.MoserTardosDefinitions,definition,lax-965890,,Definitions for the Moser–Tardos resampling algorithm,2.5000,2.5000,2.5000,2.5000,2.5000,2,369,3,0,0,178,0,0
+114,Lax842588.RankedTree,definition,lax-842588,,Finite ranked trees,2.4992,2.5326,2.4992,2.4992,2.4992,5,188,9,0,0,125,0,0
+115,Lax765601.PrimeMealyMachines,definition,lax-765601,,Prime Mealy machines: reversible and flip-flop,2.4333,2.5417,2.4333,2.4333,2.4333,8,132,11,1,0,81,0,0
+116,Lax68.Outerplanar,definition,lax-68,,Outerplanar graphs,2.4190,2.5667,2.4190,2.4190,2.4190,8,132,14,0,0,67,0,0
+117,Lax366625.CountingClasses,definition,lax-366625,,Counting classes,2.4154,2.9466,2.4680,2.4154,2.4154,60,14,62,3,0,85,0,0
+118,Lax17.PathOfSets,definition,lax-17,,Strong and hairy path-of-sets systems,2.3555,3.1000,2.3555,2.3555,2.3555,11,113,17,0,0,84,0,0
+119,Lax871432.IsomorphismRelaxations,definition,lax-871432,,Graph isomorphism relaxations,2.3000,2.3000,2.3000,2.3000,2.3000,2,369,12,0,0,146,0,0
+120,Lax253009.Graphs,definition,lax-253009,lax-323828,Finite graphs and their binary encoding,2.2917,2.6301,2.3226,2.2917,,2,369,17,2,0,186,0,0
+121,Lax624099.Problems,definition,lax-624099,,Problems given by a property of structures,2.2834,2.4524,2.2861,2.2834,2.2834,22,55,29,1,0,73,0,0
+122,Lax194892.PebbleConfigurationEncoding,definition,lax-194892,,"String representations of pebble configurations, and balanced runs",2.2500,2.2500,2.2500,2.2500,2.2500,3,268,6,0,0,110,0,0
+123,Lax429075.Reductions,definition,lax-429075,,Polynomial many-one reductions and NP-completeness,2.2478,4.4660,2.2478,2.2478,1.7911,11,113,38,8,1,60,0,0
+124,Lax323828.Graphs,definition,lax-323828,,Finite graphs and their binary encoding,2.2310,2.6301,2.2426,2.2310,2.2346,2,369,13,0,0,196,0,0
+125,Lax362205.Counting,definition,lax-362205,,Inductive counting certificates,2.1810,3.4345,2.1810,2.1810,2.1810,7,145,11,0,0,55,0,0
+125,Lax733996.Counting,definition,lax-733996,lax-362205,Inductive counting certificates,2.1810,3.4345,2.1810,2.1810,,7,145,11,0,0,56,0,0
+127,Lax751879.StructureEncoding,definition and theorem,lax-751879,,Binary encodings of ordered structures and tuples,2.1762,2.1762,2.1762,2.1762,2.1762,2,369,7,1,0,131,0,0
+128,Lax146103.MSOSemantics,definition,lax-146103,,Semantics of monadic second-order logic,2.1659,2.1992,2.1659,2.1659,2.1659,2,369,11,1,0,188,0,0
+129,Lax560851.StructuralCombinators,definition and theorem,lax-560851,,Certified structural presentation combinators,2.1456,2.1456,2.1456,2.1456,2.1456,4,219,11,1,1,87,0,0
+130,Lax871432.GraphClasses,definition,lax-871432,,Graph classes,2.1333,2.1333,2.1333,2.1333,2.1333,2,369,12,0,0,192,0,0
+131,Lax195003.WelzlOrders,definition,lax-195003,,Welzl orders,2.1250,2.1250,2.1250,2.1250,2.1429,1,529,5,1,0,168,0,0
+132,Lax535992.LeastFixedPoint,definition,lax-535992,,First-order logic with least fixed points,2.1165,1.5734,1.8319,2.1165,2.1165,24,51,66,9,0,305,0,0
+133,Lax429075.Circuits,definition,lax-429075,,Boolean circuits,2.1128,0.9762,2.1128,2.1128,1.8827,1,529,35,9,1,103,0,0
+134,Lax253009.LocalTests,definition,lax-253009,lax-323828,Accepting local views of a proof,2.0917,2.0761,2.1226,2.0917,,2,369,16,2,0,121,0,0
+134,Lax366625.CountingSat,definition,lax-366625,,"#SAT, counting the models of a CNF formula",2.0917,2.6669,2.1443,2.0917,2.0917,61,13,61,3,0,96,0,0
+136,Lax496464.WH_B1_Structures,definition,lax-496464,,Finite Relational Structures,2.0860,2.4983,2.0860,2.0860,2.0860,1,529,19,0,0,198,0,0
+137,Lax17.Minor,definition,lax-17,,Graph minors,2.0769,2.5667,2.0769,2.0769,2.0769,3,268,12,0,0,219,0,0
+138,Lax759944.TuringRamPolytimeEquivalence,theorem,lax-759944,,Polynomial-time equivalence of Turing machines and word RAMs,2.0729,0.0000,2.0835,2.0729,2.1736,22,55,47,7,2,59,0,0
+139,Lax689614.PositiveCNF,definition,lax-689614,lax-783278,The positive CNF game,2.0722,2.1957,2.0722,2.0722,,2,369,8,0,0,209,0,0
+139,Lax783278.PositiveCNF,definition,lax-783278,,The positive CNF game,2.0722,2.1957,2.0722,2.0722,2.0722,2,369,8,0,0,210,0,0
+141,Lax18.FiniteGraphPartitions,definition,lax-18,,Finite graph vertex partitions,2.0674,1.4944,2.0674,2.0674,2.0674,1,529,17,2,1,169,0,0
+141,Lax18.RegularPairs,definition,lax-18,,Regular pairs,2.0674,1.4944,2.0674,2.0674,2.0674,1,529,17,2,1,170,0,0
+143,Lax56.Geometry,definition,lax-56,lax-570090,Point visibility in the real plane,2.0333,3.5000,2.0333,2.0333,,3,268,4,0,0,142,0,0
+143,Lax570090.Geometry,definition,lax-570090,,Point visibility in the real plane,2.0333,3.5000,2.0333,2.0333,2.0333,3,268,4,0,0,143,0,0
+145,Lax323828.LocalTests,definition,lax-323828,,Accepting local views of a proof,2.0310,2.0761,2.0426,2.0310,2.0346,2,369,12,0,0,128,0,0
+146,Lax871432.GraphProducts,definition,lax-871432,,Products of graphs,2.0250,2.0250,2.0250,2.0250,2.0250,3,268,9,0,0,216,0,0
+147,Lax683916.MultigraphIsomorphism,definition,lax-683916,,Isomorphism from a multigraph to a simple graph,2.0000,2.0000,2.0000,2.0000,2.0000,2,369,2,0,0,250,0,0
+147,Lax765601.Aperiodicity,definition,lax-765601,,Aperiodic string-to-string functions,2.0000,2.0833,2.0000,2.0000,2.0000,6,163,6,1,0,181,0,0
+149,Lax765601.ElementaryProperties,definition,lax-765601,,Prefix preservation and length preservation,1.9833,1.9833,1.9833,1.9833,1.9833,7,145,7,2,0,189,0,0
+150,Lax251941.PostCorrespondence,definition,lax-251941,,The Post correspondence problem,1.9500,2.5000,1.9500,1.9500,1.9500,3,268,4,1,0,206,0,0
+151,Lax366625.WitnessCounting,definition,lax-366625,,"The class #P, by witness counting",1.9487,2.4800,2.0013,1.9487,1.9487,58,15,59,3,0,130,0,0
+152,Lax535992.HornSat,definition,lax-535992,,Satisfiability of Horn formulas,1.9416,1.4873,1.7770,1.9416,1.9416,35,26,63,8,0,251,0,0
+153,Lax489179.WordPrograms,definition,lax-489179,,Word-RAM programs with optional fair coins,1.8643,1.8643,1.8643,1.8643,1.8643,2,369,10,0,0,112,0,0
+154,Lax485149.FirstOrderDefinability,definition,lax-485149,,First-order definability on ordered structures,1.8576,1.9001,1.8604,1.8576,1.8576,40,24,42,4,0,228,0,0
+155,Lax218471.PolynomialTime,definition,lax-218471,,Polynomial-time implementations of encoded functions and contracts,1.8333,1.8333,1.8333,1.8333,1.8333,2,369,3,0,0,261,0,0
+156,Lax535992.CircuitValue,definition,lax-535992,,The circuit value problem,1.8197,1.3068,1.7951,1.8197,1.8197,29,29,58,8,0,241,0,0
+157,Lax762056.GraphEncoding,definition,lax-762056,lax-222097,Binary encoding of graph decision instances,1.8138,2.0762,1.8138,1.8138,,2,369,12,1,1,120,0,0
+158,Lax57.GraphDefinitions,definition,lax-57,,Finite graph notions for the five-vertex path theorem,1.7838,4.5000,1.7838,1.7838,1.7838,9,127,9,0,0,54,0,0
+159,Lax429075.Tseitin,definition,lax-429075,,Gate clauses,1.7795,0.6429,1.7795,1.7795,1.5494,3,268,34,9,1,108,0,0
+160,Lax564036.Hierarchy,definition,lax-564036,,"The polynomial hierarchy, coNP and PH",1.7522,1.9365,1.7550,1.7522,1.7522,43,22,43,3,0,204,0,0
+161,Lax799700.NaeSat,theorem,lax-799700,,Not-all-equal SAT,1.7447,0.8100,1.7973,1.7447,1.7447,4,219,51,3,0,294,0,0
+162,Lax18.RegularPartitions,definition,lax-18,,Regular partitions,1.7340,1.1611,1.7340,1.7340,1.7340,1,529,16,2,1,78,0,0
+163,Lax132576.TransducerCodes,definition,lax-132576,,"Codes of automata with output, and decidability under a promise",1.7167,1.8500,1.7167,1.7167,1.7167,7,145,7,1,0,104,0,0
+164,Lax48.TwinWidth,definition,lax-48,lax-228581,Twin-width,1.7000,1.8333,1.7000,1.7000,,4,219,4,1,0,267,0,0
+165,Lax68.Trees,definition,lax-68,,Trees,1.6667,1.5000,1.6667,1.6667,1.6667,4,219,8,0,0,220,0,0
+166,Lax199508.NowhereDenseClasses,definition,lax-199508,,Nowhere dense graph classes,1.6592,2.5333,1.6592,1.6592,1.6592,9,127,10,2,0,111,0,0
+167,Lax434930.FiniteStackEquivalence,lemma,lax-434930,,Finite stack alphabets suffice,1.6461,0.0000,1.6461,1.6461,1.5244,1,529,30,8,1,453,0,0
+168,Lax345067.MulticolorRamsey,theorem,lax-345067,,Ramsey's theorem for colourings of pairs,1.6426,0.0000,1.6426,1.6426,1.6426,3,268,7,3,0,246,0,0
+169,Lax496464.WH_A1_FptTime,definition,lax-496464,,Fixed-Parameter Time on the Word RAM,1.6174,2.4034,1.6174,1.6174,1.6642,2,369,26,1,0,92,0,0
+170,Lax762056.InducedMinors,definition,lax-762056,lax-222097,Induced minors,1.6093,1.8929,1.6093,1.6093,,1,529,6,1,1,213,0,0
+171,Lax799700.OneInSat,theorem,lax-799700,,1-in-SAT,1.5947,0.8898,1.6473,1.5947,1.5947,27,32,49,3,0,224,0,0
+172,Lax222097.InducedMinors,definition,lax-222097,,Induced minors,1.5870,1.8512,1.5870,1.5870,1.5870,1,529,5,0,0,218,0,0
+173,Lax314295.MSORelabellings,definition,lax-314295,,MSO relabellings,1.5857,1.7000,1.5857,1.5857,1.5857,7,145,7,0,0,116,0,0
+174,Lax503819.PositiveLogic,definition,lax-503819,,Positive first-order logic on finite words,1.5833,1.5833,1.5833,1.5833,1.5833,2,369,4,0,0,145,0,0
+175,Lax199508.ColoringNumbers,definition,lax-199508,,Generalized coloring numbers,1.5731,1.6167,1.5731,1.5731,1.5731,5,188,8,2,0,144,0,0
+176,Lax132576.WeightedAutomata,definition,lax-132576,,Weighted automata,1.5667,1.6500,1.5667,1.5667,1.5667,4,219,6,0,0,139,0,0
+177,Lax222097.GraphEncoding,definition,lax-222097,,Binary encoding of graph decision instances,1.5495,1.7845,1.5495,1.5495,1.5495,1,529,8,0,0,158,0,0
+178,Lax496464.WordEncoding,definition,lax-496464,,Word Encoding of an Instance,1.5202,1.5202,1.5202,1.5202,1.5202,1,529,10,0,0,137,0,0
+179,Lax624099.ValueInvention,definition,lax-624099,,Existential second-order logic with value invention,1.5056,1.6746,1.5084,1.5056,1.5056,19,63,25,1,0,229,0,0
+180,Lax253009.DecodedStrategies,theorem,lax-253009,lax-323828,Extracting prover strategies from decoded sets,1.4878,1.9166,1.5187,1.4878,,2,369,18,2,0,233,0,0
+181,Lax18.PartitionEnergy,definition,lax-18,,Refinement and the index of a graph partition,1.4840,0.9111,1.4840,1.4840,1.4840,4,219,15,2,1,86,0,0
+182,Lax253009.HigherMoments,theorem,lax-253009,lax-323828,Cancellation outside double covers in higher moments,1.4777,1.1474,1.3686,1.4777,,5,188,22,2,0,259,0,0
+183,Lax12.NowhereDenseClasses,definition,lax-12,lax-199508,Nowhere dense graph classes,1.4754,2.1667,1.4754,1.4754,,7,145,8,1,0,126,0,0
+184,Lax871432.HomomorphismIndistinguishability,definition,lax-871432,,Homomorphism indistinguishability,1.4667,1.4667,1.4667,1.4667,1.4667,2,369,10,0,0,93,0,0
+185,Lax14.MulticolorRamsey,theorem,lax-14,lax-345067,Ramsey's theorem for colourings of pairs,1.4587,0.0000,1.4587,1.4587,,3,268,5,2,0,269,0,0
+186,Lax11.GraphEncoding,definition,lax-11,lax-271696,Compressed sparse row encoding of a graph,1.4583,1.4583,1.4583,1.4583,,4,219,5,1,1,265,0,0
+187,Lax799700.SetFamily,theorem,lax-799700,,"Set Cover, Hitting Set, Set Packing, Exact Cover and Set Splitting",1.4518,1.6414,1.5044,1.4518,1.4518,44,21,47,3,0,109,0,0
+188,Lax496464.WH_A2_FptReductions,definition,lax-496464,,"FPT-Reductions, FPT, Hardness and Completeness",1.4507,1.9867,1.4507,1.4507,1.4976,9,127,25,1,0,64,0,0
+189,Lax624099.FiniteSatisfiability,definition,lax-624099,,Finite satisfiability of first-order sentences,1.4500,1.6190,1.4528,1.4500,1.4500,25,40,25,1,0,223,0,0
+190,Lax485149.Reachability,definition,lax-485149,,Reachability and unreachability in directed graphs,1.4365,1.3553,1.4392,1.4365,1.4365,22,55,27,3,0,290,0,0
+191,Lax199508.UniformQuasiWideness,definition,lax-199508,,Uniform quasi-wideness,1.4338,1.4833,1.4338,1.4338,1.4338,3,268,8,2,0,205,0,0
+192,Lax429075.GateCorrect,lemma,lax-429075,,Correctness of gate clauses,1.4295,0.0000,1.4295,1.4295,1.1994,3,268,32,9,1,236,0,0
+193,Lax323828.DecodedStrategies,theorem,lax-323828,,Extracting prover strategies from decoded sets,1.4271,1.9166,1.4387,1.4271,1.4307,2,369,14,0,0,239,0,0
+194,Lax323828.HigherMoments,theorem,lax-323828,,Cancellation outside double covers in higher moments,1.4171,1.1474,1.3686,1.4171,1.4206,5,188,18,0,0,260,0,0
+195,Lax470956.ParameterizedComplexity,definition,lax-470956,lax-888481,Parameterized problems and fpt-reductions on a word RAM,1.3929,1.3929,1.3929,1.3929,,3,268,8,0,0,127,0,0
+196,Lax485149.TwoSat,definition,lax-485149,,Satisfiability of CNF formulas of width two,1.3500,1.3275,1.3528,1.3500,1.3500,27,32,31,3,0,315,0,0
+197,Lax624099.ClassRE,definition,lax-624099,,The classes RE and co-RE,1.3389,1.5079,1.3417,1.3389,1.3389,24,51,24,1,0,282,0,0
+198,Lax496464.Problems,definition,lax-496464,,The Just-in-Time Flow Shop as a Problem on Words,1.3202,1.3202,1.3202,1.3202,1.3202,8,132,9,0,0,65,0,0
+199,Lax762056.MaxCut,definition,lax-762056,lax-222097,Maximum cuts,1.3138,1.5762,1.3138,1.3138,,2,369,11,1,1,182,0,0
+200,Lax434930.ModelEquivalence,lemma,lax-434930,,Single-tape characterization of P,1.3128,0.0000,1.3128,1.3128,1.1911,2,369,29,8,1,470,0,0
+201,Lax489179.TuringMachine,definition,lax-489179,,Finite multitape Turing machines,1.2976,1.2976,1.2976,1.2976,1.2976,2,369,6,0,0,217,0,0
+202,Lax392996.MultisetSemantics,definition,lax-392996,,Multiset semantics of the relational algebra,1.2949,1.3040,1.2949,1.2949,1.2949,5,188,8,0,0,359,0,0
+203,Lax429075.EncodingCorrect,lemma,lax-429075,,Decoding an encoded formula,1.2907,0.0000,1.2907,1.2907,1.2907,18,67,27,5,1,76,0,0
+204,Lax253009.BalancedPredicates,theorem,lax-253009,lax-323828,Counting and concentration of uniformly balanced predicates,1.2872,0.9569,1.2181,1.2872,,5,188,22,2,0,185,0,0
+205,Lax624099.CodeHalting,definition,lax-624099,,Halting of a drawn partial recursive code,1.2865,1.3968,1.2893,1.2865,1.2865,19,63,20,1,0,266,0,0
+206,Lax489179.WordTime,definition,lax-489179,,Polynomial running time on logarithmic words,1.2810,1.2810,1.2810,1.2810,1.2810,3,268,8,0,0,150,0,0
+207,Lax560851.WordArena,definition and theorem,lax-560851,,Distinguished immutable word arenas,1.2623,1.2623,1.2623,1.2623,1.2623,4,219,10,1,1,155,0,0
+208,Lax762056.ColumnGraph,definition,lax-762056,lax-222097,Row and column graphs,1.2593,1.3762,1.2593,1.2593,,3,268,8,1,1,194,0,0
+209,Lax709149.Types,definition,lax-709149,,Types and their string representation,1.2540,1.2540,1.2540,1.2540,1.2540,2,369,3,0,0,264,0,0
+210,Lax222097.ColumnGraph,definition,lax-222097,,Row and column graphs,1.2370,1.3762,1.2370,1.2370,1.2370,3,268,7,0,0,197,0,0
+211,Lax391470.AuxiliaryProblem,definition,lax-391470,,"The Auxiliary Problem AUX(p, q)",1.2306,1.3707,1.2306,1.2306,1.2306,3,268,6,0,0,195,0,0
+212,Lax323828.BalancedPredicates,theorem,lax-323828,,Counting and concentration of uniformly balanced predicates,1.2266,0.9569,1.2181,1.2266,1.2302,5,188,18,0,0,187,0,0
+213,Lax689614.Grundy,definition,lax-689614,lax-783278,Sprague–Grundy values,1.2222,1.1667,1.2222,1.2222,,3,268,5,0,0,152,0,0
+213,Lax783278.Grundy,definition,lax-783278,,Sprague–Grundy values,1.2222,1.1667,1.2222,1.2222,1.2222,3,268,5,0,0,153,0,0
+215,Lax366625.MachineNumbers,definition,lax-366625,,The number written by a deterministic Turing machine,1.2180,0.8283,1.2106,1.2180,1.2180,13,88,42,3,0,371,0,0
+216,Lax153141.MixedMinorNumber,definition,lax-153141,,Mixed minor number,1.2000,1.3333,1.2000,1.2000,1.2000,3,268,3,0,0,320,0,0
+216,Lax49.MixedMinorNumber,definition,lax-49,lax-153141,Mixed minor number,1.2000,1.3333,1.2000,1.2000,,3,268,3,0,0,321,0,0
+218,Lax485149.DeterministicReachability,definition,lax-485149,,Deterministic reachability in directed graphs,1.1865,1.1053,1.1892,1.1865,1.1865,21,59,26,3,0,362,0,0
+218,Lax485149.HeadAutomata,definition,lax-485149,,Two-way multihead automata on ordered structures,1.1865,1.1053,1.1892,1.1865,1.1865,21,59,26,3,0,363,0,0
+220,Lax624099.ConcreteInstances,definition,lax-624099,,Problems as sets of concrete finite structures,1.1754,1.2857,1.1782,1.1754,1.1754,18,67,19,1,0,324,0,0
+220,Lax624099.Halting,definition,lax-624099,,The halting problem on machines of the NP core,1.1754,1.2857,1.1582,1.1754,1.1754,18,67,19,1,0,325,0,0
+220,Lax624099.PostCorrespondence,definition,lax-624099,,Post's correspondence problem,1.1754,1.2857,1.1582,1.1754,1.1754,18,67,19,1,0,326,0,0
+223,Lax842588.TreeAutomaton,definition,lax-842588,,Bottom-up tree automata,1.1659,1.1992,1.1659,1.1659,1.1659,3,268,7,0,0,349,0,0
+224,Lax14.OrderTypes,definition,lax-14,lax-345067,Order type of a tuple,1.1587,1.0000,1.1587,1.1587,,1,529,3,1,0,341,0,0
+224,Lax345067.OrderTypes,definition,lax-345067,,Order type of a tuple,1.1587,1.0000,1.1587,1.1587,1.1587,1,529,3,1,0,342,0,0
+226,Lax496464.ProperInstances,definition,lax-496464,,"Uniform Preprocessing Times, and Proper Instances",1.1524,1.1524,1.1524,1.1524,1.1524,4,219,6,0,0,237,0,0
+227,Lax560851.CertifiedDerivation,infrastructure,lax-560851,,Field-encoding agreement (infrastructure),1.1456,1.1456,1.1456,1.1456,1.1456,1,529,9,1,1,172,0,0
+228,Lax489179.IntegerEncoding,definition,lax-489179,,Encoding signed integers and missing distances,1.1381,1.1381,1.1381,1.1381,1.1381,3,268,7,0,0,149,0,0
+229,Lax195003.WelzlOrdersNeighborhoodSetSystem,definition,lax-195003,,Neighborhood set systems of graphs,1.1250,1.1250,1.1250,1.1250,1.1429,3,268,4,1,0,221,0,0
+230,Lax366625.CountingRuns,definition,lax-366625,,Counting the accepting runs of a Turing machine,1.1069,0.7172,1.1195,1.1069,1.1069,18,67,41,3,0,409,0,0
+231,Lax253009.FourierProjection,theorem,lax-253009,lax-323828,Averaging outside a set of coordinates,1.1035,0.7731,1.0944,1.1035,,3,268,19,2,0,343,0,0
+232,Lax420092.QueryDatabases,definition,lax-420092,,Conjunctive queries and graph databases as structures,1.0982,1.1929,1.0982,1.0982,1.0982,10,121,11,0,0,212,0,0
+233,Lax68.GridsAndWalls,definition,lax-68,,Grids and walls,1.0929,1.0000,1.0929,1.0929,1.0929,3,268,4,0,0,278,0,0
+234,Lax253009.ConsistencyGraph,definition,lax-253009,lax-323828,The consistency graph of accepting local views,1.0917,1.0761,1.1226,1.0917,,1,529,15,2,0,215,0,0
+235,Lax134656.PartialFixedPoint,definition,lax-134656,,First-order logic with partial fixed points,1.0907,1.1758,1.0907,1.0907,1.0907,27,32,27,1,0,329,0,0
+236,Lax496464.WH_B2_FirstOrder,definition,lax-496464,,First-Order Formulas and the Classes Σ_t and Π_t,1.0860,1.4983,1.0860,1.0860,1.0860,1,529,18,0,0,272,0,0
+237,Lax12.ColoringNumbers,definition,lax-12,lax-199508,Generalized coloring numbers,1.0643,1.1667,1.0643,1.0643,,3,268,5,1,0,247,0,0
+238,Lax871432.DistinguishingClosure,definition,lax-871432,,The homomorphism distinguishing closure,1.0500,1.0500,1.0500,1.0500,1.0500,8,132,8,0,0,114,0,0
+239,Lax222097.MaxCut,definition,lax-222097,,Maximum cuts,1.0495,1.2845,1.0495,1.0495,1.0495,2,369,7,0,0,207,0,0
+240,Lax489179.Satisfiability,definition,lax-489179,,Bounded-width CNF satisfiability and its encoding,1.0476,1.0476,1.0476,1.0476,1.0476,1,529,5,0,0,275,0,0
+241,Lax323828.FourierProjection,theorem,lax-323828,,Averaging outside a set of coordinates,1.0428,0.7731,1.0544,1.0428,1.0464,3,268,15,0,0,344,0,0
+242,Lax253009.TupleAveraging,theorem,lax-253009,lax-323828,Dimension-independent bounds for tuple averaging,1.0361,0.5000,1.0670,1.0361,,1,529,13,2,0,277,0,0
+243,Lax56.ConvexLayers,definition,lax-56,lax-570090,Convex layers and minimal polygons,1.0333,0.5000,1.0333,1.0333,,1,529,3,0,0,292,0,0
+243,Lax570090.ConvexLayers,definition,lax-570090,,Convex layers and minimal polygons,1.0333,0.5000,1.0333,1.0333,1.0333,1,529,3,0,0,293,0,0
+245,Lax323828.ConsistencyGraph,definition,lax-323828,,The consistency graph of accepting local views,1.0310,1.0761,1.0426,1.0310,1.0346,1,529,11,0,0,231,0,0
+246,Lax17.Treewidth,definition,lax-17,,Treewidth,1.0290,2.2333,1.0290,1.0290,1.0290,7,145,7,0,0,232,0,0
+247,Lax362205.ExactCensus,lemma,lax-362205,,Exact censuses enumerate the whole layer,1.0143,0.0000,1.0143,1.0143,1.0143,2,369,8,0,0,335,0,0
+247,Lax362205.SuccessorLayer,lemma,lax-362205,,The next reachable layer,1.0143,0.0000,1.0143,1.0143,1.0143,1,529,8,0,0,548,0,0
+247,Lax733996.ExactCensus,lemma,lax-733996,lax-362205,Exact censuses enumerate the whole layer,1.0143,0.0000,1.0143,1.0143,,2,369,8,0,0,336,0,0
+247,Lax733996.SuccessorLayer,lemma,lax-733996,lax-362205,The next reachable layer,1.0143,0.0000,1.0143,1.0143,,1,529,8,0,0,549,0,0
+251,Lax429075.CircuitMachine,lemma,lax-429075,,Polynomial circuit simulation of a verifier,1.0128,0.0000,1.0128,1.0128,0.8911,3,268,27,7,1,295,0,0
+251,Lax429075.TseitinCorrect,lemma,lax-429075,,Correctness of the circuit encoding,1.0128,0.0000,1.0128,1.0128,0.8911,3,268,27,7,1,296,0,0
+253,Lax392996.AnnotatedDatabases,definition,lax-392996,,Annotated relations and databases,1.0115,1.0206,1.0115,1.0115,1.0115,7,145,7,0,0,333,0,0
+254,Lax17.Grid,definition,lax-17,,Square grid graphs,1.0073,1.4833,1.0073,1.0073,1.0073,1,529,6,0,0,364,0,0
+255,Lax13.Ram,definition,lax-13,lax-67,The word RAM,1.0000,1.0000,1.0000,1.0000,,1,529,1,0,0,386,0,0
+255,Lax251941.Acceptance,definition,lax-251941,,The acceptance problem for machines,1.0000,1.0000,1.0000,1.0000,1.0000,1,529,1,0,0,390,0,0
+255,Lax379983.FeedbackVertexNumber,definition,lax-379983,,Feedback vertex number,1.0000,1.0000,1.0000,1.0000,1.0000,2,369,2,0,0,392,0,0
+255,Lax67.Ram,definition,lax-67,lax-808846,The word RAM,1.0000,1.0000,1.0000,1.0000,,1,529,1,0,0,398,0,0
+255,Lax683916.NeighborhoodSetSystems,definition,lax-683916,,Neighborhood set system,1.0000,1.0000,1.0000,1.0000,1.0000,1,529,1,0,0,399,0,0
+255,Lax683916.SpanningTwoUniformHypergraphs,definition,lax-683916,,Spanning 2-uniform hypergraph,1.0000,1.0000,1.0000,1.0000,1.0000,1,529,1,0,0,400,0,0
+255,Lax683916.SymmetricLooplessDigraphs,definition,lax-683916,,Symmetric loopless digraph,1.0000,1.0000,1.0000,1.0000,1.0000,1,529,1,0,0,401,0,0
+255,Lax683916.TwoUniformSetSystems,definition,lax-683916,,2-uniform set system,1.0000,1.0000,1.0000,1.0000,1.0000,1,529,1,0,0,402,0,0
+255,Lax894236.GeometricGenus,theorem,lax-894236,,The Kodaira trichotomy of a hypersurface as a statement about binomial coefficients,1.0000,1.0000,1.0000,1.0000,1.0000,1,529,1,0,0,405,0,0
+264,Lax134656.SecondOrderTransitiveClosure,definition,lax-134656,,Second-order logic with a transitive closure,0.9985,1.0393,0.9985,0.9985,0.9985,17,73,17,0,0,288,0,0
+265,Lax666725.OneSidedError,definition,lax-666725,lax-115662,The complexity classes RP and coRP,0.9921,0.8333,1.0086,0.9921,,4,219,9,2,0,238,0,0
+266,Lax132576.Bimachines,definition,lax-132576,,Bimachines,0.9873,1.1000,0.9873,0.9873,0.9873,6,163,6,1,0,180,0,0
+267,Lax117284.ConflictGraph,definition,lax-117284,,The Conflict Graphs of an Instance,0.9813,1.1444,0.9813,0.9813,0.9813,5,188,6,0,0,156,0,0
+268,Lax253009.Hypercontractivity,theorem,lax-253009,lax-323828,Dimension-independent moments of low-degree Boolean polynomials,0.9777,0.6474,0.8686,0.9777,,1,529,20,2,0,640,0,0
+269,Lax323828.TupleAveraging,theorem,lax-323828,,Dimension-independent bounds for tuple averaging,0.9755,0.5000,0.9870,0.9755,0.9790,1,529,9,0,0,279,0,0
+270,Lax420092.Evaluation,definition,lax-420092,,Boolean conjunctive query evaluation,0.9554,1.0500,0.9554,0.9554,0.9554,10,121,10,0,0,252,0,0
+271,Lax496464.WH_A4_MachineFacts,theorem,lax-496464,,Fixed-Parameter Computations Compose,0.9468,0.0000,0.9468,0.9468,0.9936,3,268,21,0,0,157,0,0
+271,Lax496464.WH_A5_Bridges,theorem,lax-496464,,Polynomial-Time and Strict Reductions Are FPT-Reductions,0.9468,0.0000,0.9468,0.9468,0.9936,15,80,21,0,0,74,0,0
+273,Lax496464.HittingSet,definition,lax-496464,,Hitting Set,0.9377,1.0997,0.9377,0.9377,0.9377,4,219,10,0,0,135,0,0
+274,Lax132576.StringHomomorphisms,definition,lax-132576,,String homomorphisms,0.9333,0.9583,0.9333,0.9333,0.9333,2,369,5,0,0,286,0,0
+275,Lax323828.Hypercontractivity,theorem,lax-323828,,Dimension-independent moments of low-degree Boolean polynomials,0.9171,0.6474,0.8686,0.9171,0.9206,1,529,16,0,0,641,0,0
+276,Lax17.VertexMenger,theorem,lax-17,,Vertex-Menger theorem,0.9055,0.0000,0.9055,0.9055,0.9055,4,219,11,0,0,337,0,0
+277,Lax54.BipartiteCombLemma,lemma,lax-54,,Bipartite comb lemma,0.9051,0.0000,0.9051,0.9051,0.9051,2,369,9,1,0,412,0,0
+278,Lax564036.Tautology,definition,lax-564036,,Tautology of DNF formulas,0.9000,1.0404,0.9027,0.9000,0.9000,23,54,23,1,0,289,0,0
+279,Lax12.Admissibility,definition,lax-12,lax-199508,Admissibility,0.8976,0.6667,0.8976,0.8976,,2,369,5,1,0,345,0,0
+279,Lax199508.Admissibility,definition,lax-199508,,Admissibility,0.8976,0.6667,0.8976,0.8976,0.8976,2,369,5,1,0,346,0,0
+281,Lax434930.PolynomialSpace,definition,lax-434930,,The complexity class PSPACE,0.8904,1.0540,0.8904,0.8904,0.5837,4,219,10,2,0,211,0,0
+282,Lax496464.WH_B3_LogicProblems,definition,lax-496464,,Model Checking and Weighted Fagin Definability,0.8860,1.2983,0.8860,0.8860,0.8860,5,188,17,0,0,159,0,0
+283,Lax366625.HornNumbers,definition,lax-366625,,The number written by unit propagation,0.8816,0.4444,0.8742,0.8816,0.8816,12,102,36,3,0,528,0,0
+283,Lax366625.NumberedCircuits,definition,lax-366625,,The number written by a Boolean circuit,0.8816,0.4444,0.8742,0.8816,0.8816,12,102,36,3,0,529,0,0
+283,Lax366625.QuantitativeLogic,definition,lax-366625,,"The class FP, by quantitative first-order logic with least fixed points",0.8816,0.4444,0.8742,0.8816,0.8816,12,102,36,3,0,530,0,0
+283,Lax366625.SecondOrderCounting,definition,lax-366625,,The quantitative logic ΣQSO(FO),0.8816,0.4444,0.8742,0.8816,0.8816,12,102,36,3,0,531,0,0
+287,Lax988886.FiniteStructures,definition,lax-988886,,Finite relational structures and their properties,0.8667,0.8667,0.8667,0.8667,0.8667,2,369,3,0,0,179,0,0
+288,Lax871432.Contractions,definition,lax-871432,,Contracting edges,0.8583,0.8583,0.8583,0.8583,0.8583,1,529,6,0,0,450,0,0
+289,Lax5.GraphClasses,definition,lax-5,lax-710763,Weakly sparse graph classes,0.8421,1.0833,0.8421,0.8421,,3,268,5,0,0,257,0,0
+289,Lax5.Transductions,definition,lax-5,lax-710763,First-order transductions,0.8421,1.0833,0.8421,0.8421,,1,529,5,0,0,443,0,0
+289,Lax710763.GraphClasses,definition,lax-710763,,Weakly sparse graph classes,0.8421,1.0833,0.8421,0.8421,0.8421,3,268,5,0,0,258,0,0
+289,Lax710763.Transductions,definition,lax-710763,,First-order transductions,0.8421,1.0833,0.8421,0.8421,0.8421,1,529,5,0,0,444,0,0
+293,Lax253009.ProjectionGames,theorem,lax-253009,lax-323828,Projection games from regular constraint systems,0.8361,0.9083,0.8670,0.8361,,2,369,12,2,0,230,0,0
+294,Lax68.MaximalOuterplanar,definition,lax-68,,Maximal outerplanar graphs,0.8357,0.6500,0.8357,0.8357,0.8357,3,268,5,0,0,287,0,0
+295,Lax689794.GraphWords,definition,lax-689794,,Graphs and Nice Tree Decompositions as Words,0.8345,0.6667,0.8345,0.8345,0.8345,2,369,4,1,0,356,0,0
+296,Lax132576.SequentialTransducers,definition,lax-132576,,Sequential transducers,0.8333,0.8333,0.8333,0.8333,0.8333,2,369,3,0,0,411,0,0
+296,Lax218471.Subroutine,definition,lax-218471,,Finite stack subroutines and their interfaces,0.8333,0.8333,0.8333,0.8333,0.8333,1,529,2,0,0,422,0,0
+298,Lax560851.CertifiedDerivationElab,elaboration infrastructure,lax-560851,,Certified encoding derivation (elaboration infrastructure),0.8123,0.8123,0.8123,0.8123,0.8123,3,268,8,1,1,225,0,0
+299,Lax470956.InstanceEncoding,definition,lax-470956,lax-888481,Word encoding of a scheduling instance,0.8095,0.8095,0.8095,0.8095,,3,268,6,0,0,262,0,0
+300,Lax17.SpanningTreeRounding,definition,lax-17,,Bounded-degree spanning-tree relaxation,0.8035,0.5000,0.8035,0.8035,0.8035,1,529,6,0,0,521,0,0
+301,Lax253009.Approximation,definition,lax-253009,lax-323828,Polynomial-time approximation of the clique number,0.7917,1.1301,0.8226,0.7917,,3,268,15,2,0,369,0,0
+302,Lax429075.SATEncoding,lemma,lax-429075,,Satisfiability and binary encodings,0.7915,0.0000,0.7915,0.7915,0.7915,1,529,22,5,1,486,0,0
+303,Lax888481.InstanceEncoding,definition,lax-888481,,Word Encoding of a Scheduling Instance,0.7889,0.8095,0.7889,0.7889,0.7889,3,268,6,0,0,263,0,0
+304,Lax323828.ProjectionGames,theorem,lax-323828,,Projection games from regular constraint systems,0.7755,0.9083,0.7870,0.7755,0.7790,2,369,8,0,0,235,0,0
+305,Lax117284.Problems,definition,lax-117284,,The Decision Problems as Languages,0.7729,2.0397,0.7729,0.7729,0.7729,14,87,14,0,0,77,0,0
+306,Lax17.TerminalElementMenger,theorem,lax-17,,Terminal element-Menger theorem,0.7726,0.0000,0.7726,0.7726,0.7726,1,529,7,0,0,532,0,0
+307,Lax117284.TwoSatCNF,definition,lax-117284,,2-CNF Formulas and the Language 2-SAT,0.7718,0.8690,0.7718,0.7718,0.7718,3,268,6,0,0,115,0,0
+308,Lax535992.Game,definition,lax-535992,,"GAME, alternating reachability",0.7715,0.6957,0.7743,0.7715,0.7715,16,74,21,4,0,492,0,0
+309,Lax253009.SmallSupport,theorem,lax-253009,lax-323828,The size of the decoding set from large coefficients,0.7701,0.4398,0.6610,0.7701,,2,369,18,2,0,523,0,0
+310,Lax666725.RandomizedPolynomialTime,definition,lax-666725,lax-115662,The complexity class BPP,0.7676,1.5944,0.8029,0.7676,,11,113,11,4,0,171,0,0
+311,Lax362205.Classification,lemma,lax-362205,,Correctness of vertex classification,0.7643,0.0000,0.7643,0.7643,0.7643,1,529,7,0,0,457,0,0
+311,Lax733996.Classification,lemma,lax-733996,lax-362205,Correctness of vertex classification,0.7643,0.0000,0.7643,0.7643,,1,529,7,0,0,458,0,0
+313,Lax17.Expansion,definition,lax-17,,Edge expansion and cut-matching transcripts,0.7533,0.7000,0.7533,0.7533,0.7533,2,369,4,0,0,284,0,0
+314,Lax799700.Knapsack,theorem,lax-799700,,"Knapsack, in binary",0.7529,0.9898,0.8056,0.7529,0.7529,28,31,31,2,0,244,0,0
+315,Lax194892.ChildConfigurationGraphs,definition,lax-194892,,Children of a configuration and child configuration graphs,0.7500,0.7500,0.7500,0.7500,0.7500,3,268,3,0,0,297,0,0
+316,Lax895169.ArithmeticLogic,definition,lax-895169,,AC⁰ as first-order logic with arithmetic,0.7484,0.7949,0.7484,0.7484,0.7484,19,63,19,1,0,370,0,0
+317,Lax666725.ZeroError,definition,lax-666725,lax-115662,The complexity class ZPP,0.7421,1.3190,0.7586,0.7421,,6,163,8,2,0,256,0,0
+318,Lax689614.Encoding,definition,lax-689614,lax-783278,Binary encodings of graphs and positive CNF formulas,0.7389,0.8623,0.7389,0.7389,,2,369,6,0,0,165,0,0
+318,Lax783278.Encoding,definition,lax-783278,,Binary encodings of graphs and positive CNF formulas,0.7389,0.8623,0.7389,0.7389,0.7389,2,369,6,0,0,166,0,0
+320,Lax429075.SATHard,lemma,lax-429075,,NP-hardness of SAT,0.7327,0.0000,0.7327,0.7327,0.7327,13,88,21,5,1,148,0,0
+320,Lax799700.Feedback,theorem,lax-799700,,Feedback Vertex Set and Feedback Arc Set,0.7327,1.0426,0.7853,0.7327,0.7327,27,32,30,2,0,268,0,0
+322,Lax323828.Approximation,definition,lax-323828,,Polynomial-time approximation of the clique number,0.7310,1.1301,0.7426,0.7310,0.7346,3,268,11,0,0,383,0,0
+323,Lax253009.DoubleCoverBounds,theorem,lax-253009,lax-323828,Dimension-independent bounds for weighted double covers,0.7277,0.3974,0.6186,0.7277,,2,369,19,2,0,487,0,0
+324,Lax489179.SATTime,definition,lax-489179,,Exponential running time for bounded-width SAT,0.7143,0.7143,0.7143,0.7143,0.7143,3,268,4,0,0,162,0,0
+325,Lax323828.SmallSupport,theorem,lax-323828,,The size of the decoding set from large coefficients,0.7095,0.4398,0.6610,0.7095,0.7131,2,369,14,0,0,524,0,0
+326,Lax420092.PackagedInstances,definition,lax-420092,,"Packaged evaluation instances, their encoding and decoding",0.7054,0.8000,0.7054,0.7054,0.7054,8,132,8,0,0,418,0,0
+326,Lax420092.QueryPairs,definition,lax-420092,,Pairs of conjunctive queries and containment,0.7054,0.8000,0.7054,0.7054,0.7054,8,132,8,0,0,419,0,0
+328,Lax253009.FortifiedSquaring,theorem,lax-253009,lax-323828,Repeated squaring of fortified projection tests,0.7028,1.0750,0.7337,0.7028,,2,369,12,2,0,291,0,0
+328,Lax253009.TupleSampler,theorem,lax-253009,lax-323828,A tuple sampler with alphabet-independent mixing,0.7028,0.0000,0.7337,0.7028,,1,529,12,2,0,464,0,0
+330,Lax496464.Sweep,definition,lax-496464,,"The Endpoint Sweep of Section 4, and Its Table",0.7000,0.7000,0.7000,0.7000,0.7000,2,369,3,0,0,177,0,0
+330,Lax916827.ConfigurationGraphs,definition,lax-916827,,The string representation of the reachable configuration graph,0.7000,0.7000,0.7000,0.7000,0.7000,2,369,2,0,0,300,0,0
+332,Lax68.Paths,definition,lax-68,,Paths,0.6944,1.0000,0.6944,0.6944,0.6944,3,268,3,0,0,339,0,0
+332,Lax68.Stars,definition,lax-68,,Stars,0.6944,1.0000,0.6944,0.6944,0.6944,3,268,3,0,0,340,0,0
+334,Lax871432.PreservationProperties,definition,lax-871432,,Preservation properties of a graph isomorphism relaxation,0.6917,0.6917,0.6917,0.6917,0.6917,6,163,6,0,0,226,0,0
+335,Lax18.EnergyIncrement,theorem,lax-18,,The energy-increment refinement lemma,0.6840,0.1111,0.6840,0.6840,0.6840,1,529,11,2,1,635,0,0
+335,Lax18.EquitableCleanup,theorem,lax-18,,Equitable cleanup of a bounded partition,0.6840,0.1111,0.6840,0.6840,0.6840,1,529,11,2,1,636,0,0
+335,Lax18.PartitionEnergyBounds,theorem,lax-18,,Bounds for partition energy,0.6840,0.1111,0.6840,0.6840,0.6840,1,529,11,2,1,637,0,0
+335,Lax18.PartitionEnergyMonotonicity,theorem,lax-18,,Monotonicity of partition energy under refinement,0.6840,0.1111,0.6840,0.6840,0.6840,1,529,11,2,1,638,0,0
+339,Lax3.DistFO,definition,lax-3,,Distance logic and distance rank,0.6755,0.6167,0.6755,0.6755,0.6755,1,529,4,0,0,328,0,0
+340,Lax134656.ClassPSPACE,definition,lax-134656,,The classes PSPACE and coPSPACE,0.6735,0.7143,0.6735,0.6735,0.6735,15,80,15,0,0,474,0,0
+340,Lax134656.OrderFreeTransitiveClosure,definition,lax-134656,,Second-order transitive closure without an order,0.6735,0.7143,0.6735,0.6735,0.6735,15,80,15,0,0,475,0,0
+340,Lax134656.Qsat,definition,lax-134656,,"QSAT, quantified Boolean formulas",0.6735,0.7143,0.6735,0.6735,0.6735,15,80,15,0,0,476,0,0
+340,Lax134656.SpaceBoundedMachines,definition,lax-134656,,Acceptance by Turing machines in bounded space,0.6735,0.7143,0.6735,0.6735,0.6735,15,80,15,0,0,477,0,0
+340,Lax134656.SuccinctReach,definition,lax-134656,,"SUCCINCT-REACH, reachability in a succinct transition system",0.6735,0.7143,0.6735,0.6735,0.6735,15,80,15,0,0,478,0,0
+345,Lax362205.BoundedConfigurations,definition,lax-362205,,Bounded machine configurations,0.6715,0.6845,0.6715,0.6715,0.6715,1,529,6,0,0,426,0,0
+345,Lax733996.BoundedConfigurations,definition,lax-733996,lax-362205,Bounded machine configurations,0.6715,0.6845,0.6715,0.6715,,1,529,6,0,0,427,0,0
+347,Lax253009.HighDegreeSoundness,theorem,lax-253009,lax-323828,Second moment and tail bound for the high-degree CNA term,0.6706,0.3402,0.5615,0.6706,,3,268,19,2,0,425,0,0
+348,Lax323828.DoubleCoverBounds,theorem,lax-323828,,Dimension-independent bounds for weighted double covers,0.6671,0.3974,0.6186,0.6671,0.6706,2,369,15,0,0,488,0,0
+349,Lax11.CliqueExpr,definition,lax-11,lax-271696,"k-expressions, and the graphs of cliquewidth at most k",0.6667,0.6667,0.6667,0.6667,,1,529,2,0,0,512,0,0
+349,Lax132576.EpsilonFreeAutomata,definition,lax-132576,,Extended transitions and the elimination of ε-transitions,0.6667,0.6667,0.6667,0.6667,0.6667,2,369,2,0,0,249,0,0
+349,Lax146103.NFARecognizable,definition,lax-146103,,Recognition by a finite nondeterministic automaton,0.6667,0.6667,0.6667,0.6667,0.6667,2,369,3,0,0,312,0,0
+349,Lax146103.WordStructure,definition,lax-146103,,Words as finite relational structures,0.6667,0.6667,0.6667,0.6667,0.6667,2,369,3,0,0,313,0,0
+349,Lax271696.CliqueExpr,definition,lax-271696,,"k-expressions, and the graphs of cliquewidth at most k",0.6667,0.6667,0.6667,0.6667,0.6667,1,529,2,0,0,513,0,0
+349,Lax68.AcyclicMinors,theorem,lax-68,,Minors of acyclic graphs are acyclic,0.6667,0.0000,0.6667,0.6667,0.6667,1,529,6,0,0,628,0,0
+349,Lax68.OuterplanarExcludedMinors,opn,lax-68,,The excluded-minor characterization of outerplanarity,0.6667,0.0000,0.6667,0.6667,0.6667,1,529,6,0,0,629,0,0
+356,Lax799700.Steiner,theorem,lax-799700,,Steiner Tree,0.6660,0.9315,0.7186,0.6660,0.6660,26,37,29,2,0,254,0,0
+357,Lax842588.TreeStructure,definition,lax-842588,,Ranked trees as finite relational structures,0.6659,0.6992,0.6659,0.6659,0.6659,2,369,6,0,0,539,0,0
+358,Lax799700.Hamilton,theorem,lax-799700,,Hamilton circuits,0.6596,0.9176,0.7122,0.6596,0.6596,26,37,29,2,0,283,0,0
+359,Lax564036.AlternatingMachines,definition,lax-564036,,Acceptance by alternating Turing machines with a bounded number of alternations,0.6595,0.7273,0.6623,0.6595,0.6595,16,74,17,1,0,413,0,0
+359,Lax564036.Difference,definition,lax-564036,,The class DP,0.6595,0.7273,0.6623,0.6595,0.6595,16,74,17,1,0,414,0,0
+359,Lax564036.QuantifiedBooleanFormulas,definition,lax-564036,,Quantified Boolean formulas with a bounded number of alternations,0.6595,0.7273,0.6623,0.6595,0.6595,16,74,17,1,0,415,0,0
+359,Lax564036.SatUnsat,definition,lax-564036,,SAT-UNSAT,0.6595,0.7273,0.6623,0.6595,0.6595,16,74,17,1,0,416,0,0
+359,Lax564036.ThreeDnfTautology,definition,lax-564036,,Tautology of 3-DNF formulas and unsatisfiability of 3-CNF formulas,0.6595,0.7273,0.6623,0.6595,0.6595,16,74,17,1,0,417,0,0
+364,Lax17.EdgeMenger,theorem,lax-17,,Edge-Menger theorem,0.6515,0.0000,0.6515,0.6515,0.6515,3,268,9,0,0,466,0,0
+365,Lax115662.OneSidedError,definition,lax-115662,,The complexity classes RP and coRP,0.6429,0.5000,0.6429,0.6429,0.6429,2,369,3,0,0,338,0,0
+365,Lax115662.RandomizedPolynomialTime,definition,lax-115662,,The complexity class BPP,0.6429,0.7500,0.6429,0.6429,0.6429,3,268,3,0,0,323,0,0
+365,Lax68.Ladders,definition,lax-68,,Ladders,0.6429,0.7500,0.6429,0.6429,0.6429,2,369,2,0,0,447,0,0
+365,Lax751879.FixedPointSyntax,definition,lax-751879,,First-order logic with least fixed points,0.6429,0.6429,0.6429,0.6429,0.6429,1,529,3,0,0,431,0,0
+365,Lax751879.LeastFixedPoints,definition and theorem,lax-751879,,Least fixed points on finite relations,0.6429,0.6429,0.6429,0.6429,0.6429,1,529,3,0,0,432,0,0
+370,Lax323828.FortifiedSquaring,theorem,lax-323828,,Repeated squaring of fortified projection tests,0.6421,1.0750,0.6537,0.6421,0.6457,2,369,8,0,0,301,0,0
+370,Lax323828.TupleSampler,theorem,lax-323828,,A tuple sampler with alphabet-independent mixing,0.6421,0.0000,0.6537,0.6421,0.6457,1,529,8,0,0,467,0,0
+372,Lax560851.RamComplexity,definition,lax-560851,,Time and word-capacity bounds on the word-RAM,0.6380,0.6380,0.6380,0.6380,0.6380,4,219,6,1,1,164,0,0
+373,Lax799700.ZeroOneIP,theorem,lax-799700,,0-1 integer programming,0.6353,0.8898,0.6879,0.6353,0.6353,26,37,29,2,0,303,0,0
+374,Lax871432.GraphFamilies,definition,lax-871432,,Graph families,0.6250,0.6250,0.6250,0.6250,0.6250,2,369,2,0,0,456,0,0
+375,Lax392996.BooleanFunctions,definition,lax-392996,,Boolean functions as an m-semiring,0.6187,0.6278,0.6187,0.6187,0.6187,5,188,5,0,0,481,0,0
+376,Lax117614.WebsiteGraphs,definition,lax-117614,,Website graphs,0.6183,0.7401,0.6183,0.6183,0.6183,6,163,6,0,0,203,0,0
+377,Lax945089.EhrenfeuchtGames,definition,lax-945089,,Ehrenfeucht–Fraïssé games,0.6172,0.6615,0.6172,0.6172,0.6172,13,88,13,0,0,372,0,0
+378,Lax47.Machine,definition,lax-47,lax-614640,Polynomial-time computation on the Lax759944 finite-Turing model,0.6137,0.7944,0.6233,0.6137,,1,529,4,0,0,242,0,0
+378,Lax614640.Machine,definition,lax-614640,,Polynomial-time computation on the Lax759944 finite-Turing model,0.6137,0.7944,0.6233,0.6137,0.7917,1,529,4,0,0,243,0,0
+380,Lax323828.HighDegreeSoundness,theorem,lax-323828,,Second moment and tail bound for the high-degree CNA term,0.6099,0.3402,0.5615,0.6099,0.6135,3,268,15,0,0,429,0,0
+381,Lax762056.AsteroidalCycles,definition,lax-762056,lax-222097,Asteroidal triples of cycles,0.6093,0.2500,0.6093,0.6093,,1,529,5,1,1,620,0,0
+381,Lax762056.Grid,definition,lax-762056,lax-222097,Excluded induced grid minors,0.6093,0.8929,0.6093,0.6093,,4,219,5,1,1,302,0,0
+383,Lax117284.BipartiteGraph,definition,lax-117284,,"Bipartite Graphs with a Fixed Bipartition, and Their Encoding",0.6053,0.5750,0.6053,0.6053,0.6053,2,369,4,0,0,460,0,0
+383,Lax117284.BipartiteMatching,definition,lax-117284,,"Matchings, the Matching Number, and Saturation",0.6053,0.5750,0.6053,0.6053,0.6053,2,369,4,0,0,461,0,0
+385,Lax253009.CliqueCorrespondence,theorem,lax-253009,lax-323828,Clique number equals the maximum number of accepting random choices,0.5917,0.5761,0.6226,0.5917,,2,369,14,2,0,304,0,0
+385,Lax253009.GraphEncoding,theorem,lax-253009,lax-323828,Numbering finite graphs and the size of their encoding,0.5917,0.5761,0.6226,0.5917,,5,188,14,2,0,430,0,0
+387,Lax222097.AsteroidalCycles,definition,lax-222097,,Asteroidal triples of cycles,0.5870,0.2500,0.5870,0.5870,0.5870,1,529,4,0,0,621,0,0
+387,Lax222097.Grid,definition,lax-222097,,Excluded induced grid minors,0.5870,0.8512,0.5870,0.5870,0.5870,4,219,4,0,0,311,0,0
+389,Lax604544.RelationIsomorphism,definition,lax-604544,,Isomorphism of two marked relations,0.5855,0.6556,0.5883,0.5855,0.5855,8,132,8,0,0,420,0,0
+390,Lax503819.Automata,definition,lax-503819,,Finite automaton inputs on powerset alphabets,0.5833,0.5833,0.5833,0.5833,0.5833,2,369,2,0,0,299,0,0
+391,Lax280166.CountingCliques,definition,lax-280166,,"Counting cliques, independent sets, and vertex covers",0.5827,0.8065,0.6353,0.5827,0.5827,25,40,28,1,0,374,0,0
+391,Lax280166.CountingDominatingSets,definition,lax-280166,,Counting dominating sets,0.5827,0.8065,0.6353,0.5827,0.5827,25,40,28,1,0,375,0,0
+391,Lax280166.CountingFeedbackSets,definition,lax-280166,,Counting feedback vertex and arc sets,0.5827,0.8065,0.6353,0.5827,0.5827,25,40,28,1,0,376,0,0
+391,Lax280166.CountingHamiltonCircuits,definition,lax-280166,,Counting Hamilton circuits,0.5827,0.8065,0.6353,0.5827,0.5827,25,40,28,1,0,377,0,0
+391,Lax280166.CountingKnapsacks,definition,lax-280166,,Counting knapsack and 0-1 integer programming solutions,0.5827,0.8065,0.6353,0.5827,0.5827,25,40,28,1,0,378,0,0
+391,Lax280166.CountingSatVariants,definition,lax-280166,,Counting the models of 3-CNF and 1-in-CNF formulas,0.5827,0.8065,0.6353,0.5827,0.5827,25,40,28,1,0,379,0,0
+391,Lax280166.CountingSetFamilies,definition,lax-280166,,"Counting exact covers, packings, set covers, and hitting sets",0.5827,0.8065,0.6353,0.5827,0.5827,25,40,28,1,0,380,0,0
+391,Lax280166.CountingSteinerTrees,definition,lax-280166,,Counting Steiner trees,0.5827,0.8065,0.6353,0.5827,0.5827,25,40,28,1,0,381,0,0
+391,Lax799700.DominatingSet,theorem,lax-799700,,Dominating Set,0.5827,0.8065,0.6353,0.5827,0.5827,25,40,28,2,0,382,0,0
+400,Lax253009.BalancedCancellation,theorem,lax-253009,lax-323828,Cancellation on a small set of distinct balanced-predicate inputs,0.5797,0.2493,0.4706,0.5797,,1,529,18,2,0,545,0,0
+401,Lax18.SzemerediRegularityLemma,theorem,lax-18,,Szemerédi's regularity lemma,0.5729,0.0000,0.5729,0.5729,0.5729,1,529,10,2,1,479,0,0
+402,Lax194892.MarkedSquaring,definition,lax-194892,,Marked squaring,0.5671,0.5873,0.5671,0.5671,0.5671,1,529,5,0,0,434,0,0
+403,Lax12.ShallowMinorDensity,definition,lax-12,lax-199508,Edge density of shallow minors,0.5643,0.3333,0.5643,0.5643,,1,529,4,1,0,534,0,0
+403,Lax12.ShallowTopologicalMinors,definition,lax-12,lax-199508,Shallow topological minors,0.5643,0.3333,0.5643,0.5643,,1,529,4,1,0,535,0,0
+403,Lax199508.ShallowMinorDensity,definition,lax-199508,,Edge density of shallow minors,0.5643,0.3333,0.5643,0.5643,0.5643,1,529,4,1,0,536,0,0
+403,Lax199508.ShallowTopologicalMinors,definition,lax-199508,,Shallow topological minors,0.5643,0.3333,0.5643,0.5643,0.5643,1,529,4,1,0,537,0,0
+403,Lax362205.CountingStep,lemma,lax-362205,,Correctness of one counting step,0.5643,0.0000,0.5643,0.5643,0.5643,1,529,6,0,0,471,0,0
+403,Lax733996.CountingStep,lemma,lax-733996,lax-362205,Correctness of one counting step,0.5643,0.0000,0.5643,0.5643,,1,529,6,0,0,472,0,0
+409,Lax762056.Reduction,definition,lax-762056,lax-222097,The Bonnet–Chang reduction,0.5593,0.5429,0.5593,0.5593,,3,268,5,1,1,184,0,0
+410,Lax271696.VertexCover,definition,lax-271696,,A graph with a parameter appended,0.5591,0.7426,0.5591,0.5591,0.5591,1,529,10,1,1,366,0,0
+411,Lax496464.WH_A6_ComputableBounds,theorem,lax-496464,,Computable Bounds,0.5393,0.0000,0.5393,0.5393,0.5393,1,529,12,0,0,373,0,0
+412,Lax222097.Reduction,definition,lax-222097,,The Bonnet–Chang reduction,0.5370,0.5429,0.5370,0.5370,0.5370,3,268,4,0,0,190,0,0
+413,Lax56.ValtrFourLayer,theorem,lax-56,lax-570090,Valtr's four-layer lemma,0.5333,0.0000,0.5333,0.5333,,1,529,2,0,0,514,0,0
+413,Lax570090.ValtrFourLayer,theorem,lax-570090,,Valtr's four-layer lemma,0.5333,0.0000,0.5333,0.5333,0.5333,1,529,2,0,0,515,0,0
+415,Lax323828.CliqueCorrespondence,theorem,lax-323828,,Clique number equals the maximum number of accepting random choices,0.5310,0.5761,0.5426,0.5310,0.5346,2,369,10,0,0,327,0,0
+415,Lax323828.GraphEncoding,theorem,lax-323828,,Numbering finite graphs and the size of their encoding,0.5310,0.5761,0.5426,0.5310,0.5346,3,268,10,0,0,493,0,0
+417,Lax253009.MixedPredicateMoments,theorem,lax-253009,lax-323828,Mixed moments of independently sampled balanced predicates,0.5277,0.1974,0.4186,0.5277,,1,529,18,2,0,839,0,0
+417,Lax253009.SmallUnionDoubleCovers,theorem,lax-253009,lax-323828,Small-union weighted double-cover estimate,0.5277,0.1974,0.4186,0.5277,,1,529,18,2,0,840,0,0
+419,Lax871432.ClosureProperties,definition,lax-871432,,Closure properties of graph classes,0.5250,0.5250,0.5250,0.5250,0.5250,5,188,5,0,0,270,0,0
+420,Lax68.OuterplanarPlanar,theorem,lax-68,,Outerplanar graphs are planar,0.5206,0.0000,0.5206,0.5206,0.5206,3,268,5,0,0,448,0,0
+421,Lax323828.BalancedCancellation,theorem,lax-323828,,Cancellation on a small set of distinct balanced-predicate inputs,0.5190,0.2493,0.4706,0.5190,0.5226,1,529,14,0,0,546,0,0
+422,Lax3.NeighborhoodCovers,definition,lax-3,,Sparse neighborhood covers,0.5088,0.4500,0.5088,0.5088,0.5088,1,529,3,0,0,480,0,0
+423,Lax5.GraphTransductions,definition,lax-5,lax-710763,Graph transductions,0.5087,0.7500,0.5087,0.5087,,1,529,4,0,0,451,0,0
+423,Lax710763.GraphTransductions,definition,lax-710763,,Graph transductions,0.5087,0.7500,0.5087,0.5087,0.5087,1,529,4,0,0,452,0,0
+425,Lax17.GridMinor,definition,lax-17,,Square grid minors,0.5073,0.9833,0.5073,0.5073,0.5073,5,188,5,0,0,316,0,0
+426,Lax496464.WH_B4_Hierarchies,definition,lax-496464,,The W-Hierarchy and the A-Hierarchy,0.5072,0.8444,0.5072,0.5072,0.5072,10,121,12,0,0,191,0,0
+427,Lax253009.TupleFortification,theorem,lax-253009,lax-323828,Fortification by uniformly sampled tuples,0.5028,0.5750,0.5337,0.5028,,1,529,11,2,0,484,0,0
+428,Lax10.Fragile,definition,lax-10,,Fragile and m-fragile graphs,0.5000,0.5000,0.5000,0.5000,0.5000,1,529,1,0,0,384,0,0
+428,Lax214022.Cographs,definition,lax-214022,,Cographs,0.5000,0.5000,0.5000,0.5000,0.5000,2,369,2,0,0,388,0,0
+428,Lax242665.PrimeDivisor,lemma,lax-242665,,Every number greater than 1 has a prime divisor,0.5000,0.0000,0.5000,0.5000,0.5000,1,529,1,0,0,575,0,0
+428,Lax296731.HaeuplerSahaSrinivasanDefinitions,definition,lax-296731,lax-965890,Definitions for the Haeupler–Saha–Srinivasan distributional theorem,0.5000,0.5000,0.5000,0.5000,,1,529,1,0,0,391,0,0
+428,Lax332265.SixColorable,definition,lax-332265,,6-colourability,0.5000,0.5000,0.5000,0.5000,0.5000,1,529,1,0,0,579,0,0
+428,Lax379983.FeedbackEdgeNumber,definition,lax-379983,,Feedback edge number,0.5000,0.5000,0.5000,0.5000,0.5000,1,529,1,0,0,581,0,0
+428,Lax41.HaeuplerSahaSrinivasanDefinitions,definition,lax-41,lax-296731,Definitions for the Haeupler–Saha–Srinivasan distributional theorem,0.5000,0.5000,0.5000,0.5000,,1,529,1,0,0,393,0,0
+428,Lax470956.DynamicProgram,definition,lax-470956,lax-888481,"The dynamic program for interval scheduling, and its state space",0.5000,0.5000,0.5000,0.5000,,1,529,1,0,0,394,0,0
+428,Lax48.Treewidth,definition,lax-48,lax-228581,Treewidth,0.5000,0.5000,0.5000,0.5000,,1,529,1,0,0,582,0,0
+428,Lax68.TreeOuterplanar,theorem,lax-68,,Trees are outerplanar,0.5000,0.0000,0.5000,0.5000,0.5000,3,268,5,0,0,449,0,0
+428,Lax888481.DynamicProgram,definition,lax-888481,,"The Dynamic Program for Interval Scheduling, and Its State Space",0.5000,0.5000,0.5000,0.5000,0.5000,1,529,1,0,0,404,0,0
+428,Lax9.ChiBoundedness,definition,lax-9,,χ-Boundedness,0.5000,0.5000,0.5000,0.5000,0.5000,1,529,1,0,0,599,0,0
+428,Lax9.NeighborhoodComplexity,definition,lax-9,,Linear Neighbourhood Complexity,0.5000,0.5000,0.5000,0.5000,0.5000,1,529,1,0,0,600,0,0
+428,Lax965890.HaeuplerSahaSrinivasanDefinitions,definition,lax-965890,,Definitions for the Haeupler–Saha–Srinivasan distributional theorem,0.5000,0.5000,0.5000,0.5000,0.5000,1,529,1,0,0,406,0,0
+442,Lax666725.ZPPSubsetOneSided,theorem,lax-666725,lax-115662,ZPP is contained in RP and coRP,0.4921,0.0000,0.5086,0.4921,,3,268,7,2,0,428,0,0
+443,Lax345067.Ramsey,theorem,lax-345067,,Ramsey's theorem,0.4838,0.0000,0.4838,0.4838,0.4838,1,529,4,3,0,630,0,0
+444,Lax54.AveragingLemma,lemma,lax-54,,Sparse graph thinning lemma,0.4820,0.0000,0.4820,0.4820,0.4820,1,529,9,1,0,509,0,0
+444,Lax54.RodlTheorem,lemma,lax-54,,Rödl's theorem for induced-subgraph-free graphs,0.4820,0.0000,0.4820,0.4820,0.4820,1,529,9,1,0,510,0,0
+446,Lax366625.SharpSatValue,lemma,lax-366625,,The value of #SAT,0.4781,0.0000,0.4908,0.4781,0.4781,8,132,25,3,0,645,0,0
+447,Lax117614.GraphCrawlingProblem,definition,lax-117614,,The graph crawling problem,0.4755,0.5972,0.4755,0.4755,0.4755,5,188,5,0,0,285,0,0
+448,Lax17.TreeOfSets,definition,lax-17,,Strong tree-of-sets systems,0.4726,0.4000,0.4726,0.4726,0.4726,2,369,7,0,0,459,0,0
+449,Lax392996.AnnotatedSemantics,definition,lax-392996,,Annotated semantics of the relational algebra,0.4699,0.4790,0.4699,0.4699,0.4699,3,268,4,0,0,631,0,0
+450,Lax392996.RewritingRules,definition,lax-392996,,"The provenance-aware rewriting of queries, rules (R1) to (R4)",0.4679,0.4679,0.4679,0.4679,0.4679,3,268,3,0,0,562,0,0
+451,Lax323828.MixedPredicateMoments,theorem,lax-323828,,Mixed moments of independently sampled balanced predicates,0.4671,0.1974,0.4186,0.4671,0.4706,1,529,14,0,0,841,0,0
+451,Lax323828.SmallUnionDoubleCovers,theorem,lax-323828,,Small-union weighted double-cover estimate,0.4671,0.1974,0.4186,0.4671,0.4706,1,529,14,0,0,842,0,0
+453,Lax496464.DynamicProgram,definition,lax-496464,,"The Dynamic Program of Section 3, and Its Table",0.4583,0.4583,0.4583,0.4583,0.4583,2,369,2,0,0,298,0,0
+454,Lax434930.NondeterministicLogarithmicSpace,definition,lax-434930,,The complexity class NL,0.4565,1.0293,0.4565,0.4565,0.3500,4,219,6,2,0,240,0,0
+455,Lax392996.ProbabilisticDatabases,definition,lax-392996,,Probabilistic databases and marginal probabilities,0.4520,0.4611,0.4520,0.4520,0.4520,4,219,4,0,0,561,0,0
+456,Lax888481.MulticolouredClique,definition,lax-888481,,Multicoloured Clique,0.4504,0.5151,0.4504,0.4504,0.5806,4,219,6,1,0,322,0,0
+457,Lax253009.BernoulliSampling,theorem,lax-253009,lax-323828,Multiplicative soundness bounds for sampled tests,0.4488,0.4333,0.4797,0.4488,,1,529,13,2,0,454,0,0
+457,Lax253009.EncodedReduction,theorem,lax-253009,lax-323828,The consistency graph as an approximation input,0.4488,0.4333,0.4797,0.4488,,5,188,13,2,0,365,0,0
+459,Lax496464.WH_A3_ReductionCalculus,theorem,lax-496464,,The Calculus of FPT-Reductions,0.4483,0.0000,0.4483,0.4483,0.4483,10,121,11,0,0,199,0,0
+460,Lax624099.REFinite,theorem,lax-624099,,Membership in RE depends only on the finite instances,0.4439,0.0000,0.4439,0.4439,0.4439,4,219,8,0,0,702,0,0
+461,Lax68.Triangles,definition,lax-68,,Triangles,0.4429,0.7000,0.4429,0.4429,0.4429,3,268,3,0,0,348,0,0
+462,Lax323828.TupleFortification,theorem,lax-323828,,Fortification by uniformly sampled tuples,0.4421,0.5750,0.4537,0.4421,0.4457,1,529,7,0,0,496,0,0
+463,Lax253009.FourierDecoding,theorem,lax-253009,lax-323828,A small Fourier decoding set independent of side conditions,0.4368,0.1064,0.4277,0.4368,,2,369,17,2,0,654,0,0
+463,Lax253009.FourierIdentities,theorem,lax-253009,lax-323828,"Fourier shifts, odd tables and disagreement indicators",0.4368,0.0000,0.3477,0.4368,,1,529,17,2,0,826,0,0
+463,Lax253009.LargeCoefficientSoundness,theorem,lax-253009,lax-323828,Deterministic bound for the large-coefficient CNA term,0.4368,0.1064,0.3277,0.4368,,1,529,17,2,0,827,0,0
+463,Lax253009.SmallCoefficientSoundness,theorem,lax-253009,lax-323828,Higher-moment bound for the small-coefficient CNA term,0.4368,0.1064,0.3277,0.4368,,1,529,17,2,0,828,0,0
+467,Lax3.ScatterSentences,definition,lax-3,,Scatter sentences,0.4255,0.3667,0.4255,0.4255,0.4255,1,529,3,0,0,253,0,0
+468,Lax194892.PolyregularFunctions,definition,lax-194892,,Polyregular functions,0.4242,0.4444,0.4242,0.4242,0.4242,4,219,4,0,0,255,0,0
+469,Lax689614.Construction,definition,lax-689614,lax-783278,The reduction graph,0.4222,0.5214,0.4222,0.4222,,3,268,4,0,0,280,0,0
+469,Lax783278.Construction,definition,lax-783278,,The reduction graph,0.4222,0.5214,0.4222,0.4222,0.4222,3,268,4,0,0,281,0,0
+471,Lax362205.ConfigurationGraph,definition,lax-362205,,The bounded configuration graph,0.4215,0.4345,0.4215,0.4215,0.4215,1,529,5,0,0,407,0,0
+471,Lax733996.ConfigurationGraph,definition,lax-733996,lax-362205,The bounded configuration graph,0.4215,0.4345,0.4215,0.4215,,1,529,5,0,0,408,0,0
+473,Lax945089.Even,definition,lax-945089,,"EVEN, the parity of the universe",0.4172,0.4615,0.4172,0.4172,0.4172,12,102,12,0,0,552,0,0
+473,Lax945089.OrderFreeFirstOrder,definition,lax-945089,,First-order definability without an order,0.4172,0.4615,0.4172,0.4172,0.4172,12,102,12,0,0,553,0,0
+473,Lax945089.Parity,definition,lax-945089,,"PARITY, the parity of a marked subset",0.4172,0.4615,0.4172,0.4172,0.4172,12,102,12,0,0,554,0,0
+473,Lax945089.PebbleGames,definition,lax-945089,,Pebble games between two structures,0.4172,0.4615,0.4172,0.4172,0.4172,12,102,12,0,0,555,0,0
+473,Lax945089.TransitiveClosureReductions,definition,lax-945089,,Reductions in first-order logic with a deterministic transitive closure,0.4172,0.4615,0.4172,0.4172,0.4172,12,102,12,0,0,556,0,0
+478,Lax17.SmallLinkedSubsets,theorem,lax-17,,Linking small terminal subsets,0.4154,0.0000,0.4154,0.4154,0.4154,1,529,7,0,0,816,0,0
+479,Lax366625.SharpSatComplete,theorem,lax-366625,,#SAT is parsimoniously #P-complete,0.4121,0.0000,0.4648,0.4121,0.4121,6,163,23,2,0,701,0,0
+480,Lax117284.TwoSatImplicationGraph,definition,lax-117284,,The Implication Graph of a 2-CNF Formula,0.4107,0.4107,0.4107,0.4107,0.4107,2,369,3,0,0,174,0,0
+481,Lax54.MaximumDegreeReduction,lemma,lax-54,,Maximum-degree form of Rödl's theorem,0.4051,0.0000,0.4051,0.4051,0.4051,3,268,8,1,0,361,0,0
+482,Lax489179.ThreeSUM,definition,lax-489179,,The integer 3-SUM problem,0.4048,0.4048,0.4048,0.4048,0.4048,2,369,3,0,0,276,0,0
+482,Lax489179.WeightedAPSP,definition,lax-489179,,Weighted all-pairs shortest paths,0.4048,0.4048,0.4048,0.4048,0.4048,2,369,3,0,0,222,0,0
+484,Lax392996.PersonnelExample,example,lax-392996,,The Personnel example,0.4020,0.4111,0.4020,0.4020,0.4020,3,268,3,0,0,563,0,0
+485,Lax132576.WeightedCodes,definition,lax-132576,,Codes of weighted automata over the rationals,0.4000,0.4000,0.4000,0.4000,0.4000,2,369,2,0,0,387,0,0
+486,Lax362205.CountingTrace,lemma,lax-362205,,Correctness of the count sequence,0.3977,0.0000,0.3977,0.3977,0.3977,1,529,5,0,0,503,0,0
+486,Lax733996.CountingTrace,lemma,lax-733996,lax-362205,Correctness of the count sequence,0.3977,0.0000,0.3977,0.3977,,1,529,5,0,0,504,0,0
+488,Lax916827.StreamingStringTransducers,definition,lax-916827,,Streaming string transducers,0.3968,0.4286,0.3968,0.3968,0.3968,3,268,3,0,0,309,0,0
+489,Lax115662.ZeroError,definition,lax-115662,,The complexity class ZPP,0.3929,0.5000,0.3929,0.3929,0.3929,2,369,2,0,0,445,0,0
+490,Lax323828.BernoulliSampling,theorem,lax-323828,,Multiplicative soundness bounds for sampled tests,0.3882,0.4333,0.3997,0.3882,0.3918,1,529,9,0,0,482,0,0
+490,Lax323828.EncodedReduction,theorem,lax-323828,,The consistency graph as an approximation input,0.3882,0.4333,0.3997,0.3882,0.3918,3,268,9,0,0,433,0,0
+492,Lax496464.WH_B5_HierarchyFacts,theorem,lax-496464,,Basic Facts About the Hierarchies,0.3858,0.0000,0.3858,0.3858,0.3858,4,219,10,0,0,354,0,0
+493,Lax68.MaximalOuterplanarOuterplanar,theorem,lax-68,,Maximal outerplanar graphs are outerplanar,0.3857,0.0000,0.3857,0.3857,0.3857,2,369,3,0,0,557,0,0
+494,Lax624099.FinsatREComplete,theorem,lax-624099,,Trakhtenbrot's theorem: finite satisfiability is RE-complete,0.3814,0.0000,0.3814,0.3814,0.3814,3,268,7,0,0,782,0,0
+495,Lax253009.CNAPointSoundness,theorem,lax-253009,lax-323828,Quantitative soundness at a fixed evaluation point,0.3813,0.0476,0.4121,0.3813,,2,369,16,2,0,485,0,0
+495,Lax253009.LongCodeCorrectness,theorem,lax-253009,lax-323828,Perfect completeness and local decoding of the long-code test,0.3813,0.0000,0.4121,0.3813,,2,369,16,2,0,483,0,0
+495,Lax253009.RandomFibers,theorem,lax-253009,lax-323828,Lower concentration of the fibers of a uniform random map,0.3813,0.0476,0.3721,0.3813,,1,529,16,2,0,821,0,0
+495,Lax253009.SideConditionAveraging,theorem,lax-253009,lax-323828,The averaged table preserves the answers of an accepting side-condition test,0.3813,0.0000,0.3521,0.3813,,1,529,16,2,0,822,0,0
+499,Lax859101.CountingAllSets,definition,lax-859101,,"Counting all independent sets, vertex covers, and 3-colorings",0.3792,0.6190,0.3940,0.3792,0.3792,13,88,13,0,0,435,0,0
+499,Lax859101.CountingBipartite,definition,lax-859101,,#BIS and #PP2DNF,0.3792,0.6190,0.3940,0.3792,0.3792,13,88,13,0,0,436,0,0
+499,Lax859101.CountingDnf,definition,lax-859101,,#DNF,0.3792,0.6190,0.3940,0.3792,0.3792,13,88,13,0,0,437,0,0
+499,Lax859101.CountingNaeSat,definition,lax-859101,,#NAE-SAT and #Set Splitting,0.3792,0.6190,0.3940,0.3792,0.3792,13,88,13,0,0,438,0,0
+499,Lax859101.CountingRestrictedSat,definition,lax-859101,,"#2SAT, #HORN-SAT, and #Monotone-2SAT",0.3792,0.6190,0.3940,0.3792,0.3792,13,88,13,0,0,439,0,0
+499,Lax859101.OneCallReductions,definition,lax-859101,,Post-processing terms and one-call reductions,0.3792,0.6190,0.3940,0.3792,0.3792,13,88,13,0,0,440,0,0
+499,Lax859101.SubtractiveReductions,definition,lax-859101,,Subtractive reductions,0.3792,0.6190,0.3940,0.3792,0.3792,13,88,13,0,0,441,0,0
+506,Lax253009.CenteredProjection,theorem,lax-253009,lax-323828,Soundness amplification for centered projection games,0.3778,0.3750,0.4087,0.3778,,6,163,10,2,0,208,0,0
+507,Lax323828.FourierDecoding,theorem,lax-323828,,A small Fourier decoding set independent of side conditions,0.3761,0.1064,0.3877,0.3761,0.3797,2,369,13,0,0,655,0,0
+507,Lax323828.FourierIdentities,theorem,lax-323828,,"Fourier shifts, odd tables and disagreement indicators",0.3761,0.0000,0.3477,0.3761,0.3797,1,529,13,0,0,830,0,0
+507,Lax323828.LargeCoefficientSoundness,theorem,lax-323828,,Deterministic bound for the large-coefficient CNA term,0.3761,0.1064,0.3277,0.3761,0.3797,1,529,13,0,0,831,0,0
+507,Lax323828.SmallCoefficientSoundness,theorem,lax-323828,,Higher-moment bound for the small-coefficient CNA term,0.3761,0.1064,0.3277,0.3761,0.3797,1,529,13,0,0,832,0,0
+511,Lax132576.LeftDistance,definition,lax-132576,,Left distance and bounded variation,0.3667,0.3667,0.3667,0.3667,0.3667,2,369,2,0,0,501,0,0
+512,Lax253009.TestSampling,theorem,lax-253009,lax-323828,Random sparsification of a consistency graph,0.3655,0.3333,0.3964,0.3655,,6,163,12,2,0,122,0,0
+513,Lax762056.GraphProblems,definition,lax-762056,lax-222097,Graph decision problems and NP-hardness,0.3638,0.5833,0.3638,0.3638,,4,219,6,1,1,310,0,0
+514,Lax895169.BitLogic,definition,lax-895169,,"First-order logic with order, addition and BIT",0.3634,0.3333,0.3634,0.3634,0.3634,7,145,8,1,0,569,0,0
+514,Lax895169.LogTimeMachines,definition,lax-895169,,Alternating logarithmic-time machines,0.3634,0.3333,0.3634,0.3634,0.3634,7,145,8,1,0,570,0,0
+516,Lax762056.CycleObstruction,lemma,lax-762056,lax-222097,Asteroidal cycle triples obstruct induced minors,0.3593,0.0000,0.3593,0.3593,,1,529,4,1,1,625,0,0
+517,Lax496464.WH_C1_GraphProblems,definition,lax-496464,,"Clique, Independent Set and Dominating Set",0.3591,0.5426,0.3591,0.3591,0.3591,6,163,9,0,0,317,0,0
+518,Lax132576.PrimeRationalFunctions,definition,lax-132576,,The prime rational functions,0.3500,0.3750,0.3500,0.3500,0.3500,3,268,3,0,0,307,0,0
+518,Lax314295.MSOTransductions,definition,lax-314295,,String-to-string MSO transductions,0.3500,0.3750,0.3500,0.3500,0.3500,3,268,3,0,0,308,0,0
+518,Lax470956.BinaryEncoding,definition,lax-470956,lax-888481,Binary encoding of a scheduling instance,0.3500,0.3500,0.3500,0.3500,,1,529,3,0,0,500,0,0
+521,Lax68.GridPlanar,theorem,lax-68,,Grids are planar,0.3429,0.0000,0.3429,0.3429,0.3429,2,369,2,0,0,543,0,0
+522,Lax470956.SchedulingProblems,definition,lax-470956,lax-888481,"The scheduling problems, parameterized",0.3417,0.3417,0.3417,0.3417,,3,268,3,0,0,273,0,0
+523,Lax175070.CountDefinability,definition,lax-175070,,Decision classes defined by counting,0.3389,0.3561,0.3389,0.3389,0.3389,7,145,7,0,0,505,0,0
+524,Lax253009.CNAQuantitativeSoundness,theorem,lax-253009,lax-323828,Finite quantitative soundness of the CNA test with side conditions,0.3378,0.0000,0.3687,0.3378,,1,529,16,2,0,551,0,0
+524,Lax253009.CNASoundness,theorem,lax-253009,lax-323828,Soundness of the complete nonadaptive long-code test,0.3378,0.9725,0.3687,0.3378,,3,268,16,2,0,306,0,0
+524,Lax253009.ManyTableConsistency,theorem,lax-253009,lax-323828,Agreement among many decoded tables,0.3378,0.9249,0.3687,0.3378,,1,529,14,2,0,550,0,0
+527,Lax222097.CycleObstruction,lemma,lax-222097,,Asteroidal cycle triples obstruct induced minors,0.3370,0.0000,0.3370,0.3370,0.3370,1,529,3,0,0,627,0,0
+528,Lax218471.Programs,definition,lax-218471,,Structured stack programs with black-box calls,0.3333,0.3333,0.3333,0.3333,0.3333,1,529,1,0,0,389,0,0
+528,Lax314295.MSODefinableOfRegular,theorem,lax-314295,,Regular languages are MSO-definable,0.3333,0.0000,0.3333,0.3333,0.3333,1,529,1,0,0,671,0,0
+528,Lax314295.RegularOfMSODefinable,theorem,lax-314295,,MSO-definable languages are regular,0.3333,0.0000,0.3333,0.3333,0.3333,1,529,1,0,0,672,0,0
+528,Lax765601.Derivatives,definition,lax-765601,,Derivatives of a string-to-string function,0.3333,0.3333,0.3333,0.3333,0.3333,1,529,1,0,0,684,0,0
+528,Lax871432.ConnectedPartitions,definition,lax-871432,,Partitions into connected parts,0.3333,0.3333,0.3333,0.3333,0.3333,1,529,1,0,0,685,0,0
+533,Lax280166.SatVariantsValues,lemma,lax-280166,,"The values of #3SAT, #1-in-SAT",0.3285,0.0000,0.3800,0.3285,0.3285,6,163,19,1,0,770,0,0
+534,Lax429075.FiniteWitness,lemma,lax-429075,,A bounded satisfying assignment,0.3232,0.0000,0.3232,0.3232,0.3232,1,529,3,0,0,632,0,0
+535,Lax496464.WH_C3_WeightedSat,definition,lax-496464,,Weighted Satisfiability of CNF Formulas,0.3219,0.2072,0.3219,0.3219,0.3219,3,268,8,0,0,442,0,0
+536,Lax888481.SchedulingProblems,definition,lax-888481,,"The Scheduling Problems, Parameterized",0.3211,0.3417,0.3211,0.3211,0.3211,3,268,3,0,0,274,0,0
+537,Lax323828.CNAPointSoundness,theorem,lax-323828,,Quantitative soundness at a fixed evaluation point,0.3206,0.0476,0.3321,0.3206,0.3242,2,369,12,0,0,489,0,0
+537,Lax323828.LongCodeCorrectness,theorem,lax-323828,,Perfect completeness and local decoding of the long-code test,0.3206,0.0000,0.3321,0.3206,0.3242,2,369,12,0,0,491,0,0
+537,Lax323828.RandomFibers,theorem,lax-323828,,Lower concentration of the fibers of a uniform random map,0.3206,0.0476,0.3321,0.3206,0.3242,1,529,12,0,0,823,0,0
+537,Lax323828.SideConditionAveraging,theorem,lax-323828,,The averaged table preserves the answers of an accepting side-condition test,0.3206,0.0000,0.3121,0.3206,0.3242,1,529,12,0,0,824,0,0
+541,Lax323828.CenteredProjection,theorem,lax-323828,,Soundness amplification for centered projection games,0.3171,0.3750,0.3287,0.3171,0.3207,4,219,6,0,0,234,0,0
+542,Lax751879.FixedPointSemantics,definition and theorem,lax-751879,,Semantics and definability in FO(LFP),0.3095,0.3095,0.3095,0.3095,0.3095,1,529,2,0,0,423,0,0
+542,Lax751879.PolynomialTime,definition,lax-751879,,Polynomial-time queries on ordered structures,0.3095,0.3095,0.3095,0.3095,0.3095,1,529,2,0,0,424,0,0
+544,Lax323828.TestSampling,theorem,lax-323828,,Random sparsification of a consistency graph,0.3048,0.3333,0.3164,0.3048,0.3084,4,219,8,0,0,138,0,0
+545,Lax17.SinghLau,theorem,lax-17,,Singh--Lau bounded-degree spanning-tree theorem,0.3035,0.0000,0.3035,0.3035,0.3035,1,529,5,0,0,699,0,0
+546,Lax12.UniformQuasiWideness,definition,lax-12,lax-199508,Uniform quasi-wideness,0.3000,0.3333,0.3000,0.3000,,1,529,2,1,0,687,0,0
+546,Lax14.Ramsey,theorem,lax-14,lax-345067,Ramsey's theorem,0.3000,0.0000,0.3000,0.3000,,1,529,2,2,0,688,0,0
+548,Lax842588.ValueTranslations,theorem,lax-842588,,Value-level translations between MSO and tree automata,0.2992,0.2992,0.2992,0.2992,0.2992,1,529,4,0,0,519,0,0
+549,Lax253009.FAFTest,theorem,lax-253009,lax-323828,The finite few-amortized-free-bits test,0.2978,0.6749,0.3287,0.2978,,3,268,13,2,0,227,0,0
+550,Lax799700.ThreeColorability,theorem,lax-799700,,3-colorability,0.2963,0.0000,0.2963,0.2963,0.2963,3,268,4,1,0,639,0,0
+551,Lax280166.OneInSATComplete,theorem,lax-280166,,#1-in-SAT is parsimoniously #P-complete,0.2908,0.0000,0.3400,0.2908,0.2908,4,219,17,1,0,843,0,0
+552,Lax17.Crossbar,definition,lax-17,,Crossbars and pseudo-grids,0.2895,0.3333,0.2895,0.2895,0.2895,2,369,4,0,0,494,0,0
+553,Lax253009.TestRepetition,theorem,lax-253009,lax-323828,Repetition of local proof tests,0.2886,0.2424,0.3195,0.2886,,7,145,11,2,0,193,0,0
+554,Lax199508.NowhereDenseUQW,theorem,lax-199508,,Nowhere dense classes are uniformly quasi-wide,0.2838,0.0000,0.2838,0.2838,0.2838,3,268,3,2,0,465,0,0
+554,Lax57.AnticomponentBlockade,lemma,lax-57,,Anticomponent or complete blockade,0.2838,0.0000,0.2838,0.2838,0.2838,2,369,6,0,0,497,0,0
+554,Lax57.SparseHouseTools,lemma,lax-57,,Anticomplete pairs in sparse $P_5$-free graphs,0.2838,0.0000,0.2838,0.2838,0.2838,2,369,6,0,0,522,0,0
+557,Lax47.Complexity,definition,lax-47,lax-614640,Executable graph encodings and triangle-free approximation,0.2803,0.4611,0.2900,0.2803,,2,369,3,0,0,331,0,0
+557,Lax614640.Complexity,definition,lax-614640,,Executable graph encodings and triangle-free approximation,0.2803,0.4611,0.2900,0.2803,0.4583,2,369,3,0,0,332,0,0
+559,Lax323828.CNAQuantitativeSoundness,theorem,lax-323828,,Finite quantitative soundness of the CNA test with side conditions,0.2771,0.0000,0.2887,0.2771,0.2807,1,529,12,0,0,558,0,0
+559,Lax323828.CNASoundness,theorem,lax-323828,,Soundness of the complete nonadaptive long-code test,0.2771,0.9725,0.2887,0.2771,0.2807,3,268,12,0,0,314,0,0
+559,Lax323828.ManyTableConsistency,theorem,lax-323828,,Agreement among many decoded tables,0.2771,0.9249,0.2887,0.2771,0.2807,1,529,10,0,0,560,0,0
+562,Lax434930.NondeterministicPolynomialSpace,definition,lax-434930,,The complexity class NPSPACE,0.2769,0.2769,0.2769,0.2769,0.2769,2,369,2,0,0,495,0,0
+563,Lax17.HindOellermann,theorem,lax-17,,Hind--Oellermann deletion--contraction theorem,0.2726,0.0000,0.2726,0.2726,0.2726,1,529,6,0,0,771,0,0
+563,Lax17.Mader,theorem,lax-17,,Mader's admissible split-off theorem,0.2726,0.0000,0.2726,0.2726,0.2726,1,529,6,0,0,772,0,0
+563,Lax17.WellLinkednessBoosting,theorem,lax-17,,Well-linkedness boosting,0.2726,0.0000,0.2726,0.2726,0.2726,1,529,6,0,0,773,0,0
+566,Lax470956.MulticolouredClique,definition,lax-470956,lax-888481,Multicoloured Clique,0.2679,0.2679,0.2679,0.2679,,2,369,2,0,0,455,0,0
+567,Lax253009.Amplification,theorem,lax-253009,lax-323828,Arbitrarily small projection-game soundness with polynomial size,0.2667,0.2083,0.2976,0.2667,,5,188,9,2,0,490,0,0
+568,Lax888481.BinaryEncoding,definition,lax-888481,,Binary Encoding of a Scheduling Instance,0.2664,0.3500,0.2664,0.2664,0.2664,1,529,3,0,0,520,0,0
+569,Lax3.OrderedNeighborhoodCover,theorem,lax-3,,Neighborhood covers from vertex orderings,0.2588,0.2000,0.2588,0.2588,0.2588,2,369,2,0,0,511,0,0
+570,Lax5.MonadicDependence,definition,lax-5,lax-710763,Monadic dependence,0.2587,0.5000,0.2587,0.2587,,3,268,3,0,0,462,0,0
+570,Lax710763.MonadicDependence,definition,lax-710763,,Monadic dependence,0.2587,0.5000,0.2587,0.2587,0.2587,3,268,3,0,0,463,0,0
+572,Lax175070.SelectedSat,definition,lax-175070,,Satisfiability decided by counting models,0.2556,0.2727,0.2556,0.2556,0.2556,6,163,6,0,0,647,0,0
+573,Lax362205.ConfigurationCounting,definition,lax-362205,,Counting on the configuration graph,0.2548,0.2679,0.2548,0.2548,0.2548,2,369,4,0,0,350,0,0
+573,Lax362205.Nonreachability,lemma,lax-362205,,Correctness of nonreachability certificates,0.2548,0.0000,0.2548,0.2548,0.2548,2,369,4,0,0,351,0,0
+573,Lax733996.ConfigurationCounting,definition,lax-733996,lax-362205,Counting on the configuration graph,0.2548,0.2679,0.2548,0.2548,,2,369,4,0,0,352,0,0
+573,Lax733996.Nonreachability,lemma,lax-733996,lax-362205,Correctness of nonreachability certificates,0.2548,0.0000,0.2548,0.2548,,2,369,4,0,0,353,0,0
+577,Lax604544.Degrees,definition,lax-604544,,The degree of a problem,0.2522,0.3222,0.2549,0.2522,0.2522,7,145,7,0,0,564,0,0
+577,Lax799700.SubgraphIso,theorem,lax-799700,,Subgraph Isomorphism,0.2522,0.3222,0.2549,0.2522,0.2522,7,145,7,1,0,565,0,0
+579,Lax115662.UnboundedError,definition,lax-115662,,The complexity class PP,0.2500,0.2500,0.2500,0.2500,0.2500,1,529,1,0,0,571,0,0
+579,Lax117284.BipartiteKuhn,definition,lax-117284,,Kuhn's Algorithm,0.2500,0.2500,0.2500,0.2500,0.2500,1,529,1,0,0,662,0,0
+579,Lax194892.ForOfPebble,theorem,lax-194892,,Pebble transducers are computed by for-transducers,0.2500,0.0000,0.2500,0.2500,0.2500,1,529,1,0,0,717,0,0
+579,Lax194892.PebbleOfFor,theorem,lax-194892,,For-transducers are computed by pebble transducers,0.2500,0.0000,0.2500,0.2500,0.2500,1,529,1,0,0,719,0,0
+579,Lax251941.PostCorrespondenceReduction,theorem,lax-251941,,The acceptance problem reduces to the Post correspondence problem,0.2500,0.0000,0.2500,0.2500,0.2500,1,529,1,0,0,665,0,0
+579,Lax251941.TapeAcceptanceUndecidable,theorem,lax-251941,,The acceptance problem for Turing machines is undecidable,0.2500,0.0000,0.2500,0.2500,0.2500,1,529,1,0,0,666,0,0
+579,Lax503819.Mortality,theorem,lax-503819,,Uniform mortality of deterministic Turing machines,0.2500,0.2500,0.2500,0.2500,0.2500,1,529,1,0,0,585,0,0
+579,Lax666725.UnboundedError,definition,lax-666725,lax-115662,The complexity class PP,0.2500,0.2500,0.2500,0.2500,,1,529,1,0,0,588,0,0
+579,Lax68.GraphTopologicalMinors,definition,lax-68,,Topological graph minors,0.2500,0.2500,0.2500,0.2500,0.2500,1,529,1,0,0,589,0,0
+579,Lax68.SeriesParallel,definition,lax-68,,Series-parallel graphs,0.2500,0.2500,0.2500,0.2500,0.2500,1,529,1,0,0,590,0,0
+579,Lax68.Triangulations,definition,lax-68,,Triangulations,0.2500,0.2500,0.2500,0.2500,0.2500,1,529,1,0,0,591,0,0
+590,Lax68.TriangleMaximalOuterplanar,theorem,lax-68,,Triangles are maximal outerplanar,0.2429,0.0000,0.2429,0.2429,0.2429,1,529,2,0,0,695,0,0
+591,Lax323828.FAFTest,theorem,lax-323828,,The finite few-amortized-free-bits test,0.2371,0.6749,0.2487,0.2371,0.2407,3,268,9,0,0,248,0,0
+592,Lax496464.BinaryEncoding,definition,lax-496464,,Binary Encoding of an Instance,0.2313,0.2909,0.2313,0.2313,0.2313,1,529,2,0,0,526,0,0
+593,Lax12.AdmissibilityBound,theorem,lax-12,lax-199508,Admissibility is bounded by topological shallow-minor density,0.2310,0.0000,0.2310,0.2310,,1,529,3,1,0,774,0,0
+593,Lax12.NowhereDenseDensity,theorem,lax-12,lax-199508,Nowhere dense classes have subpolynomial shallow-minor density,0.2310,0.0000,0.2310,0.2310,,1,529,3,1,0,775,0,0
+593,Lax12.StrongColoringBound,theorem,lax-12,lax-199508,Strong coloring numbers are bounded by admissibility,0.2310,0.0000,0.2310,0.2310,,1,529,3,1,0,776,0,0
+593,Lax12.WeakColoringBound,theorem,lax-12,lax-199508,Weak coloring numbers are bounded by strong coloring numbers,0.2310,0.0000,0.2310,0.2310,,1,529,3,1,0,777,0,0
+593,Lax199508.AdmissibilityBound,theorem,lax-199508,,Admissibility is bounded by topological shallow-minor density,0.2310,0.0000,0.2310,0.2310,0.2310,1,529,3,1,0,778,0,0
+593,Lax199508.NowhereDenseDensity,theorem,lax-199508,,Nowhere dense classes have subpolynomial shallow-minor density,0.2310,0.0000,0.2310,0.2310,0.2310,1,529,3,1,0,779,0,0
+593,Lax199508.StrongColoringBound,theorem,lax-199508,,Strong coloring numbers are bounded by admissibility,0.2310,0.0000,0.2310,0.2310,0.2310,1,529,3,1,0,780,0,0
+593,Lax199508.WeakColoringBound,theorem,lax-199508,,Weak coloring numbers are bounded by strong coloring numbers,0.2310,0.0000,0.2310,0.2310,0.2310,1,529,3,1,0,781,0,0
+601,Lax57.BlockadeThinning,lemma,lax-57,,Simultaneous thinning of a semisparse blockade,0.2282,0.0000,0.2282,0.2282,0.2282,1,529,5,0,0,633,0,0
+601,Lax57.SemisparseBlockade,lemma,lax-57,,Polynomial semisparse blockades for the house,0.2282,0.0000,0.2282,0.2282,0.2282,1,529,5,0,0,634,0,0
+603,Lax323828.TestRepetition,theorem,lax-323828,,Repetition of local proof tests,0.2279,0.2424,0.2395,0.2279,0.2315,5,188,7,0,0,214,0,0
+604,Lax3.Locality,theorem,lax-3,,Locality theorem for distance logic,0.2255,0.1667,0.2255,0.2255,0.2255,2,369,2,0,0,357,0,0
+605,Lax253009.LongCodePatterns,theorem,lax-253009,lax-323828,Free bits of the complete nonadaptive test,0.2250,0.3654,0.2559,0.2250,,1,529,11,2,0,367,0,0
+606,Lax253009.FAFStrategyExtraction,theorem,lax-253009,lax-323828,From FAF acceptance to two-prover success,0.2237,0.3416,0.2546,0.2237,,2,369,11,2,0,319,0,0
+607,Lax689614.Biclique,theorem,lax-689614,lax-783278,Bicliques with pendant neighbors,0.2222,0.0000,0.2222,0.2222,,2,369,3,0,0,608,0,0
+607,Lax689614.GrundyProperties,theorem,lax-689614,lax-783278,Basic properties of Sprague–Grundy values,0.2222,0.0000,0.2222,0.2222,,2,369,3,0,0,609,0,0
+607,Lax783278.Biclique,theorem,lax-783278,,Bicliques with pendant neighbors,0.2222,0.0000,0.2222,0.2222,0.2222,2,369,3,0,0,610,0,0
+607,Lax783278.GrundyProperties,theorem,lax-783278,,Basic properties of Sprague–Grundy values,0.2222,0.0000,0.2222,0.2222,0.2222,2,369,3,0,0,611,0,0
+611,Lax535992.PTIMEClosure,theorem,lax-535992,,PTIME is closed under first-order reductions,0.2179,0.0000,0.2179,0.2179,0.2179,5,188,6,1,0,799,0,0
+612,Lax496464.WH_D01_CliqueInW1,theorem,lax-496464,,Clique Is in W[1],0.2108,0.1292,0.2108,0.2108,0.2108,5,188,6,0,0,368,0,0
+613,Lax842588.StructuralRepresentations,definition and theorem,lax-842588,,Certified structural representations for ranked-tree model checking,0.2083,0.2083,0.2083,0.2083,0.2083,2,369,3,0,0,271,0,0
+614,Lax323828.Amplification,theorem,lax-323828,,Arbitrarily small projection-game soundness with polynomial size,0.2060,0.2083,0.2176,0.2060,0.2096,3,268,5,0,0,527,0,0
+615,Lax153141.GraphParameters,definition,lax-153141,,Graph parameters and functional equivalence,0.2000,0.3333,0.2000,0.2000,0.2000,1,529,1,0,0,803,0,0
+615,Lax153141.MixedMinorNumberFromTwinWidth,theorem,lax-153141,,Mixed minor number is bounded by a function of twin-width,0.2000,0.0000,0.2000,0.2000,0.2000,1,529,1,0,0,804,0,0
+615,Lax153141.TwinWidthFromMixedMinorNumber,theorem,lax-153141,,Twin-width is bounded by a function of mixed minor number,0.2000,0.0000,0.2000,0.2000,0.2000,1,529,1,0,0,805,0,0
+615,Lax251941.PostCorrespondenceIndexUndecidable,theorem,lax-251941,,The Post correspondence problem in index form is undecidable,0.2000,0.0000,0.2000,0.2000,0.2000,1,529,1,1,0,576,0,0
+615,Lax314295.AperiodicOfFO,theorem,lax-314295,,First-order definable languages are aperiodic,0.2000,0.0000,0.2000,0.2000,0.2000,1,529,1,0,0,726,0,0
+615,Lax314295.FOOfAperiodic,theorem,lax-314295,,Aperiodic automata recognise first-order definable languages,0.2000,0.0000,0.2000,0.2000,0.2000,1,529,1,0,0,727,0,0
+615,Lax434930.ComplementClosure,lemma,lax-434930,,P is closed under complement,0.2000,0.0000,0.2000,0.2000,0.2000,1,529,1,0,0,676,0,0
+615,Lax49.GraphParameters,definition,lax-49,lax-153141,Graph parameters and functional equivalence,0.2000,0.3333,0.2000,0.2000,,1,529,1,0,0,807,0,0
+615,Lax49.MixedMinorNumberFromTwinWidth,theorem,lax-49,lax-153141,Mixed minor number is bounded by a function of twin-width,0.2000,0.0000,0.2000,0.2000,,1,529,1,0,0,808,0,0
+615,Lax49.TwinWidthFromMixedMinorNumber,theorem,lax-49,lax-153141,Twin-width is bounded by a function of mixed minor number,0.2000,0.0000,0.2000,0.2000,,1,529,1,0,0,809,0,0
+615,Lax496464.Greedy,definition,lax-496464,,"The Greedy of Section 6.1, and Its Domination Order",0.2000,0.2000,0.2000,0.2000,0.2000,1,529,1,0,0,396,0,0
+615,Lax496464.Profile,definition,lax-496464,,"The Due-Date Profile of Section 5, and Recursion (5)",0.2000,0.2000,0.2000,0.2000,0.2000,1,529,1,0,0,397,0,0
+615,Lax56.HujterKisfaludiBak,definition,lax-56,lax-570090,The unoptimized empty-hexagon bound,0.2000,0.0000,0.2000,0.2000,,1,529,1,0,0,678,0,0
+615,Lax56.VertexRemovalStability,theorem,lax-56,lax-570090,Quantitative vertex-removal Erdős--Simonovits stability for K₆,0.2000,0.0000,0.2000,0.2000,,1,529,1,0,0,679,0,0
+615,Lax570090.HujterKisfaludiBak,definition,lax-570090,,The unoptimized empty-hexagon bound,0.2000,0.0000,0.2000,0.2000,0.2000,1,529,1,0,0,682,0,0
+615,Lax570090.VertexRemovalStability,theorem,lax-570090,,Quantitative vertex-removal Erdős--Simonovits stability for K₆,0.2000,0.0000,0.2000,0.2000,0.2000,1,529,1,0,0,683,0,0
+615,Lax916827.TwoWayCodes,definition,lax-916827,,Codes of two-way transducers,0.2000,0.2000,0.2000,0.2000,0.2000,1,529,1,0,0,602,0,0
+615,Lax988886.ExistentialSecondOrder,definition and theorem,lax-988886,,Existential second-order logic,0.2000,0.2000,0.2000,0.2000,0.2000,1,529,1,0,0,603,0,0
+615,Lax988886.NondeterministicPolynomialTime,definition,lax-988886,,NP through polynomially bounded certificates,0.2000,0.2000,0.2000,0.2000,0.2000,1,529,1,0,0,604,0,0
+634,Lax17.NodeWellLinkedSetFromTreewidth,theorem,lax-17,,A well-linked set from treewidth,0.1956,0.0000,0.1956,0.1956,0.1956,1,529,5,0,0,761,0,0
+634,Lax17.StrongPathExtraction,theorem,lax-17,,Strong path extraction,0.1956,0.0000,0.1956,0.1956,0.1956,1,529,5,0,0,762,0,0
+634,Lax17.StrongTreeOfSetsConstruction,theorem,lax-17,,Strong tree-of-sets construction,0.1956,0.0000,0.1956,0.1956,0.1956,2,369,5,0,0,626,0,0
+637,Lax68.PathTree,theorem,lax-68,,Paths are trees,0.1944,0.0000,0.1944,0.1944,0.1944,2,369,2,0,0,605,0,0
+637,Lax68.StarTree,theorem,lax-68,,Stars are trees,0.1944,0.0000,0.1944,0.1944,0.1944,2,369,2,0,0,606,0,0
+639,Lax253009.FreshBitSampling,theorem,lax-253009,lax-323828,Sampling finite choices with a fixed supply of fair bits,0.1933,0.1114,0.2242,0.1933,,6,163,9,2,0,468,0,0
+639,Lax253009.SamplingParameters,theorem,lax-253009,lax-323828,Polynomial size and approximation gap after sampling,0.1933,0.1114,0.2242,0.1933,,6,163,9,2,0,469,0,0
+641,Lax253009.FAFPatterns,theorem,lax-253009,lax-323828,Free bits of the FAF test,0.1880,0.1987,0.2189,0.1880,,6,163,10,2,0,318,0,0
+641,Lax560851.RamComplexityElab,elaboration infrastructure,lax-560851,,Automatic RAM encoding selection (elaboration infrastructure),0.1880,0.1880,0.1880,0.1880,0.1880,1,529,2,0,0,330,0,0
+643,Lax280166.CliquesValues,lemma,lax-280166,,"The values of #Clique, #Independent Set, #Vertex Cover",0.1836,0.0000,0.2200,0.1836,0.1836,8,132,11,1,0,659,0,0
+644,Lax604544.DagIsomorphism,definition,lax-604544,,Isomorphism of directed acyclic graphs,0.1807,0.2222,0.1835,0.1807,0.1807,6,163,6,0,0,697,0,0
+644,Lax604544.GraphIsomorphism,definition,lax-604544,,Graph isomorphism and the class GI,0.1807,0.2222,0.1835,0.1807,0.1807,6,163,6,0,0,698,0,0
+646,Lax57.PreparedHouseBlockade,lemma,lax-57,,Prepared sparse-or-complete house blockades,0.1782,0.0000,0.1782,0.1782,0.1782,1,529,4,0,0,473,0,0
+647,Lax485149.NLIsTransitiveClosure,theorem,lax-485149,,NL = FO(TC),0.1759,0.0000,0.1759,0.1759,0.1759,3,268,5,2,0,850,0,0
+648,Lax470956.Exact34Encoding,definition,lax-470956,lax-888481,"Word encoding of a (3,4) formula",0.1750,0.1750,0.1750,0.1750,,2,369,2,0,0,540,0,0
+649,Lax535992.HornIsLeastFixedPoint,theorem,lax-535992,,SO-Horn = FO(LFP),0.1743,0.0000,0.1743,0.1743,0.1743,2,369,5,2,0,875,0,0
+650,Lax666725.OneSidedSubsetBPP,theorem,lax-666725,lax-115662,RP and coRP are contained in BPP,0.1736,0.0000,0.1829,0.1736,,1,529,3,2,0,646,0,0
+651,Lax434930.ComplementClasses,definition,lax-434930,,The complexity classes coNL and coNP,0.1722,0.3626,0.1722,0.1722,0.1245,3,268,3,2,0,358,0,0
+652,Lax117284.Corollary8,corollary,lax-117284,,Raising the Number of Days and the Fairness Parameter,0.1694,0.1111,0.1694,0.1694,0.1694,2,369,3,0,0,612,0,0
+653,Lax134656.PSPACEClosure,theorem,lax-134656,,PSPACE is closed under first-order reductions,0.1688,0.0000,0.1688,0.1688,0.1688,4,219,4,0,0,819,0,0
+654,Lax485149.LClosure,theorem,lax-485149,,L is closed under first-order reductions,0.1681,0.0000,0.1681,0.1681,0.1681,4,219,5,1,0,833,0,0
+655,Lax117284.InstanceEncoding,definition,lax-117284,,Word Encoding of an Instance,0.1679,0.2556,0.1679,0.1679,0.1679,2,369,2,0,0,657,0,0
+655,Lax689794.Bodlaender,theorem,lax-689794,,Nice Tree Decompositions of Small Width Are Found in Fixed-Parameter Time,0.1679,0.0000,0.1679,0.1679,0.1679,2,369,2,1,0,658,0,0
+657,Lax11.InstanceEncoding,definition,lax-11,lax-271696,Encoding a graph together with a k-expression,0.1667,0.1667,0.1667,0.1667,,1,529,1,0,0,660,0,0
+657,Lax11.Mso,definition,lax-11,lax-271696,Monadic second-order logic on graphs,0.1667,0.1667,0.1667,0.1667,,1,529,1,0,0,661,0,0
+657,Lax117614.CrawlInstances,definition,lax-117614,,Packaged crawling instances,0.1667,0.2222,0.1667,0.1667,0.1667,2,369,2,0,0,572,0,0
+657,Lax132576.RationalOfWeightedPrecomposition,theorem,lax-132576,,Functions that weighted automata can be pre-composed with are rational,0.1667,0.0000,0.1667,0.1667,0.1667,1,529,1,0,0,715,0,0
+657,Lax132576.SubsequentialTransducers,definition,lax-132576,,Subsequential transducers,0.1667,0.1667,0.1667,0.1667,0.1667,1,529,1,0,0,664,0,0
+657,Lax132576.WeightedPrecomposition,theorem,lax-132576,,Weighted automata are closed under pre-composition with rational functions,0.1667,0.0000,0.1667,0.1667,0.1667,1,529,1,0,0,716,0,0
+657,Lax146103.MSOToNFA,theorem,lax-146103,,MSO-definable word languages are NFA-recognizable,0.1667,0.1667,0.1667,0.1667,0.1667,1,529,1,0,0,573,0,0
+657,Lax146103.NFAToMSO,theorem,lax-146103,,Finite automata are MSO-definable,0.1667,0.1667,0.1667,0.1667,0.1667,1,529,1,0,0,574,0,0
+657,Lax271696.InstanceEncoding,definition,lax-271696,,Encoding a graph together with a k-expression,0.1667,0.1667,0.1667,0.1667,0.1667,1,529,1,0,0,668,0,0
+657,Lax271696.Mso,definition,lax-271696,,Monadic second-order logic on graphs,0.1667,0.1667,0.1667,0.1667,0.1667,1,529,1,0,0,669,0,0
+657,Lax496464.ConsecutiveOnes,theorem,lax-496464,,Consecutive Ones Implies Total Unimodularity,0.1667,0.1667,0.1667,0.1667,0.1667,1,529,1,0,0,583,0,0
+657,Lax496464.IntegerProgram,definition,lax-496464,,The Integer Program of Section 6.2,0.1667,0.1667,0.1667,0.1667,0.1667,1,529,1,0,0,584,0,0
+657,Lax68.TreePlanar,theorem,lax-68,,Trees are planar,0.1667,0.0000,0.1667,0.1667,0.1667,2,369,2,0,0,607,0,0
+657,Lax765601.AperiodicOfFlipFlops,theorem,lax-765601,,Compositions of flip-flop machines are aperiodic,0.1667,0.0000,0.1667,0.1667,0.1667,1,529,1,0,0,750,0,0
+657,Lax765601.FlipFlopsOfAperiodic,theorem,lax-765601,,Aperiodic Mealy machines are compositions of flip-flops,0.1667,0.0000,0.1667,0.1667,0.1667,1,529,1,0,0,751,0,0
+657,Lax842588.Determinization,theorem,lax-842588,,Determinization of tree automata,0.1667,0.0000,0.1667,0.1667,0.1667,1,529,1,0,0,811,0,0
+673,Lax280166.CliqueComplete,theorem,lax-280166,,#Clique is parsimoniously #P-complete,0.1654,0.0000,0.2000,0.1654,0.1654,1,529,10,1,0,916,0,0
+674,Lax17.CrossbarOrPseudoGrid,theorem,lax-17,,Crossbar-or-pseudo-grid dichotomy,0.1645,0.0000,0.1645,0.1645,0.1645,3,268,3,0,0,533,0,0
+674,Lax17.CrossbarStitching,theorem,lax-17,,Crossbar stitching,0.1645,0.0000,0.1645,0.1645,0.1645,1,529,3,0,0,691,0,0
+674,Lax17.LocalRoutingOrGrid,theorem,lax-17,,Local routing-or-grid alternative,0.1645,0.0000,0.1645,0.1645,0.1645,1,529,3,0,0,692,0,0
+677,Lax323828.LongCodePatterns,theorem,lax-323828,,Free bits of the complete nonadaptive test,0.1644,0.3654,0.1759,0.1644,0.1679,1,529,7,0,0,410,0,0
+678,Lax689614.PSPACE,definition,lax-689614,lax-783278,PSPACE-completeness,0.1639,0.2457,0.1639,0.1639,,2,369,3,0,0,498,0,0
+678,Lax783278.PSPACE,definition,lax-783278,,PSPACE-completeness,0.1639,0.2457,0.1639,0.1639,0.1639,2,369,3,0,0,499,0,0
+680,Lax496464.WH_D02_CliqueInA1,theorem,lax-496464,,Clique Is in A[1],0.1632,0.0625,0.1632,0.1632,0.1632,1,529,5,0,0,766,0,0
+680,Lax496464.WH_D03_NegationElimination,theorem,lax-496464,,Model Checking for Σ₁ Reduces to Positive Σ₁,0.1632,0.0000,0.1632,0.1632,0.1632,1,529,5,0,0,767,0,0
+680,Lax496464.WH_D04_IncidenceStructure,theorem,lax-496464,,Positive Σ₁ Model Checking Reduces to Binary Relations,0.1632,0.0000,0.1632,0.1632,0.1632,1,529,5,0,0,768,0,0
+680,Lax496464.WH_D05_BinaryToClique,theorem,lax-496464,,Σ₁ Model Checking over Binary Relations Reduces to Clique,0.1632,0.0000,0.1632,0.1632,0.1632,1,529,5,0,0,769,0,0
+684,Lax323828.FAFStrategyExtraction,theorem,lax-323828,,From FAF acceptance to two-prover success,0.1630,0.3416,0.1746,0.1630,0.1666,2,369,7,0,0,334,0,0
+685,Lax762056.ColumnGridExclusion,lemma,lax-762056,lax-222097,Induced grid exclusion in row and column graphs,0.1593,0.0000,0.1593,0.1593,,1,529,3,1,1,649,0,0
+686,Lax14.TupleRamsey,theorem,lax-14,lax-345067,Ramsey's theorem for tuples,0.1587,0.0000,0.1587,0.1587,,1,529,2,1,0,758,0,0
+686,Lax345067.TupleRamsey,theorem,lax-345067,,Ramsey's theorem for tuples,0.1587,0.0000,0.1587,0.1587,0.1587,1,529,2,1,0,759,0,0
+688,Lax253009.GapSatisfiability,theorem,lax-253009,lax-323828,A fixed-alphabet regular gap reduction for 3-SAT,0.1576,0.2083,0.1576,0.1576,,1,529,2,0,0,613,0,0
+688,Lax323828.GapSatisfiability,theorem,lax-323828,,A fixed-alphabet regular gap reduction for 3-SAT,0.1576,0.2083,0.1576,0.1576,0.1576,1,529,2,0,0,614,0,0
+690,Lax429075.VerifierCorrect,lemma,lax-429075,,Correctness of the SAT verifier,0.1566,0.0000,0.1566,0.1566,0.1566,1,529,2,0,0,693,0,0
+690,Lax429075.VerifierTime,lemma,lax-429075,,Polynomial time for CNF verification,0.1566,0.0000,0.1566,0.1566,0.1566,1,529,2,0,0,694,0,0
+692,Lax624099.HaltREComplete,theorem,lax-624099,,The halting problem is RE-complete,0.1556,0.0000,0.1556,0.1556,0.1556,2,369,3,0,0,854,0,0
+692,Lax624099.REHardUndecidable,theorem,lax-624099,,Every RE-hard problem is undecidable,0.1556,0.0000,0.1556,0.1556,0.1556,3,268,3,0,0,817,0,0
+694,Lax117284.BipartiteKuhnTime,theorem,lax-117284,,The Matching Number of a Bipartite Graph in Time O(n · |x|),0.1553,0.1250,0.1553,0.1553,0.1553,1,529,2,0,0,547,0,0
+695,Lax253009.FAFComposition,theorem,lax-253009,lax-323828,Soundness of the finite FAF composition,0.1547,0.0876,0.1855,0.1547,,5,188,9,2,0,525,0,0
+696,Lax888481.Exact34Encoding,definition,lax-888481,,"Word Encoding of a (3,4) Formula",0.1544,0.1750,0.1544,0.1544,0.1544,2,369,2,0,0,542,0,0
+697,Lax496464.WH_F1_IndependentSetMatrix,definition,lax-496464,,Independent Set on Adjacency Matrices,0.1532,0.1806,0.1532,0.1532,0.2833,1,529,3,0,0,648,0,0
+698,Lax117284.ParameterizedComplexity,definition,lax-117284,,Parameterized Problems on a Word RAM,0.1500,0.1806,0.1500,0.1500,0.1500,2,369,2,0,0,347,0,0
+698,Lax470956.NPHardness,definition,lax-470956,lax-888481,"NP-hardness of a scheduling problem, and on a class of instances",0.1500,0.1500,0.1500,0.1500,,1,529,2,0,0,644,0,0
+700,Lax345332.Construction,definition,lax-345332,,"The Reduction from Satisfiability to (3,4)-Satisfiability",0.1481,0.1000,0.1481,0.1481,0.1481,2,369,6,1,0,518,0,0
+700,Lax345332.ThreeFourSat,theorem,lax-345332,,"NP-Hardness of (3,4)-SAT",0.1481,0.3500,0.1481,0.1481,0.1481,3,268,6,1,0,360,0,0
+702,Lax280166.IndependentSetComplete,theorem,lax-280166,,#Independent Set is parsimoniously #P-complete,0.1475,0.0000,0.1800,0.1475,0.1475,3,268,9,1,0,844,0,0
+703,Lax391470.BinaryEncoding,definition,lax-391470,,Binary Encodings and the Two Languages,0.1473,0.2873,0.1473,0.1473,0.1473,2,369,3,0,0,568,0,0
+704,Lax115662.OneSidedSubsetBPP,theorem,lax-115662,,RP and coRP are contained in BPP,0.1429,0.0000,0.1429,0.1429,0.1429,1,529,1,0,0,709,0,0
+704,Lax115662.ZPPSubsetOneSided,theorem,lax-115662,,ZPP is contained in RP and coRP,0.1429,0.0000,0.1429,0.1429,0.1429,1,529,1,0,0,710,0,0
+704,Lax314295.AperiodicBimachineOfFORelabelling,theorem,lax-314295,,First-order relabellings are computed by aperiodic bimachines,0.1429,0.0000,0.1429,0.1429,0.1429,1,529,1,0,0,725,0,0
+704,Lax314295.FORelabellingOfAperiodicBimachine,theorem,lax-314295,,Aperiodic bimachines compute first-order relabellings,0.1429,0.0000,0.1429,0.1429,0.1429,1,529,1,0,0,728,0,0
+704,Lax314295.RationalOfRelabelling,theorem,lax-314295,,MSO relabellings are rational,0.1429,0.0000,0.1429,0.1429,0.1429,1,529,1,0,0,730,0,0
+704,Lax314295.RelabellingOfRational,theorem,lax-314295,,Rational functions are MSO relabellings,0.1429,0.0000,0.1429,0.1429,0.1429,1,529,1,0,0,732,0,0
+704,Lax496464.Fptas,definition,lax-496464,,"Rounding the Weights, and What an Approximation Scheme Delivers",0.1429,0.1429,0.1429,0.1429,0.1429,1,529,1,0,0,395,0,0
+704,Lax68.LadderGrid,theorem,lax-68,,Ladders are grids,0.1429,0.0000,0.1429,0.1429,0.1429,1,529,1,0,0,746,0,0
+704,Lax751879.FixedPointEvaluation,theorem,lax-751879,,Polynomial-time evaluation of fixed-point queries,0.1429,0.1429,0.1429,0.1429,0.1429,1,529,1,0,0,403,0,0
+704,Lax881656.Bipartite,definition,lax-881656,,Bipartite graphs,0.1429,0.1429,0.1429,0.1429,0.1429,1,529,1,0,0,812,0,0
+704,Lax881656.Cubic,definition,lax-881656,,Cubic graphs,0.1429,0.1429,0.1429,0.1429,0.1429,1,529,1,0,0,813,0,0
+704,Lax881656.HamiltonianCycle,definition,lax-881656,,Hamiltonian cycles,0.1429,0.1429,0.1429,0.1429,0.1429,1,529,1,0,0,814,0,0
+704,Lax881656.ThreeConnected,definition,lax-881656,,3-connected graphs,0.1429,0.1429,0.1429,0.1429,0.1429,1,529,1,0,0,815,0,0
+704,Lax916827.SnakeGraphs,definition,lax-916827,,Snake graphs and their outputs,0.1429,0.1429,0.1429,0.1429,0.1429,1,529,1,0,0,601,0,0
+718,Lax799700.NaeThreeSat,theorem,lax-799700,,Not-all-equal 3SAT,0.1381,0.0000,0.1381,0.1381,0.1381,2,369,2,0,0,653,0,0
+719,Lax222097.ColumnGridExclusion,lemma,lax-222097,,Induced grid exclusion in row and column graphs,0.1370,0.0000,0.1370,0.1370,0.1370,1,529,2,0,0,650,0,0
+720,Lax17.LowDegreeWellLinkedCore,theorem,lax-17,,A low-degree well-linked core,0.1368,0.0000,0.1368,0.1368,0.1368,1,529,4,0,0,763,0,0
+720,Lax17.StrongPathOfSetsFromTreewidth,theorem,lax-17,,A strong path-of-sets system from treewidth,0.1368,0.0000,0.1368,0.1368,0.1368,1,529,4,0,0,764,0,0
+720,Lax17.TreewidthMinorMonotonicity,theorem,lax-17,,Treewidth monotonicity under graph minors,0.1368,0.0000,0.1368,0.1368,0.1368,1,529,4,0,0,765,0,0
+723,Lax117284.TwoSatisfiability,definition,lax-117284,,Two-Satisfiability,0.1357,0.1429,0.1357,0.1357,0.1357,3,268,3,0,0,421,0,0
+724,Lax485149.NLClosure,theorem,lax-485149,,NL is closed under first-order reductions,0.1344,0.0000,0.1344,0.1344,0.1344,3,268,3,0,0,852,0,0
+725,Lax323828.FreshBitSampling,theorem,lax-323828,,Sampling finite choices with a fixed supply of fair bits,0.1327,0.1114,0.1442,0.1327,0.1363,4,219,5,0,0,516,0,0
+725,Lax323828.SamplingParameters,theorem,lax-323828,,Polynomial size and approximation gap after sampling,0.1327,0.1114,0.1442,0.1327,0.1363,4,219,5,0,0,517,0,0
+727,Lax496464.Construction,definition,lax-496464,,The Construction of Section 8,0.1313,0.1909,0.1313,0.1313,0.1313,2,369,2,0,0,541,0,0
+728,Lax12.NeighborhoodComplexity,definition,lax-12,lax-199508,Neighborhood complexity,0.1310,0.5000,0.1310,0.1310,,2,369,2,1,0,506,0,0
+728,Lax12.NowhereDenseWcol,theorem,lax-12,lax-199508,Nowhere dense classes have subpolynomial weak coloring numbers,0.1310,0.0000,0.1310,0.1310,,1,529,2,1,0,642,0,0
+728,Lax199508.NeighborhoodComplexity,definition,lax-199508,,Neighborhood complexity,0.1310,0.5000,0.1310,0.1310,0.1310,2,369,2,1,0,507,0,0
+728,Lax199508.NowhereDenseWcol,theorem,lax-199508,,Nowhere dense classes have subpolynomial weak coloring numbers,0.1310,0.0000,0.1310,0.1310,0.1310,1,529,2,1,0,643,0,0
+732,Lax253009.FAFLocalTests,theorem,lax-253009,lax-323828,The FAF verifier as a finite local-test system,0.1308,0.0400,0.1617,0.1308,,5,188,8,2,0,566,0,0
+732,Lax253009.RandomizedReduction,theorem,lax-253009,lax-323828,The finite randomized PCP-to-clique transfer,0.1308,0.0400,0.1617,0.1308,,5,188,8,2,0,567,0,0
+734,Lax57.SparseHouseTrichotomy,lemma,lax-57,,The sparse-house trichotomy,0.1306,0.0000,0.1306,0.1306,0.1306,1,529,3,0,0,508,0,0
+735,Lax323828.FAFPatterns,theorem,lax-323828,,Free bits of the FAF test,0.1273,0.1987,0.1389,0.1273,0.1309,4,219,6,0,0,355,0,0
+736,Lax485149.FirstOrderInTransitiveClosure,theorem,lax-485149,,FO(≤) ⊆ FO(DTC) ⊆ FO(TC),0.1259,0.0000,0.1259,0.1259,0.1259,2,369,4,2,0,872,0,0
+737,Lax117284.TwoSatAlgorithm,definition,lax-117284,,"The Algorithm: Reachability in the Implication Graph, One Variable at a Time",0.1250,0.1250,0.1250,0.1250,0.1250,1,529,1,0,0,385,0,0
+737,Lax195003.WelzlOrdersInGraphs,definition,lax-195003,,Welzl orders in graphs,0.1250,0.1250,0.1250,0.1250,0.1429,1,529,1,0,0,721,0,0
+737,Lax195003.WelzlOrdersNeighborhoodComplexity,definition,lax-195003,,Neighborhood complexity,0.1250,0.1250,0.1250,0.1250,0.1429,1,529,1,0,0,722,0,0
+737,Lax195003.WordRamRandomness,definition,lax-195003,,Randomized computation on the word RAM,0.1250,0.1250,0.1250,0.1250,0.1429,1,529,1,0,0,723,0,0
+737,Lax3.SplitterGame,definition,lax-3,,The isolation splitter game,0.1250,0.2000,0.1250,0.1250,0.1250,1,529,1,0,0,670,0,0
+737,Lax496464.WH_C2_HittingSet,definition,lax-496464,,Hitting Set,0.1250,0.1810,0.1250,0.1250,0.1250,3,268,3,0,0,538,0,0
+737,Lax842588.TreeModelCheckingEncoding,definition,lax-842588,,Distinguished structural inputs for tree-automaton evaluation,0.1250,0.1250,0.1250,0.1250,0.1250,2,369,2,0,0,544,0,0
+744,Lax496464.WH_D06_CliqueA1Complete,theorem,lax-496464,,Clique Is A[1]-Complete,0.1232,0.0000,0.1232,0.1232,0.1232,2,369,4,0,0,623,0,0
+744,Lax496464.WH_D07_DefinabilityToWSat,theorem,lax-496464,,Weighted Definability of a Π₁ Sentence Reduces to Weighted d-CNF Satisfiability,0.1232,0.0000,0.1232,0.1232,0.1232,1,529,4,0,0,791,0,0
+744,Lax496464.WH_D08_WSatInA1,theorem,lax-496464,,Weighted d-CNF Satisfiability Is in A[1],0.1232,0.0000,0.1232,0.1232,0.1232,1,529,4,0,0,792,0,0
+747,Lax54.KeyCombLemma,lemma,lax-54,,Stable hubbed comb in a critical graph,0.1213,0.0000,0.1213,0.1213,0.1213,1,529,2,0,0,617,0,0
+748,Lax132576.BimachineOfRational,theorem,lax-132576,,Rational functions are computed by bimachines,0.1111,0.0000,0.1111,0.1111,0.1111,1,529,1,0,0,800,0,0
+748,Lax132576.RationalOfBimachine,theorem,lax-132576,,Bimachines compute rational functions,0.1111,0.0000,0.1111,0.1111,0.1111,1,529,1,0,0,801,0,0
+748,Lax132576.UnambiguousOfRational,theorem,lax-132576,,Rational functions are computed by unambiguous automata,0.1111,0.0000,0.1111,0.1111,0.1111,1,529,1,0,0,802,0,0
+748,Lax709149.RegularTerms,definition,lax-709149,,Regular terms,0.1111,0.1111,0.1111,0.1111,0.1111,1,529,1,0,0,594,0,0
+748,Lax709149.RegularUnderRepresentation,definition,lax-709149,,Regular functions on types under string representation,0.1111,0.1111,0.1111,0.1111,0.1111,1,529,1,0,0,595,0,0
+748,Lax916827.RegularOfSST,theorem,lax-916827,,Every streaming string transducer computes a regular function,0.1111,0.0000,0.1111,0.1111,0.1111,1,529,1,0,0,753,0,0
+748,Lax916827.RegularOfTwoWay,theorem,lax-916827,,Every two-way transducer computes a regular function,0.1111,0.0000,0.1111,0.1111,0.1111,1,529,1,0,0,754,0,0
+748,Lax916827.SSTOfRegular,theorem,lax-916827,,Every regular function is computed by a streaming string transducer,0.1111,0.0000,0.1111,0.1111,0.1111,1,529,1,0,0,755,0,0
+748,Lax916827.TwoWayOfRegular,theorem,lax-916827,,Every regular function is computed by a two-way transducer,0.1111,0.0000,0.1111,0.1111,0.1111,1,529,1,0,0,756,0,0
+757,Lax391470.StackedConstruction,definition,lax-391470,,The Stacked Scheduling Instance,0.1103,0.1964,0.1103,0.1103,0.1103,1,529,2,0,0,689,0,0
+758,Lax253009.ProjectionEncoding,theorem,lax-253009,lax-323828,Encoding finite projection-game answers as binary words,0.1091,0.0000,0.1400,0.1091,,4,219,7,2,0,707,0,0
+759,Lax362205.CountMachine,lemma,lax-362205,,Logarithmic space for inductive counting,0.1064,0.0000,0.1064,0.1064,0.1064,1,529,2,0,0,615,0,0
+759,Lax362205.Rejection,lemma,lax-362205,,Correctness of rejection by counting,0.1064,0.0000,0.1064,0.1064,0.1064,1,529,2,0,0,616,0,0
+759,Lax733996.CountMachine,lemma,lax-733996,lax-362205,Logarithmic space for inductive counting,0.1064,0.0000,0.1064,0.1064,,1,529,2,0,0,618,0,0
+759,Lax733996.Rejection,lemma,lax-733996,lax-362205,Correctness of rejection by counting,0.1064,0.0000,0.1064,0.1064,,1,529,2,0,0,619,0,0
+763,Lax280166.SetFamiliesValues,lemma,lax-280166,,"The values of #Exact Cover, #Set Packing, #Set Cover, #Hitting Set",0.1038,0.0000,0.1200,0.1038,0.1038,5,188,6,0,0,818,0,0
+764,Lax624099.CodehaltREComplete,theorem,lax-624099,,Code halting is RE-complete,0.1026,0.0000,0.1026,0.1026,0.1026,2,369,2,0,0,853,0,0
+765,Lax117284.BoundedSat,definition,lax-117284,,Satisfiability of Bounded Occurrence,0.1021,0.1429,0.1021,0.1021,0.1021,1,529,3,0,0,757,0,0
+766,Lax12.NowhereDenseUQW,theorem,lax-12,lax-199508,Nowhere dense classes are uniformly quasi-wide,0.1000,0.0000,0.1000,0.1000,,1,529,1,1,0,663,0,0
+766,Lax132576.PrimesOfRational,theorem,lax-132576,,Rational functions decompose into prime rational functions,0.1000,0.0000,0.1000,0.1000,0.1000,1,529,1,0,0,713,0,0
+766,Lax132576.RationalOfPrimes,theorem,lax-132576,,Compositions of prime rational functions are rational,0.1000,0.0000,0.1000,0.1000,0.1000,1,529,1,0,0,714,0,0
+766,Lax314295.MSOTransductionOfRegular,theorem,lax-314295,,Regular functions are MSO transductions,0.1000,0.0000,0.1000,0.1000,0.1000,1,529,1,0,0,729,0,0
+766,Lax314295.RegularOfMSOTransduction,theorem,lax-314295,,MSO transductions define regular functions,0.1000,0.0000,0.1000,0.1000,0.1000,1,529,1,0,0,731,0,0
+766,Lax496464.W2Hardness,definition,lax-496464,,W[2]-Hardness,0.1000,0.1000,0.1000,0.1000,0.1000,1,529,1,0,0,677,0,0
+766,Lax68.TriangleOuterplanar,theorem,lax-68,,Triangles are outerplanar,0.1000,0.0000,0.1000,0.1000,0.1000,1,529,1,0,0,747,0,0
+773,Lax222097.GraphProblems,definition,lax-222097,,Graph decision problems and NP-hardness,0.0995,0.2917,0.0995,0.0995,0.0995,2,369,2,0,0,559,0,0
+774,Lax888481.PolynomialReduction,definition,lax-888481,,Polynomial-Time Many-One Reductions on the Word RAM,0.0993,0.1472,0.0993,0.0993,0.1461,2,369,3,1,0,624,0,0
+775,Lax689614.Passes,theorem,lax-689614,lax-783278,Passing and assigning either truth value,0.0972,0.0000,0.0972,0.0972,,1,529,2,0,0,785,0,0
+775,Lax689614.RegularPlay,theorem,lax-689614,lax-783278,"Assignment moves, pass moves, and deviations",0.0972,0.0000,0.0972,0.0972,,1,529,2,0,0,786,0,0
+775,Lax689614.Sizes,theorem,lax-689614,lax-783278,Sizes of encodings and the reduction graph,0.0972,0.0000,0.0972,0.0972,,1,529,2,0,0,787,0,0
+775,Lax783278.Passes,theorem,lax-783278,,Passing and assigning either truth value,0.0972,0.0000,0.0972,0.0972,0.0972,1,529,2,0,0,788,0,0
+775,Lax783278.RegularPlay,theorem,lax-783278,,"Assignment moves, pass moves, and deviations",0.0972,0.0000,0.0972,0.0972,0.0972,1,529,2,0,0,789,0,0
+775,Lax783278.Sizes,theorem,lax-783278,,Sizes of encodings and the reduction graph,0.0972,0.0000,0.0972,0.0972,0.0972,1,529,2,0,0,790,0,0
+781,Lax323828.FAFComposition,theorem,lax-323828,,Soundness of the finite FAF composition,0.0940,0.0876,0.1055,0.0940,0.0976,3,268,5,0,0,622,0,0
+782,Lax17.ParallelClusterSplitting,theorem,lax-17,,Parallel cluster splitting,0.0933,0.0000,0.0933,0.0933,0.0933,1,529,3,0,0,783,0,0
+782,Lax17.TreewidthSparsifier,theorem,lax-17,,Degree-three treewidth sparsifier,0.0933,0.0000,0.0933,0.0933,0.0933,1,529,3,0,0,784,0,0
+784,Lax496464.WH_D09_W1EqA1,theorem,lax-496464,,W[1] = A[1],0.0910,0.0000,0.0910,0.0910,0.0910,1,529,3,0,0,708,0,0
+785,Lax194892.ForOfPolyregular,theorem,lax-194892,,Polyregular functions are computed by for-transducers,0.0909,0.0000,0.0909,0.0909,0.0909,1,529,1,0,0,718,0,0
+785,Lax194892.PolyregularOfFor,theorem,lax-194892,,For-transducers compute polyregular functions,0.0909,0.0000,0.0909,0.0909,0.0909,1,529,1,0,0,720,0,0
+785,Lax392996.ProbabilisticEvaluation,theorem,lax-392996,,Probabilistic query evaluation through provenance,0.0909,0.0000,0.0909,0.0909,0.0909,1,529,1,0,0,858,0,0
+785,Lax392996.ProvenanceExample,example,lax-392996,,"The Personnel example, annotated",0.0909,0.1000,0.0909,0.0909,0.0909,1,529,1,0,0,859,0,0
+785,Lax485149.DeterministicReachabilityInvariance,lemma,lax-485149,,Invariance and characterization of deterministic reachability,0.0909,0.0000,0.0909,0.0909,0.0909,2,369,2,0,0,871,0,0
+790,Lax485149.ReachabilityInvariance,lemma,lax-485149,,Invariance and characterization of reachability,0.0889,0.0000,0.0889,0.0889,0.0889,2,369,2,0,0,873,0,0
+791,Lax57.SparseHouseAcceleration,lemma,lax-57,,Sparse-house acceleration,0.0851,0.0000,0.0851,0.0851,0.0851,1,529,2,0,0,656,0,0
+792,Lax485149.LSubsetNL,theorem,lax-485149,,L ⊆ NL,0.0782,0.0000,0.0782,0.0782,0.0782,1,529,3,2,0,910,0,0
+792,Lax945089.EvenNotFirstOrder,theorem,lax-945089,,"EVEN is not first-order definable, even with an order",0.0782,0.0000,0.0782,0.0782,0.0782,2,369,3,0,0,877,0,0
+794,Lax496464.WH_E1_HittingSetInW2,theorem,lax-496464,,Hitting Set Is in W[2],0.0774,0.0000,0.0774,0.0774,0.0774,2,369,2,0,0,686,0,0
+795,Lax253009.MajorityAmplification,theorem,lax-253009,lax-323828,Independent majority repetition reduces bounded error,0.0773,0.0000,0.1000,0.0773,,3,268,5,2,0,820,0,0
+796,Lax434930.ExponentialTime,definition,lax-434930,,The complexity class EXPTIME,0.0769,0.0769,0.0769,0.0769,0.0769,1,529,1,0,0,846,0,0
+796,Lax434930.LogarithmicSpace,definition,lax-434930,,The complexity class L,0.0769,0.0769,0.0769,0.0769,0.0769,1,529,1,0,0,847,0,0
+796,Lax434930.PolynomialSpaceEquality,theorem,lax-434930,,Savitch's theorem,0.0769,0.0769,0.0769,0.0769,0.0769,1,529,1,0,0,848,0,0
+796,Lax560851.BitPolynomialTime,definition,lax-560851,,Polynomial time with polynomial word length,0.0769,0.0769,0.0769,0.0769,0.0769,1,529,1,0,0,680,0,0
+796,Lax560851.RamComplexityExample,definition,lax-560851,,Examples — separate resource bounds and polynomial time,0.0769,0.0769,0.0769,0.0769,0.0769,1,529,1,0,0,681,0,0
+801,Lax117284.JustInTime,definition,lax-117284,,Just-in-Time Scheduling on Unrelated Parallel Machines,0.0742,0.1429,0.0742,0.0742,0.0742,2,369,2,0,0,446,0,0
+802,Lax175070.CountingValues,lemma,lax-175070,,Values of the decision versions and of #SelSAT,0.0738,0.0000,0.0738,0.0738,0.0738,2,369,2,0,0,860,0,0
+803,Lax489179.APSPHypothesis,definition,lax-489179,,The weighted APSP complexity assumption,0.0714,0.0714,0.0714,0.0714,0.0714,1,529,1,0,0,737,0,0
+803,Lax489179.ETH,definition,lax-489179,,The Exponential Time Hypothesis (ETH),0.0714,0.0714,0.0714,0.0714,0.0714,1,529,1,0,0,738,0,0
+803,Lax489179.SETH,definition,lax-489179,,The Strong Exponential Time Hypothesis (SETH),0.0714,0.0714,0.0714,0.0714,0.0714,1,529,1,0,0,739,0,0
+803,Lax489179.ThreeSUMHypothesis,definition,lax-489179,,The 3-SUM Hypothesis,0.0714,0.0714,0.0714,0.0714,0.0714,1,529,1,0,0,740,0,0
+807,Lax391470.SatConstruction,definition,lax-391470,,"The Instance of AUX(p, q) Built from a Formula",0.0704,0.1623,0.0704,0.0704,0.0704,1,529,2,0,0,825,0,0
+808,Lax323828.FAFLocalTests,theorem,lax-323828,,The FAF verifier as a finite local-test system,0.0702,0.0400,0.0817,0.0702,0.0738,3,268,4,0,0,651,0,0
+808,Lax323828.RandomizedReduction,theorem,lax-323828,,The finite randomized PCP-to-clique transfer,0.0702,0.0400,0.0817,0.0702,0.0738,3,268,4,0,0,652,0,0
+810,Lax496464.WH_F2_MccConstruction,definition,lax-496464,,The Multicoloured Graph of an Independent Set Instance,0.0698,0.0972,0.0698,0.0698,0.1167,1,529,2,0,0,794,0,0
+811,Lax535992.ImmermanVardi,theorem,lax-535992,,The Immerman–Vardi theorem: PTIME = FO(LFP),0.0686,0.0000,0.0686,0.0686,0.0686,1,529,2,1,0,909,0,0
+812,Lax496464.HittingSetFromSat,definition,lax-496464,,The Reduction from Satisfiability to Hitting Set,0.0683,0.0833,0.0683,0.0683,0.0683,1,529,2,0,0,793,0,0
+813,Lax280166.VertexCoverComplete,theorem,lax-280166,,#Vertex Cover is parsimoniously #P-complete,0.0675,0.0000,0.0800,0.0675,0.0675,3,268,4,0,0,862,0,0
+814,Lax859101.AllSetsValues,lemma,lax-859101,,"The values of #3-Colorability, counting all independent sets, and counting all vertex covers",0.0670,0.0000,0.0817,0.0670,0.0670,4,219,4,0,0,760,0,0
+815,Lax253009.SmallValueSatisfiability,theorem,lax-253009,lax-323828,A polynomial-size 3-SAT reduction to arbitrarily small projection-game value,0.0667,0.0833,0.0667,0.0667,,1,529,1,0,0,577,0,0
+815,Lax323828.SmallValueSatisfiability,theorem,lax-323828,,A polynomial-size 3-SAT reduction to arbitrarily small projection-game value,0.0667,0.0833,0.0667,0.0667,0.0667,1,529,1,0,0,578,0,0
+817,Lax888481.NPHardness,definition,lax-888481,,"NP-Hardness of a Scheduling Problem, and on a Class of Instances",0.0664,0.1500,0.0664,0.0664,0.0664,1,529,2,0,0,696,0,0
+818,Lax366625.CountingRunsValue,lemma,lax-366625,,The value of counting accepting runs,0.0660,0.0000,0.0660,0.0660,0.0660,2,369,2,1,0,863,0,0
+819,Lax535992.LeastFixedPointComplement,theorem,lax-535992,,FO(LFP) is closed under complement,0.0641,0.0000,0.0641,0.0641,0.0641,1,529,2,1,0,917,0,0
+820,Lax117284.Theorem7,theorem,lax-117284,,Three Days and the Fairness Parameter One,0.0636,0.0000,0.0636,0.0636,0.0636,2,369,2,0,0,700,0,0
+821,Lax604544.IsomorphismInvariance,lemma,lax-604544,,Invariance and characterization of the isomorphism problems,0.0635,0.0000,0.0635,0.0635,0.0635,2,369,2,0,0,868,0,0
+822,Lax485149.TwoSatInvariance,lemma,lax-485149,,Invariance and characterization of 2SAT,0.0627,0.0000,0.0655,0.0627,0.0627,2,369,2,1,0,874,0,0
+823,Lax420092.EvaluationContainmentReductions,theorem,lax-420092,,Evaluation and containment reduce to each other,0.0625,0.0000,0.0625,0.0625,0.0625,1,529,1,0,0,869,0,0
+823,Lax420092.EvaluationNPComplete,theorem,lax-420092,,Conjunctive query evaluation is NP-complete,0.0625,0.0000,0.0625,0.0625,0.0625,1,529,1,0,0,870,0,0
+825,Lax117284.MulticolouredIndepSet,definition,lax-117284,,Multicoloured Independent Set,0.0607,0.1111,0.0607,0.0607,0.0607,1,529,2,0,0,829,0,0
+826,Lax496464.WH_D10_CliqueW1Complete,theorem,lax-496464,,Clique Is W[1]-Complete,0.0597,0.0000,0.0597,0.0597,0.0597,2,369,2,0,0,690,0,0
+827,Lax762056.GridExclusion,lemma,lax-762056,lax-222097,Induced grid exclusion in the reduction,0.0593,0.0000,0.0593,0.0593,,1,529,2,1,1,795,0,0
+827,Lax762056.IndependenceIdentity,lemma,lax-762056,lax-222097,The independence number records the maximum cut,0.0593,0.0000,0.0593,0.0593,,1,529,2,1,1,796,0,0
+827,Lax762056.MaxCutHardness,lemma,lax-762056,lax-222097,NP-hardness of unweighted Max Cut,0.0593,0.0000,0.0593,0.0593,,1,529,2,1,1,797,0,0
+827,Lax762056.ReductionTime,lemma,lax-762056,lax-222097,The reduction can be computed in polynomial time,0.0593,0.0000,0.0593,0.0593,,1,529,2,1,1,798,0,0
+831,Lax3.FirstOrder,definition,lax-3,,First-order logic on graphs,0.0588,0.1667,0.0588,0.0588,0.0588,1,529,1,0,0,845,0,0
+831,Lax54.CriticalCombInput,lemma,lax-54,,Quantitative critical-comb consequence,0.0588,0.0000,0.0588,0.0588,0.0588,1,529,1,0,0,586,0,0
+833,Lax564036.TautologyInvariance,lemma,lax-564036,,Invariance and characterization of TAUT,0.0572,0.0000,0.0600,0.0572,0.0572,2,369,2,1,0,867,0,0
+834,Lax535992.HornSatInvariance,lemma,lax-535992,,Invariance and characterization of HORN-SAT,0.0557,0.0000,0.0585,0.0557,0.0557,2,369,2,1,0,876,0,0
+835,Lax17.CutMatchingTheorem,theorem,lax-17,,Cut-matching expansion theorem,0.0533,0.0000,0.0533,0.0533,0.0533,2,369,2,0,0,703,0,0
+835,Lax17.ExpanderGrid,theorem,lax-17,,Grid minors from separator expansion,0.0533,0.0000,0.0533,0.0533,0.0533,2,369,2,0,0,704,0,0
+835,Lax17.HairyPathOfSetsFromTreewidth,theorem,lax-17,,A hairy path-of-sets system from treewidth,0.0533,0.0000,0.0533,0.0533,0.0533,2,369,2,0,0,705,0,0
+835,Lax17.PowerRoot,definition,lax-17,,'Integral ceiling power roots',0.0533,0.2000,0.0533,0.0533,0.0533,1,529,2,0,0,851,0,0
+835,Lax17.StrongPathOfSetsContainsGrid,theorem,lax-17,,A grid minor from a strong path-of-sets system,0.0533,0.0000,0.0533,0.0533,0.0533,2,369,2,0,0,706,0,0
+840,Lax624099.REIsRecursivelyEnumerable,theorem,lax-624099,,RE is recursive enumerability,0.0526,0.0000,0.0526,0.0526,0.0526,1,529,1,0,0,884,0,0
+841,Lax470956.PolynomialReduction,definition,lax-470956,lax-888481,Polynomial-time many-one reductions on the word RAM,0.0500,0.0500,0.0500,0.0500,,1,529,1,0,0,735,0,0
+841,Lax470956.SatVariant,definition,lax-470956,lax-888481,"(3,4)-satisfiability",0.0500,0.0500,0.0500,0.0500,,1,529,1,0,0,736,0,0
+841,Lax624099.PcpREComplete,theorem,lax-624099,,Post's correspondence problem is RE-complete,0.0500,0.0000,0.0500,0.0500,0.0500,1,529,1,0,0,883,0,0
+844,Lax323828.ProjectionEncoding,theorem,lax-323828,,Encoding finite projection-game answers as binary words,0.0484,0.0000,0.0600,0.0484,0.0520,2,369,3,0,0,855,0,0
+845,Lax12.NowhereDenseNC,theorem,lax-12,lax-199508,Nowhere dense classes have almost linear neighborhood complexity,0.0476,0.0000,0.0476,0.0476,,1,529,1,1,0,712,0,0
+845,Lax199508.NowhereDenseNC,theorem,lax-199508,,Nowhere dense classes have almost linear neighborhood complexity,0.0476,0.0000,0.0476,0.0476,0.0476,1,529,1,1,0,724,0,0
+845,Lax362205.ComplementClosure,lemma,lax-362205,,Complementing a logarithmic space language,0.0476,0.0000,0.0476,0.0476,0.0476,1,529,1,0,0,580,0,0
+845,Lax5.WeaklySparseDependent,theorem,lax-5,lax-710763,Weakly sparse monadically dependent classes are nowhere dense,0.0476,0.0000,0.0476,0.0476,,1,529,1,0,0,745,0,0
+845,Lax710763.WeaklySparseDependent,theorem,lax-710763,,Weakly sparse monadically dependent classes are nowhere dense,0.0476,0.0000,0.0476,0.0476,0.0476,1,529,1,0,0,748,0,0
+845,Lax733996.ComplementClosure,lemma,lax-733996,lax-362205,Complementing a logarithmic space language,0.0476,0.0000,0.0476,0.0476,,1,529,1,0,0,596,0,0
+851,Lax535992.NLSubsetPTIME,theorem,lax-535992,,L ⊆ NL ⊆ PTIME,0.0460,0.0000,0.0460,0.0460,0.0460,1,529,2,1,0,921,0,0
+852,Lax429075.SATinNP,lemma,lax-429075,,SAT belongs to NP,0.0455,0.0000,0.0455,0.0455,0.0455,1,529,1,0,0,734,0,0
+852,Lax895169.ACZeroIsBitLogic,theorem,lax-895169,,"FO(≤, +, ×) = FO(≤, +, BIT)",0.0455,0.0000,0.0455,0.0455,0.0455,1,529,1,0,0,885,0,0
+854,Lax485149.TransitiveClosureClosure,theorem,lax-485149,,FO(TC) definability is closed under first-order reductions,0.0435,0.0000,0.0435,0.0435,0.0435,1,529,1,0,0,913,0,0
+855,Lax134656.SpaceBoundedMachineInvariance,lemma,lax-134656,,Invariance and characterization of machine acceptance in bounded space,0.0417,0.0000,0.0417,0.0417,0.0417,1,529,1,0,0,903,0,0
+855,Lax134656.SuccinctReachInvariance,lemma,lax-134656,,Invariance and characterization of SUCCINCT-REACH,0.0417,0.0000,0.0417,0.0417,0.0417,1,529,1,0,0,904,0,0
+855,Lax57.HouseDichotomy,lemma,lax-57,,Restricted set or uniform blockade in a house-free graph,0.0417,0.0000,0.0417,0.0417,0.0417,1,529,1,0,0,587,0,0
+855,Lax689614.PositiveCNFHardness,theorem,lax-689614,lax-783278,PSPACE-hardness of the positive CNF game,0.0417,0.0714,0.0417,0.0417,,1,529,1,0,0,592,0,0
+855,Lax689614.Reduction,theorem,lax-689614,lax-783278,Correctness and complexity of the reduction,0.0417,0.0714,0.0417,0.0417,,1,529,1,0,0,593,0,0
+855,Lax783278.PositiveCNFHardness,theorem,lax-783278,,PSPACE-hardness of the positive CNF game,0.0417,0.0714,0.0417,0.0417,0.0417,1,529,1,0,0,597,0,0
+855,Lax783278.Reduction,theorem,lax-783278,,Correctness and complexity of the reduction,0.0417,0.0714,0.0417,0.0417,0.0417,1,529,1,0,0,598,0,0
+862,Lax134656.PSPACEEqCoPSPACE,theorem,lax-134656,,PSPACE = coPSPACE,0.0400,0.0000,0.0400,0.0400,0.0400,1,529,1,0,0,911,0,0
+862,Lax134656.QsatInvariance,lemma,lax-134656,,Invariance and characterization of QSAT,0.0400,0.0000,0.0400,0.0400,0.0400,1,529,1,0,0,912,0,0
+862,Lax345332.TwoThreeSat,theorem,lax-345332,,"NP-Hardness of [2,3]-Bounded 3-SAT",0.0400,0.1000,0.0400,0.0400,0.0400,1,529,1,0,0,733,0,0
+862,Lax564036.AlternatingMachineInvariance,lemma,lax-564036,,Invariance and characterization of alternating machine acceptance,0.0400,0.0000,0.0400,0.0400,0.0400,1,529,1,0,0,895,0,0
+862,Lax564036.QuantifiedBooleanFormulasInvariance,lemma,lax-564036,,Invariance and characterization of quantified Boolean formulas,0.0400,0.0000,0.0400,0.0400,0.0400,1,529,1,0,0,896,0,0
+862,Lax564036.SatUnsatInvariance,lemma,lax-564036,,Invariance and characterization of SAT-UNSAT,0.0400,0.0000,0.0400,0.0400,0.0400,1,529,1,0,0,897,0,0
+862,Lax564036.ThreeDnfTautologyInvariance,lemma,lax-564036,,Invariance and characterization of 3-DNF-TAUT and 3-UNSAT,0.0400,0.0000,0.0400,0.0400,0.0400,1,529,1,0,0,898,0,0
+869,Lax535992.CircuitValueInvariance,lemma,lax-535992,,Invariance and characterization of the circuit value problem,0.0385,0.0000,0.0385,0.0385,0.0385,1,529,1,0,0,918,0,0
+869,Lax535992.DeterministicMachineInvariance,lemma,lax-535992,,Invariance and characterization of deterministic machine acceptance,0.0385,0.0000,0.0385,0.0385,0.0385,1,529,1,0,0,919,0,0
+869,Lax535992.GameInvariance,lemma,lax-535992,,Invariance and characterization of GAME,0.0385,0.0000,0.0385,0.0385,0.0385,1,529,1,0,0,920,0,0
+872,Lax222097.GridExclusion,lemma,lax-222097,,Induced grid exclusion in the reduction,0.0370,0.0000,0.0370,0.0370,0.0370,1,529,1,0,0,835,0,0
+872,Lax222097.IndependenceIdentity,lemma,lax-222097,,The independence number records the maximum cut,0.0370,0.0000,0.0370,0.0370,0.0370,1,529,1,0,0,836,0,0
+872,Lax222097.MaxCutHardness,lemma,lax-222097,,NP-hardness of unweighted Max Cut,0.0370,0.0000,0.0370,0.0370,0.0370,1,529,1,0,0,837,0,0
+872,Lax222097.ReductionTime,lemma,lax-222097,,The reduction can be computed in polynomial time,0.0370,0.0000,0.0370,0.0370,0.0370,1,529,1,0,0,838,0,0
+876,Lax280166.HamiltonCircuitsValues,lemma,lax-280166,,"The values of #Directed Hamilton Circuit, #Hamilton Circuit",0.0360,0.0000,0.0400,0.0360,0.0360,2,369,2,0,0,878,0,0
+877,Lax117284.Theorem11,theorem,lax-117284,,Just-in-Time Scheduling on Unrelated Machines as Day-Independent Due Dates,0.0357,0.0000,0.0357,0.0357,0.0357,1,529,1,0,0,711,0,0
+877,Lax366625.NumbersValue,lemma,lax-366625,,The values of the number problems,0.0357,0.0000,0.0357,0.0357,0.0357,1,529,1,0,0,905,0,0
+877,Lax366625.SharpPAndNP,theorem,lax-366625,,#P and NP,0.0357,0.0000,0.0357,0.0357,0.0357,1,529,1,0,0,906,0,0
+877,Lax496464.WH_E2_HittingSetW2Complete,theorem,lax-496464,,Hitting Set Is W[2]-Complete,0.0357,0.0000,0.0357,0.0357,0.0357,1,529,1,0,0,849,0,0
+881,Lax280166.FeedbackSetsValues,lemma,lax-280166,,"The values of #Feedback Vertex Set, #Feedback Arc Set",0.0351,0.0000,0.0400,0.0351,0.0351,2,369,2,0,0,880,0,0
+882,Lax280166.ExactCoverComplete,theorem,lax-280166,,#Exact Cover is parsimoniously #P-complete,0.0348,0.0000,0.0400,0.0348,0.0348,1,529,2,0,0,925,0,0
+882,Lax280166.KnapsacksValues,lemma,lax-280166,,"The values of #Knapsack, #0-1 Integer Programming",0.0348,0.0000,0.0400,0.0348,0.0348,2,369,2,0,0,879,0,0
+884,Lax117284.Theorem9,theorem,lax-117284,,The Fairness Parameter One Below the Number of Days,0.0333,0.0000,0.0333,0.0333,0.0333,1,529,1,0,0,856,0,0
+884,Lax391470.Lemma1,theorem,lax-391470,,The Auxiliary Problem Reduces to Scheduling on Two Job Lengths,0.0333,0.0714,0.0333,0.0333,0.0333,1,529,1,0,0,674,0,0
+884,Lax391470.Lemma2,theorem,lax-391470,,The Auxiliary Problem Is NP-Complete,0.0333,0.0714,0.0333,0.0333,0.0333,1,529,1,0,0,675,0,0
+887,Lax895169.ACZeroFinite,theorem,lax-895169,,AC⁰ definability reads finite instances only,0.0323,0.0000,0.0323,0.0323,0.0323,1,529,1,1,0,915,0,0
+888,Lax253009.RandomizedContainments,lemma,lax-253009,lax-323828,Randomized computations as NP certificates,0.0318,0.0000,0.0400,0.0318,,1,529,2,0,0,881,0,0
+888,Lax323828.RandomizedContainments,lemma,lax-323828,,Randomized computations as NP certificates,0.0318,0.0000,0.0400,0.0318,0.0348,1,529,2,0,0,882,0,0
+890,Lax496464.HittingSetHardness,theorem,lax-496464,,Hitting Set Is NP-Hard,0.0313,0.0000,0.0313,0.0313,0.0313,1,529,1,0,0,741,0,0
+890,Lax496464.NPHardness,definition,lax-496464,,"NP-Hardness, and Strong NP-Hardness, of a Scheduling Problem",0.0313,0.0909,0.0313,0.0313,0.0313,1,529,1,0,0,742,0,0
+890,Lax604544.DegreeOfAProblem,theorem,lax-604544,,Completeness for a degree is mutual reducibility,0.0313,0.0000,0.0313,0.0313,0.0313,1,529,1,0,0,907,0,0
+893,Lax666725.ZPPSubsetBPP,theorem,lax-666725,lax-115662,ZPP is contained in BPP,0.0308,0.2000,0.0400,0.0308,,2,369,2,2,0,502,0,0
+894,Lax117284.BipartiteDecision,corollary,lax-117284,,"Saturating and Perfect Matchings, Decided in the Same Time",0.0303,0.0000,0.0303,0.0303,0.0303,1,529,1,0,0,834,0,0
+894,Lax47.Gap,definition,lax-47,lax-614640,Finite-Turing promise-gap algorithms for Max Independent Set,0.0303,0.1000,0.0400,0.0303,,1,529,2,0,0,886,0,0
+894,Lax614640.Gap,definition,lax-614640,,Finite-Turing promise-gap algorithms for Max Independent Set,0.0303,0.1000,0.0400,0.0303,0.2083,1,529,2,0,0,887,0,0
+897,Lax859101.AllSetsComplete,theorem,lax-859101,,Counting all independent sets and vertex covers is one-call #P-complete,0.0299,0.0000,0.0400,0.0299,0.0299,2,369,2,0,0,861,0,0
+898,Lax888481.SatVariant,definition,lax-888481,,"(3,4)-Satisfiability",0.0294,0.0500,0.0294,0.0294,0.0294,1,529,1,0,0,752,0,0
+899,Lax134656.PartialFixedPointCapture,theorem,lax-134656,,"FO(≤, PFP) = SO(TC) = PSPACE",0.0286,0.0000,0.0286,0.0286,0.0286,1,529,1,0,0,901,0,0
+899,Lax535992.InflationaryIsLeastFixedPoint,theorem,lax-535992,,"FO(≤, IFP) = FO(LFP) = PTIME",0.0286,0.0000,0.0286,0.0286,0.0286,1,529,1,1,0,902,0,0
+901,Lax17.FixedRoundGridMinor,theorem,lax-17,,'Exact fixed-round grid-minor theorem',0.0263,0.0000,0.0263,0.0263,0.0263,1,529,1,0,0,857,0,0
+902,Lax535992.PTIMEEqCoPTIME,theorem,lax-535992,,PTIME = coPTIME,0.0256,0.0000,0.0256,0.0256,0.0256,1,529,1,1,0,894,0,0
+903,Lax117284.IlpClients,definition,lax-117284,,The Integer Programs of the Clients' Reduction Are Fixed-Parameter Tractable,0.0250,0.0556,0.0250,0.0250,0.0250,1,529,1,0,0,864,0,0
+903,Lax117284.Lemma14,lemma,lax-117284,,Per-Client Fairness Parameters at Treewidth Four,0.0250,0.0000,0.0250,0.0250,0.0250,1,529,1,0,0,865,0,0
+903,Lax117284.Lemma15,lemma,lax-117284,,Per-Client Fairness Parameters Reduce to a Uniform One,0.0250,0.0000,0.0250,0.0250,0.0250,1,529,1,0,0,866,0,0
+906,Lax945089.FirstOrderBelowTransitiveClosure,theorem,lax-945089,,FO(≤) ⊊ FO(DTC): EVEN is a deterministic walk,0.0227,0.0000,0.0227,0.0227,0.0227,1,529,1,0,0,908,0,0
+907,Lax496464.WH_F3_NPHard,definition,lax-496464,,NP-Hardness of a Problem on Words of Numbers,0.0222,0.0417,0.0222,0.0222,0.0500,1,529,1,0,0,743,0,0
+907,Lax496464.WH_F4_IndependentSetToMcc,theorem,lax-496464,,Independent Set Reduces to Multicoloured Clique,0.0222,0.0417,0.0222,0.0222,0.0500,1,529,1,0,0,744,0,0
+907,Lax762056.IndependentSetHardness,theorem,lax-762056,lax-222097,Independent Set without a 5×5 induced grid minor,0.0222,0.0417,0.0222,0.0222,,1,529,1,1,1,749,0,0
+910,Lax859101.NaeSatValues,lemma,lax-859101,,The values of #NAE-SAT and #Set Splitting,0.0217,0.0000,0.0217,0.0217,0.0217,1,529,1,0,0,889,0,0
+911,Lax859101.DnfValues,lemma,lax-859101,,The values of #DNF,0.0213,0.0000,0.0213,0.0213,0.0213,1,529,1,0,0,899,0,0
+911,Lax859101.SubtractiveClosure,theorem,lax-859101,,#P is closed under subtractive reductions,0.0213,0.0000,0.0213,0.0213,0.0213,1,529,1,0,0,900,0,0
+913,Lax280166.DominatingSetsValues,lemma,lax-280166,,The values of #Dominating Set,0.0189,0.0000,0.0200,0.0189,0.0189,1,529,1,0,0,926,0,0
+914,Lax280166.DirHamCircuitComplete,theorem,lax-280166,,#Directed Hamilton Circuit is parsimoniously #P-complete,0.0179,0.0000,0.0200,0.0179,0.0179,1,529,1,0,0,922,0,0
+915,Lax280166.KnapsackComplete,theorem,lax-280166,,#Knapsack is parsimoniously #P-complete,0.0172,0.0000,0.0200,0.0172,0.0172,1,529,1,0,0,923,0,0
+915,Lax624099.FiniteSatisfiabilityInvariance,lemma,lax-624099,,Invariance and characterization of finite satisfiability,0.0172,0.0000,0.0200,0.0172,0.0172,1,529,1,1,0,914,0,0
+917,Lax280166.SteinerTreesValues,lemma,lax-280166,,The values of #Steiner Tree,0.0169,0.0000,0.0200,0.0169,0.0169,1,529,1,0,0,927,0,0
+918,Lax253009.RandomizedApproximation,definition,lax-253009,lax-323828,Bounded-error randomized approximation of the clique number,0.0167,0.1111,0.0200,0.0167,,1,529,1,0,0,891,0,0
+918,Lax280166.SetCoverComplete,theorem,lax-280166,,#Set Cover is parsimoniously #P-complete,0.0167,0.0000,0.0200,0.0167,0.0167,1,529,1,0,0,924,0,0
+918,Lax323828.MajorityAmplification,theorem,lax-323828,,Independent majority repetition reduces bounded error,0.0167,0.0000,0.0200,0.0167,0.0172,1,529,1,0,0,892,0,0
+918,Lax323828.RandomizedApproximation,definition,lax-323828,,Bounded-error randomized approximation of the clique number,0.0167,0.1111,0.0200,0.0167,0.0172,1,529,1,0,0,893,0,0
+922,Lax253009.CliqueHardness,theorem,lax-253009,lax-323828,Håstad's clique inapproximability theorem,0.0154,0.1000,0.0200,0.0154,,1,529,1,0,0,667,0,0
+922,Lax323828.CliqueHardness,theorem,lax-323828,,Håstad's clique inapproximability theorem,0.0154,0.1000,0.0200,0.0154,0.0172,1,529,1,0,0,673,0,0
+924,Lax859101.BipartiteValues,lemma,lax-859101,,The values of #BIS and #PP2DNF,0.0149,0.0000,0.0200,0.0149,0.0149,1,529,1,0,0,888,0,0
+924,Lax859101.RestrictedSatValues,lemma,lax-859101,,"The values of #2SAT, #HORN-SAT, and #Monotone-2SAT",0.0149,0.0000,0.0200,0.0149,0.0149,1,529,1,0,0,890,0,0
+926,Lax47.IndependentSetGapHardness,theorem,lax-47,lax-614640,Promise-gap hardness of Max Independent Set,0.0147,0.0000,0.0200,0.0147,,1,529,1,0,0,806,0,0
+926,Lax614640.IndependentSetGapHardness,theorem,lax-614640,,Promise-gap hardness of Max Independent Set,0.0147,0.0000,0.0200,0.0147,0.0833,1,529,1,0,0,810,0,0
+928,Lax10.FragileFourColorable,theorem,lax-10,,Graphs without a 3-connected subgraph are 4-colorable,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,928,0,0
+928,Lax10.Theorem2,theorem,lax-10,,Theorem 2,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,929,0,0
+928,Lax11.ConnectedComponents,theorem,lax-11,lax-271696,Connected components in linear time,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,930,0,0
+928,Lax11.Courcelle,theorem,lax-11,lax-271696,Courcelle's theorem on a word RAM,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,931,0,0
+928,Lax11.VertexCover,definition,lax-11,lax-271696,A graph with a parameter appended,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,932,0,0
+928,Lax115662.BPPSubsetPP,theorem,lax-115662,,BPP is contained in PP,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,933,0,0
+928,Lax115662.ZPPSubsetBPP,theorem,lax-115662,,ZPP is contained in BPP,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,934,0,0
+928,Lax117284.BipartiteKuhnCorrect,theorem,lax-117284,,Kuhn's Algorithm Computes a Maximum Matching,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,935,0,0
+928,Lax117284.Bodlaender,definition,lax-117284,,Nice Tree Decompositions of Small Width Are Found in Fixed-Parameter Time,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,936,0,0
+928,Lax117284.ExtremeFairness,lemma,lax-117284,,The Extreme Values of the Fairness Parameter,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,937,0,0
+928,Lax117284.Theorem1,theorem,lax-117284,,The Complexity of Fair Repetitive Interval Scheduling in the Fairness Parameter,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,938,0,0
+928,Lax117284.Theorem10,theorem,lax-117284,,Unit Processing Times as a Bipartite Matching Problem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,939,0,0
+928,Lax117284.Theorem12,theorem,lax-117284,,The Dynamic Program for Day-Independent Due Dates,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,940,0,0
+928,Lax117284.Theorem13,theorem,lax-117284,,Day-Independent Due Dates and Processing Times,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,941,0,0
+928,Lax117284.Theorem2,theorem,lax-117284,,Day-Independent Processing Times,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,942,0,0
+928,Lax117284.Theorem3,theorem,lax-117284,,Day-Independent Due Dates,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,943,0,0
+928,Lax117284.Theorem4,theorem,lax-117284,,Structural Parameters of the Conflict Graph,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,944,0,0
+928,Lax117284.TwoSatCorrectness,theorem,lax-117284,,Correctness of the Algorithm,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,945,0,0
+928,Lax117284.TwoSatCriterion,lemma,lax-117284,,The Satisfiability Criterion for 2-CNF Formulas,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,946,0,0
+928,Lax117284.TwoSatInP,theorem,lax-117284,,2-SAT Is in P,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,947,0,0
+928,Lax117284.TwoSatRunningTime,theorem,lax-117284,,2-SAT Is Decided in Time Linear in the Word Times the Number of Variables,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,948,0,0
+928,Lax117614.CrawlDecoding,theorem,lax-117614,,"Decoding, and well-formed graph crawling is NP-complete",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,949,0,0
+928,Lax117614.CrawlEncoding,theorem,lax-117614,,The encoding of crawling instances is faithful and size-honest,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,950,0,0
+928,Lax117614.GraphCrawlingInvariance,lemma,lax-117614,,Invariance and characterization of graph crawling,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,951,0,0
+928,Lax117614.GraphCrawlingNPComplete,theorem,lax-117614,,Graph crawling is NP-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,952,0,0
+928,Lax13.RamComputes,definition,lax-13,lax-67,Computing a function within a time bound,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,953,0,0
+928,Lax132576.EpsilonEliminationExtended,theorem,lax-132576,,"Elimination of ε-transitions, with extended transitions",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,954,0,0
+928,Lax132576.EpsilonEliminationFinite,theorem,lax-132576,,Elimination of ε-transitions for finitely valued relations,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,955,0,0
+928,Lax132576.HomomorphismComplement,theorem,lax-132576,,The complement of a homomorphism is rational,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,956,0,0
+928,Lax132576.LengthPreservingDecidable,theorem,lax-132576,,Deciding length preservation of a rational function,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,957,0,0
+928,Lax132576.LengthPreservingNormalForm,theorem,lax-132576,,Length preserving rational functions have length preserving automata,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,958,0,0
+928,Lax132576.LengthPreservingTyping,theorem,lax-132576,,Length preservation through a typing of the states,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,959,0,0
+928,Lax132576.MealyDecidable,theorem,lax-132576,,Deciding whether a rational function is a Mealy machine,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,960,0,0
+928,Lax132576.MealyMachineIndependent,theorem,lax-132576,,Machine-independent characterisation of Mealy machines,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,961,0,0
+928,Lax132576.RationalComposition,theorem,lax-132576,,Rational relations are closed under composition,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,962,0,0
+928,Lax132576.RationalContinuity,theorem,lax-132576,,Rational relations are continuous,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,963,0,0
+928,Lax132576.RationalEquivalenceDecidable,theorem,lax-132576,,Decidable equivalence of rational functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,964,0,0
+928,Lax132576.RationalEquivalenceUndecidable,theorem,lax-132576,,Equivalence of rational relations is undecidable,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,965,0,0
+928,Lax132576.RationalMachineIndependent,theorem,lax-132576,,Machine-independent characterisation of rational functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,966,0,0
+928,Lax132576.RationalMealyCharacterisation,theorem,lax-132576,,Which rational functions are Mealy machines,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,967,0,0
+928,Lax132576.RationalPrimes,theorem,lax-132576,,The rational functions are the compositions of prime rational functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,968,0,0
+928,Lax132576.RationalUnambiguousBimachine,theorem,lax-132576,,"Eilenberg's theorem: rational functions, unambiguous automata and bimachines",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,969,0,0
+928,Lax132576.RationalViaWeighted,theorem,lax-132576,,Rational functions characterised by weighted automata,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,970,0,0
+928,Lax132576.SequentialCharacterisation,theorem,lax-132576,,Machine-independent characterisation of sequential functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,971,0,0
+928,Lax132576.SubsequentialCharacterisation,theorem,lax-132576,,Machine-independent characterisation of subsequential functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,972,0,0
+928,Lax132576.Uniformisation,theorem,lax-132576,,Uniformisation of total rational relations,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,973,0,0
+928,Lax132576.WeightedEquivalenceDecidable,theorem,lax-132576,,Decidable equivalence of weighted automata over the rationals,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,974,0,0
+928,Lax132576.WeightedZeronessDecidable,theorem,lax-132576,,Decidable zeroness of weighted automata over the rationals,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,975,0,0
+928,Lax134656.AbiteboulVianu,theorem,lax-134656,,The Abiteboul–Vianu theorem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,976,0,0
+928,Lax134656.AbiteboulVianuOrdered,theorem,lax-134656,,The Abiteboul–Vianu theorem on ordered structures,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,977,0,0
+928,Lax134656.HierarchyInPSPACE,theorem,lax-134656,,PH ⊆ PSPACE,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,978,0,0
+928,Lax134656.InflationaryInPartial,theorem,lax-134656,,FO(IFP) ⊆ FO(PFP),0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,979,0,0
+928,Lax134656.PartialFixedPointClosure,theorem,lax-134656,,"FO(≤, PFP) definability is closed under first-order reductions",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,980,0,0
+928,Lax134656.QsatPSPACEComplete,theorem,lax-134656,,QSAT is PSPACE-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,981,0,0
+928,Lax134656.SpaceMachinesPSPACEComplete,theorem,lax-134656,,PSPACE by Turing machines in bounded space,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,982,0,0
+928,Lax134656.SuccinctReachPSPACEComplete,theorem,lax-134656,,SUCCINCT-REACH is PSPACE-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,983,0,0
+928,Lax134656.TransitiveClosureWithoutOrder,theorem,lax-134656,,SO(TC) does not need an order,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,984,0,0
+928,Lax146103.MSOAutomataEquivalence,theorem,lax-146103,,Büchi-Elgot-Trakhtenbrot theorem for finite words,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,985,0,0
+928,Lax153141.FunctionalEquivalence,theorem,lax-153141,,Twin-width and mixed minor number are functionally equivalent,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,986,0,0
+928,Lax17.ExponentTenCrossbarDichotomy,theorem,lax-17,,Exponent-ten crossbar dichotomy,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,987,0,0
+928,Lax17.PolynomialGridMinor,theorem,lax-17,,'Polynomial grid-minor theorem with exponent $8$ up to polylogarithmic factors',0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,988,0,0
+928,Lax175070.CountClassComplements,theorem,lax-175070,,⊕P and PP are closed under complement,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,989,0,0
+928,Lax175070.CountClassInclusions,theorem,lax-175070,,"Inclusions between the counting classes, NP, and coNP",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,990,0,0
+928,Lax175070.CountClassMembership,theorem,lax-175070,,Membership from two problems of #P,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,991,0,0
+928,Lax175070.ParitySatComplete,theorem,lax-175070,,⊕SAT and Mod_k-SAT are complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,992,0,0
+928,Lax175070.SelectedSatComplete,theorem,lax-175070,,SelMajSAT is PP-complete and SelEqSAT is C₌P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,993,0,0
+928,Lax194892.BalancedRunReachability,theorem,lax-194892,,Balanced runs between configurations are regular,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,994,0,0
+928,Lax194892.ChildGraphOfConfiguration,theorem,lax-194892,,A for-transducer produces the child configuration graph,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,995,0,0
+928,Lax194892.ChildrenOfChildGraph,theorem,lax-194892,,A for-transducer reads the children off a child configuration graph,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,996,0,0
+928,Lax194892.ChildrenOfConfiguration,theorem,lax-194892,,A for-transducer produces the children of a configuration,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,997,0,0
+928,Lax194892.ForComposition,theorem,lax-194892,,For-transducers are closed under composition,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,998,0,0
+928,Lax194892.ForIffPolyregular,theorem,lax-194892,,For-transducers compute exactly the polyregular functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,999,0,0
+928,Lax194892.PebbleContinuity,theorem,lax-194892,,Pebble transducers are continuous,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1000,0,0
+928,Lax194892.PebbleIffFor,theorem,lax-194892,,Pebble transducers and for-transducers compute the same functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1001,0,0
+928,Lax194892.PebbleReachability,theorem,lax-194892,,Reachability between configurations of a pebble transducer is regular,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1002,0,0
+928,Lax194892.PolyregularContinuity,theorem,lax-194892,,Polyregular functions are continuous,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1003,0,0
+928,Lax194892.PrenexNormalForm,theorem,lax-194892,,Every for-transducer has a prenex form,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1004,0,0
+928,Lax195003.WelzlOrdersComputation,theorem,lax-195003,,Near-linear-time computation of Welzl orders,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1005,0,0
+928,Lax214022.CographWelzlLowerBound,theorem,lax-214022,,Cographs can require logarithmic Welzl orders,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1006,0,0
+928,Lax214022.CographWelzlUpperBound,theorem,lax-214022,,Cographs have logarithmic Welzl orders,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1007,0,0
+928,Lax218471.Combinators,theorem,lax-218471,,Composition of polynomial-time algorithms,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1008,0,0
+928,Lax218471.Substitution,theorem,lax-218471,,Polynomial-time substitution of black-box subroutines,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1009,0,0
+928,Lax222097.IndependentSetHardness,theorem,lax-222097,,Independent Set without a 5×5 induced grid minor,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1010,0,0
+928,Lax228581.ExponentialSeparation,theorem,lax-228581,,Twin-width can be exponential in treewidth,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1011,0,0
+928,Lax242665.InfinitelyManyPrimes,theorem,lax-242665,,There are infinitely many primes,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1012,0,0
+928,Lax242665.TwinPrimes,conjecture,lax-242665,,The twin prime conjecture,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1013,0,0
+928,Lax251941.AcceptanceUndecidable,theorem,lax-251941,,The acceptance problem is undecidable,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1014,0,0
+928,Lax251941.PostCorrespondenceUndecidable,theorem,lax-251941,,The Post correspondence problem is undecidable,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1015,0,0
+928,Lax251941.TuringCompleteness,theorem,lax-251941,,Every partial recursive function is computed by a Turing machine,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1016,0,0
+928,Lax253009.BPPConsequence,theorem,lax-253009,lax-323828,Clique inapproximability under NP not contained in BPP,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1017,0,0
+928,Lax253009.EvenCovers,theorem,lax-253009,lax-323828,Even-cover expansion of a Boolean polynomial moment,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1018,0,0
+928,Lax253009.GameToClique,theorem,lax-253009,lax-323828,The complete finite game-to-clique construction,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1019,0,0
+928,Lax253009.OddNormalization,theorem,lax-253009,lax-323828,Normalizing a long-code table to an odd table,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1020,0,0
+928,Lax253009.RandomizedCliqueHardness,theorem,lax-253009,lax-323828,Håstad inapproximability for bounded-error randomized algorithms,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1021,0,0
+928,Lax253009.SmallValueNP,theorem,lax-253009,lax-323828,Small-value projection games for every registered NP language,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1022,0,0
+928,Lax271696.ConnectedComponents,theorem,lax-271696,,Connected components in linear time,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1023,0,0
+928,Lax271696.Courcelle,theorem,lax-271696,,Courcelle's theorem on a word RAM,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1024,0,0
+928,Lax280166.DominatingSetComplete,theorem,lax-280166,,#Dominating Set is parsimoniously #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1025,0,0
+928,Lax280166.FeedbackArcSetComplete,theorem,lax-280166,,#Feedback Arc Set is parsimoniously #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1026,0,0
+928,Lax280166.FeedbackVertexSetComplete,theorem,lax-280166,,#Feedback Vertex Set is parsimoniously #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1027,0,0
+928,Lax280166.HamCircuitComplete,theorem,lax-280166,,#Hamilton Circuit is parsimoniously #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1028,0,0
+928,Lax280166.HittingSetComplete,theorem,lax-280166,,#Hitting Set is parsimoniously #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1029,0,0
+928,Lax280166.SetPackingComplete,theorem,lax-280166,,#Set Packing is parsimoniously #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1030,0,0
+928,Lax280166.SteinerTreeComplete,theorem,lax-280166,,#Steiner Tree is parsimoniously #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1031,0,0
+928,Lax280166.ThreeSATComplete,theorem,lax-280166,,#3SAT is parsimoniously #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1032,0,0
+928,Lax280166.ZeroOneIPComplete,theorem,lax-280166,,#0-1 Integer Programming is parsimoniously #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1033,0,0
+928,Lax296731.HaeuplerSahaSrinivasanTheorem22,theorem,lax-296731,lax-965890,Haeupler–Saha–Srinivasan Theorem 2.2,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1034,0,0
+928,Lax296731.MoserTardos,theorem,lax-296731,lax-965890,The Moser–Tardos theorem,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1035,0,0
+928,Lax3.ModelChecking,theorem,lax-3,,First-order model checking on nowhere dense classes in almost linear time,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1036,0,0
+928,Lax3.NeighborhoodCoverBound,theorem,lax-3,,Neighborhood covers of weak coloring degree,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1037,0,0
+928,Lax3.NormalForm,theorem,lax-3,,Normal form for distance logic,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1038,0,0
+928,Lax3.NowhereDenseSplitter,theorem,lax-3,,Splitter wins on nowhere dense classes,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1039,0,0
+928,Lax303562.AnnotatorCeiling,theorem,lax-303562,,The ceiling imposed by two disagreeing annotators,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1040,0,0
+928,Lax303562.Candidate,theorem,lax-303562,,The inclusion rule for a candidate prediction,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1041,0,0
+928,Lax303562.Duplication,theorem,lax-303562,,Duplicating a matched prediction under all-pairs accumulation,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1042,0,0
+928,Lax303562.Matching,theorem,lax-303562,,Matching by intersection over union and the sharpness of the threshold ½,0.0000,0.0000,0.0000,0.0000,0.0000,0,,0,0,0,1043,0,0
+928,Lax303562.Removal,theorem,lax-303562,,The removal rule for a prediction already in the list,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1044,0,0
+928,Lax303562.WeightedFamily,theorem,lax-303562,,The duplication incentive survives every choice of error weights,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1045,0,0
+928,Lax314295.BuchiTheorem,theorem,lax-314295,,Büchi's theorem: regular languages are the MSO-definable ones,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1046,0,0
+928,Lax314295.FOIffAperiodic,theorem,lax-314295,,First-order definable languages are exactly the aperiodic ones,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1047,0,0
+928,Lax314295.FORelabellingIffAperiodicBimachine,theorem,lax-314295,,First-order relabellings are exactly the aperiodic bimachines,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1048,0,0
+928,Lax314295.KTypesAperiodicity,theorem,lax-314295,,k-types are aperiodic,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1049,0,0
+928,Lax314295.KTypesCongruence,theorem,lax-314295,,k-types are a congruence for concatenation,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1050,0,0
+928,Lax314295.KTypesFOEquivalence,theorem,lax-314295,,k-types capture first-order sentences of quantifier rank k,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1051,0,0
+928,Lax314295.KTypesRefinement,theorem,lax-314295,,k-types refine each other,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1052,0,0
+928,Lax314295.LogicPrecomputation,theorem,lax-314295,,Precomputing the answers of MSO formulas by a rational function,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1053,0,0
+928,Lax314295.MSOAnnotationRegular,theorem,lax-314295,,The correctly annotated strings of an MSO relabelling form a regular language,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1054,0,0
+928,Lax314295.MSOFreeVariables,theorem,lax-314295,,Formulas with free variables define regular languages of annotated strings,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1055,0,0
+928,Lax314295.MSOTransductionIffRegular,theorem,lax-314295,,MSO transductions define exactly the regular functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1056,0,0
+928,Lax314295.RationalIffRelabelling,theorem,lax-314295,,Rational functions are exactly the MSO relabellings,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1057,0,0
+928,Lax323828.BPPConsequence,theorem,lax-323828,,Clique inapproximability under NP not contained in BPP,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1058,0,0
+928,Lax323828.EvenCovers,theorem,lax-323828,,Even-cover expansion of a Boolean polynomial moment,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1059,0,0
+928,Lax323828.GameToClique,theorem,lax-323828,,The complete finite game-to-clique construction,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1060,0,0
+928,Lax323828.OddNormalization,theorem,lax-323828,,Normalizing a long-code table to an odd table,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1061,0,0
+928,Lax323828.RandomizedCliqueHardness,theorem,lax-323828,,Håstad inapproximability for bounded-error randomized algorithms,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1062,0,0
+928,Lax323828.SmallValueNP,theorem,lax-323828,,Small-value projection games for every registered NP language,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1063,0,0
+928,Lax332265.HadwigerT7,opn,lax-332265,,Hadwiger's conjecture for t = 7,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1064,0,0
+928,Lax345332.Copies,definition,lax-345332,,"The Reduction from (3,4)-Satisfiability to [2,3]-Bounded 3-SAT",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1065,0,0
+928,Lax362205.NLcoNL,theorem,lax-362205,,The Immerman–Szelepcsényi theorem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1066,0,0
+928,Lax366625.CountingRunsComplete,theorem,lax-366625,,#P by counting the accepting runs of a Turing machine,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1067,0,0
+928,Lax366625.FPAndPTIME,theorem,lax-366625,,FP and PTIME,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1068,0,0
+928,Lax366625.FPByDigits,theorem,lax-366625,,FP by binary digits and by quantitative terms,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1069,0,0
+928,Lax366625.FPClosure,theorem,lax-366625,,FP is closed under parsimonious reductions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1070,0,0
+928,Lax366625.FPComplete,theorem,lax-366625,,FP-complete problems,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1071,0,0
+928,Lax366625.SharpPAsQuantitativeLogic,theorem,lax-366625,,#P = ΣQSO(FO),0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1072,0,0
+928,Lax366625.SharpPClosure,theorem,lax-366625,,#P is closed under parsimonious reductions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1073,0,0
+928,Lax379983.FeedbackNumberComparison,theorem,lax-379983,,Feedback vertex number is at most feedback edge number,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1074,0,0
+928,Lax379983.TreewidthBound,theorem,lax-379983,,Treewidth is at most feedback vertex number plus one,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1075,0,0
+928,Lax391470.IntegralStartTimes,theorem,lax-391470,,Integral Start Times Suffice,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1076,0,0
+928,Lax391470.Theorem1,theorem,lax-391470,,Scheduling with Two Non-Unit Job Lengths Is NP-Complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1077,0,0
+928,Lax392996.CountingSemiring,definition,lax-392996,,The counting semiring is an m-semiring,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1078,0,0
+928,Lax392996.ProbabilisticEvaluationByRewriting,theorem,lax-392996,,Probabilistic query evaluation by the rewritten query,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1079,0,0
+928,Lax392996.ProbabilityExample,example,lax-392996,,"The Personnel example, with probabilities",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1080,0,0
+928,Lax392996.RewritingCorrectness,theorem,lax-392996,,"Correctness of the provenance-aware rewriting, rules (R1) to (R4)",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1081,0,0
+928,Lax392996.RewritingExample,example,lax-392996,,"The Personnel example, rewritten",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1082,0,0
+928,Lax392996.WhyProvenance,theorem,lax-392996,,Why-provenance is an m-semiring,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1083,0,0
+928,Lax41.HaeuplerSahaSrinivasanTheorem22,theorem,lax-41,lax-296731,Haeupler–Saha–Srinivasan Theorem 2.2,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1084,0,0
+928,Lax41.MoserTardos,theorem,lax-41,lax-296731,The Moser–Tardos theorem,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1085,0,0
+928,Lax420092.ChandraMerlin,theorem,lax-420092,,The Chandra–Merlin theorem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1086,0,0
+928,Lax420092.ContainmentInvariance,lemma,lax-420092,,Invariance and characterization of containment,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1087,0,0
+928,Lax420092.ContainmentNPComplete,theorem,lax-420092,,Conjunctive query containment is NP-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1088,0,0
+928,Lax420092.DecodingAndWellFormed,theorem,lax-420092,,"Decoding, and well-formed evaluation is NP-complete",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1089,0,0
+928,Lax420092.EncodingFaithful,theorem,lax-420092,,The encoding of evaluation instances is faithful and size-honest,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1090,0,0
+928,Lax420092.EvaluationInvariance,lemma,lax-420092,,Invariance and characterization of evaluation,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1091,0,0
+928,Lax426240.LcmDeterminant,theorem,lax-426240,,The determinant of the least-common-multiple matrix,0.0000,0.0000,0.0000,0.0000,0.0000,0,,0,0,0,1092,0,0
+928,Lax429075.CookLevin,theorem,lax-429075,,The Cook–Levin theorem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1093,0,0
+928,Lax434930.BasicProperties,theorem,lax-434930,,The inclusion chain of complexity classes,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1094,0,0
+928,Lax434930.PVersusNP,open question,lax-434930,,P versus NP,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1095,0,0
+928,Lax434930.SingleTapeComplement,lemma,lax-434930,,Single-tape P is closed under complement,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1096,0,0
+928,Lax47.TriangleFreeIndependentSetHardness,theorem,lax-47,lax-614640,Tight inapproximability of Max Independent Set in triangle-free graphs,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1097,0,0
+928,Lax470956.Construction1,definition,lax-470956,lax-888481,Construction 1,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1098,0,0
+928,Lax470956.Construction2,definition,lax-470956,lax-888481,Construction 2,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1099,0,0
+928,Lax470956.Preprocessing,definition,lax-470956,lax-888481,Preprocessing an interval scheduling instance down to a bounded number of live jobs,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1100,0,0
+928,Lax470956.Theorem1,theorem,lax-470956,lax-888481,Interval scheduling is W[1]-hard for the number of machines,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1101,0,0
+928,Lax470956.Theorem2,theorem,lax-470956,lax-888481,Scheduling every job is hard for constant processing times and unit weights,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1102,0,0
+928,Lax470956.Theorem3,theorem,lax-470956,lax-888481,Interval scheduling is fixed-parameter tractable for the machines and the largest processing time,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1103,0,0
+928,Lax48.ExponentialSeparation,theorem,lax-48,lax-228581,Twin-width can be exponential in treewidth,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1104,0,0
+928,Lax485149.ImmermanSzelepcsenyi,theorem,lax-485149,,The Immerman–Szelepcsényi theorem: FO(TC) is closed under complement,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1105,0,0
+928,Lax485149.KromAndTransitiveClosure,theorem,lax-485149,,Translations between SO-Krom and FO(TC),0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1106,0,0
+928,Lax485149.LByAutomata,theorem,lax-485149,,L is acceptance by deterministic two-way multihead automata,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1107,0,0
+928,Lax485149.LEqCoL,theorem,lax-485149,,L = coL,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1108,0,0
+928,Lax485149.NLByAutomata,theorem,lax-485149,,NL is acceptance by two-way multihead automata,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1109,0,0
+928,Lax485149.NLEqCoNL,theorem,lax-485149,,NL = coNL,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1110,0,0
+928,Lax485149.NLSubsetNP,theorem,lax-485149,,NL ⊆ NP,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1111,0,0
+928,Lax485149.ReachNLComplete,theorem,lax-485149,,REACH is NL-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1113,0,0
+928,Lax485149.ReachdLComplete,theorem,lax-485149,,REACHd is L-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1112,0,0
+928,Lax485149.TwoSatNLComplete,theorem,lax-485149,,2SAT is NL-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1114,0,0
+928,Lax485149.UnreachNLComplete,theorem,lax-485149,,UNREACH is NL-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1116,0,0
+928,Lax485149.UnreachdLComplete,theorem,lax-485149,,UNREACHd is L-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1115,0,0
+928,Lax489179.DeterministicSemantics,lemma,lax-489179,,Exact correctness of deterministic computations,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1117,0,0
+928,Lax489179.DistanceProperties,lemma,lax-489179,,Uniqueness and diagonal entries of shortest-path distances,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1118,0,0
+928,Lax489179.EncodingProperties,lemma,lax-489179,,Integer encodings and distinct 3-SUM entries,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1119,0,0
+928,Lax489179.HypothesisProperties,lemma,lax-489179,,Negations and algorithm conventions for the four hypotheses,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1120,0,0
+928,Lax489179.TimeProperties,lemma,lax-489179,,Monotonicity of running-time bounds,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1121,0,0
+928,Lax49.FunctionalEquivalence,theorem,lax-49,lax-153141,Twin-width and mixed minor number are functionally equivalent,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1122,0,0
+928,Lax496464.Corollary1,theorem,lax-496464,,Corollary 1,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1123,0,0
+928,Lax496464.Corollary2,theorem,lax-496464,,Corollary 2,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1124,0,0
+928,Lax496464.Corollary3,theorem,lax-496464,,Corollary 3,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1125,0,0
+928,Lax496464.Corollary4,theorem,lax-496464,,Corollary 4,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1126,0,0
+928,Lax496464.Feasibility,theorem,lax-496464,,A Set of Jobs Is Feasible Exactly When It Satisfies Both Conditions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1127,0,0
+928,Lax496464.Lemma1,theorem,lax-496464,,Lemma 1,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1128,0,0
+928,Lax496464.Lemma2,theorem,lax-496464,,Lemma 2,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1129,0,0
+928,Lax496464.Lemma3,theorem,lax-496464,,Lemma 3,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1130,0,0
+928,Lax496464.Lemma4,theorem,lax-496464,,Lemma 4,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1131,0,0
+928,Lax496464.Lemma5,theorem,lax-496464,,Lemma 5,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1132,0,0
+928,Lax496464.Normalization,theorem,lax-496464,,Every Instance May Be Assumed to Have Distinct Endpoints,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1133,0,0
+928,Lax496464.Observation1,theorem,lax-496464,,Observation 1,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1134,0,0
+928,Lax496464.Theorem1,theorem,lax-496464,,Theorem 1,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1135,0,0
+928,Lax496464.Theorem2,theorem,lax-496464,,Theorem 2,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1136,0,0
+928,Lax496464.Theorem3,theorem,lax-496464,,Theorem 3,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1137,0,0
+928,Lax496464.Theorem4,theorem,lax-496464,,Theorem 4,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1138,0,0
+928,Lax496464.Theorem5,theorem,lax-496464,,Theorem 5,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1139,0,0
+928,Lax496464.WH_D11_IndependentSet,theorem,lax-496464,,Independent Set Is W[1]-Complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1140,0,0
+928,Lax496464.WH_D12_MulticolouredClique,theorem,lax-496464,,Multicoloured Clique Is W[1]-Complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1141,0,0
+928,Lax496464.WH_E3_DominatingSet,theorem,lax-496464,,Dominating Set Is W[2]-Complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1142,0,0
+928,Lax496464.WH_F5_MccNPHard,theorem,lax-496464,,Multicoloured Clique Is NP-Hard,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1143,0,0
+928,Lax5.AdlerAdler,theorem,lax-5,lax-710763,Nowhere dense classes are monadically dependent,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1144,0,0
+928,Lax5.AlmostLinearNC,theorem,lax-5,lax-710763,Monadically dependent classes have almost linear neighborhood complexity,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1145,0,0
+928,Lax503819.PositiveGames,theorem,lax-503819,,Positive Ehrenfeucht–Fraïssé games,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1146,0,0
+928,Lax503819.Reduction,theorem,lax-503819,,Mortality reduces to positive first-order definability,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1147,0,0
+928,Lax503819.Undecidability,theorem,lax-503819,,Undecidability of positive first-order definability,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1148,0,0
+928,Lax535992.CircuitValuePTIMEComplete,theorem,lax-535992,,The circuit value problem is PTIME-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1149,0,0
+928,Lax535992.DeterministicMachinePTIMEComplete,theorem,lax-535992,,PTIME by deterministic Turing machines,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1150,0,0
+928,Lax535992.GamePTIMEComplete,theorem,lax-535992,,GAME is PTIME-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1151,0,0
+928,Lax535992.HornSatPTIMEComplete,theorem,lax-535992,,HORN-SAT is PTIME-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1152,0,0
+928,Lax535992.PTIMESubsetNP,theorem,lax-535992,,PTIME ⊆ NP,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1153,0,0
+928,Lax54.ErdosHajnalC5,theorem,lax-54,,Erdős–Hajnal theorem for the five-cycle,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1154,0,0
+928,Lax56.MainTheorem,theorem,lax-56,lax-570090,Large finite point sets have four collinear points or a visible six-clique,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1155,0,0
+928,Lax560851.FormulaExample,definition,lax-560851,,Example — structural encoding of propositional formulas,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1156,0,0
+928,Lax560851.RamPolynomialComparison,definition and theorem,lax-560851,,"Two polynomial-time conventions, and their separation",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1157,0,0
+928,Lax560851.StructuralDerivation,elaboration infrastructure,lax-560851,,Unrestricted structural folds (elaboration infrastructure),0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1158,0,0
+928,Lax564036.AlternatingMachineComplete,theorem,lax-564036,,The polynomial hierarchy by alternating Turing machines,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1159,0,0
+928,Lax564036.CoNPClosure,theorem,lax-564036,,coNP is closed under first-order reductions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1160,0,0
+928,Lax564036.DPClosure,theorem,lax-564036,,DP is closed under first-order reductions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1161,0,0
+928,Lax564036.DPInclusions,theorem,lax-564036,,NP ∪ coNP ⊆ DP ⊆ Σ₂ ∩ Π₂,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1162,0,0
+928,Lax564036.HierarchyDuality,theorem,lax-564036,,Π_k is co-Σ_k,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1163,0,0
+928,Lax564036.HierarchyInclusions,theorem,lax-564036,,The levels of the polynomial hierarchy are nested,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1164,0,0
+928,Lax564036.PolynomialTimeInHierarchy,theorem,lax-564036,,PTIME at the bottom of the polynomial hierarchy,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1165,0,0
+928,Lax564036.QbfComplete,theorem,lax-564036,,QBF with k alternations is complete for the k-th level,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1166,0,0
+928,Lax564036.SatUnsatDPComplete,theorem,lax-564036,,SAT-UNSAT is DP-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1167,0,0
+928,Lax564036.TautCoNPComplete,theorem,lax-564036,,TAUT is coNP-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1168,0,0
+928,Lax564036.ThreeDnfTautCoNPComplete,theorem,lax-564036,,3-DNF-TAUT and 3-UNSAT are coNP-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1169,0,0
+928,Lax57.ErdosHajnalP5,theorem,lax-57,,Erdős–Hajnal theorem for the five-vertex path,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1170,0,0
+928,Lax570090.MainTheorem,theorem,lax-570090,,Large finite point sets have four collinear points or a visible six-clique,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1171,0,0
+928,Lax604544.ClassesAsDegrees,theorem,lax-604544,,The classes with a complete problem are degrees,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1172,0,0
+928,Lax604544.GraphIsomorphismDegree,theorem,lax-604544,,"Digraph, DAG and graph isomorphism are GI-complete",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1173,0,0
+928,Lax604544.IsomorphismInNP,theorem,lax-604544,,The isomorphism problems are in NP,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1174,0,0
+928,Lax604544.RelationIsomorphismSemantics,lemma,lax-604544,,Isomorphism of marked relations as an equivalence,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1175,0,0
+928,Lax614640.TriangleFreeIndependentSetHardness,theorem,lax-614640,,Tight inapproximability of Max Independent Set in triangle-free graphs,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1176,0,0
+928,Lax624099.CodeHaltingInvariance,lemma,lax-624099,,Invariance and characterization of code halting,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1177,0,0
+928,Lax624099.HaltingInvariance,lemma,lax-624099,,Invariance and characterization of the halting problem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1178,0,0
+928,Lax624099.HaltingUndecidable,theorem,lax-624099,,The halting problems are undecidable,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1179,0,0
+928,Lax624099.NPSubsetRE,theorem,lax-624099,,NP is contained in RE,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1180,0,0
+928,Lax624099.PcpUndecidable,theorem,lax-624099,,Post's correspondence problem is undecidable,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1181,0,0
+928,Lax624099.PostCorrespondenceInvariance,lemma,lax-624099,,Invariance and characterization of Post's correspondence problem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1182,0,0
+928,Lax624099.REClosure,theorem,lax-624099,,RE is closed under first-order reductions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1183,0,0
+928,Lax624099.RENeCoRE,theorem,lax-624099,,RE is not closed under complement,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1185,0,0
+928,Lax624099.ReductionsComputable,theorem,lax-624099,,First-order reductions are computable,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1184,0,0
+928,Lax624099.Trakhtenbrot,theorem,lax-624099,,Trakhtenbrot's theorem: finite satisfiability is undecidable,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1186,0,0
+928,Lax666725.BPPSubsetPP,theorem,lax-666725,lax-115662,BPP is contained in PP,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1187,0,0
+928,Lax67.RamComputes,definition,lax-67,lax-808846,Computing a function within a time bound,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1188,0,0
+928,Lax68.KuratowskiPlanarity,opn,lax-68,,Kuratowski's theorem in straight-line form,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1189,0,0
+928,Lax68.LadderPlanar,theorem,lax-68,,Ladders are planar,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1190,0,0
+928,Lax68.MaximalOuterplanarPlanar,theorem,lax-68,,Maximal outerplanar graphs are planar,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1191,0,0
+928,Lax68.PathOuterplanar,theorem,lax-68,,Paths are outerplanar,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1192,0,0
+928,Lax68.PathPlanar,theorem,lax-68,,Paths are planar,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1193,0,0
+928,Lax68.PlanarExcludedMinors,opn,lax-68,,Wagner's theorem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1194,0,0
+928,Lax68.SeriesParallelPlanar,opn,lax-68,,Series-parallel graphs are planar,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1195,0,0
+928,Lax68.StarOuterplanar,theorem,lax-68,,Stars are outerplanar,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1196,0,0
+928,Lax68.StarPlanar,theorem,lax-68,,Stars are planar,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1197,0,0
+928,Lax68.TrianglePlanar,theorem,lax-68,,Triangles are planar,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1198,0,0
+928,Lax68.TriangulationPlanar,theorem,lax-68,,Triangulations of planar graphs are planar,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1199,0,0
+928,Lax68.WallPlanar,theorem,lax-68,,Walls are planar,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1200,0,0
+928,Lax683916.DigraphRepresentation,theorem,lax-683916,,Digraph representation of simple graphs,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1201,0,0
+928,Lax683916.HypergraphRepresentation,theorem,lax-683916,,Hypergraph representation of simple graphs,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1202,0,0
+928,Lax683916.MultigraphRepresentation,theorem,lax-683916,,Simple-graph representation of a simple multigraph,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1203,0,0
+928,Lax683916.NeighborhoodSetSystemRepresentation,theorem,lax-683916,,Neighborhood-set-system representation of simple graphs,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1204,0,0
+928,Lax683916.SetSystemRepresentation,theorem,lax-683916,,Set-system representation of simple graphs,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1205,0,0
+928,Lax683916.SimpleGraphMultigraphRepresentation,theorem,lax-683916,,Multigraph representation of a simple graph,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1206,0,0
+928,Lax689614.Completeness,theorem,lax-689614,lax-783278,Arc Kayles is PSPACE-complete,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1207,0,0
+928,Lax689794.BodlaenderKloks,theorem,lax-689794,,Optimal Tree Decompositions from a Given One,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1208,0,0
+928,Lax709149.RegularOfTerm,theorem,lax-709149,,Regular terms define regular functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1209,0,0
+928,Lax710763.AdlerAdler,theorem,lax-710763,,Nowhere dense classes are monadically dependent,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1210,0,0
+928,Lax710763.AlmostLinearNC,theorem,lax-710763,,Monadically dependent classes have almost linear neighborhood complexity,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1211,0,0
+928,Lax712553.Involution,theorem,lax-712553,,A finite set with a fixed-point-free involution has even cardinality,0.0000,0.0000,0.0000,0.0000,0.0000,0,,0,0,0,1212,0,0
+928,Lax712553.QuadraticTwist,theorem,lax-712553,,The congruent number curves are quadratic twists of y² = x³ − x,0.0000,0.0000,0.0000,0.0000,0.0000,0,,0,0,0,1213,0,0
+928,Lax712553.TunnellParity,theorem,lax-712553,,Tunnell's representation counts are even,0.0000,0.0000,0.0000,0.0000,0.0000,0,,0,0,0,1214,0,0
+928,Lax733996.NLcoNL,theorem,lax-733996,lax-362205,The Immerman–Szelepcsényi theorem,0.0000,0.0000,0.0000,0.0000,,0,928,0,0,0,1215,0,0
+928,Lax751879.ImmermanVardi,theorem,lax-751879,,The Immerman–Vardi theorem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1216,0,0
+928,Lax759944.RamToTuringGenericTime,theorem,lax-759944,,Generic-time simulation of word RAMs by Turing machines,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1217,0,0
+928,Lax759944.TuringRamEquivalence,theorem,lax-759944,,Equivalence of Turing machines and word RAMs,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1218,0,0
+928,Lax759944.TuringToRamGenericTime,theorem,lax-759944,,Generic-time simulation of Turing machines by word RAMs,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1219,0,0
+928,Lax765601.AperiodicMealy,theorem,lax-765601,,Aperiodic Mealy machines are exactly the compositions of flip-flops,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1221,0,0
+928,Lax765601.AperiodicPumping,theorem,lax-765601,,Aperiodicity as a pumping property,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1222,0,0
+928,Lax765601.AperiodicityMinimalMachine,theorem,lax-765601,,Aperiodicity through the state transformations of the minimal machine,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1220,0,0
+928,Lax765601.KrohnRhodes,theorem,lax-765601,,The Krohn–Rhodes decomposition theorem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1223,0,0
+928,Lax765601.MapLiftingDecomposition,theorem,lax-765601,,Map lifting preserves decompositions into primes,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1224,0,0
+928,Lax765601.MealyComposition,theorem,lax-765601,,Mealy machines are closed under composition,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1225,0,0
+928,Lax765601.MealyContinuity,theorem,lax-765601,,Mealy machines are continuous,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1226,0,0
+928,Lax765601.MealyDerivatives,theorem,lax-765601,,Myhill–Nerode for Mealy machines,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1227,0,0
+928,Lax765601.MealyEquivalenceBound,theorem,lax-765601,,Decidable equivalence of Mealy machines,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1228,0,0
+928,Lax765601.ReversibleComposition,theorem,lax-765601,,Reversible Mealy machines are closed under composition,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1229,0,0
+928,Lax765601.StateTransformationDecomposition,theorem,lax-765601,,The state transformation transducer is a composition of primes,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1230,0,0
+928,Lax783278.Completeness,theorem,lax-783278,,Arc Kayles is PSPACE-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1231,0,0
+928,Lax799700.Coloring,theorem,lax-799700,,"Coloring, chromatic number and clique cover",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1232,0,0
+928,Lax799700.JobSequencing,theorem,lax-799700,,Job sequencing,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1233,0,0
+928,Lax799700.MaxCut,theorem,lax-799700,,Max Cut,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1234,0,0
+928,Lax799700.Partition,theorem,lax-799700,,Partition,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1235,0,0
+928,Lax799700.ThreeDimMatching,theorem,lax-799700,,3-dimensional matching,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1236,0,0
+928,Lax842588.AutomatonLinearTime,theorem,lax-842588,,Word-RAM evaluation of tree automata,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1237,0,0
+928,Lax842588.MSOLinearTime,definition and theorem,lax-842588,,Uniform word-RAM model checking for intrinsic MSO sentences,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1238,0,0
+928,Lax842588.MSOTreeAutomataEquivalence,theorem,lax-842588,,Thatcher–Wright–Doner theorem for finite ranked trees,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1239,0,0
+928,Lax859101.BipartiteComplete,theorem,lax-859101,,#BIS and #PP2DNF are one-call #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1240,0,0
+928,Lax859101.ColoringComplete,theorem,lax-859101,,#3-Colorability is one-call #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1241,0,0
+928,Lax859101.DnfComplete,theorem,lax-859101,,"#DNF is #P-complete, by one call and by subtraction",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1242,0,0
+928,Lax859101.NaeSatComplete,theorem,lax-859101,,#NAE-SAT and #Set Splitting are one-call #P-complete,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1243,0,0
+928,Lax859101.OneCallClosure,theorem,lax-859101,,"One-call reductions compose, and the one-call closure",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1244,0,0
+928,Lax859101.RestrictedSatComplete,theorem,lax-859101,,"#2SAT, #HORN-SAT, and #Monotone-2SAT are one-call #P-complete",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1245,0,0
+928,Lax871432.CategoricalProductCounts,lemma,lax-871432,,Homomorphism counts into a categorical product,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1246,0,0
+928,Lax871432.ComplementCounts,theorem,lax-871432,,Homomorphism counts into a complement,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1247,0,0
+928,Lax871432.CoproductCounts,lemma,lax-871432,,Homomorphism counts from a disjoint union,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1248,0,0
+928,Lax871432.DisjointUnionCounts,lemma,lax-871432,,Homomorphism counts into a disjoint union,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1249,0,0
+928,Lax871432.DistinguishingClosureOperator,lemma,lax-871432,,The homomorphism distinguishing closure is a closure operator,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1250,0,0
+928,Lax871432.EdgeContractions,theorem,lax-871432,,Contracting edges and right lexicographic products,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1251,0,0
+928,Lax871432.FullComplementCounts,theorem,lax-871432,,Homomorphism counts into a full complement,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1252,0,0
+928,Lax871432.InducedSubgraphs,theorem,lax-871432,,Taking induced subgraphs and left lexicographic products,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1253,0,0
+928,Lax871432.IntersectionsUnions,lemma,lax-871432,,The closure of intersections and unions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1254,0,0
+928,Lax871432.LexicographicProductCounts,theorem,lax-871432,,Homomorphism counts into a lexicographic product,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1255,0,0
+928,Lax871432.LinearCombinationLemma,lemma,lax-871432,,A determined linear combination determines its constituents,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1256,0,0
+928,Lax871432.LoopedGraphCounts,theorem,lax-871432,,Homomorphism counts into a looped graph,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1257,0,0
+928,Lax871432.LovaszTheorem,theorem,lax-871432,,Lovász's theorem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1258,0,0
+928,Lax871432.MinorsComplements,theorem,lax-871432,,Taking minors and preservation under complements,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1259,0,0
+928,Lax871432.ProductPreservation,lemma,lax-871432,,Homomorphism indistinguishability is preserved under categorical products,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1260,0,0
+928,Lax871432.RobersonConjecture,conjecture,lax-871432,,Roberson's conjecture,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1261,0,0
+928,Lax871432.TakingSummands,theorem,lax-871432,,Taking summands and preservation under disjoint unions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1262,0,0
+928,Lax881656.BarnetteConjecture,opn,lax-881656,,Barnette's conjecture,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1263,0,0
+928,Lax888481.Construction1,definition,lax-888481,,Construction 1,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1264,0,0
+928,Lax888481.Construction2,definition,lax-888481,,Construction 2,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1265,0,0
+928,Lax888481.Preprocessing,definition,lax-888481,,Preprocessing an Interval Scheduling Instance Down to a Bounded Number of Live Jobs,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1266,0,0
+928,Lax888481.Theorem1,theorem,lax-888481,,Interval Scheduling Is W[1]-Hard for the Number of Machines,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1267,0,0
+928,Lax888481.Theorem2,theorem,lax-888481,,Scheduling Every Job Is Hard for Constant Processing Times and Unit Weights,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1268,0,0
+928,Lax888481.Theorem3,theorem,lax-888481,,Interval Scheduling Is Fixed-Parameter Tractable for the Machines and the Largest Processing Time,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1269,0,0
+928,Lax894236.EulerCharacteristic,theorem,lax-894236,,The Euler characteristic of a smooth hypersurface as a binomial tail,0.0000,0.0000,0.0000,0.0000,0.0000,0,,0,0,0,1270,0,0
+928,Lax894236.LinearSubspaceClass,theorem,lax-894236,,The arithmetic obstruction to a linear subspace class being a multiple of the hyperplane power,0.0000,0.0000,0.0000,0.0000,0.0000,0,,0,0,0,1271,0,0
+928,Lax894236.NoetherLefschetzWindow,theorem,lax-894236,,The Noether–Lefschetz window of a surface in ℙ³ and the sequence A005581,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1272,0,0
+928,Lax894236.Parity,theorem,lax-894236,,"Parity of the Euler characteristic in odd dimension, and integrality for surfaces",0.0000,0.0000,0.0000,0.0000,0.0000,0,,0,0,0,1273,0,0
+928,Lax895169.ACZeroComplement,theorem,lax-895169,,AC⁰ is closed under complement,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1274,0,0
+928,Lax895169.ACZeroInLogSpace,theorem,lax-895169,,AC⁰ ⊆ L,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1275,0,0
+928,Lax895169.ACZeroInPTIME,theorem,lax-895169,,"AC⁰ ⊆ PTIME, by fixed points",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1276,0,0
+928,Lax895169.ACZeroIsLogTime,theorem,lax-895169,,AC⁰ is the logarithmic-time hierarchy,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1277,0,0
+928,Lax895169.FirstOrderInACZero,theorem,lax-895169,,FO(≤) ⊆ AC⁰,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1278,0,0
+928,Lax9.BoundedMergeWidthChiBounded,theorem,lax-9,,χ-Boundedness of Bounded Merge-Width Classes,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1279,0,0
+928,Lax9.BoundedMergeWidthLinearNeighborhoodComplexity,theorem,lax-9,,Linear Neighbourhood Complexity of Bounded Merge-Width Classes,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1280,0,0
+928,Lax904597.MachineForm,theorem,lax-904597,,"The Cook–Levin theorem, in its machine form",0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1281,0,0
+928,Lax916827.ConfigurationGraphOutput,theorem,lax-916827,,Checking the output of a configuration graph against a regular language,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1282,0,0
+928,Lax916827.ConfigurationGraphRational,theorem,lax-916827,,Computing the reachable configuration graph is rational,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1283,0,0
+928,Lax916827.DuplicationContinuous,theorem,lax-916827,,String duplication is continuous,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1284,0,0
+928,Lax916827.MapLiftingContinuity,theorem,lax-916827,,The map lifting of a continuous function is continuous,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1285,0,0
+928,Lax916827.RegularComposition,theorem,lax-916827,,Regular functions are closed under composition,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1286,0,0
+928,Lax916827.RegularConcatenation,theorem,lax-916827,,Regular functions are closed under concatenation,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1287,0,0
+928,Lax916827.RegularConditional,theorem,lax-916827,,Regular functions are closed under conditionals over regular languages,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1288,0,0
+928,Lax916827.RegularContinuity,theorem,lax-916827,,Regular functions are continuous,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1289,0,0
+928,Lax916827.RegularEquivalenceDecidable,theorem,lax-916827,,Decidable equivalence of regular functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1290,0,0
+928,Lax916827.RegularMapLifting,theorem,lax-916827,,Regular functions are closed under map lifting,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1291,0,0
+928,Lax916827.RegularSum,theorem,lax-916827,,The sum of two regular functions on disjoint alphabets,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1292,0,0
+928,Lax916827.ReversalContinuous,theorem,lax-916827,,String reversal is continuous,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1293,0,0
+928,Lax916827.SSTIffRegular,theorem,lax-916827,,Streaming string transducers compute exactly the regular functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1295,0,0
+928,Lax916827.SnakeLemma,theorem,lax-916827,,The snake lemma: the output of a snake graph is a regular function,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1294,0,0
+928,Lax916827.TwoWayComposition,theorem,lax-916827,,Two-way transducers are closed under composition,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1296,0,0
+928,Lax916827.TwoWayContinuity,theorem,lax-916827,,Two-way transducers are continuous,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1297,0,0
+928,Lax916827.TwoWayIffRegular,theorem,lax-916827,,Two-way transducers compute exactly the regular functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1298,0,0
+928,Lax916827.TwoWayMealyPrecomposition,theorem,lax-916827,,Two-way transducers are closed under pre-composition with Mealy machines,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1299,0,0
+928,Lax916827.TwoWayRationalPrecomposition,theorem,lax-916827,,Two-way transducers are closed under pre-composition with rational functions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1300,0,0
+928,Lax945089.EhrenfeuchtMethodology,theorem,lax-945089,,The Ehrenfeucht–Fraïssé method,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1301,0,0
+928,Lax945089.EvenInvariance,lemma,lax-945089,,Characterization of EVEN and PARITY,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1302,0,0
+928,Lax945089.FirstOrderBelowACZero,theorem,lax-945089,,FO(≤) ⊊ AC⁰: EVEN with arithmetic,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1303,0,0
+928,Lax945089.GamesOnLinearOrders,theorem,lax-945089,,Ehrenfeucht’s theorem on linear orders,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1304,0,0
+928,Lax945089.GamesOnSets,theorem,lax-945089,,First-order logic cannot count: games on bare sets,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1305,0,0
+928,Lax945089.NoDefinableOrder,theorem,lax-945089,,No order-free induction defines a linear order,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1306,0,0
+928,Lax945089.OrderFreeInductionMissesPTIME,theorem,lax-945089,,Order-free FO(IFP) does not capture PTIME,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1307,0,0
+928,Lax945089.ParityInLogSpace,theorem,lax-945089,,PARITY is in L and not first-order definable,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1308,0,0
+928,Lax945089.PebbleInvariance,theorem,lax-945089,,Invariance of formulas and inductions under pebble games,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1309,0,0
+928,Lax945089.ReductionsBelowLogSpace,theorem,lax-945089,,First-order reductions are strictly weaker than logarithmic-space reductions,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1310,0,0
+928,Lax965890.HaeuplerSahaSrinivasanTheorem22,theorem,lax-965890,,Haeupler–Saha–Srinivasan Theorem 2.2,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1311,0,0
+928,Lax965890.MoserTardos,theorem,lax-965890,,The Moser–Tardos theorem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1312,0,0
+928,Lax988886.Fagin,theorem,lax-988886,,Fagin’s theorem,0.0000,0.0000,0.0000,0.0000,0.0000,0,928,0,0,0,1313,0,0

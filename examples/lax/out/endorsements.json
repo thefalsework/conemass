@@ -1,0 +1,7053 @@
+{
+ "concepts": {
+  "Lax10.Fragile": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax10.FragileFourColorable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax10.Theorem2": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax10.ThreeConnectedAndColorable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax11.CliqueExpr": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax11.ConnectedComponents": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax11.Courcelle": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax11.GraphEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax11.InstanceEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax11.Mso": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax11.VertexCover": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax115662.BPPSubsetPP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax115662.OneSidedError": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax115662.OneSidedSubsetBPP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax115662.ProbabilisticMachines": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax115662.RandomizedPolynomialTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax115662.UnboundedError": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax115662.ZeroError": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax115662.ZPPSubsetBPP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax115662.ZPPSubsetOneSided": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.BipartiteDecision": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.BipartiteGraph": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.BipartiteKuhn": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.BipartiteKuhnCorrect": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.BipartiteKuhnTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.BipartiteMatching": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Bodlaender": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.BoundedSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.ConflictGraph": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Corollary8": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.ExtremeFairness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.IlpClients": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.InstanceEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.JustInTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Lemma14": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Lemma15": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.MulticolouredIndepSet": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.ParameterizedComplexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Problems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Scheduling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Theorem1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Theorem10": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Theorem11": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Theorem12": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Theorem13": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Theorem2": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Theorem3": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Theorem4": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Theorem7": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.Theorem9": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.TwoSatAlgorithm": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.TwoSatCNF": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.TwoSatCorrectness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.TwoSatCriterion": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.TwoSatImplicationGraph": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.TwoSatInP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.TwoSatisfiability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117284.TwoSatRunningTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117614.CrawlDecoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117614.CrawlEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117614.GraphCrawlingInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117614.GraphCrawlingNPComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117614.GraphCrawlingProblem": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117614.WebsiteGraphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.Admissibility": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.AdmissibilityBound": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.ColoringNumbers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.GraphClasses": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.NeighborhoodComplexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.NowhereDenseClasses": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.NowhereDenseDensity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.NowhereDenseNC": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.NowhereDenseUQW": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.NowhereDenseWcol": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.ShallowMinorDensity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.ShallowTopologicalMinors": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.StrongColoringBound": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.UniformQuasiWideness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax12.WeakColoringBound": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax13.Ram": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax13.RamComputes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.BimachineOfRational": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.Bimachines": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.EpsilonEliminationExtended": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.EpsilonEliminationFinite": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.EpsilonFreeAutomata": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.HomomorphismComplement": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.LabelledAutomata": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.LeftDistance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.LengthPreservingDecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.LengthPreservingNormalForm": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.LengthPreservingTyping": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.MealyDecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.MealyMachineIndependent": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.PrimeRationalFunctions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.PrimesOfRational": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalComposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalContinuity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalEquivalenceDecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalEquivalenceUndecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalFunctions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalMachineIndependent": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalMealyCharacterisation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalOfBimachine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalOfPrimes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalOfWeightedPrecomposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalPrimes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalRelations": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalUnambiguousBimachine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.RationalViaWeighted": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.SequentialCharacterisation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.SequentialTransducers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.StringHomomorphisms": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.SubsequentialCharacterisation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.SubsequentialTransducers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.TransducerCodes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.UnambiguousOfRational": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.Uniformisation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.WeightedAutomata": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.WeightedCodes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.WeightedPrecomposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.WeightedZeronessDecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.AbiteboulVianu": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.AbiteboulVianuOrdered": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.ClassPSPACE": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.HierarchyInPSPACE": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.InflationaryInPartial": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.OrderFreeTransitiveClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.PartialFixedPoint": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.PartialFixedPointCapture": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.PartialFixedPointClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.PSPACEClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.PSPACEEqCoPSPACE": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.Qsat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.QsatInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.QsatPSPACEComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.SecondOrderTransitiveClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.SpaceBoundedMachineInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.SpaceBoundedMachines": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.SpaceMachinesPSPACEComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.SuccinctReach": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.SuccinctReachInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.SuccinctReachPSPACEComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax134656.TransitiveClosureWithoutOrder": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax14.MulticolorRamsey": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax14.OrderTypes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax14.Ramsey": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax14.TupleRamsey": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax146103.MSOAutomataEquivalence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax146103.MSOSemantics": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax146103.MSOSyntax": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax146103.MSOToNFA": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax146103.NFARecognizable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax146103.NFAToMSO": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax146103.WordStructure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax153141.FunctionalEquivalence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax153141.GraphParameters": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax153141.MixedMinorNumber": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax153141.MixedMinorNumberFromTwinWidth": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax153141.TwinWidthFromMixedMinorNumber": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.Crossbar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.CrossbarOrPseudoGrid": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.CrossbarStitching": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.CutMatchingTheorem": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.Degree": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.EdgeMenger": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.ExpanderGrid": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.Expansion": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.ExponentTenCrossbarDichotomy": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.FixedRoundGridMinor": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.Grid": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.GridMinor": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.HairyPathOfSetsFromTreewidth": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.HindOellermann": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.Linkedness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.LocalRoutingOrGrid": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.LowDegreeWellLinkedCore": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.Mader": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.Minor": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.NodeWellLinkedSetFromTreewidth": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.PathOfSets": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.Paths": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.PolynomialGridMinor": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.PowerRoot": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.SinghLau": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.SmallLinkedSubsets": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.SpanningTreeRounding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.StrongPathExtraction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.StrongPathOfSetsContainsGrid": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.StrongPathOfSetsFromTreewidth": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.StrongTreeOfSetsConstruction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.TerminalConnectivity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.TerminalElementMenger": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.TreeOfSets": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.Treewidth": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.TreewidthMinorMonotonicity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.TreewidthSparsifier": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.VertexMenger": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.WellLinkednessBoosting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax175070.CountClassComplements": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax175070.CountClassInclusions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax175070.CountClassMembership": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax175070.CountDefinability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax175070.CountingValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax175070.ParitySatComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax175070.SelectedSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax175070.SelectedSatComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax18.EdgeDensity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax18.EnergyIncrement": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax18.EquitableCleanup": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax18.FiniteGraphPartitions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax18.PartitionEnergy": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax18.PartitionEnergyBounds": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax18.PartitionEnergyMonotonicity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax18.RegularPairs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax18.RegularPartitions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax18.SzemerediRegularityLemma": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.BalancedRunReachability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.ChildConfigurationGraphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.ChildGraphOfConfiguration": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.ChildrenOfChildGraph": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.ChildrenOfConfiguration": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.ForComposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.ForIffPolyregular": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.ForOfPebble": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.ForOfPolyregular": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.ForTransducers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.MarkedSquaring": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.PebbleConfigurationEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.PebbleContinuity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.PebbleIffFor": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.PebbleOfFor": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.PebbleReachability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.PebbleTransducers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.PolyregularContinuity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.PolyregularFunctions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.PolyregularOfFor": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax194892.PrenexNormalForm": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax195003.WelzlOrders": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax195003.WelzlOrdersComputation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax195003.WelzlOrdersNeighborhoodComplexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax195003.WelzlOrdersNeighborhoodSetSystem": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax195003.WordRamRandomness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.Admissibility": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.AdmissibilityBound": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.ColoringNumbers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.GraphClasses": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.NeighborhoodComplexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.NowhereDenseClasses": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.NowhereDenseDensity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.NowhereDenseNC": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.NowhereDenseUQW": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.NowhereDenseWcol": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.ShallowMinorDensity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.ShallowTopologicalMinors": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.StrongColoringBound": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.UniformQuasiWideness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax199508.WeakColoringBound": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax214022.Cographs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax214022.CographWelzlLowerBound": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax214022.CographWelzlUpperBound": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax218471.Combinators": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax218471.PolynomialTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax218471.Programs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax218471.Subroutine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax218471.Substitution": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.AsteroidalCycles": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.ColumnGraph": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.ColumnGridExclusion": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.CycleObstruction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.GraphEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.GraphProblems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.Grid": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.GridExclusion": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.IndependenceIdentity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.IndependentSetHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.InducedMinors": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.MaxCut": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.MaxCutHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.Reduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax222097.ReductionTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax228581.ExponentialSeparation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax228581.Treewidth": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax228581.TwinWidth": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax242665.InfinitelyManyPrimes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax242665.PrimeDivisor": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax242665.Primes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax242665.TwinPrimes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax251941.Acceptance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax251941.AcceptanceUndecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax251941.PostCorrespondence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax251941.PostCorrespondenceIndexUndecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax251941.PostCorrespondenceReduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax251941.PostCorrespondenceUndecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax251941.TapeAcceptanceUndecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax251941.TuringCompleteness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax251941.TuringMachines": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.Amplification": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.Approximation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.BalancedCancellation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.BernoulliSampling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.BooleanFourier": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.BPPConsequence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.CenteredProjection": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.CliqueCorrespondence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.CliqueHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.CNAPointSoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.CNAQuantitativeSoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.CNASoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.ConsistencyGraph": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.DecodedStrategies": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.DoubleCoverBounds": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.EncodedReduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.EvenCovers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.ExponentialBounds": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.FAFComposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.FAFLocalTests": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.FAFPatterns": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.FAFStrategyExtraction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.FAFTest": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.FiniteProbability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.FortifiedSquaring": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.FourierDecoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.FourierIdentities": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.FourierProjection": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.FreshBitSampling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.GameToClique": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.GapSatisfiability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.GraphEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.Graphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.HighDegreeSoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.HigherMoments": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.Hypercontractivity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.LargeCoefficientSoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.LocalTests": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.LongCode": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.LongCodeCorrectness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.LongCodePatterns": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.MajorityAmplification": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.ManyTableConsistency": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.MixedPredicateMoments": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.OddNormalization": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.ProductMoments": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.ProjectionEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.ProjectionGames": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.RandomFibers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.RandomizedApproximation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.RandomizedCliqueHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.RandomizedContainments": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.RandomizedReduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.SamplingParameters": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.SideConditionAveraging": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.SmallCoefficientSoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.SmallSupport": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.SmallUnionDoubleCovers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.SmallValueNP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.SmallValueSatisfiability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.TestRepetition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.TestSampling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.TupleAveraging": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.TupleSampler": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax271696.CliqueExpr": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax271696.ConnectedComponents": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax271696.Courcelle": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax271696.GraphEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax271696.InstanceEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax271696.Mso": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax271696.VertexCover": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.CliqueComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.CliquesValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.CountingCliques": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.CountingDominatingSets": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.CountingFeedbackSets": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.CountingHamiltonCircuits": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.CountingKnapsacks": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.CountingSatVariants": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.CountingSetFamilies": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.CountingSteinerTrees": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.DirHamCircuitComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.DominatingSetComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.DominatingSetsValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.ExactCoverComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.FeedbackArcSetComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.FeedbackSetsValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.FeedbackVertexSetComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.HamCircuitComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.HamiltonCircuitsValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.HittingSetComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.IndependentSetComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.KnapsackComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.KnapsacksValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.OneInSATComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.SatVariantsValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.SetCoverComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.SetFamiliesValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.SetPackingComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.SteinerTreeComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.SteinerTreesValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.ThreeSATComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.VertexCoverComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax280166.ZeroOneIPComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax296731.HaeuplerSahaSrinivasanDefinitions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax296731.HaeuplerSahaSrinivasanTheorem22": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax296731.MoserTardos": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax296731.MoserTardosDefinitions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.ColoredGraphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.DistFO": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.FirstOrder": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.Locality": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.ModelChecking": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.NeighborhoodCoverBound": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.NeighborhoodCovers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.NormalForm": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.NowhereDenseSplitter": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.OrderedNeighborhoodCover": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.ScatterSentences": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax3.SplitterGame": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax303562.AnnotatorCeiling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax303562.Candidate": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax303562.Duplication": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax303562.PanopticQuality": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax303562.Removal": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax303562.WeightedFamily": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.AperiodicBimachineOfFORelabelling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.AperiodicOfFO": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.BuchiTheorem": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.FOIffAperiodic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.FOOfAperiodic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.FORelabellingIffAperiodicBimachine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.FORelabellingOfAperiodicBimachine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.KTypes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.KTypesAperiodicity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.KTypesCongruence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.KTypesFOEquivalence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.KTypesRefinement": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.LogicPrecomputation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.MSOAnnotationRegular": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.MSODefinableOfRegular": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.MSOFreeVariables": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.MSOLogic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.MSORelabellings": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.MSOTransductionIffRegular": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.MSOTransductionOfRegular": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.MSOTransductions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.RationalIffRelabelling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.RationalOfRelabelling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.RegularOfMSODefinable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.RegularOfMSOTransduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax314295.RelabellingOfRational": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.Amplification": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.Approximation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.BalancedCancellation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.BalancedPredicates": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.BernoulliSampling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.BooleanFourier": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.BPPConsequence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.CenteredProjection": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.CliqueCorrespondence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.CliqueHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.CNAPointSoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.CNAQuantitativeSoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.CNASoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.ConsistencyGraph": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.DecodedStrategies": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.DoubleCoverBounds": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.EncodedReduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.EvenCovers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.ExponentialBounds": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.FAFComposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.FAFLocalTests": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.FAFPatterns": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.FAFStrategyExtraction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.FAFTest": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.FiniteProbability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.FortifiedSquaring": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.FourierDecoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.FourierIdentities": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.FourierProjection": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.FreshBitSampling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.GameToClique": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.GraphEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.Graphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.HighDegreeSoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.HigherMoments": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.Hypercontractivity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.LargeCoefficientSoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.LocalTests": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.LongCode": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.LongCodeCorrectness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.LongCodePatterns": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.MajorityAmplification": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.ManyTableConsistency": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.MixedPredicateMoments": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.OddNormalization": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.ProductMoments": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.ProjectionEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.ProjectionGames": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.RandomFibers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.RandomizedApproximation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.RandomizedCliqueHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.RandomizedContainments": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.RandomizedReduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.SamplingParameters": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.SideConditionAveraging": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.SmallCoefficientSoundness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.SmallSupport": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.SmallUnionDoubleCovers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.SmallValueNP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.SmallValueSatisfiability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.TestRepetition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.TestSampling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.TupleAveraging": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.TupleFortification": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.TupleSampler": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax332265.HadwigerT7": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax332265.SixColorable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax345067.MulticolorRamsey": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax345067.OrderTypes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax345067.Ramsey": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax345067.TupleRamsey": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax345332.Construction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax345332.Copies": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax345332.ThreeFourSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax345332.TwoThreeSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.BoundedConfigurations": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.Classification": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.ComplementClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.ConfigurationCounting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.ConfigurationGraph": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.Counting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.CountingStep": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.CountingTrace": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.CountMachine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.ExactCensus": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.NLcoNL": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.Nonreachability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.Reachability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.Rejection": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax362205.SuccessorLayer": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.CountingClasses": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.CountingRuns": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.CountingRunsComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.CountingRunsValue": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.CountingSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.FPAndPTIME": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.FPByDigits": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.FPClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.FPComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.HornNumbers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.MachineNumbers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.NumberedCircuits": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.NumbersValue": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.QuantitativeLogic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.SecondOrderCounting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.SharpPAndNP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.SharpPAsQuantitativeLogic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.SharpPClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.SharpSatComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.SharpSatValue": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.WitnessCounting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax379983.FeedbackEdgeNumber": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax379983.FeedbackNumberComparison": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax379983.FeedbackVertexNumber": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax379983.TreewidthBound": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax391470.AuxiliaryProblem": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax391470.BinaryEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax391470.IntegralStartTimes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax391470.Lemma1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax391470.Lemma2": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax391470.SatConstruction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax391470.Scheduling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax391470.StackedConstruction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax391470.Theorem1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.AnnotatedDatabases": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.AnnotatedSemantics": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.BooleanFunctions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.CountingSemiring": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.Databases": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.MultisetSemantics": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.PersonnelExample": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.ProbabilisticDatabases": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.ProbabilisticEvaluation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.ProbabilisticEvaluationByRewriting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.ProbabilityExample": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.ProvenanceExample": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.RelationalAlgebra": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.RewritingCorrectness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.RewritingExample": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.RewritingRules": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.SemiringsWithMonus": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax392996.WhyProvenance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax41.HaeuplerSahaSrinivasanDefinitions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax41.HaeuplerSahaSrinivasanTheorem22": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax41.MoserTardos": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax41.MoserTardosDefinitions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.ChandraMerlin": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.ContainmentInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.ContainmentNPComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.DecodingAndWellFormed": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.EncodingFaithful": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.EvaluationContainmentReductions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.EvaluationInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.EvaluationNPComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.PackagedInstances": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.QueryDatabases": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.QueryPairs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax426240.LcmDeterminant": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.CircuitMachine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.Circuits": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.CNF": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.CookLevin": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.Encoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.EncodingCorrect": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.FiniteWitness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.GateCorrect": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.Reductions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.SATEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.SATHard": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.SATinNP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.Satisfiability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.Tseitin": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.TseitinCorrect": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.VerifierCorrect": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax429075.VerifierTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.BasicProperties": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.Certificates": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.ComplementClasses": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.ComplementClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.ExponentialTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.FiniteStackEquivalence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.LogarithmicSpace": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.MachineModels": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.ModelEquivalence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.NondeterministicLogarithmicSpace": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.NondeterministicPolynomialSpace": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.NondeterministicPolynomialTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.PolynomialSpace": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.PolynomialSpaceEquality": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.PolynomialTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.PVersusNP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.SingleTapeComplement": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.SpaceBounds": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax434930.SpaceMachines": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax47.Complexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax47.Gap": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax47.IndependentSetGapHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax47.Machine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax47.TriangleFreeIndependentSetHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.BinaryEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.Construction1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.Construction2": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.DynamicProgram": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.Exact34Encoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.InstanceEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.MulticolouredClique": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.NPHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.ParameterizedComplexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.PolynomialReduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.Preprocessing": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.SatVariant": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.SchedulingProblems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.Theorem1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.Theorem2": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.Theorem3": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax48.ExponentialSeparation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax48.Treewidth": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax48.TwinWidth": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.ClassL": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.ClassNL": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.Complement": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.DeterministicReachability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.DeterministicReachabilityInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.DeterministicTransitiveClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.FirstOrderDefinability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.FirstOrderInTransitiveClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.HeadAutomata": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.ImmermanSzelepcsenyi": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.KromAndTransitiveClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.KromFragment": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.LByAutomata": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.LClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.LEqCoL": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.LSubsetNL": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.NLByAutomata": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.NLClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.NLEqCoNL": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.NLIsTransitiveClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.NLSubsetNP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.Problems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.Reachability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.ReachabilityInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.ReachdLComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.ReachNLComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.SecondOrderAtoms": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.TransitiveClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.TransitiveClosureClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.TwoSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.TwoSatInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.TwoSatNLComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.UnreachdLComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax485149.UnreachNLComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.Algorithms": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.APSPHypothesis": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.DeterministicSemantics": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.DistanceProperties": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.EncodingProperties": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.ETH": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.HypothesisProperties": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.IntegerEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.Satisfiability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.SATTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.SETH": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.ThreeSUM": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.ThreeSUMHypothesis": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.TimeProperties": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.TuringMachine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.WeightedAPSP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.WordPrograms": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax489179.WordTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax49.FunctionalEquivalence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax49.MixedMinorNumber": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax49.MixedMinorNumberFromTwinWidth": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax49.TwinWidthFromMixedMinorNumber": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.BinaryEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Conditions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.ConsecutiveOnes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Construction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Corollary1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Corollary2": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Corollary3": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Corollary4": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.DynamicProgram": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.EstOrder": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Feasibility": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.FlowShop": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Fptas": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Greedy": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.HittingSet": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.HittingSetFromSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.HittingSetHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.IntegerProgram": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Lemma1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Lemma2": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Lemma3": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Lemma4": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Lemma5": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Normalization": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.NPHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Observation1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.ParameterizedComplexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Problems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Profile": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.ProperInstances": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Sweep": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Theorem1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Theorem2": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Theorem3": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Theorem4": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.Theorem5": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.W2Hardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_A1_FptTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_A2_FptReductions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_A3_ReductionCalculus": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_A4_MachineFacts": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_A5_Bridges": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_A6_ComputableBounds": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_B1_Structures": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_B2_FirstOrder": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_B3_LogicProblems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_B4_Hierarchies": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_B5_HierarchyFacts": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_C1_GraphProblems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_C2_HittingSet": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_C3_WeightedSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D01_CliqueInW1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D02_CliqueInA1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D03_NegationElimination": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D04_IncidenceStructure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D05_BinaryToClique": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D06_CliqueA1Complete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D08_WSatInA1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D09_W1EqA1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D10_CliqueW1Complete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D11_IndependentSet": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D12_MulticolouredClique": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_E1_HittingSetInW2": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_E2_HittingSetW2Complete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_E3_DominatingSet": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_F1_IndependentSetMatrix": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_F2_MccConstruction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_F3_NPHard": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_F4_IndependentSetToMcc": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_F5_MccNPHard": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WordEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax5.AdlerAdler": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax5.AlmostLinearNC": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax5.GraphClasses": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax5.GraphTransductions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax5.MonadicDependence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax5.Transductions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax5.WeaklySparseDependent": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax503819.Automata": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax503819.Mortality": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax503819.PositiveGames": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax503819.PositiveLogic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax503819.Reduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax503819.Undecidability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax503819.Words": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.CircuitValue": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.CircuitValueInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.CircuitValuePTIMEComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.ClassPTIME": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.DeterministicMachineInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.DeterministicMachinePTIMEComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.DeterministicMachines": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.Game": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.GameInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.GamePTIMEComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.HornFragment": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.HornIsLeastFixedPoint": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.HornSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.HornSatInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.HornSatPTIMEComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.ImmermanVardi": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.InflationaryFixedPoint": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.InflationaryIsLeastFixedPoint": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.LeastFixedPoint": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.LeastFixedPointComplement": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.NLSubsetPTIME": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.PTIMEClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.PTIMEEqCoPTIME": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax535992.PTIMESubsetNP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax54.AveragingLemma": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax54.BipartiteCombLemma": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax54.CriticalCombInput": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax54.ErdosHajnalC5": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax54.GraphDefinitions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax54.KeyCombLemma": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax54.MaximumDegreeReduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax54.RodlTheorem": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax56.Geometry": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax56.HujterKisfaludiBak": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax56.MainTheorem": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax56.ValtrFourLayer": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax56.VertexRemovalStability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.BitPolynomialTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.CertifiedDerivation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.CertifiedDerivationElab": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.FormulaExample": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.RamComplexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.RamComplexityElab": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.RamComplexityExample": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.RamPolynomialComparison": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.StructuralCombinators": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.StructuralDerivation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.StructuralPresentation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax560851.WordArena": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.AlternatingMachineComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.AlternatingMachineInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.AlternatingMachines": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.CoNPClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.Difference": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.DPClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.DPInclusions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.Hierarchy": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.HierarchyDuality": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.HierarchyInclusions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.PolynomialTimeInHierarchy": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.QbfComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.QuantifiedBooleanFormulas": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.QuantifiedBooleanFormulasInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.SatUnsat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.SatUnsatDPComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.SatUnsatInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.TautCoNPComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.Tautology": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.TautologyInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.ThreeDnfTautCoNPComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.ThreeDnfTautology": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax564036.ThreeDnfTautologyInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax57.AnticomponentBlockade": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax57.BlockadeThinning": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax57.ErdosHajnalP5": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax57.GraphDefinitions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax57.HouseDichotomy": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax57.PreparedHouseBlockade": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax57.SemisparseBlockade": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax57.SparseHouseAcceleration": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax57.SparseHouseTools": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax57.SparseHouseTrichotomy": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax570090.ConvexLayers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax570090.Geometry": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax570090.HujterKisfaludiBak": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax570090.MainTheorem": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax570090.ValtrFourLayer": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax570090.VertexRemovalStability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax604544.ClassesAsDegrees": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax604544.DagIsomorphism": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax604544.DegreeOfAProblem": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax604544.Degrees": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax604544.GraphIsomorphismDegree": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax604544.IsomorphismInNP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax604544.IsomorphismInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax604544.RelationIsomorphism": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax604544.RelationIsomorphismSemantics": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax614640.Complexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax614640.Gap": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax614640.IndependentSetGapHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax614640.Machine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax614640.TriangleFreeIndependentSetHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.ClassRE": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.CodeHalting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.CodeHaltingInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.CodehaltREComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.ConcreteInstances": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.FiniteSatisfiability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.FiniteSatisfiabilityInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.FinsatREComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.Halting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.HaltingInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.HaltingUndecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.HaltREComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.NPSubsetRE": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.PcpREComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.PcpUndecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.PostCorrespondence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.PostCorrespondenceInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.Problems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.REClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.ReductionsComputable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.REFinite": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.REHardUndecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.REIsRecursivelyEnumerable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.RENeCoRE": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.Trakhtenbrot": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax624099.ValueInvention": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax666725.BPPSubsetPP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax666725.OneSidedError": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax666725.OneSidedSubsetBPP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax666725.ProbabilisticMachines": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax666725.RandomizedPolynomialTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax666725.UnboundedError": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax666725.ZeroError": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax666725.ZPPSubsetBPP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax666725.ZPPSubsetOneSided": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax67.Ram": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax67.RamComputes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.AcyclicMinors": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.GraphMinors": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.GraphTopologicalMinors": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.GridPlanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.GridsAndWalls": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.KuratowskiPlanarity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.LadderGrid": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.LadderPlanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.Ladders": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.MaximalOuterplanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.MaximalOuterplanarOuterplanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.MaximalOuterplanarPlanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.OuterplanarExcludedMinors": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.OuterplanarPlanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.PathOuterplanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.PathPlanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.Paths": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.PathTree": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.Planar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.PlanarExcludedMinors": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.SeriesParallel": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.SeriesParallelPlanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.StarOuterplanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.StarPlanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.Stars": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.StarTree": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.StraightLineDrawings": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.TreeOuterplanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.TreePlanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.Trees": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.TriangleMaximalOuterplanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.TriangleOuterplanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.TrianglePlanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.Triangles": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.TriangulationPlanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.Triangulations": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.WallPlanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax683916.DigraphRepresentation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax683916.HypergraphRepresentation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax683916.MultigraphIsomorphism": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax683916.MultigraphRepresentation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax683916.NeighborhoodSetSystemRepresentation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax683916.NeighborhoodSetSystems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax683916.SetSystemRepresentation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax683916.SimpleGraphMultigraphRepresentation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax683916.SpanningTwoUniformHypergraphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax683916.SymmetricLooplessDigraphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax683916.TwoUniformSetSystems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.ArcKayles": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.Biclique": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.Completeness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.Construction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.Encoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.Grundy": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.GrundyProperties": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.Passes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.PositiveCNF": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.PositiveCNFHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.PSPACE": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.Reduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.RegularPlay": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689614.Sizes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689794.Bodlaender": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689794.BodlaenderKloks": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax689794.GraphWords": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax709149.RegularOfTerm": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax709149.RegularTerms": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax709149.RegularUnderRepresentation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax709149.Types": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax710763.AdlerAdler": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax710763.AlmostLinearNC": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax710763.GraphClasses": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax710763.MonadicDependence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax710763.Transductions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax710763.WeaklySparseDependent": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax712553.Involution": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax712553.QuadraticTwist": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax712553.TunnellParity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.BoundedConfigurations": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.Classification": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.ComplementClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.ConfigurationCounting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.ConfigurationGraph": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.Counting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.CountingStep": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.CountingTrace": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.CountMachine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.ExactCensus": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.NLcoNL": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.Nonreachability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.Reachability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.Rejection": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax733996.SuccessorLayer": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax751879.FixedPointEvaluation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax751879.FixedPointSemantics": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax751879.FixedPointSyntax": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax751879.ImmermanVardi": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax751879.LeastFixedPoints": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax751879.OrderedStructures": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax751879.PolynomialTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax751879.StructureEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax759944.BinaryWordEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax759944.RamPolytime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax759944.RamToTuringGenericTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax759944.TuringPolytime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax759944.TuringRamEquivalence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax759944.TuringRamPolytimeEquivalence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax759944.TuringToRamGenericTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.AsteroidalCycles": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.ColumnGraph": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.ColumnGridExclusion": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.CycleObstruction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.GraphEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.GraphProblems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.Grid": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.GridExclusion": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.IndependenceIdentity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.IndependentSetHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.InducedMinors": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.MaxCut": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.MaxCutHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.Reduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax762056.ReductionTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.Aperiodicity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.AperiodicityMinimalMachine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.AperiodicMealy": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.AperiodicOfFlipFlops": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.AperiodicPumping": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.CompositionClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.Continuity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.Derivatives": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.ElementaryProperties": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.KrohnRhodes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.MapLifting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.MapLiftingDecomposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.MealyComposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.MealyContinuity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.MealyDerivatives": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.MealyEquivalenceBound": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.MealyMachine": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.PrimeMealyMachines": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.ReversibleComposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.StateTransformationDecomposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.StateTransformations": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.ArcKayles": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.Biclique": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.Completeness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.Construction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.Encoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.Grundy": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.GrundyProperties": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.Passes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.PositiveCNF": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.PositiveCNFHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.PSPACE": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.Reduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.RegularPlay": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax783278.Sizes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.CliqueFamily": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.Coloring": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.Common": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.DominatingSet": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.Feedback": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.Hamilton": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.JobSequencing": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.Knapsack": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.MaxCut": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.NaeSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.NaeThreeSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.OneInSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.Partition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.Problems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.SetFamily": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.Steiner": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.SubgraphIso": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.ThreeColorability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.ThreeDimMatching": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.ThreeSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax799700.ZeroOneIP": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax808846.Ram": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax808846.RamComputes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax842588.AutomatonLinearTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax842588.Determinization": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax842588.MSOLinearTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax842588.MSOTreeAutomataEquivalence": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax842588.RankedTree": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax842588.StructuralRepresentations": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax842588.TreeAutomaton": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax842588.TreeModelCheckingEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax842588.TreeStructure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax842588.ValueTranslations": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.AllSetsComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.BipartiteComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.BipartiteValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.ColoringComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.CountingAllSets": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.CountingBipartite": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.CountingDnf": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.CountingNaeSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.CountingRestrictedSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.DnfComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.DnfValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.NaeSatComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.NaeSatValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.OneCallClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.OneCallReductions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.RestrictedSatComplete": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.RestrictedSatValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.SubtractiveClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.SubtractiveReductions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.CategoricalProductCounts": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.ClosureProperties": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.ComplementCounts": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.ConnectedPartitions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.Contractions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.CoproductCounts": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.DisjointUnionCounts": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.DistinguishingClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.DistinguishingClosureOperator": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.EdgeContractions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.FullComplementCounts": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.GraphClasses": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.GraphFamilies": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.GraphProducts": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.HomomorphismCounts": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.HomomorphismIndistinguishability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.InducedSubgraphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.IntersectionsUnions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.IsomorphismRelaxations": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.LexicographicProductCounts": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.LinearCombinationLemma": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.LoopedGraphCounts": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.LoopGraphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.LovaszTheorem": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.MinorsComplements": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.PreservationProperties": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.ProductPreservation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.RobersonConjecture": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax871432.TakingSummands": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax881656.BarnetteConjecture": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax881656.Bipartite": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax881656.Cubic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax881656.HamiltonianCycle": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax881656.ThreeConnected": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.BinaryEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.Construction1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.Construction2": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.DynamicProgram": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.Exact34Encoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.InstanceEncoding": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.MulticolouredClique": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.NPHardness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.PolynomialReduction": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.Preprocessing": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.SatVariant": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.Scheduling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.SchedulingProblems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.Theorem1": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.Theorem2": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.Theorem3": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax894236.EulerCharacteristic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax894236.GeometricGenus": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax894236.LinearSubspaceClass": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax894236.NoetherLefschetzWindow": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax894236.Parity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax895169.ACZeroComplement": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax895169.ACZeroFinite": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax895169.ACZeroInLogSpace": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax895169.ACZeroInPTIME": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax895169.ACZeroIsBitLogic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax895169.ACZeroIsLogTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax895169.ArithmeticLogic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax895169.BitLogic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax895169.BitPredicate": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax895169.FirstOrderInACZero": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax895169.LogTimeMachines": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax9.BoundedMergeWidthChiBounded": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax9.BoundedMergeWidthLinearNeighborhoodComplexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax9.ChiBoundedness": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax9.MergeWidth": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax9.NeighborhoodComplexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax904597.Classes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax904597.CookLevin": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax904597.Interpretations": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax904597.MachineForm": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax904597.Machines": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax904597.NPClass": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax904597.Problems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax904597.Relativized": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax904597.Sat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax904597.SecondOrder": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.ConfigurationGraphOutput": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.ConfigurationGraphRational": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.ConfigurationGraphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.DuplicationContinuous": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.MapLiftingContinuity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.RegularComposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.RegularConcatenation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.RegularConditional": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.RegularContinuity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.RegularEquivalenceDecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.RegularFunctions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.RegularMapLifting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.RegularOfSST": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.RegularOfTwoWay": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.RegularSum": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.ReversalContinuous": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.SnakeGraphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.SnakeLemma": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.SSTIffRegular": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.SSTOfRegular": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.StreamingStringTransducers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.TwoWayComposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.TwoWayContinuity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.TwoWayIffRegular": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.TwoWayMealyPrecomposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.TwoWayOfRegular": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.TwoWayRationalPrecomposition": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.TwoWayTransducers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.EhrenfeuchtGames": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.EhrenfeuchtMethodology": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.Even": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.EvenInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.EvenNotFirstOrder": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.FirstOrderBelowACZero": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.FirstOrderBelowTransitiveClosure": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.GamesOnLinearOrders": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.GamesOnSets": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.NoDefinableOrder": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.OrderFreeFirstOrder": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.OrderFreeInductionMissesPTIME": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.Parity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.ParityInLogSpace": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.PebbleGames": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.PebbleInvariance": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.ReductionsBelowLogSpace": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax945089.TransitiveClosureReductions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax965890.HaeuplerSahaSrinivasanDefinitions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax965890.HaeuplerSahaSrinivasanTheorem22": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax965890.MoserTardos": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax965890.MoserTardosDefinitions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax988886.ExistentialSecondOrder": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax988886.Fagin": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax988886.FiniteStructures": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax988886.NondeterministicPolynomialTime": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax117614.CrawlInstances": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax132576.WeightedEquivalenceDecidable": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax17.ParallelClusterSplitting": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax195003.WelzlOrdersInGraphs": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.BalancedPredicates": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax253009.TupleFortification": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax303562.Matching": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax323828.GapSatisfiability": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax366625.CountingProblems": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax420092.Evaluation": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax470956.Scheduling": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax49.GraphParameters": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax496464.WH_D07_DefinabilityToWSat": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax56.ConvexLayers": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax604544.GraphIsomorphism": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax68.Outerplanar": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax710763.GraphTransductions": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax765601.FlipFlopsOfAperiodic": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax859101.AllSetsValues": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax888481.ParameterizedComplexity": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "Lax916827.TwoWayCodes": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  }
+ },
+ "errors": [],
+ "fetchedAt": "2026-10-07T15:38:09.700Z",
+ "submissions": {
+  "lax-10": {
+   "endorse": 1,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-11": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-115662": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-117284": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-117614": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-12": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-13": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-132576": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-134656": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-14": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-146103": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-153141": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-157538": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-17": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-175070": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-18": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-194892": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-195003": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-199508": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-214022": {
+   "endorse": 1,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-218471": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-222097": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-228581": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-242665": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-251941": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-253009": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-271696": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-280166": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-296731": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-3": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-303562": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-314295": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-323828": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-332265": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-345067": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-345332": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-362205": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-366625": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-379983": {
+   "endorse": 1,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-391470": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-392996": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-41": {
+   "endorse": 1,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-420092": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-426240": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-429075": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-434930": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-47": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-470956": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-48": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-485149": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-489179": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-49": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-496464": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-5": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-503819": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-535992": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-54": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-56": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-560851": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-564036": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-57": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-570090": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-604544": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-614640": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-62": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-624099": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-666725": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-67": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-68": {
+   "endorse": 1,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-683916": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-689614": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-689794": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-709149": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-710763": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-712553": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-733996": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-751879": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-759944": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-762056": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-765601": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-783278": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-799700": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-808846": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-842588": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-859101": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-871432": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-881656": {
+   "endorse": 1,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-888481": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-894236": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-895169": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-9": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-904597": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-916827": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-945089": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-965890": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  },
+  "lax-988886": {
+   "endorse": 0,
+   "flag": 0,
+   "flags": 0
+  }
+ }
+}

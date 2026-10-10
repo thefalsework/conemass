@@ -34,6 +34,14 @@ graph today.
   remaining work rather than history. Output
   `out/ranking-unlock-open.csv`; runs from the published CSVs, no API
   key needed.
+- `mission.mjs` — live, per-mission (added 2026-10-10): fetches one
+  mission's graph from the current API and prints its open theorems
+  ranked by open-only guaranteed unlock mass, each with the list of
+  open parents waiting on it. `P2M_API_KEY=p2m_... node mission.mjs
+  "<mission name substring>"` or `--root <theorem_id>`. Under a minute.
+  Note the platform has grown from 280 missions (2026-09-19 snapshot
+  behind `REPORT.md`) to about 4,000 as of 2026-10-10; the published
+  CSVs are a snapshot, this script is current.
 - `out/ranking-open.csv`, `out/ranking-definitions.csv`, `out/nulls.json`,
   `out/edges-union.csv`, `out/edges-guaranteed.csv` — the outputs behind
   `REPORT.md` (snapshot 2026-09-19, platform v0.10.6).
@@ -41,7 +49,8 @@ graph today.
 ## Run it
 
 Needs Node 18+ and a Prove2Me agent API key in `credentials.json` here
-(shape: `{ "api_key": "p2m_..." }`; see prove2.me/start.md):
+(shape: `{ "api_key": "p2m_..." }`; see prove2.me/start.md).
+`mission.mjs` also accepts the key as `P2M_API_KEY` in the environment:
 
 ```
 node crawl.mjs

@@ -70,13 +70,21 @@ def lookup(audit, lang, org, name):
     return cands[0] if len(cands) == 1 else None
 
 
-def summarize(recs):
+def summarize(recs, window):
+    """Collapse a repo's audit rows inside the engagement window; None if the
+    repo was not scanned in the window. Bugs found in the same repo at other
+    times (older versions, 2023 passes) are counted separately as `other`."""
+    lo, hi = window
+    inside = [r for r in recs if lo <= r["start"] <= hi]
+    if not inside:
+        return None
     sev_rank = {"High": 3, "Medium": 2, "Low": 1, "": 0}
-    worst = max(recs, key=lambda r: (sev_rank.get(r["severity"], 0), r["bugs"]))
+    worst = max(inside, key=lambda r: (sev_rank.get(r["severity"], 0), r["bugs"]))
     return {
-        "scans": len(recs), "bugs": sum(r["bugs"] for r in recs), "sec": sum(r["sec"] for r in recs),
-        "severity": worst["severity"] if any(r["bugs"] for r in recs) else "",
-        "kind": worst["kind"], "first": min(r["start"] for r in recs), "last": max(r["start"] for r in recs),
+        "scans": len(inside), "bugs": sum(r["bugs"] for r in inside), "sec": sum(r["sec"] for r in inside),
+        "severity": worst["severity"] if any(r["bugs"] for r in inside) else "",
+        "kind": worst["kind"], "last": max(r["start"] for r in inside),
+        "other": sum(r["bugs"] for r in recs if not lo <= r["start"] <= hi),
     }
 
 
@@ -219,7 +227,7 @@ def reach(edges_csv):
     return out
 
 
-def study(label, edges_csv, matcher, root_repo, md):
+def study(label, edges_csv, matcher, root_repo, window, md):
     nodes = conemass(edges_csv)
     rch = reach(edges_csv)
     repos = {}  # repo key -> aggregate
@@ -239,18 +247,21 @@ def study(label, edges_csv, matcher, root_repo, md):
     for i, r in enumerate(sorted(repos.values(), key=lambda r: (r["dependents_rank"], r["repo"]))):
         r["dependents_rank"] = i + 1
     n = len(ranked)
-    scanned = [r for r in ranked if r["key"]]
-    for r in scanned:
-        r["audit"] = summarize(AUDIT[r["key"]])
+    for r in ranked:
+        r["audit"] = summarize(AUDIT[r["key"]], window) if r["key"] else None
+    scanned = [r for r in ranked if r["audit"]]
     buggy = [r for r in scanned if r["audit"]["bugs"] > 0]
     sec = [r for r in buggy if r["audit"]["sec"] > 0]
     high = [r for r in buggy if r["audit"]["severity"] == "High"]
     clean = [r for r in scanned if r["audit"]["bugs"] == 0]
+    clean_other = [r for r in clean if r["audit"]["other"] > 0]
 
     md.append(f"\n## {label}\n")
     md.append(f"{len(nodes)} packages from {n} upstream repositories (the project's own repo excluded). "
-              f"Matched to OpenRefactory audit rows: {len(scanned)} repos scanned, {len(buggy)} with bugs filed "
-              f"({len(sec)} security/reliability, {len(high)} rated High), {len(clean)} scanned clean.\n")
+              f"Matched to OpenRefactory audit rows dated {window[0]} to {window[1]}: {len(scanned)} repos scanned, "
+              f"{len(buggy)} with bugs filed ({len(sec)} security/reliability, {len(high)} rated High), {len(clean)} scanned clean"
+              + (f" (of which {len(clean_other)} had bugs filed in an earlier scan of another version: "
+                 + ", ".join(sorted(r['repo'] for r in clean_other)) + ")" if clean_other else "") + ".\n")
     if not buggy:
         md.append("No matched findings.\n")
         return
@@ -299,15 +310,18 @@ def main():
 
     pins = json.load(open(os.path.join(HERE, "airflow-full-pins.json"), encoding="utf-8"))
     repo_pins = collections.Counter(v["repo"] for v in pins.values() if v.get("repo"))
-    study("Apache Airflow 2.10.2, full constraints set", os.path.join(HERE, "airflow-full-edges.csv"),
-          lambda p: match_py(AUDIT, p, pins, repo_pins), ("apache", "airflow"), md)
+    # Engagement windows, from the audit-start dates of the batches in the log
+    # (Python rows 2024-08/09 at the Airflow 2.9.3 pins; Java rows from
+    # 2024-09-29; Go rows 2024-11-01 to 2024-12-23).
+    study("Apache Airflow 2.9.3, full constraints set", os.path.join(HERE, "airflow-full-edges.csv"),
+          lambda p: match_py(AUDIT, p, pins, repo_pins), ("apache", "airflow"), ("2024-08-01", "2024-09-30"), md)
 
     arts = json.load(open(os.path.join(HERE, "jenkins-war-artifacts.json"), encoding="utf-8"))
     study("Jenkins 2.476 WAR", os.path.join(HERE, "jenkins-war-edges.csv"),
-          lambda a: match_java(AUDIT, a, arts), ("jenkinsci", "jenkins"), md)
+          lambda a: match_java(AUDIT, a, arts), ("jenkinsci", "jenkins"), ("2024-09-15", "2024-11-30"), md)
 
     study("Kubernetes v1.31.0", os.path.join(HERE, "kubernetes-edges.csv"),
-          lambda m: match_go(AUDIT, m), ("kubernetes", "kubernetes"), md)
+          lambda m: match_go(AUDIT, m), ("kubernetes", "kubernetes"), ("2024-10-15", "2024-12-31"), md)
 
     text = "\n".join(md)
     if "--md" in sys.argv:

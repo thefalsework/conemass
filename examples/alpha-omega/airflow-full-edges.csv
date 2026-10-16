@@ -13,7 +13,6 @@ aiobotocore,aiohttp
 aiobotocore,aioitertools
 aiobotocore,botocore
 aiobotocore,wrapt
-aiohttp,aiohappyeyeballs
 aiohttp,aiosignal
 aiohttp,attrs
 aiohttp,frozenlist
@@ -40,7 +39,6 @@ anyio,idna
 anyio,sniffio
 anyio,typing-extensions
 apache-airflow,alembic
-apache-airflow,apache-airflow-providers-common-compat
 apache-airflow,apache-airflow-providers-common-io
 apache-airflow,apache-airflow-providers-common-sql
 apache-airflow,apache-airflow-providers-fab
@@ -96,7 +94,6 @@ apache-airflow,python-dateutil
 apache-airflow,python-nvd3
 apache-airflow,python-slugify
 apache-airflow,requests
-apache-airflow,requests-toolbelt
 apache-airflow,rfc3339-validator
 apache-airflow,rich
 apache-airflow,rich-argparse
@@ -116,7 +113,6 @@ apache-airflow-providers-alibaba,alibabacloud-tea-openapi
 apache-airflow-providers-alibaba,apache-airflow
 apache-airflow-providers-alibaba,oss2
 apache-airflow-providers-amazon,apache-airflow
-apache-airflow-providers-amazon,apache-airflow-providers-common-compat
 apache-airflow-providers-amazon,apache-airflow-providers-common-sql
 apache-airflow-providers-amazon,apache-airflow-providers-http
 apache-airflow-providers-amazon,asgiref
@@ -152,7 +148,6 @@ apache-airflow-providers-apache-hive,pyhive
 apache-airflow-providers-apache-hive,thrift
 apache-airflow-providers-apache-iceberg,apache-airflow
 apache-airflow-providers-apache-impala,apache-airflow
-apache-airflow-providers-apache-impala,apache-airflow-providers-common-sql
 apache-airflow-providers-apache-impala,impyla
 apache-airflow-providers-apache-kafka,apache-airflow
 apache-airflow-providers-apache-kafka,asgiref
@@ -193,7 +188,6 @@ apache-airflow-providers-cncf-kubernetes,kubernetes
 apache-airflow-providers-cncf-kubernetes,kubernetes-asyncio
 apache-airflow-providers-cohere,apache-airflow
 apache-airflow-providers-cohere,cohere
-apache-airflow-providers-common-compat,apache-airflow
 apache-airflow-providers-common-io,apache-airflow
 apache-airflow-providers-common-sql,apache-airflow
 apache-airflow-providers-common-sql,more-itertools
@@ -238,7 +232,6 @@ apache-airflow-providers-ftp,apache-airflow
 apache-airflow-providers-github,apache-airflow
 apache-airflow-providers-github,pygithub
 apache-airflow-providers-google,apache-airflow
-apache-airflow-providers-google,apache-airflow-providers-common-compat
 apache-airflow-providers-google,apache-airflow-providers-common-sql
 apache-airflow-providers-google,asgiref
 apache-airflow-providers-google,dill
@@ -346,7 +339,6 @@ apache-airflow-providers-microsoft-azure,azure-synapse-spark
 apache-airflow-providers-microsoft-azure,msgraph-core
 apache-airflow-providers-microsoft-mssql,apache-airflow
 apache-airflow-providers-microsoft-mssql,apache-airflow-providers-common-sql
-apache-airflow-providers-microsoft-mssql,methodtools
 apache-airflow-providers-microsoft-mssql,pymssql
 apache-airflow-providers-microsoft-psrp,apache-airflow
 apache-airflow-providers-microsoft-psrp,pypsrp
@@ -368,7 +360,6 @@ apache-airflow-providers-openai,apache-airflow
 apache-airflow-providers-openai,openai
 apache-airflow-providers-openfaas,apache-airflow
 apache-airflow-providers-openlineage,apache-airflow
-apache-airflow-providers-openlineage,apache-airflow-providers-common-compat
 apache-airflow-providers-openlineage,apache-airflow-providers-common-sql
 apache-airflow-providers-openlineage,attrs
 apache-airflow-providers-openlineage,openlineage-integration-common
@@ -418,7 +409,6 @@ apache-airflow-providers-slack,apache-airflow-providers-common-sql
 apache-airflow-providers-slack,slack-sdk
 apache-airflow-providers-smtp,apache-airflow
 apache-airflow-providers-snowflake,apache-airflow
-apache-airflow-providers-snowflake,apache-airflow-providers-common-compat
 apache-airflow-providers-snowflake,apache-airflow-providers-common-sql
 apache-airflow-providers-snowflake,pandas
 apache-airflow-providers-snowflake,pyarrow
@@ -453,9 +443,6 @@ apache-airflow-providers-weaviate,weaviate-client
 apache-airflow-providers-yandex,apache-airflow
 apache-airflow-providers-yandex,yandex-query-client
 apache-airflow-providers-yandex,yandexcloud
-apache-airflow-providers-ydb,apache-airflow
-apache-airflow-providers-ydb,apache-airflow-providers-common-sql
-apache-airflow-providers-ydb,ydb
 apache-airflow-providers-zendesk,apache-airflow
 apache-airflow-providers-zendesk,zenpy
 apispec,packaging
@@ -493,9 +480,6 @@ aws-xray-sdk,wrapt
 azure-batch,azure-common
 azure-batch,msrestazure
 azure-common,azure-nspkg
-azure-core,requests
-azure-core,six
-azure-core,typing-extensions
 azure-datalake-store,azure-nspkg
 azure-datalake-store,cffi
 azure-datalake-store,msal
@@ -513,27 +497,11 @@ azure-mgmt-containerregistry,azure-common
 azure-mgmt-containerregistry,azure-mgmt-core
 azure-mgmt-containerregistry,isodate
 azure-mgmt-containerregistry,typing-extensions
-azure-mgmt-datafactory,azure-common
-azure-mgmt-datafactory,azure-mgmt-core
-azure-mgmt-datafactory,isodate
-azure-mgmt-datafactory,typing-extensions
 azure-mgmt-datalake-nspkg,azure-mgmt-nspkg
 azure-mgmt-datalake-store,azure-common
 azure-mgmt-datalake-store,azure-mgmt-datalake-nspkg
 azure-mgmt-datalake-store,msrestazure
 azure-mgmt-nspkg,azure-nspkg
-azure-storage-blob,azure-core
-azure-storage-blob,cryptography
-azure-storage-blob,isodate
-azure-storage-blob,typing-extensions
-azure-storage-file-datalake,azure-core
-azure-storage-file-datalake,azure-storage-blob
-azure-storage-file-datalake,isodate
-azure-storage-file-datalake,typing-extensions
-azure-storage-file-share,azure-core
-azure-storage-file-share,cryptography
-azure-storage-file-share,isodate
-azure-storage-file-share,typing-extensions
 azure-synapse-spark,azure-common
 azure-synapse-spark,azure-core
 azure-synapse-spark,msrest
@@ -617,6 +585,7 @@ db-dtypes,packaging
 db-dtypes,pandas
 db-dtypes,pyarrow
 deltalake,pyarrow
+deltalake,pyarrow-hotfix
 deprecated,wrapt
 diagrams,graphviz
 diagrams,jinja2
@@ -700,6 +669,7 @@ gcloud-aio-auth,backoff
 gcloud-aio-auth,chardet
 gcloud-aio-auth,cryptography
 gcloud-aio-auth,pyjwt
+gcloud-aio-auth,setuptools
 gcloud-aio-bigquery,gcloud-aio-auth
 gcloud-aio-storage,aiofiles
 gcloud-aio-storage,gcloud-aio-auth
@@ -787,7 +757,6 @@ google-cloud-bigquery-datatransfer,google-auth
 google-cloud-bigquery-datatransfer,proto-plus
 google-cloud-bigquery-datatransfer,protobuf
 google-cloud-bigtable,google-api-core
-google-cloud-bigtable,google-auth
 google-cloud-bigtable,google-cloud-core
 google-cloud-bigtable,grpc-google-iam-v1
 google-cloud-bigtable,proto-plus
@@ -856,7 +825,6 @@ google-cloud-logging,google-cloud-appengine-logging
 google-cloud-logging,google-cloud-audit-log
 google-cloud-logging,google-cloud-core
 google-cloud-logging,grpc-google-iam-v1
-google-cloud-logging,opentelemetry-api
 google-cloud-logging,proto-plus
 google-cloud-logging,protobuf
 google-cloud-memcache,google-api-core
@@ -934,7 +902,6 @@ google-cloud-texttospeech,protobuf
 google-cloud-translate,google-api-core
 google-cloud-translate,google-auth
 google-cloud-translate,google-cloud-core
-google-cloud-translate,grpc-google-iam-v1
 google-cloud-translate,proto-plus
 google-cloud-translate,protobuf
 google-cloud-videointelligence,google-api-core
@@ -949,7 +916,6 @@ google-cloud-workflows,google-api-core
 google-cloud-workflows,google-auth
 google-cloud-workflows,proto-plus
 google-cloud-workflows,protobuf
-google-crc32c,importlib-resources
 google-resumable-media,google-crc32c
 googleapis-common-protos,protobuf
 graphql-core,typing-extensions
@@ -1010,7 +976,6 @@ impyla,bitarray
 impyla,six
 impyla,thrift
 impyla,thrift-sasl
-incremental,setuptools
 influxdb-client,certifi
 influxdb-client,python-dateutil
 influxdb-client,reactivex
@@ -1084,6 +1049,7 @@ limits,importlib-resources
 limits,packaging
 limits,typing-extensions
 linkify-it-py,uc-micro-py
+loguru,colorama
 looker-sdk,attrs
 looker-sdk,cattrs
 looker-sdk,requests
@@ -1111,7 +1077,6 @@ microsoft-kiota-http,microsoft-kiota-abstractions
 microsoft-kiota-http,opentelemetry-api
 microsoft-kiota-http,opentelemetry-sdk
 mongomock,packaging
-mongomock,pytz
 mongomock,sentinels
 moto,boto3
 moto,botocore
@@ -1139,7 +1104,6 @@ msrest,requests-oauthlib
 msrestazure,adal
 msrestazure,msrest
 msrestazure,six
-multidict,typing-extensions
 mypy,mypy-extensions
 mypy,typing-extensions
 mypy-boto3-appflow,typing-extensions
@@ -1150,7 +1114,6 @@ neo4j,pytz
 openai,anyio
 openai,distro
 openai,httpx
-openai,jiter
 openai,pydantic
 openai,sniffio
 openai,tqdm
@@ -1176,6 +1139,7 @@ opensearch-py,certifi
 opensearch-py,events
 opensearch-py,python-dateutil
 opensearch-py,requests
+opensearch-py,six
 opensearch-py,urllib3
 opentelemetry-api,deprecated
 opentelemetry-api,importlib-metadata
@@ -1203,7 +1167,6 @@ opentelemetry-proto,protobuf
 opentelemetry-sdk,opentelemetry-api
 opentelemetry-sdk,opentelemetry-semantic-conventions
 opentelemetry-sdk,typing-extensions
-opentelemetry-semantic-conventions,deprecated
 opentelemetry-semantic-conventions,opentelemetry-api
 opsgenie-sdk,certifi
 opsgenie-sdk,python-dateutil
@@ -1244,12 +1207,10 @@ pendulum,tzdata
 pexpect,ptyprocess
 pgvector,numpy
 pinecone-client,certifi
-pinecone-client,pinecone-plugin-inference
 pinecone-client,pinecone-plugin-interface
 pinecone-client,tqdm
 pinecone-client,typing-extensions
 pinecone-client,urllib3
-pinecone-plugin-inference,pinecone-plugin-interface
 pinotdb,ciso8601
 pinotdb,httpx
 pipdeptree,packaging
@@ -1274,7 +1235,6 @@ pyasn1-modules,pyasn1
 pyathena,boto3
 pyathena,botocore
 pyathena,fsspec
-pyathena,python-dateutil
 pyathena,tenacity
 pycountry,importlib-resources
 pydantic,annotated-types
@@ -1296,14 +1256,14 @@ pygithub,typing-extensions
 pygithub,urllib3
 pyiceberg,click
 pyiceberg,fsspec
-pyiceberg,mmh3
+pyiceberg,mmhash3
 pyiceberg,pydantic
 pyiceberg,pyparsing
 pyiceberg,requests
 pyiceberg,rich
 pyiceberg,sortedcontainers
 pyiceberg,strictyaml
-pyiceberg,tenacity
+pyjwt,typing-extensions
 pymongo,dnspython
 pyopenssl,cryptography
 pypsrp,cryptography
@@ -1311,6 +1271,7 @@ pypsrp,pyspnego
 pypsrp,requests
 pyspnego,cryptography
 pytest,colorama
+pytest,importlib-metadata
 pytest,iniconfig
 pytest,packaging
 pytest,pluggy
@@ -1348,6 +1309,7 @@ python-slugify,text-unidecode
 python-telegram-bot,httpx
 pywinrm,requests
 pywinrm,requests-ntlm
+pywinrm,six
 pywinrm,xmltodict
 qdrant-client,grpcio
 qdrant-client,grpcio-tools
@@ -1515,8 +1477,8 @@ thrift-sasl,six
 thrift-sasl,thrift
 time-machine,python-dateutil
 towncrier,click
-towncrier,importlib-metadata
 towncrier,importlib-resources
+towncrier,incremental
 towncrier,jinja2
 tqdm,colorama
 trino,python-dateutil
@@ -1575,10 +1537,7 @@ yandexcloud,requests
 yandexcloud,six
 yarl,idna
 yarl,multidict
-ydb,aiohttp
-ydb,grpcio
-ydb,packaging
-ydb,protobuf
+yarl,typing-extensions
 zeep,attrs
 zeep,isodate
 zeep,lxml
@@ -1587,6 +1546,11 @@ zeep,pytz
 zeep,requests
 zeep,requests-file
 zeep,requests-toolbelt
+zenpy,cachetools
+zenpy,python-dateutil
+zenpy,pytz
+zenpy,requests
+zenpy,six
 zope-event,setuptools
 zope-interface,setuptools
 zstandard,cffi

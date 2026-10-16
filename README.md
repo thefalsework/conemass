@@ -207,12 +207,13 @@ falls out of a file the maintainers already write. See
 [`examples/flt/REPORT.md`](examples/flt/REPORT.md).
 
 `examples/alpha-omega/` is a retrodiction against a SAST audit log:
-OpenRefactory's 2024 Alpha-Omega scans of every dependency of Airflow,
-Jenkins and Kubernetes, joined to conemass rankings of the three
-release graphs. Bug yield is flat in rank (the expected null: graph
-position does not predict code quality), while the reach of the
-findings spans 1 to 106 packages and is uncorrelated with the SAST's
-own severity. See [`examples/alpha-omega/REPORT.md`](examples/alpha-omega/REPORT.md).
+OpenRefactory's 2024 Alpha-Omega scans of every dependency of Airflow
+2.9.3, Jenkins 2.476 and Kubernetes v1.31.0, joined to conemass
+rankings of the three release graphs. Bug yield is flat in rank (the
+expected null: graph position does not predict code quality), while the
+reach of the 21 findings spans 1 to 104 packages and is uncorrelated
+with the SAST's own severity: six of the eight High findings are in
+packages at most three others depend on. See [`examples/alpha-omega/REPORT.md`](examples/alpha-omega/REPORT.md).
 
 `examples/github-issues/` is a recorded negative result: unlock-mass
 ranking of GitHub issues by blocking relationships, killed at

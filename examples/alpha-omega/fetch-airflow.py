@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dependency graph of the full Apache Airflow 2.10.2 install universe.
+"""Dependency graph of the full Apache Airflow 2.9.3 install universe.
 
 OpenRefactory's audit counted "719 dependencies" for Airflow, i.e. the full
 constraints set (core + all providers/extras), not the 137 packages a bare
@@ -16,7 +16,7 @@ import re
 import sys
 import urllib.request
 
-CONSTRAINTS = "https://raw.githubusercontent.com/apache/airflow/constraints-2.10.2/constraints-3.12.txt"
+CONSTRAINTS = "https://raw.githubusercontent.com/apache/airflow/constraints-2.9.3/constraints-3.12.txt"
 
 
 def norm(n):
@@ -41,8 +41,8 @@ def main():
         if m:
             pins[norm(m.group(1))] = (m.group(1), m.group(2))
     # the constraints file pins everything except airflow itself
-    pins["apache-airflow"] = ("apache-airflow", "2.10.2")
-    print(f"{len(pins)} pinned packages in constraints-2.10.2/constraints-3.12.txt (+ apache-airflow)", file=sys.stderr)
+    pins["apache-airflow"] = ("apache-airflow", "2.9.3")
+    print(f"{len(pins)} pinned packages in constraints-2.9.3/constraints-3.12.txt (+ apache-airflow)", file=sys.stderr)
 
     def deps_of(key):
         name, ver = pins[key]

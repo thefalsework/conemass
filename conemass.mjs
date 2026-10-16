@@ -33,16 +33,36 @@
 //              whose dependency set is the union — consistent with
 //              the package-level Debian and crates.io rankings
 //              published alongside this tool;
+//            - CycloneDX SBOM (.json with "bomFormat":"CycloneDX"): the
+//              dependencies[] section is the edge list; each bom-ref is
+//              mapped to its purl with version, qualifiers and subpath
+//              stripped (pkg:npm/%40scope/name), falling back to
+//              group/name. Nested components are included;
+//            - SPDX SBOM (.json with "spdxVersion"): DEPENDS_ON and
+//              DEPENDENCY_OF relationships (the latter reversed); packages
+//              named by purl external ref if present, else by name;
+//            - Graphviz .dot (e.g. `nix-store -q --graph <path>`): every
+//              "a" -> "b" edge. nix-store writes dependency -> dependent
+//              (reference -> referrer), detected by /nix/store/ paths and
+//              flipped automatically; store paths are reduced to package
+//              names (hash and version stripped). Other .dot producers
+//              are read as dependent -> dependency; use --reverse if yours
+//              points the other way;
 //            - .json: {"nodes":[names...],"edges":[[depIdx,depIdx]...]}
 //              (edges as [dependent, dependency] index pairs), or a
 //              plain JSON array of [dependent, dependency] name pairs;
 //            - anything else: text edge list, one "dependent,dependency"
 //              per line (comma, tab, or space separated; a first line
 //              containing "depend" is treated as a header and skipped).
+//            Several inputs can be given; their edges are unioned, which
+//            is how SBOMs from many containers become one graph. Node
+//            names must agree across inputs (purls do).
 //   --cap N  cone truncation (default 200; rankings are insensitive
 //            50..800 on tested corpora).
 //   --top N  emit only the top N rows (default: all).
 //   --out F  write CSV to file F (default: stdout).
+//   --reverse  flip every edge (input is dependency -> dependent).
+//   --keep-versions  do not strip versions from purls / store paths.
 //
 // OUTPUT CSV columns:
 //   conemass_rank, name, conemass, direct_dependents, dependents_rank
@@ -54,10 +74,10 @@ import { readFileSync, writeFileSync } from "node:fs";
 // ---- args ----
 const args = process.argv.slice(2);
 if (!args.length || args.includes("--help") || args.includes("-h")) {
-  console.error("usage: node conemass.mjs <input> [--cap N] [--top N] [--out FILE]");
+  console.error("usage: node conemass.mjs <input>... [--cap N] [--top N] [--out FILE] [--reverse] [--keep-versions]\n" +
+    "inputs: Cargo.lock | CycloneDX .json | SPDX .json | Graphviz .dot (nix-store -q --graph) | {nodes,edges} .json | edge-list text");
   process.exit(args.length ? 0 : 1);
 }
-const input = args[0];
 const flag = (name, dflt) => {
   const i = args.indexOf(name);
   return i === -1 ? dflt : args[i + 1];
@@ -65,6 +85,11 @@ const flag = (name, dflt) => {
 const CAP = +flag("--cap", 200);
 const TOP = +flag("--top", 0);
 const OUT = flag("--out", null);
+const REVERSE = args.includes("--reverse");
+const KEEP_VERSIONS = args.includes("--keep-versions");
+const VALUED = new Set(["--cap", "--top", "--out"]);
+const inputs = args.filter((a, i) => !a.startsWith("--") && !VALUED.has(args[i - 1]));
+if (!inputs.length) { console.error("no input file given"); process.exit(1); }
 
 // ---- load edges as name pairs ----
 let names = [], edges = []; // edges: [dependentIdx, dependencyIdx]
@@ -74,9 +99,32 @@ const id = (nm) => {
   if (i === undefined) { i = names.length; idx.set(nm, i); names.push(nm); }
   return i;
 };
+
+// purl -> package identity: drop @version, ?qualifiers, #subpath
+const purlName = (p) => {
+  if (KEEP_VERSIONS) return p;
+  let s = p.split("#")[0].split("?")[0];
+  const at = s.lastIndexOf("@");
+  if (at > "pkg:".length && !s.slice(at + 1).includes("/")) s = s.slice(0, at);
+  return s;
+};
+// /nix/store/<hash>-name-1.2.3 -> name (Nix's own name/version split:
+// the version starts at the first "-" followed by a digit)
+const nixName = (p) => {
+  const base = p.replace(/^.*\/nix\/store\//, "");
+  const m = base.match(/^[a-z0-9]{32}-(.+)$/);
+  const full = m ? m[1] : base;
+  if (KEEP_VERSIONS) return full;
+  const v = full.search(/-[0-9]/);
+  return v > 0 ? full.slice(0, v) : full;
+};
+
+for (const input of inputs) {
 const text = readFileSync(input, "utf8");
+const isJson = input.endsWith(".json") || /^\s*\{/.test(text);
 const isCargoLock = /(^|[\\/])Cargo\.lock$/.test(input) ||
-  (!input.endsWith(".json") && /^\[\[package\]\]/m.test(text));
+  (!isJson && /^\[\[package\]\]/m.test(text));
+const isDot = /\.(dot|gv)$/.test(input) || (!isJson && /^\s*(strict\s+)?di?graph\b/.test(text));
 if (isCargoLock) {
   // Cargo.lock: [[package]] blocks with name = "..." followed by an
   // optional dependencies = [ "name", "name version", ... ] array.
@@ -94,14 +142,54 @@ if (isCargoLock) {
     if (nm) { cur = id(nm[1]); continue; }
     if (line.startsWith("dependencies = [") && !line.includes("]")) inDeps = true;
   }
-} else if (input.endsWith(".json")) {
+} else if (isDot) {
+  // Graphviz: every `"a" -> "b"` (quotes optional). nix-store -q --graph
+  // writes reference -> referrer, i.e. dependency -> dependent.
+  const nix = /\/nix\/store\//.test(text) || /^[a-z0-9]{32}-/m.test(text);
+  const edgeRe = /("([^"]*)"|([\w./:@+-]+))\s*->\s*("([^"]*)"|([\w./:@+-]+))/g;
+  let m;
+  while ((m = edgeRe.exec(text))) {
+    let a = m[2] ?? m[3], b = m[5] ?? m[6];
+    if (nix) { a = nixName(a); b = nixName(b); edges.push([id(b), id(a)]); }
+    else edges.push([id(a), id(b)]);
+  }
+} else if (isJson) {
   const raw = JSON.parse(text);
   if (Array.isArray(raw)) {
     for (const [a, b] of raw) edges.push([id(String(a)), id(String(b))]);
+  } else if (raw.bomFormat === "CycloneDX") {
+    // bom-ref -> package identity, over metadata.component and all
+    // components including nested ones
+    const ref2name = new Map();
+    const visit = (c) => {
+      if (!c || typeof c !== "object") return;
+      const nm = c.purl ? purlName(c.purl)
+        : (c.group ? c.group + "/" : "") + (c.name ?? c["bom-ref"] ?? "?");
+      if (c["bom-ref"]) ref2name.set(c["bom-ref"], nm);
+      for (const sub of c.components ?? []) visit(sub);
+    };
+    visit(raw.metadata?.component);
+    for (const c of raw.components ?? []) visit(c);
+    const nameOf = (ref) => ref2name.get(ref) ?? (ref.startsWith("pkg:") ? purlName(ref) : ref);
+    for (const d of raw.dependencies ?? []) {
+      const a = id(nameOf(d.ref));
+      for (const dep of d.dependsOn ?? []) edges.push([a, id(nameOf(dep))]);
+    }
+  } else if (raw.spdxVersion || raw.SPDXID) {
+    const id2name = new Map();
+    for (const p of raw.packages ?? []) {
+      const purl = (p.externalRefs ?? []).find((r) => r.referenceType === "purl")?.referenceLocator;
+      id2name.set(p.SPDXID, purl ? purlName(purl) : String(p.name ?? p.SPDXID));
+    }
+    const nameOf = (s) => id2name.get(s) ?? s;
+    for (const r of raw.relationships ?? []) {
+      const t = r.relationshipType;
+      if (t === "DEPENDS_ON") edges.push([id(nameOf(r.spdxElementId)), id(nameOf(r.relatedSpdxElement))]);
+      else if (t === "DEPENDENCY_OF") edges.push([id(nameOf(r.relatedSpdxElement)), id(nameOf(r.spdxElementId))]);
+    }
   } else {
-    names = raw.nodes.map(String);
-    names.forEach((nm, i) => idx.set(nm, i));
-    edges = raw.edges;
+    const local = raw.nodes.map((nm) => id(String(nm)));
+    for (const [a, b] of raw.edges) edges.push([local[a], local[b]]);
   }
 } else {
   const lines = text.split("\n");
@@ -115,6 +203,8 @@ if (isCargoLock) {
     edges.push([id(parts[0]), id(parts[1])]);
   }
 }
+} // for each input
+if (REVERSE) edges = edges.map(([a, b]) => [b, a]);
 const n = names.length;
 if (!n) { console.error("no nodes parsed"); process.exit(1); }
 

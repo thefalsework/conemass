@@ -77,8 +77,28 @@ head-versus-bulk section.
 node conemass.mjs <input> [--cap N] [--top N] [--out FILE]
 ```
 
-**Inputs** (auto-detected):
+**Inputs** (auto-detected; several may be given and their edges are
+unioned, which is how SBOMs from many containers become one graph):
 
+- CycloneDX SBOM (`.json` with `"bomFormat": "CycloneDX"`) — the
+  `dependencies` section is the edge list. Each `bom-ref` is mapped to
+  its purl with version, qualifiers and subpath stripped
+  (`pkg:cargo/syn@2.0.29?checksum=…` → `pkg:cargo/syn`), so a package
+  present at several versions is one node; `--keep-versions` turns
+  that off. Nested components are included. Falls back to
+  `group/name` when there is no purl.
+- SPDX SBOM (`.json` with `spdxVersion`) — `DEPENDS_ON` and
+  `DEPENDENCY_OF` relationships (the latter reversed); packages named
+  by their purl external reference when present, else by name. The
+  same purl convention as CycloneDX, so SBOMs of both kinds union
+  cleanly.
+- Graphviz `.dot`, e.g. `nix-store -q --graph /nix/store/…` — every
+  `"a" -> "b"` edge. nix-store writes reference → referrer, i.e.
+  dependency → dependent; that is detected from the store paths and
+  flipped, and store paths are reduced to package names (hash and
+  version stripped, using Nix's own name/version split). Other `.dot`
+  producers are read as dependent → dependency; `--reverse` if yours
+  points the other way.
 - `Cargo.lock` — parsed directly. Both dependency entry forms resolve
   (`"serde"` and `"serde 1.0.188"`). Versions are collapsed to package
   names: a crate present at two versions is one node whose dependency

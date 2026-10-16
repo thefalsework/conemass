@@ -108,14 +108,15 @@ const purlName = (p) => {
   if (at > "pkg:".length && !s.slice(at + 1).includes("/")) s = s.slice(0, at);
   return s;
 };
-// /nix/store/<hash>-name-1.2.3 -> name (Nix's own name/version split:
-// the version starts at the first "-" followed by a digit)
+// [/nix/store/]<hash>-name-1.2.3 -> name, using Nix's own split
+// (builtins.parseDrvName): the name is everything before the first
+// "-" that is not followed by a letter.
 const nixName = (p) => {
   const base = p.replace(/^.*\/nix\/store\//, "");
   const m = base.match(/^[a-z0-9]{32}-(.+)$/);
   const full = m ? m[1] : base;
   if (KEEP_VERSIONS) return full;
-  const v = full.search(/-[0-9]/);
+  const v = full.search(/-(?![a-zA-Z])/);
   return v > 0 ? full.slice(0, v) : full;
 };
 
@@ -143,15 +144,19 @@ if (isCargoLock) {
     if (line.startsWith("dependencies = [") && !line.includes("]")) inDeps = true;
   }
 } else if (isDot) {
-  // Graphviz: every `"a" -> "b"` (quotes optional). nix-store -q --graph
-  // writes reference -> referrer, i.e. dependency -> dependent.
-  const nix = /\/nix\/store\//.test(text) || /^[a-z0-9]{32}-/m.test(text);
+  // Graphviz: every `"a" -> "b"` (quotes optional; chains a -> b -> c
+  // yield both edges). nix-store -q --graph names nodes by store-path
+  // basename ("<32-char hash>-name-version") and writes reference ->
+  // referrer, i.e. dependency -> dependent, so its edges are flipped.
+  const nix = /\/nix\/store\//.test(text) || /(^|["\s])[a-z0-9]{32}-[^\s"]+/.test(text);
   const edgeRe = /("([^"]*)"|([\w./:@+-]+))\s*->\s*("([^"]*)"|([\w./:@+-]+))/g;
   let m;
   while ((m = edgeRe.exec(text))) {
     let a = m[2] ?? m[3], b = m[5] ?? m[6];
     if (nix) { a = nixName(a); b = nixName(b); edges.push([id(b), id(a)]); }
     else edges.push([id(a), id(b)]);
+    // resume at the right-hand node so it can be the left of the next edge
+    edgeRe.lastIndex = m.index + m[0].lastIndexOf(m[4]);
   }
 } else if (isJson) {
   const raw = JSON.parse(text);
@@ -184,6 +189,7 @@ if (isCargoLock) {
     const nameOf = (s) => id2name.get(s) ?? s;
     for (const r of raw.relationships ?? []) {
       const t = r.relationshipType;
+      if (r.spdxElementId === "SPDXRef-DOCUMENT" || r.relatedSpdxElement === "SPDXRef-DOCUMENT") continue;
       if (t === "DEPENDS_ON") edges.push([id(nameOf(r.spdxElementId)), id(nameOf(r.relatedSpdxElement))]);
       else if (t === "DEPENDENCY_OF") edges.push([id(nameOf(r.relatedSpdxElement)), id(nameOf(r.spdxElementId))]);
     }

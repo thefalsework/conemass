@@ -114,6 +114,13 @@ unioned, which is how SBOMs from many containers become one graph):
 **Flags:** `--cap N` cone truncation (default 200; rankings are
 insensitive to cap 50–800 on tested corpora). `--top N` emit only the
 top N rows. `--out F` write CSV to a file instead of stdout.
+`--reverse` flip every edge. `--keep-versions` keep versions in purls
+and store paths (each version becomes its own node).
+
+Lockfiles other than `Cargo.lock` (`package-lock.json`, `go.sum`,
+`poetry.lock`, …) are easiest fed in as SBOMs: `syft` or `cdxgen`
+turn any of them into CycloneDX in one command, and the purl naming
+then matches across ecosystems.
 
 **Output columns:** `conemass_rank, name, conemass, direct_dependents,
 dependents_rank`.

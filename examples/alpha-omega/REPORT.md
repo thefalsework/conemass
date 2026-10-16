@@ -108,7 +108,7 @@ position, so ordering the queue by conemass costs nothing in bugs found;
 what it buys is that the first bugs found are the ones with reach. A
 fixed budget of N scans spent from the top of the conemass ranking
 produces about the same number of findings as N scans in any other
-order, and the ones it produces are the go-cmp / spring-core class
+order, and the ones it produces are the go-restful / spring-core class
 rather than the apprise / cadvisor class.
 
 The same reach number is also the triage input after a finding: "High,

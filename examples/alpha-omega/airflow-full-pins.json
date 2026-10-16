@@ -1,0 +1,2774 @@
+{
+"adal": {
+"repo": "azuread/azure-activedirectory-library-for-python",
+"version": "1.2.7"
+},
+"adlfs": {
+"repo": null,
+"version": "2024.7.0"
+},
+"aiobotocore": {
+"repo": "aio-libs/aiobotocore",
+"version": "2.15.0"
+},
+"aiofiles": {
+"repo": "tinche/aiofiles",
+"version": "23.2.1"
+},
+"aiohappyeyeballs": {
+"repo": "aio-libs/aiohappyeyeballs",
+"version": "2.4.0"
+},
+"aiohttp": {
+"repo": "aio-libs/aiohttp",
+"version": "3.10.5"
+},
+"aioitertools": {
+"repo": "omnilib/aioitertools",
+"version": "0.12.0"
+},
+"aioresponses": {
+"repo": "pnuckowski/aioresponses",
+"version": "0.7.6"
+},
+"aiosignal": {
+"repo": "aio-libs/aiosignal",
+"version": "1.3.1"
+},
+"alabaster": {
+"repo": "bitprophet/alabaster",
+"version": "0.7.16"
+},
+"alembic": {
+"repo": "sqlalchemy/alembic",
+"version": "1.13.2"
+},
+"alibabacloud-adb20211201": {
+"repo": "aliyun/alibabacloud-python-sdk",
+"version": "2.0.0"
+},
+"alibabacloud-credentials": {
+"repo": "aliyun/credentials-python",
+"version": "0.3.5"
+},
+"alibabacloud-endpoint-util": {
+"repo": "aliyun/endpoint-util",
+"version": "0.0.3"
+},
+"alibabacloud-gateway-spi": {
+"repo": "aliyun/alibabacloud-gateway",
+"version": "0.0.2"
+},
+"alibabacloud-openapi-util": {
+"repo": "aliyun/darabonba-openapi-util",
+"version": "0.2.2"
+},
+"alibabacloud-tea": {
+"repo": "aliyun/tea-python",
+"version": "0.3.9"
+},
+"alibabacloud-tea-openapi": {
+"repo": "aliyun/darabonba-openapi",
+"version": "0.3.11"
+},
+"alibabacloud-tea-util": {
+"repo": "aliyun/tea-util",
+"version": "0.3.13"
+},
+"alibabacloud-tea-xml": {
+"repo": "aliyun/tea-xml",
+"version": "0.0.2"
+},
+"aliyun-python-sdk-core": {
+"repo": "aliyun/aliyun-openapi-python-sdk",
+"version": "2.15.2"
+},
+"aliyun-python-sdk-kms": {
+"repo": null,
+"version": "2.16.5"
+},
+"amqp": {
+"repo": "celery/py-amqp",
+"version": "5.2.0"
+},
+"analytics-python": {
+"repo": "segmentio/analytics-python",
+"version": "1.2.9"
+},
+"annotated-types": {
+"repo": "annotated-types/annotated-types",
+"version": "0.7.0"
+},
+"anyascii": {
+"repo": "anyascii/anyascii",
+"version": "0.3.2"
+},
+"anyio": {
+"repo": "agronholm/anyio",
+"version": "4.4.0"
+},
+"apache-airflow": {
+"repo": "apache/airflow",
+"version": "2.10.2"
+},
+"apache-airflow-providers-airbyte": {
+"repo": "apache/airflow",
+"version": "3.9.0"
+},
+"apache-airflow-providers-alibaba": {
+"repo": "apache/airflow",
+"version": "2.9.0"
+},
+"apache-airflow-providers-amazon": {
+"repo": "apache/airflow",
+"version": "8.28.0"
+},
+"apache-airflow-providers-apache-cassandra": {
+"repo": "apache/airflow",
+"version": "3.6.0"
+},
+"apache-airflow-providers-apache-drill": {
+"repo": "apache/airflow",
+"version": "2.8.0"
+},
+"apache-airflow-providers-apache-druid": {
+"repo": "apache/airflow",
+"version": "3.11.0"
+},
+"apache-airflow-providers-apache-flink": {
+"repo": "apache/airflow",
+"version": "1.5.0"
+},
+"apache-airflow-providers-apache-hdfs": {
+"repo": "apache/airflow",
+"version": "4.5.0"
+},
+"apache-airflow-providers-apache-hive": {
+"repo": "apache/airflow",
+"version": "8.2.0"
+},
+"apache-airflow-providers-apache-iceberg": {
+"repo": "apache/airflow",
+"version": "1.1.0"
+},
+"apache-airflow-providers-apache-impala": {
+"repo": "apache/airflow",
+"version": "1.5.0"
+},
+"apache-airflow-providers-apache-kafka": {
+"repo": "apache/airflow",
+"version": "1.6.0"
+},
+"apache-airflow-providers-apache-kylin": {
+"repo": "apache/airflow",
+"version": "3.7.0"
+},
+"apache-airflow-providers-apache-livy": {
+"repo": "apache/airflow",
+"version": "3.9.0"
+},
+"apache-airflow-providers-apache-pig": {
+"repo": "apache/airflow",
+"version": "4.5.0"
+},
+"apache-airflow-providers-apache-pinot": {
+"repo": "apache/airflow",
+"version": "4.5.0"
+},
+"apache-airflow-providers-apache-spark": {
+"repo": "apache/airflow",
+"version": "4.10.0"
+},
+"apache-airflow-providers-apprise": {
+"repo": "apache/airflow",
+"version": "1.4.0"
+},
+"apache-airflow-providers-arangodb": {
+"repo": "apache/airflow",
+"version": "2.6.0"
+},
+"apache-airflow-providers-asana": {
+"repo": "apache/airflow",
+"version": "2.6.0"
+},
+"apache-airflow-providers-atlassian-jira": {
+"repo": "apache/airflow",
+"version": "2.7.0"
+},
+"apache-airflow-providers-celery": {
+"repo": "apache/airflow",
+"version": "3.8.1"
+},
+"apache-airflow-providers-cloudant": {
+"repo": "apache/airflow",
+"version": "3.6.0"
+},
+"apache-airflow-providers-cncf-kubernetes": {
+"repo": "apache/airflow",
+"version": "8.4.1"
+},
+"apache-airflow-providers-cohere": {
+"repo": "apache/airflow",
+"version": "1.3.0"
+},
+"apache-airflow-providers-common-compat": {
+"repo": "apache/airflow",
+"version": "1.2.0"
+},
+"apache-airflow-providers-common-io": {
+"repo": "apache/airflow",
+"version": "1.4.0"
+},
+"apache-airflow-providers-common-sql": {
+"repo": "apache/airflow",
+"version": "1.16.0"
+},
+"apache-airflow-providers-databricks": {
+"repo": "apache/airflow",
+"version": "6.9.0"
+},
+"apache-airflow-providers-datadog": {
+"repo": "apache/airflow",
+"version": "3.7.0"
+},
+"apache-airflow-providers-dbt-cloud": {
+"repo": "apache/airflow",
+"version": "3.10.0"
+},
+"apache-airflow-providers-dingding": {
+"repo": "apache/airflow",
+"version": "3.6.0"
+},
+"apache-airflow-providers-discord": {
+"repo": "apache/airflow",
+"version": "3.8.0"
+},
+"apache-airflow-providers-docker": {
+"repo": "apache/airflow",
+"version": "3.13.0"
+},
+"apache-airflow-providers-elasticsearch": {
+"repo": "apache/airflow",
+"version": "5.5.0"
+},
+"apache-airflow-providers-exasol": {
+"repo": "apache/airflow",
+"version": "4.6.0"
+},
+"apache-airflow-providers-fab": {
+"repo": "apache/airflow",
+"version": "1.3.0"
+},
+"apache-airflow-providers-facebook": {
+"repo": "apache/airflow",
+"version": "3.6.0"
+},
+"apache-airflow-providers-ftp": {
+"repo": "apache/airflow",
+"version": "3.11.0"
+},
+"apache-airflow-providers-github": {
+"repo": "apache/airflow",
+"version": "2.7.0"
+},
+"apache-airflow-providers-google": {
+"repo": "apache/airflow",
+"version": "10.22.0"
+},
+"apache-airflow-providers-grpc": {
+"repo": "apache/airflow",
+"version": "3.6.0"
+},
+"apache-airflow-providers-hashicorp": {
+"repo": "apache/airflow",
+"version": "3.8.0"
+},
+"apache-airflow-providers-http": {
+"repo": "apache/airflow",
+"version": "4.13.0"
+},
+"apache-airflow-providers-imap": {
+"repo": "apache/airflow",
+"version": "3.7.0"
+},
+"apache-airflow-providers-influxdb": {
+"repo": "apache/airflow",
+"version": "2.7.0"
+},
+"apache-airflow-providers-jdbc": {
+"repo": "apache/airflow",
+"version": "4.5.0"
+},
+"apache-airflow-providers-jenkins": {
+"repo": "apache/airflow",
+"version": "3.7.0"
+},
+"apache-airflow-providers-microsoft-azure": {
+"repo": "apache/airflow",
+"version": "10.4.0"
+},
+"apache-airflow-providers-microsoft-mssql": {
+"repo": "apache/airflow",
+"version": "3.9.0"
+},
+"apache-airflow-providers-microsoft-psrp": {
+"repo": "apache/airflow",
+"version": "2.8.0"
+},
+"apache-airflow-providers-microsoft-winrm": {
+"repo": "apache/airflow",
+"version": "3.6.0"
+},
+"apache-airflow-providers-mongo": {
+"repo": "apache/airflow",
+"version": "4.2.0"
+},
+"apache-airflow-providers-mysql": {
+"repo": "apache/airflow",
+"version": "5.7.0"
+},
+"apache-airflow-providers-neo4j": {
+"repo": "apache/airflow",
+"version": "3.7.0"
+},
+"apache-airflow-providers-odbc": {
+"repo": "apache/airflow",
+"version": "4.7.0"
+},
+"apache-airflow-providers-openai": {
+"repo": "apache/airflow",
+"version": "1.3.0"
+},
+"apache-airflow-providers-openfaas": {
+"repo": "apache/airflow",
+"version": "3.6.0"
+},
+"apache-airflow-providers-openlineage": {
+"repo": "apache/airflow",
+"version": "1.11.0"
+},
+"apache-airflow-providers-opensearch": {
+"repo": "apache/airflow",
+"version": "1.4.0"
+},
+"apache-airflow-providers-opsgenie": {
+"repo": "apache/airflow",
+"version": "5.7.0"
+},
+"apache-airflow-providers-oracle": {
+"repo": "apache/airflow",
+"version": "3.11.0"
+},
+"apache-airflow-providers-pagerduty": {
+"repo": "apache/airflow",
+"version": "3.8.0"
+},
+"apache-airflow-providers-pgvector": {
+"repo": "apache/airflow",
+"version": "1.3.0"
+},
+"apache-airflow-providers-pinecone": {
+"repo": "apache/airflow",
+"version": "2.1.0"
+},
+"apache-airflow-providers-postgres": {
+"repo": "apache/airflow",
+"version": "5.12.0"
+},
+"apache-airflow-providers-presto": {
+"repo": "apache/airflow",
+"version": "5.6.0"
+},
+"apache-airflow-providers-qdrant": {
+"repo": "apache/airflow",
+"version": "1.2.0"
+},
+"apache-airflow-providers-redis": {
+"repo": "apache/airflow",
+"version": "3.8.0"
+},
+"apache-airflow-providers-salesforce": {
+"repo": "apache/airflow",
+"version": "5.8.0"
+},
+"apache-airflow-providers-samba": {
+"repo": "apache/airflow",
+"version": "4.8.0"
+},
+"apache-airflow-providers-segment": {
+"repo": "apache/airflow",
+"version": "3.6.0"
+},
+"apache-airflow-providers-sendgrid": {
+"repo": "apache/airflow",
+"version": "3.6.0"
+},
+"apache-airflow-providers-sftp": {
+"repo": "apache/airflow",
+"version": "4.11.0"
+},
+"apache-airflow-providers-singularity": {
+"repo": "apache/airflow",
+"version": "3.6.0"
+},
+"apache-airflow-providers-slack": {
+"repo": "apache/airflow",
+"version": "8.9.0"
+},
+"apache-airflow-providers-smtp": {
+"repo": "apache/airflow",
+"version": "1.8.0"
+},
+"apache-airflow-providers-snowflake": {
+"repo": "apache/airflow",
+"version": "5.7.0"
+},
+"apache-airflow-providers-sqlite": {
+"repo": "apache/airflow",
+"version": "3.9.0"
+},
+"apache-airflow-providers-ssh": {
+"repo": "apache/airflow",
+"version": "3.13.1"
+},
+"apache-airflow-providers-tableau": {
+"repo": "apache/airflow",
+"version": "4.6.0"
+},
+"apache-airflow-providers-tabular": {
+"repo": "apache/airflow",
+"version": "1.6.1"
+},
+"apache-airflow-providers-telegram": {
+"repo": "apache/airflow",
+"version": "4.6.0"
+},
+"apache-airflow-providers-teradata": {
+"repo": "apache/airflow",
+"version": "2.6.0"
+},
+"apache-airflow-providers-trino": {
+"repo": "apache/airflow",
+"version": "5.8.0"
+},
+"apache-airflow-providers-vertica": {
+"repo": "apache/airflow",
+"version": "3.9.0"
+},
+"apache-airflow-providers-weaviate": {
+"repo": "apache/airflow",
+"version": "2.1.0"
+},
+"apache-airflow-providers-yandex": {
+"repo": "apache/airflow",
+"version": "3.12.0"
+},
+"apache-airflow-providers-ydb": {
+"repo": "apache/airflow",
+"version": "1.3.0"
+},
+"apache-airflow-providers-zendesk": {
+"repo": "apache/airflow",
+"version": "4.8.0"
+},
+"apispec": {
+"repo": "marshmallow-code/apispec",
+"version": "6.6.1"
+},
+"apprise": {
+"repo": "caronc/apprise",
+"version": "1.9.0"
+},
+"argcomplete": {
+"repo": "kislyuk/argcomplete",
+"version": "3.5.0"
+},
+"asana": {
+"repo": "asana/python-asana",
+"version": "3.2.3"
+},
+"asgiref": {
+"repo": "django/asgiref",
+"version": "3.8.1"
+},
+"asn1crypto": {
+"repo": "wbond/asn1crypto",
+"version": "1.5.1"
+},
+"astroid": {
+"repo": "pycqa/astroid",
+"version": "2.15.8"
+},
+"asttokens": {
+"repo": "gristlabs/asttokens",
+"version": "2.4.1"
+},
+"asyncssh": {
+"repo": "ronf/asyncssh",
+"version": "2.17.0"
+},
+"atlasclient": {
+"repo": "jpoullet2000/atlasclient",
+"version": "1.0.0"
+},
+"atlassian-python-api": {
+"repo": "atlassian-api/atlassian-python-api",
+"version": "3.41.16"
+},
+"attrs": {
+"repo": "sponsors/hynek",
+"version": "24.2.0"
+},
+"authlib": {
+"repo": "sponsors/lepture",
+"version": "1.3.2"
+},
+"aws-sam-translator": {
+"repo": "awslabs/serverless-application-model",
+"version": "1.91.0"
+},
+"aws-xray-sdk": {
+"repo": "aws/aws-xray-sdk-python",
+"version": "2.14.0"
+},
+"azure-batch": {
+"repo": "azure/azure-sdk-for-python",
+"version": "14.2.0"
+},
+"azure-common": {
+"repo": "azure/azure-sdk-for-python",
+"version": "1.1.28"
+},
+"azure-core": {
+"repo": "azure/azure-sdk-for-python",
+"version": "1.31.0"
+},
+"azure-cosmos": {
+"repo": "azure/azure-sdk-for-python",
+"version": "4.7.0"
+},
+"azure-datalake-store": {
+"repo": "azure/azure-data-lake-store-python",
+"version": "0.0.53"
+},
+"azure-identity": {
+"repo": "azure/azure-sdk-for-python",
+"version": "1.17.1"
+},
+"azure-keyvault-secrets": {
+"repo": "azure/azure-sdk-for-python",
+"version": "4.8.0"
+},
+"azure-kusto-data": {
+"repo": "azure/azure-kusto-python",
+"version": "4.5.1"
+},
+"azure-mgmt-containerinstance": {
+"repo": "azure/azure-sdk-for-python",
+"version": "10.1.0"
+},
+"azure-mgmt-containerregistry": {
+"repo": "azure/azure-sdk-for-python",
+"version": "10.3.0"
+},
+"azure-mgmt-core": {
+"repo": "azure/azure-sdk-for-python",
+"version": "1.4.0"
+},
+"azure-mgmt-cosmosdb": {
+"repo": "azure/azure-sdk-for-python",
+"version": "9.5.1"
+},
+"azure-mgmt-datafactory": {
+"repo": "azure/azure-sdk-for-python",
+"version": "9.0.0"
+},
+"azure-mgmt-datalake-nspkg": {
+"repo": "azure/azure-sdk-for-python",
+"version": "3.0.1"
+},
+"azure-mgmt-datalake-store": {
+"repo": "azure/azure-sdk-for-python",
+"version": "0.5.0"
+},
+"azure-mgmt-nspkg": {
+"repo": "azure/azure-sdk-for-python",
+"version": "3.0.2"
+},
+"azure-mgmt-resource": {
+"repo": "azure/azure-sdk-for-python",
+"version": "23.1.1"
+},
+"azure-mgmt-storage": {
+"repo": "azure/azure-sdk-for-python",
+"version": "21.2.1"
+},
+"azure-nspkg": {
+"repo": "azure/azure-sdk-for-python",
+"version": "3.0.2"
+},
+"azure-servicebus": {
+"repo": "azure/azure-sdk-for-python",
+"version": "7.12.2"
+},
+"azure-storage-blob": {
+"repo": "azure/azure-sdk-for-python",
+"version": "12.22.0"
+},
+"azure-storage-file-datalake": {
+"repo": "azure/azure-sdk-for-python",
+"version": "12.16.0"
+},
+"azure-storage-file-share": {
+"repo": "azure/azure-sdk-for-python",
+"version": "12.17.0"
+},
+"azure-synapse-artifacts": {
+"repo": "azure/azure-sdk-for-python",
+"version": "0.19.0"
+},
+"azure-synapse-spark": {
+"repo": "azure/azure-sdk-for-python",
+"version": "0.7.0"
+},
+"babel": {
+"repo": "python-babel/babel",
+"version": "2.16.0"
+},
+"backoff": {
+"repo": "litl/backoff",
+"version": "2.2.1"
+},
+"bcrypt": {
+"repo": "pyca/bcrypt",
+"version": "4.2.0"
+},
+"beautifulsoup4": {
+"repo": null,
+"version": "4.12.3"
+},
+"billiard": {
+"repo": "celery/billiard",
+"version": "4.2.0"
+},
+"bitarray": {
+"repo": "ilanschnell/bitarray",
+"version": "2.9.2"
+},
+"black": {
+"repo": "psf/black",
+"version": "24.8.0"
+},
+"blinker": {
+"repo": "pallets-eco/blinker",
+"version": "1.8.2"
+},
+"boto3": {
+"repo": "boto/boto3",
+"version": "1.35.16"
+},
+"botocore": {
+"repo": "boto/botocore",
+"version": "1.35.16"
+},
+"cachelib": {
+"repo": "pallets/cachelib",
+"version": "0.9.0"
+},
+"cachetools": {
+"repo": "tkem/cachetools",
+"version": "5.5.0"
+},
+"cassandra-driver": {
+"repo": "datastax/python-driver",
+"version": "3.29.2"
+},
+"cattrs": {
+"repo": "python-attrs/cattrs",
+"version": "24.1.1"
+},
+"celery": {
+"repo": "celery/celery",
+"version": "5.4.0"
+},
+"certifi": {
+"repo": "certifi/python-certifi",
+"version": "2024.8.30"
+},
+"cffi": {
+"repo": "python-cffi/cffi",
+"version": "1.17.1"
+},
+"cfgv": {
+"repo": "asottile/cfgv",
+"version": "3.4.0"
+},
+"cfn-lint": {
+"repo": "aws-cloudformation/cfn-lint",
+"version": "1.13.0"
+},
+"cgroupspy": {
+"repo": "cloudsigma/cgroupspy",
+"version": "0.2.3"
+},
+"chardet": {
+"repo": "chardet/chardet",
+"version": "5.2.0"
+},
+"charset-normalizer": {
+"repo": "ousret/charset_normalizer",
+"version": "3.3.2"
+},
+"checksumdir": {
+"repo": "cakepietoast/checksumdir",
+"version": "1.2.0"
+},
+"ciso8601": {
+"repo": "closeio/ciso8601",
+"version": "2.3.1"
+},
+"click": {
+"repo": "pallets/click",
+"version": "8.1.7"
+},
+"click-didyoumean": {
+"repo": "click-contrib/click-didyoumean",
+"version": "0.3.1"
+},
+"click-plugins": {
+"repo": "click-contrib/click-plugins",
+"version": "1.1.1"
+},
+"click-repl": {
+"repo": "untitaker/click-repl",
+"version": "0.3.0"
+},
+"clickclick": {
+"repo": null,
+"version": "20.10.2"
+},
+"cloudant": {
+"repo": "cloudant/python-cloudant",
+"version": "2.15.0"
+},
+"cloudpickle": {
+"repo": "cloudpipe/cloudpickle",
+"version": "3.0.0"
+},
+"cohere": {
+"repo": null,
+"version": "4.57"
+},
+"colorama": {
+"repo": "tartley/colorama",
+"version": "0.4.6"
+},
+"colorlog": {
+"repo": "borntyping/python-colorlog",
+"version": "6.8.2"
+},
+"configupdater": {
+"repo": "pyscaffold/configupdater",
+"version": "3.2"
+},
+"confluent-kafka": {
+"repo": "confluentinc/confluent-kafka-python",
+"version": "2.5.3"
+},
+"connexion": {
+"repo": "zalando/connexion",
+"version": "2.14.2"
+},
+"coverage": {
+"repo": "nedbat/coveragepy",
+"version": "7.6.1"
+},
+"crcmod": {
+"repo": null,
+"version": "1.7"
+},
+"cron-descriptor": {
+"repo": "salamek/cron-descriptor",
+"version": "1.4.5"
+},
+"croniter": {
+"repo": "kiorky/croniter",
+"version": "3.0.3"
+},
+"cryptography": {
+"repo": "pyca/cryptography",
+"version": "42.0.8"
+},
+"curlify": {
+"repo": "oeegor/curlify",
+"version": "2.2.1"
+},
+"databricks-sql-connector": {
+"repo": "databricks/databricks-sql-python",
+"version": "2.9.6"
+},
+"datadog": {
+"repo": "datadog/datadogpy",
+"version": "0.50.0"
+},
+"db-dtypes": {
+"repo": "googleapis/python-db-dtypes-pandas",
+"version": "1.3.0"
+},
+"decorator": {
+"repo": "micheles/decorator",
+"version": "5.1.1"
+},
+"defusedxml": {
+"repo": "tiran/defusedxml",
+"version": "0.7.1"
+},
+"deltalake": {
+"repo": "delta-io/delta-rs",
+"version": "0.19.2"
+},
+"deprecated": {
+"repo": "tantale/deprecated",
+"version": "1.2.14"
+},
+"diagrams": {
+"repo": "mingrammer/diagrams",
+"version": "0.23.4"
+},
+"dill": {
+"repo": "uqfoundation/dill",
+"version": "0.3.8"
+},
+"distlib": {
+"repo": "pypa/distlib",
+"version": "0.3.8"
+},
+"distro": {
+"repo": "python-distro/distro",
+"version": "1.9.0"
+},
+"dnspython": {
+"repo": "rthalley/dnspython",
+"version": "2.6.1"
+},
+"docker": {
+"repo": "docker/docker-py",
+"version": "7.1.0"
+},
+"docopt": {
+"repo": null,
+"version": "0.6.2"
+},
+"docstring-parser": {
+"repo": "rr-/docstring_parser",
+"version": "0.16"
+},
+"docutils": {
+"repo": null,
+"version": "0.16"
+},
+"duckdb": {
+"repo": "duckdb/duckdb",
+"version": "1.1.0"
+},
+"elastic-transport": {
+"repo": "elastic/elastic-transport-python",
+"version": "8.15.0"
+},
+"elasticsearch": {
+"repo": "elastic/elasticsearch-py",
+"version": "8.15.1"
+},
+"email-validator": {
+"repo": "joshdata/python-email-validator",
+"version": "2.2.0"
+},
+"eralchemy2": {
+"repo": "maurerle/eralchemy2",
+"version": "1.4.1"
+},
+"et-xmlfile": {
+"repo": null,
+"version": "1.1.0"
+},
+"eventlet": {
+"repo": "eventlet/eventlet",
+"version": "0.37.0"
+},
+"events": {
+"repo": "pyeve/events",
+"version": "0.5"
+},
+"execnet": {
+"repo": null,
+"version": "2.1.1"
+},
+"executing": {
+"repo": "alexmojaki/executing",
+"version": "2.1.0"
+},
+"facebook-business": {
+"repo": "facebook/facebook-python-business-sdk",
+"version": "20.0.2"
+},
+"fastavro": {
+"repo": "fastavro/fastavro",
+"version": "1.9.7"
+},
+"filelock": {
+"repo": "tox-dev/py-filelock",
+"version": "3.16.0"
+},
+"flask": {
+"repo": "pallets/flask",
+"version": "2.2.5"
+},
+"flask-appbuilder": {
+"repo": "dpgaspar/flask-appbuilder",
+"version": "4.5.0"
+},
+"flask-babel": {
+"repo": "python-babel/flask-babel",
+"version": "2.0.0"
+},
+"flask-bcrypt": {
+"repo": "maxcountryman/flask-bcrypt",
+"version": "1.0.1"
+},
+"flask-caching": {
+"repo": "pallets-eco/flask-caching",
+"version": "2.3.0"
+},
+"flask-jwt-extended": {
+"repo": "vimalloc/flask-jwt-extended",
+"version": "4.6.0"
+},
+"flask-limiter": {
+"repo": "alisaifee/flask-limiter",
+"version": "3.8.0"
+},
+"flask-login": {
+"repo": "maxcountryman/flask-login",
+"version": "0.6.3"
+},
+"flask-session": {
+"repo": "pallets-eco/flask-session",
+"version": "0.5.0"
+},
+"flask-sqlalchemy": {
+"repo": "pallets/flask-sqlalchemy",
+"version": "2.5.1"
+},
+"flask-wtf": {
+"repo": "wtforms/flask-wtf",
+"version": "1.2.1"
+},
+"flower": {
+"repo": "mher/flower",
+"version": "2.0.1"
+},
+"frozenlist": {
+"repo": "aio-libs/frozenlist",
+"version": "1.4.1"
+},
+"fsspec": {
+"repo": "fsspec/filesystem_spec",
+"version": "2024.9.0"
+},
+"future": {
+"repo": "pythoncharmers/python-future",
+"version": "1.0.0"
+},
+"gcloud-aio-auth": {
+"repo": "talkiq/gcloud-aio",
+"version": "5.3.2"
+},
+"gcloud-aio-bigquery": {
+"repo": "talkiq/gcloud-aio",
+"version": "7.1.0"
+},
+"gcloud-aio-storage": {
+"repo": "talkiq/gcloud-aio",
+"version": "9.3.0"
+},
+"gcsfs": {
+"repo": "fsspec/gcsfs",
+"version": "2024.9.0.post1"
+},
+"geomet": {
+"repo": "geomet/geomet",
+"version": "0.2.1.post1"
+},
+"gevent": {
+"repo": "gevent/gevent",
+"version": "24.2.1"
+},
+"gitdb": {
+"repo": "gitpython-developers/gitdb",
+"version": "4.0.11"
+},
+"gitpython": {
+"repo": "gitpython-developers/gitpython",
+"version": "3.1.43"
+},
+"google-ads": {
+"repo": "googleads/google-ads-python",
+"version": "25.0.0"
+},
+"google-analytics-admin": {
+"repo": "googleapis/google-cloud-python",
+"version": "0.23.0"
+},
+"google-api-core": {
+"repo": "googleapis/python-api-core",
+"version": "2.19.2"
+},
+"google-api-python-client": {
+"repo": "googleapis/google-api-python-client",
+"version": "2.145.0"
+},
+"google-auth": {
+"repo": "googleapis/google-auth-library-python",
+"version": "2.34.0"
+},
+"google-auth-httplib2": {
+"repo": "googlecloudplatform/google-auth-library-python-httplib2",
+"version": "0.2.0"
+},
+"google-auth-oauthlib": {
+"repo": "googlecloudplatform/google-auth-library-python-oauthlib",
+"version": "1.2.1"
+},
+"google-cloud-aiplatform": {
+"repo": "googleapis/python-aiplatform",
+"version": "1.66.0"
+},
+"google-cloud-appengine-logging": {
+"repo": "googleapis/google-cloud-python",
+"version": "1.4.5"
+},
+"google-cloud-audit-log": {
+"repo": "googleapis/python-audit-log",
+"version": "0.3.0"
+},
+"google-cloud-automl": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.13.5"
+},
+"google-cloud-batch": {
+"repo": "googleapis/google-cloud-python",
+"version": "0.17.27"
+},
+"google-cloud-bigquery": {
+"repo": "googleapis/python-bigquery",
+"version": "3.20.1"
+},
+"google-cloud-bigquery-datatransfer": {
+"repo": "googleapis/google-cloud-python",
+"version": "3.15.7"
+},
+"google-cloud-bigtable": {
+"repo": "googleapis/python-bigtable",
+"version": "2.26.0"
+},
+"google-cloud-build": {
+"repo": "googleapis/google-cloud-python",
+"version": "3.24.2"
+},
+"google-cloud-compute": {
+"repo": "googleapis/google-cloud-python",
+"version": "1.19.2"
+},
+"google-cloud-container": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.51.0"
+},
+"google-cloud-core": {
+"repo": "googleapis/python-cloud-core",
+"version": "2.4.1"
+},
+"google-cloud-datacatalog": {
+"repo": "googleapis/google-cloud-python",
+"version": "3.20.1"
+},
+"google-cloud-dataflow-client": {
+"repo": "googleapis/google-cloud-python",
+"version": "0.8.12"
+},
+"google-cloud-dataform": {
+"repo": "googleapis/google-cloud-python",
+"version": "0.5.11"
+},
+"google-cloud-dataplex": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.2.2"
+},
+"google-cloud-dataproc": {
+"repo": "googleapis/google-cloud-python",
+"version": "5.11.0"
+},
+"google-cloud-dataproc-metastore": {
+"repo": "googleapis/google-cloud-python",
+"version": "1.15.5"
+},
+"google-cloud-dlp": {
+"repo": "googleapis/google-cloud-python",
+"version": "3.22.0"
+},
+"google-cloud-kms": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.24.2"
+},
+"google-cloud-language": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.14.0"
+},
+"google-cloud-logging": {
+"repo": "googleapis/python-logging",
+"version": "3.11.2"
+},
+"google-cloud-memcache": {
+"repo": "googleapis/google-cloud-python",
+"version": "1.9.5"
+},
+"google-cloud-monitoring": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.22.2"
+},
+"google-cloud-orchestration-airflow": {
+"repo": "googleapis/google-cloud-python",
+"version": "1.13.1"
+},
+"google-cloud-os-login": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.14.6"
+},
+"google-cloud-pubsub": {
+"repo": "googleapis/python-pubsub",
+"version": "2.23.1"
+},
+"google-cloud-redis": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.15.5"
+},
+"google-cloud-resource-manager": {
+"repo": "googleapis/google-cloud-python",
+"version": "1.12.5"
+},
+"google-cloud-run": {
+"repo": "googleapis/google-cloud-python",
+"version": "0.10.8"
+},
+"google-cloud-secret-manager": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.20.2"
+},
+"google-cloud-spanner": {
+"repo": "googleapis/python-spanner",
+"version": "3.49.1"
+},
+"google-cloud-speech": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.27.0"
+},
+"google-cloud-storage": {
+"repo": "googleapis/python-storage",
+"version": "2.18.2"
+},
+"google-cloud-storage-transfer": {
+"repo": "googleapis/google-cloud-python",
+"version": "1.12.0"
+},
+"google-cloud-tasks": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.16.5"
+},
+"google-cloud-texttospeech": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.17.2"
+},
+"google-cloud-translate": {
+"repo": "googleapis/google-cloud-python",
+"version": "3.16.0"
+},
+"google-cloud-videointelligence": {
+"repo": "googleapis/google-cloud-python",
+"version": "2.13.5"
+},
+"google-cloud-vision": {
+"repo": "googleapis/google-cloud-python",
+"version": "3.7.4"
+},
+"google-cloud-workflows": {
+"repo": "googleapis/google-cloud-python",
+"version": "1.14.5"
+},
+"google-crc32c": {
+"repo": "googleapis/python-crc32c",
+"version": "1.6.0"
+},
+"google-re2": {
+"repo": "google/re2",
+"version": "1.1.20240702"
+},
+"google-resumable-media": {
+"repo": "googleapis/google-resumable-media-python",
+"version": "2.7.2"
+},
+"googleapis-common-protos": {
+"repo": "googleapis/python-api-common-protos",
+"version": "1.65.0"
+},
+"graphql-core": {
+"repo": "graphql-python/graphql-core",
+"version": "3.2.4"
+},
+"graphviz": {
+"repo": "xflr6/graphviz",
+"version": "0.20.3"
+},
+"greenlet": {
+"repo": "python-greenlet/greenlet",
+"version": "3.1.0"
+},
+"grpc-google-iam-v1": {
+"repo": "googleapis/python-grpc-google-iam-v1",
+"version": "0.13.1"
+},
+"grpc-interceptor": {
+"repo": "d5h-foss/grpc-interceptor",
+"version": "0.15.4"
+},
+"grpcio": {
+"repo": "grpc/grpc",
+"version": "1.66.1"
+},
+"grpcio-gcp": {
+"repo": null,
+"version": "0.2.2"
+},
+"grpcio-health-checking": {
+"repo": null,
+"version": "1.62.3"
+},
+"grpcio-status": {
+"repo": null,
+"version": "1.62.3"
+},
+"grpcio-tools": {
+"repo": "grpc/grpc",
+"version": "1.62.3"
+},
+"gssapi": {
+"repo": "pythongssapi/python-gssapi",
+"version": "1.8.3"
+},
+"gunicorn": {
+"repo": "benoitc/gunicorn",
+"version": "23.0.0"
+},
+"h11": {
+"repo": "python-hyper/h11",
+"version": "0.14.0"
+},
+"h2": {
+"repo": "python-hyper/h2",
+"version": "4.1.0"
+},
+"hatch": {
+"repo": "pypa/hatch",
+"version": "1.12.0"
+},
+"hatchling": {
+"repo": "pypa/hatch",
+"version": "1.25.0"
+},
+"hdfs": {
+"repo": null,
+"version": "2.7.3"
+},
+"hmsclient": {
+"repo": "gglanzani/hmsclient",
+"version": "0.1.1"
+},
+"hpack": {
+"repo": "python-hyper/hpack",
+"version": "4.0.0"
+},
+"httpcore": {
+"repo": "encode/httpcore",
+"version": "1.0.5"
+},
+"httplib2": {
+"repo": "httplib2/httplib2",
+"version": "0.22.0"
+},
+"httpx": {
+"repo": "encode/httpx",
+"version": "0.27.0"
+},
+"humanize": {
+"repo": "python-humanize/humanize",
+"version": "4.10.0"
+},
+"hvac": {
+"repo": "hvac/hvac",
+"version": "2.3.0"
+},
+"hyperframe": {
+"repo": "python-hyper/hyperframe",
+"version": "6.0.1"
+},
+"hyperlink": {
+"repo": "python-hyper/hyperlink",
+"version": "21.0.0"
+},
+"icdiff": {
+"repo": "jeffkaufman/icdiff",
+"version": "2.0.7"
+},
+"identify": {
+"repo": "pre-commit/identify",
+"version": "2.6.1"
+},
+"idna": {
+"repo": "kjd/idna",
+"version": "3.10"
+},
+"ijson": {
+"repo": "icrar/ijson",
+"version": "3.3.0"
+},
+"imagesize": {
+"repo": "shibukawa/imagesize_py",
+"version": "1.4.1"
+},
+"importlib-metadata": {
+"repo": "python/importlib_metadata",
+"version": "6.11.0"
+},
+"importlib-resources": {
+"repo": "python/importlib_resources",
+"version": "6.4.5"
+},
+"impyla": {
+"repo": "cloudera/impyla",
+"version": "0.19.0"
+},
+"incremental": {
+"repo": "twisted/incremental",
+"version": "24.7.2"
+},
+"inflection": {
+"repo": "jpvanhal/inflection",
+"version": "0.5.1"
+},
+"influxdb-client": {
+"repo": "influxdata/influxdb-client-python",
+"version": "1.46.0"
+},
+"iniconfig": {
+"repo": "pytest-dev/iniconfig",
+"version": "2.0.0"
+},
+"ipdb": {
+"repo": "gotcha/ipdb",
+"version": "0.13.13"
+},
+"ipython": {
+"repo": "ipython/ipython",
+"version": "8.27.0"
+},
+"isodate": {
+"repo": "gweis/isodate",
+"version": "0.6.1"
+},
+"itsdangerous": {
+"repo": "pallets/itsdangerous",
+"version": "2.2.0"
+},
+"jaraco-classes": {
+"repo": "jaraco/jaraco.classes",
+"version": "3.4.0"
+},
+"jaraco-context": {
+"repo": "jaraco/jaraco.context",
+"version": "6.0.1"
+},
+"jaraco-functools": {
+"repo": "jaraco/jaraco.functools",
+"version": "4.0.2"
+},
+"jaydebeapi": {
+"repo": "baztian/jaydebeapi",
+"version": "1.2.3"
+},
+"jedi": {
+"repo": "davidhalter/jedi",
+"version": "0.19.1"
+},
+"jeepney": {
+"repo": null,
+"version": "0.8.0"
+},
+"jinja2": {
+"repo": "pallets/jinja",
+"version": "3.1.4"
+},
+"jiter": {
+"repo": "pydantic/jiter",
+"version": "0.5.0"
+},
+"jmespath": {
+"repo": "jmespath/jmespath.py",
+"version": "0.10.0"
+},
+"joserfc": {
+"repo": "authlib/joserfc",
+"version": "1.0.0"
+},
+"jpype1": {
+"repo": "jpype-project/jpype",
+"version": "1.5.0"
+},
+"json-merge-patch": {
+"repo": "open-contracting/json-merge-patch",
+"version": "0.2"
+},
+"jsondiff": {
+"repo": "xlwings/jsondiff",
+"version": "2.2.1"
+},
+"jsonpatch": {
+"repo": "stefankoegl/python-json-patch",
+"version": "1.33"
+},
+"jsonpath-ng": {
+"repo": "h2non/jsonpath-ng",
+"version": "1.6.1"
+},
+"jsonpointer": {
+"repo": "stefankoegl/python-json-pointer",
+"version": "3.0.0"
+},
+"jsonschema": {
+"repo": "python-jsonschema/jsonschema",
+"version": "4.23.0"
+},
+"jsonschema-path": {
+"repo": "p1c2u/jsonschema-path",
+"version": "0.3.3"
+},
+"jsonschema-specifications": {
+"repo": "sponsors/julian",
+"version": "2023.12.1"
+},
+"keyring": {
+"repo": "jaraco/keyring",
+"version": "25.3.0"
+},
+"kombu": {
+"repo": "celery/kombu",
+"version": "5.4.1"
+},
+"krb5": {
+"repo": "jborean93/pykrb5",
+"version": "0.6.0"
+},
+"kubernetes": {
+"repo": "kubernetes-client/python",
+"version": "30.1.0"
+},
+"kubernetes-asyncio": {
+"repo": "tomplus/kubernetes_asyncio",
+"version": "30.1.0"
+},
+"kylinpy": {
+"repo": "kyligence/kylinpy",
+"version": "2.8.4"
+},
+"lazy-object-proxy": {
+"repo": "ionelmc/python-lazy-object-proxy",
+"version": "1.10.0"
+},
+"ldap3": {
+"repo": "cannatag/ldap3",
+"version": "2.9.1"
+},
+"limits": {
+"repo": "alisaifee/limits",
+"version": "3.13.0"
+},
+"linkify-it-py": {
+"repo": "tsutsu3/linkify-it-py",
+"version": "2.0.3"
+},
+"lockfile": {
+"repo": null,
+"version": "0.12.2"
+},
+"looker-sdk": {
+"repo": null,
+"version": "24.16.1"
+},
+"lxml": {
+"repo": "lxml/lxml",
+"version": "5.3.0"
+},
+"lz4": {
+"repo": "python-lz4/python-lz4",
+"version": "4.3.3"
+},
+"mako": {
+"repo": "sqlalchemy/mako",
+"version": "1.3.5"
+},
+"markdown": {
+"repo": "python-markdown/markdown",
+"version": "3.7"
+},
+"markdown-it-py": {
+"repo": "executablebooks/markdown-it-py",
+"version": "3.0.0"
+},
+"markupsafe": {
+"repo": "pallets/markupsafe",
+"version": "2.1.5"
+},
+"marshmallow": {
+"repo": "marshmallow-code/marshmallow",
+"version": "3.22.0"
+},
+"marshmallow-oneofschema": {
+"repo": "marshmallow-code/marshmallow-oneofschema",
+"version": "3.1.1"
+},
+"marshmallow-sqlalchemy": {
+"repo": "marshmallow-code/marshmallow-sqlalchemy",
+"version": "0.28.2"
+},
+"matplotlib-inline": {
+"repo": "ipython/matplotlib-inline",
+"version": "0.1.7"
+},
+"mdit-py-plugins": {
+"repo": "executablebooks/mdit-py-plugins",
+"version": "0.4.2"
+},
+"mdurl": {
+"repo": "executablebooks/mdurl",
+"version": "0.1.2"
+},
+"mergedeep": {
+"repo": "clarketm/mergedeep",
+"version": "1.3.4"
+},
+"methodtools": {
+"repo": "youknowone/methodtools",
+"version": "0.4.7"
+},
+"microsoft-kiota-abstractions": {
+"repo": "microsoft/kiota",
+"version": "1.3.3"
+},
+"microsoft-kiota-authentication-azure": {
+"repo": "microsoft/kiota",
+"version": "1.1.0"
+},
+"microsoft-kiota-http": {
+"repo": "microsoft/kiota",
+"version": "1.3.3"
+},
+"mmh3": {
+"repo": "hajimes/mmh3",
+"version": "4.1.0"
+},
+"mongomock": {
+"repo": "mongomock/mongomock",
+"version": "4.2.0.post1"
+},
+"more-itertools": {
+"repo": "more-itertools/more-itertools",
+"version": "10.5.0"
+},
+"moto": {
+"repo": "getmoto/moto",
+"version": "5.0.11"
+},
+"mpmath": {
+"repo": "fredrik-johansson/mpmath",
+"version": "1.3.0"
+},
+"msal": {
+"repo": "azuread/microsoft-authentication-library-for-python",
+"version": "1.31.0"
+},
+"msal-extensions": {
+"repo": "azuread/microsoft-authentication-extensions-for-python",
+"version": "1.2.0"
+},
+"msgraph-core": {
+"repo": "microsoftgraph/msgraph-sdk-python-core",
+"version": "1.1.3"
+},
+"msrest": {
+"repo": "azure/msrest-for-python",
+"version": "0.7.1"
+},
+"msrestazure": {
+"repo": "azure/msrestazure-for-python",
+"version": "0.6.4.post1"
+},
+"multi-key-dict": {
+"repo": "formiaczek/multi_key_dict",
+"version": "2.0.3"
+},
+"multidict": {
+"repo": "aio-libs/multidict",
+"version": "6.1.0"
+},
+"mypy": {
+"repo": "python/mypy",
+"version": "1.9.0"
+},
+"mypy-boto3-appflow": {
+"repo": "youtype/mypy_boto3_builder",
+"version": "1.35.0"
+},
+"mypy-boto3-rds": {
+"repo": "youtype/mypy_boto3_builder",
+"version": "1.35.18"
+},
+"mypy-boto3-redshift-data": {
+"repo": "youtype/mypy_boto3_builder",
+"version": "1.35.10"
+},
+"mypy-boto3-s3": {
+"repo": "youtype/mypy_boto3_builder",
+"version": "1.35.16"
+},
+"mypy-extensions": {
+"repo": "python/mypy_extensions",
+"version": "1.0.0"
+},
+"mysql-connector-python": {
+"repo": null,
+"version": "9.0.0"
+},
+"mysqlclient": {
+"repo": "pymysql/mysqlclient",
+"version": "2.2.4"
+},
+"neo4j": {
+"repo": "neo4j/neo4j-python-driver",
+"version": "5.24.0"
+},
+"networkx": {
+"repo": "networkx/networkx",
+"version": "3.3"
+},
+"nh3": {
+"repo": "messense/nh3",
+"version": "0.2.18"
+},
+"nodeenv": {
+"repo": "ekalinin/nodeenv",
+"version": "1.9.1"
+},
+"numpy": {
+"repo": "numpy/numpy",
+"version": "1.26.4"
+},
+"oauthlib": {
+"repo": "oauthlib/oauthlib",
+"version": "3.2.2"
+},
+"openai": {
+"repo": "openai/openai-python",
+"version": "1.45.1"
+},
+"openapi-schema-validator": {
+"repo": "python-openapi/openapi-schema-validator",
+"version": "0.6.2"
+},
+"openapi-spec-validator": {
+"repo": "python-openapi/openapi-spec-validator",
+"version": "0.7.1"
+},
+"openlineage-integration-common": {
+"repo": null,
+"version": "1.22.0"
+},
+"openlineage-python": {
+"repo": null,
+"version": "1.22.0"
+},
+"openlineage-sql": {
+"repo": null,
+"version": "1.22.0"
+},
+"openpyxl": {
+"repo": null,
+"version": "3.1.5"
+},
+"opensearch-py": {
+"repo": "opensearch-project/opensearch-py",
+"version": "2.7.1"
+},
+"opentelemetry-api": {
+"repo": "open-telemetry/opentelemetry-python",
+"version": "1.27.0"
+},
+"opentelemetry-exporter-otlp": {
+"repo": "open-telemetry/opentelemetry-python",
+"version": "1.27.0"
+},
+"opentelemetry-exporter-otlp-proto-common": {
+"repo": "open-telemetry/opentelemetry-python",
+"version": "1.27.0"
+},
+"opentelemetry-exporter-otlp-proto-grpc": {
+"repo": "open-telemetry/opentelemetry-python",
+"version": "1.27.0"
+},
+"opentelemetry-exporter-otlp-proto-http": {
+"repo": "open-telemetry/opentelemetry-python",
+"version": "1.27.0"
+},
+"opentelemetry-exporter-prometheus": {
+"repo": "open-telemetry/opentelemetry-python",
+"version": "0.48b0"
+},
+"opentelemetry-proto": {
+"repo": "open-telemetry/opentelemetry-python",
+"version": "1.27.0"
+},
+"opentelemetry-sdk": {
+"repo": "open-telemetry/opentelemetry-python",
+"version": "1.27.0"
+},
+"opentelemetry-semantic-conventions": {
+"repo": "open-telemetry/opentelemetry-python",
+"version": "0.48b0"
+},
+"opsgenie-sdk": {
+"repo": "opsgenie/opsgenie-python-sdk",
+"version": "2.1.5"
+},
+"oracledb": {
+"repo": "oracle/python-oracledb",
+"version": "2.4.1"
+},
+"ordered-set": {
+"repo": "rspeer/ordered-set",
+"version": "4.1.0"
+},
+"oss2": {
+"repo": null,
+"version": "2.19.0"
+},
+"packaging": {
+"repo": "pypa/packaging",
+"version": "24.1"
+},
+"pandas": {
+"repo": "pandas-dev/pandas",
+"version": "2.1.4"
+},
+"pandas-gbq": {
+"repo": "googleapis/python-bigquery-pandas",
+"version": "0.23.1"
+},
+"pandas-stubs": {
+"repo": "pandas-dev/pandas-stubs",
+"version": "2.2.2.240909"
+},
+"paramiko": {
+"repo": "paramiko/paramiko",
+"version": "3.5.0"
+},
+"parso": {
+"repo": "davidhalter/parso",
+"version": "0.8.4"
+},
+"pathable": {
+"repo": "p1c2u/pathable",
+"version": "0.4.3"
+},
+"pathspec": {
+"repo": "cpburnz/python-pathspec",
+"version": "0.12.1"
+},
+"pbr": {
+"repo": null,
+"version": "6.1.0"
+},
+"pdpyras": {
+"repo": null,
+"version": "5.2.0"
+},
+"pendulum": {
+"repo": "sdispater/pendulum",
+"version": "3.0.0"
+},
+"pexpect": {
+"repo": "pexpect/pexpect",
+"version": "4.9.0"
+},
+"pgvector": {
+"repo": "pgvector/pgvector-python",
+"version": "0.3.3"
+},
+"pinecone-client": {
+"repo": null,
+"version": "5.0.1"
+},
+"pinecone-plugin-inference": {
+"repo": null,
+"version": "1.1.0"
+},
+"pinecone-plugin-interface": {
+"repo": "pinecone-io/python-plugin-interface",
+"version": "0.0.7"
+},
+"pinotdb": {
+"repo": "python-pinot-dbapi/pinot-dbapi",
+"version": "5.6.0"
+},
+"pipdeptree": {
+"repo": "tox-dev/pipdeptree",
+"version": "2.23.3"
+},
+"pipx": {
+"repo": "pypa/pipx",
+"version": "1.7.1"
+},
+"pkginfo": {
+"repo": null,
+"version": "1.10.0"
+},
+"platformdirs": {
+"repo": "tox-dev/platformdirs",
+"version": "4.3.3"
+},
+"pluggy": {
+"repo": "pytest-dev/pluggy",
+"version": "1.5.0"
+},
+"ply": {
+"repo": null,
+"version": "3.11"
+},
+"plyvel": {
+"repo": "wbolster/plyvel",
+"version": "1.5.1"
+},
+"portalocker": {
+"repo": "wolph/portalocker",
+"version": "2.10.1"
+},
+"pprintpp": {
+"repo": "wolever/pprintpp",
+"version": "0.4.0"
+},
+"pre-commit": {
+"repo": "pre-commit/pre-commit",
+"version": "3.8.0"
+},
+"presto-python-client": {
+"repo": "prestodb/presto-python-client",
+"version": "0.8.4"
+},
+"prison": {
+"repo": "betodealmeida/python-rison",
+"version": "0.2.1"
+},
+"prometheus-client": {
+"repo": "prometheus/client_python",
+"version": "0.20.0"
+},
+"prompt-toolkit": {
+"repo": "prompt-toolkit/python-prompt-toolkit",
+"version": "3.0.47"
+},
+"proto-plus": {
+"repo": "googleapis/proto-plus-python",
+"version": "1.24.0"
+},
+"protobuf": {
+"repo": null,
+"version": "4.25.4"
+},
+"psutil": {
+"repo": "giampaolo/psutil",
+"version": "6.0.0"
+},
+"psycopg2-binary": {
+"repo": "psycopg/psycopg2",
+"version": "2.9.9"
+},
+"ptyprocess": {
+"repo": "pexpect/ptyprocess",
+"version": "0.7.0"
+},
+"pure-eval": {
+"repo": "alexmojaki/pure_eval",
+"version": "0.2.3"
+},
+"pure-sasl": {
+"repo": "thobbs/pure-sasl",
+"version": "0.6.2"
+},
+"py-partiql-parser": {
+"repo": "getmoto/py-partiql-parser",
+"version": "0.5.5"
+},
+"py4j": {
+"repo": null,
+"version": "0.10.9.7"
+},
+"pyarrow": {
+"repo": "apache/arrow",
+"version": "17.0.0"
+},
+"pyasn1": {
+"repo": "pyasn1/pyasn1",
+"version": "0.6.1"
+},
+"pyasn1-modules": {
+"repo": "pyasn1/pyasn1-modules",
+"version": "0.4.0"
+},
+"pyathena": {
+"repo": "laughingman7743/pyathena",
+"version": "3.9.0"
+},
+"pycountry": {
+"repo": "flyingcircusio/pycountry",
+"version": "24.6.1"
+},
+"pycparser": {
+"repo": "eliben/pycparser",
+"version": "2.22"
+},
+"pycryptodome": {
+"repo": "legrandin/pycryptodome",
+"version": "3.20.0"
+},
+"pydantic": {
+"repo": "sponsors/samuelcolvin",
+"version": "2.9.1"
+},
+"pydantic-core": {
+"repo": "sponsors/samuelcolvin",
+"version": "2.23.3"
+},
+"pydata-google-auth": {
+"repo": "pydata/pydata-google-auth",
+"version": "1.8.2"
+},
+"pydruid": {
+"repo": "druid-io/pydruid",
+"version": "0.6.9"
+},
+"pyenchant": {
+"repo": null,
+"version": "3.2.2"
+},
+"pyexasol": {
+"repo": "exasol/pyexasol",
+"version": "0.27.0"
+},
+"pygithub": {
+"repo": "pygithub/pygithub",
+"version": "2.4.0"
+},
+"pygments": {
+"repo": "pygments/pygments",
+"version": "2.18.0"
+},
+"pygraphviz": {
+"repo": "pygraphviz/pygraphviz",
+"version": "1.13"
+},
+"pyhive": {
+"repo": "dropbox/pyhive",
+"version": "0.7.0"
+},
+"pyiceberg": {
+"repo": "apache/iceberg-python",
+"version": "0.7.1"
+},
+"pyjwt": {
+"repo": "jpadilla/pyjwt",
+"version": "2.9.0"
+},
+"pykerberos": {
+"repo": "02strich/pykerberos",
+"version": "1.2.4"
+},
+"pymongo": {
+"repo": "mongodb/mongo-python-driver",
+"version": "4.8.0"
+},
+"pymssql": {
+"repo": "pymssql/pymssql",
+"version": "2.3.1"
+},
+"pynacl": {
+"repo": "pyca/pynacl",
+"version": "1.5.0"
+},
+"pyodbc": {
+"repo": "mkleehammer/pyodbc",
+"version": "5.1.0"
+},
+"pyopenssl": {
+"repo": "pyca/pyopenssl",
+"version": "24.2.1"
+},
+"pyparsing": {
+"repo": "pyparsing/pyparsing",
+"version": "3.1.4"
+},
+"pypsrp": {
+"repo": "jborean93/pypsrp",
+"version": "0.8.1"
+},
+"pyspark": {
+"repo": "apache/spark",
+"version": "3.5.2"
+},
+"pyspnego": {
+"repo": "jborean93/pyspnego",
+"version": "0.11.1"
+},
+"pytest": {
+"repo": "pytest-dev/pytest",
+"version": "8.3.3"
+},
+"pytest-asyncio": {
+"repo": "pytest-dev/pytest-asyncio",
+"version": "0.24.0"
+},
+"pytest-cov": {
+"repo": "pytest-dev/pytest-cov",
+"version": "5.0.0"
+},
+"pytest-custom-exit-code": {
+"repo": "yashtodi94/pytest-custom_exit_code",
+"version": "0.3.0"
+},
+"pytest-icdiff": {
+"repo": "hjwp/pytest-icdiff",
+"version": "0.9"
+},
+"pytest-instafail": {
+"repo": "pytest-dev/pytest-instafail",
+"version": "0.5.0"
+},
+"pytest-mock": {
+"repo": "pytest-dev/pytest-mock",
+"version": "3.14.0"
+},
+"pytest-rerunfailures": {
+"repo": "pytest-dev/pytest-rerunfailures",
+"version": "14.0"
+},
+"pytest-timeouts": {
+"repo": "scony/pytest-timeouts",
+"version": "1.2.1"
+},
+"pytest-xdist": {
+"repo": "pytest-dev/pytest-xdist",
+"version": "3.6.1"
+},
+"python-arango": {
+"repo": "arangodb/python-arango",
+"version": "8.1.1"
+},
+"python-daemon": {
+"repo": null,
+"version": "3.0.1"
+},
+"python-dateutil": {
+"repo": "dateutil/dateutil",
+"version": "2.9.0.post0"
+},
+"python-dotenv": {
+"repo": "theskumar/python-dotenv",
+"version": "1.0.1"
+},
+"python-http-client": {
+"repo": "sendgrid/python-http-client",
+"version": "3.3.7"
+},
+"python-jenkins": {
+"repo": null,
+"version": "1.8.2"
+},
+"python-ldap": {
+"repo": null,
+"version": "3.4.4"
+},
+"python-nvd3": {
+"repo": "areski/python-nvd3",
+"version": "0.16.0"
+},
+"python-slugify": {
+"repo": "un33k/python-slugify",
+"version": "8.0.4"
+},
+"python-telegram-bot": {
+"repo": "python-telegram-bot/python-telegram-bot",
+"version": "21.5"
+},
+"python3-saml": {
+"repo": "saml-toolkits/python3-saml",
+"version": "1.16.0"
+},
+"pytz": {
+"repo": null,
+"version": "2024.2"
+},
+"pywinrm": {
+"repo": "diyan/pywinrm",
+"version": "0.5.0"
+},
+"pyyaml": {
+"repo": "yaml/pyyaml",
+"version": "6.0.2"
+},
+"qdrant-client": {
+"repo": "qdrant/qdrant-client",
+"version": "1.11.1"
+},
+"reactivex": {
+"repo": "reactivex/rxpy",
+"version": "4.0.4"
+},
+"readme-renderer": {
+"repo": "pypa/readme_renderer",
+"version": "43.0"
+},
+"redis": {
+"repo": "redis/redis-py",
+"version": "5.0.8"
+},
+"redshift-connector": {
+"repo": "aws/amazon-redshift-python-driver",
+"version": "2.1.3"
+},
+"referencing": {
+"repo": "sponsors/julian",
+"version": "0.35.1"
+},
+"regex": {
+"repo": "mrabarnett/mrab-regex",
+"version": "2024.9.11"
+},
+"requests": {
+"repo": "psf/requests",
+"version": "2.32.3"
+},
+"requests-file": {
+"repo": "dashea/requests-file",
+"version": "2.1.0"
+},
+"requests-kerberos": {
+"repo": "requests/requests-kerberos",
+"version": "0.15.0"
+},
+"requests-mock": {
+"repo": "jamielennox/requests-mock",
+"version": "1.12.1"
+},
+"requests-ntlm": {
+"repo": "requests/requests-ntlm",
+"version": "1.3.0"
+},
+"requests-oauthlib": {
+"repo": "requests/requests-oauthlib",
+"version": "1.3.1"
+},
+"requests-toolbelt": {
+"repo": "requests/toolbelt",
+"version": "1.0.0"
+},
+"responses": {
+"repo": "getsentry/responses",
+"version": "0.25.3"
+},
+"restructuredtext-lint": {
+"repo": "twolfson/restructuredtext-lint",
+"version": "1.4.0"
+},
+"rfc3339-validator": {
+"repo": "naimetti/rfc3339-validator",
+"version": "0.1.4"
+},
+"rfc3986": {
+"repo": null,
+"version": "2.0.0"
+},
+"rich": {
+"repo": "textualize/rich",
+"version": "13.8.1"
+},
+"rich-argparse": {
+"repo": "hamdanal/rich-argparse",
+"version": "1.5.2"
+},
+"rich-click": {
+"repo": "ewels/rich-click",
+"version": "1.8.3"
+},
+"rpds-py": {
+"repo": "sponsors/julian",
+"version": "0.20.0"
+},
+"rsa": {
+"repo": "sybrenstuvel/python-rsa",
+"version": "4.9"
+},
+"ruff": {
+"repo": "astral-sh/ruff",
+"version": "0.5.5"
+},
+"s3fs": {
+"repo": "fsspec/s3fs",
+"version": "2024.9.0"
+},
+"s3transfer": {
+"repo": "boto/s3transfer",
+"version": "0.10.2"
+},
+"scramp": {
+"repo": "tlocke/scramp",
+"version": "1.4.5"
+},
+"secretstorage": {
+"repo": "mitya57/secretstorage",
+"version": "3.3.3"
+},
+"semver": {
+"repo": "python-semver/python-semver",
+"version": "3.0.2"
+},
+"sendgrid": {
+"repo": "sendgrid/sendgrid-python",
+"version": "6.11.0"
+},
+"sentinels": {
+"repo": null,
+"version": "1.0.0"
+},
+"sentry-sdk": {
+"repo": "getsentry/sentry-python",
+"version": "2.14.0"
+},
+"setproctitle": {
+"repo": "dvarrazzo/py-setproctitle",
+"version": "1.3.3"
+},
+"setuptools": {
+"repo": "pypa/setuptools",
+"version": "75.1.0"
+},
+"shapely": {
+"repo": "shapely/shapely",
+"version": "2.0.6"
+},
+"shellingham": {
+"repo": "sarugaku/shellingham",
+"version": "1.5.4"
+},
+"simple-salesforce": {
+"repo": "simple-salesforce/simple-salesforce",
+"version": "1.12.6"
+},
+"six": {
+"repo": "benjaminp/six",
+"version": "1.16.0"
+},
+"slack-sdk": {
+"repo": "slackapi/python-slack-sdk",
+"version": "3.32.0"
+},
+"smbprotocol": {
+"repo": "jborean93/smbprotocol",
+"version": "1.14.0"
+},
+"smmap": {
+"repo": "gitpython-developers/smmap",
+"version": "5.0.1"
+},
+"sniffio": {
+"repo": "python-trio/sniffio",
+"version": "1.3.1"
+},
+"snowballstemmer": {
+"repo": "snowballstem/snowball",
+"version": "2.2.0"
+},
+"snowflake-connector-python": {
+"repo": "snowflakedb/snowflake-connector-python",
+"version": "3.12.2"
+},
+"snowflake-sqlalchemy": {
+"repo": "snowflakedb/snowflake-sqlalchemy",
+"version": "1.6.1"
+},
+"sortedcontainers": {
+"repo": null,
+"version": "2.4.0"
+},
+"soupsieve": {
+"repo": "facelessuser/soupsieve",
+"version": "2.6"
+},
+"sphinx": {
+"repo": "sphinx-doc/sphinx",
+"version": "5.3.0"
+},
+"sphinx-airflow-theme": {
+"repo": "apache/airflow-site",
+"version": "0.0.12"
+},
+"sphinx-argparse": {
+"repo": "sphinx-doc/sphinx-argparse",
+"version": "0.5.0"
+},
+"sphinx-autoapi": {
+"repo": "readthedocs/sphinx-autoapi",
+"version": "2.1.1"
+},
+"sphinx-copybutton": {
+"repo": "executablebooks/sphinx-copybutton",
+"version": "0.5.2"
+},
+"sphinx-design": {
+"repo": "executablebooks/sphinx-design",
+"version": "0.6.0"
+},
+"sphinx-jinja": {
+"repo": "tardyp/sphinx-jinja",
+"version": "2.0.2"
+},
+"sphinx-rtd-theme": {
+"repo": "readthedocs/sphinx_rtd_theme",
+"version": "2.0.0"
+},
+"sphinxcontrib-applehelp": {
+"repo": "sphinx-doc/sphinxcontrib-applehelp",
+"version": "2.0.0"
+},
+"sphinxcontrib-devhelp": {
+"repo": "sphinx-doc/sphinxcontrib-devhelp",
+"version": "2.0.0"
+},
+"sphinxcontrib-htmlhelp": {
+"repo": "sphinx-doc/sphinxcontrib-htmlhelp",
+"version": "2.1.0"
+},
+"sphinxcontrib-httpdomain": {
+"repo": "sphinx-contrib/httpdomain",
+"version": "1.8.1"
+},
+"sphinxcontrib-jquery": {
+"repo": "sphinx-contrib/jquery",
+"version": "4.1"
+},
+"sphinxcontrib-jsmath": {
+"repo": null,
+"version": "1.0.1"
+},
+"sphinxcontrib-qthelp": {
+"repo": "sphinx-doc/sphinxcontrib-qthelp",
+"version": "2.0.0"
+},
+"sphinxcontrib-redoc": {
+"repo": "ikalnytskyi/sphinxcontrib-redoc",
+"version": "1.6.0"
+},
+"sphinxcontrib-serializinghtml": {
+"repo": null,
+"version": "1.1.5"
+},
+"sphinxcontrib-spelling": {
+"repo": "sphinx-contrib/spelling",
+"version": "8.0.0"
+},
+"spython": {
+"repo": "singularityhub/singularity-cli",
+"version": "0.3.14"
+},
+"sqlalchemy": {
+"repo": "sqlalchemy/sqlalchemy",
+"version": "1.4.54"
+},
+"sqlalchemy-bigquery": {
+"repo": "googleapis/python-bigquery-sqlalchemy",
+"version": "1.11.0"
+},
+"sqlalchemy-drill": {
+"repo": "johnomernik/sqlalchemy-drill",
+"version": "1.1.5"
+},
+"sqlalchemy-jsonfield": {
+"repo": "penguinolog/sqlalchemy_jsonfield",
+"version": "1.0.2"
+},
+"sqlalchemy-redshift": {
+"repo": "sqlalchemy-redshift/sqlalchemy-redshift",
+"version": "0.8.14"
+},
+"sqlalchemy-spanner": {
+"repo": "cloudspannerecosystem/python-spanner-sqlalchemy",
+"version": "1.7.0"
+},
+"sqlalchemy-utils": {
+"repo": "kvesteri/sqlalchemy-utils",
+"version": "0.41.2"
+},
+"sqlparse": {
+"repo": "andialbrecht/sqlparse",
+"version": "0.5.1"
+},
+"sshtunnel": {
+"repo": "pahaz/sshtunnel",
+"version": "0.4.0"
+},
+"stack-data": {
+"repo": "alexmojaki/stack_data",
+"version": "0.6.3"
+},
+"starkbank-ecdsa": {
+"repo": "starkbank/ecdsa-python",
+"version": "2.2.0"
+},
+"statsd": {
+"repo": "jsocol/pystatsd",
+"version": "4.0.1"
+},
+"std-uritemplate": {
+"repo": "std-uritemplate/std-uritemplate",
+"version": "1.0.6"
+},
+"strictyaml": {
+"repo": "crdoconnor/strictyaml",
+"version": "1.7.3"
+},
+"sympy": {
+"repo": "sympy/sympy",
+"version": "1.13.2"
+},
+"tableauserverclient": {
+"repo": "tableau/server-client-python",
+"version": "0.32"
+},
+"tabulate": {
+"repo": "astanin/python-tabulate",
+"version": "0.9.0"
+},
+"tenacity": {
+"repo": "jd/tenacity",
+"version": "8.5.0"
+},
+"teradatasql": {
+"repo": null,
+"version": "20.0.0.15"
+},
+"teradatasqlalchemy": {
+"repo": null,
+"version": "20.0.0.2"
+},
+"termcolor": {
+"repo": "termcolor/termcolor",
+"version": "2.4.0"
+},
+"text-unidecode": {
+"repo": "kmike/text-unidecode",
+"version": "1.3"
+},
+"thrift": {
+"repo": null,
+"version": "0.16.0"
+},
+"thrift-sasl": {
+"repo": "cloudera/thrift_sasl",
+"version": "0.4.3"
+},
+"time-machine": {
+"repo": "adamchainz/time-machine",
+"version": "2.15.0"
+},
+"tomli-w": {
+"repo": "hukkin/tomli-w",
+"version": "1.0.0"
+},
+"tomlkit": {
+"repo": "sdispater/tomlkit",
+"version": "0.13.2"
+},
+"tornado": {
+"repo": "tornadoweb/tornado",
+"version": "6.4.1"
+},
+"towncrier": {
+"repo": "twisted/towncrier",
+"version": "24.8.0"
+},
+"tqdm": {
+"repo": "tqdm/tqdm",
+"version": "4.66.5"
+},
+"traitlets": {
+"repo": "ipython/traitlets",
+"version": "5.14.3"
+},
+"trino": {
+"repo": "trinodb/trino-python-client",
+"version": "0.329.0"
+},
+"trove-classifiers": {
+"repo": "pypa/trove-classifiers",
+"version": "2024.9.12"
+},
+"twine": {
+"repo": "pypa/twine",
+"version": "5.1.1"
+},
+"typed-ast": {
+"repo": "python/typed_ast",
+"version": "1.5.5"
+},
+"types-aiofiles": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "24.1.0.20240626"
+},
+"types-certifi": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "2021.10.8.3"
+},
+"types-cffi": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "1.16.0.20240331"
+},
+"types-croniter": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "3.0.3.20240731"
+},
+"types-deprecated": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "1.2.9.20240311"
+},
+"types-docutils": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "0.21.0.20240907"
+},
+"types-markdown": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "3.7.0.20240822"
+},
+"types-paramiko": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "3.4.0.20240423"
+},
+"types-protobuf": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "5.27.0.20240907"
+},
+"types-pymysql": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "1.1.0.20240524"
+},
+"types-pyopenssl": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "24.1.0.20240722"
+},
+"types-python-dateutil": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "2.9.0.20240906"
+},
+"types-python-slugify": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "8.0.2.20240310"
+},
+"types-pytz": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "2024.2.0.20240913"
+},
+"types-pyyaml": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "6.0.12.20240808"
+},
+"types-redis": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "4.6.0.20240903"
+},
+"types-requests": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "2.32.0.20240914"
+},
+"types-setuptools": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "74.1.0.20240907"
+},
+"types-tabulate": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "0.9.0.20240106"
+},
+"types-termcolor": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "1.1.6.2"
+},
+"types-toml": {
+"repo": "typeshed-internal/stub_uploader",
+"version": "0.10.8.20240310"
+},
+"typing-extensions": {
+"repo": "python/typing_extensions",
+"version": "4.12.2"
+},
+"tzdata": {
+"repo": "python/tzdata",
+"version": "2024.1"
+},
+"tzlocal": {
+"repo": "regebro/tzlocal",
+"version": "5.2"
+},
+"uc-micro-py": {
+"repo": "tsutsu3/uc.micro-py",
+"version": "1.0.3"
+},
+"unicodecsv": {
+"repo": "jdunck/python-unicodecsv",
+"version": "0.14.1"
+},
+"universal-pathlib": {
+"repo": "fsspec/universal_pathlib",
+"version": "0.2.5"
+},
+"uritemplate": {
+"repo": null,
+"version": "4.1.1"
+},
+"urllib3": {
+"repo": "urllib3/urllib3",
+"version": "2.2.2"
+},
+"userpath": {
+"repo": "sponsors/ofek",
+"version": "1.9.2"
+},
+"uv": {
+"repo": "astral-sh/uv",
+"version": "0.4.1"
+},
+"validators": {
+"repo": "python-validators/validators",
+"version": "0.33.0"
+},
+"vertica-python": {
+"repo": "vertica/vertica-python",
+"version": "1.4.0"
+},
+"vine": {
+"repo": "celery/vine",
+"version": "5.1.0"
+},
+"virtualenv": {
+"repo": "pypa/virtualenv",
+"version": "20.26.4"
+},
+"watchtower": {
+"repo": "kislyuk/watchtower",
+"version": "3.3.1"
+},
+"wcwidth": {
+"repo": "jquast/wcwidth",
+"version": "0.2.13"
+},
+"weaviate-client": {
+"repo": "weaviate/weaviate-python-client",
+"version": "4.8.0"
+},
+"websocket-client": {
+"repo": "websocket-client/websocket-client",
+"version": "1.8.0"
+},
+"werkzeug": {
+"repo": "pallets/werkzeug",
+"version": "2.2.3"
+},
+"wheel": {
+"repo": "pypa/wheel",
+"version": "0.44.0"
+},
+"wirerope": {
+"repo": "youknowone/wirerope",
+"version": "0.4.7"
+},
+"wrapt": {
+"repo": "grahamdumpleton/wrapt",
+"version": "1.16.0"
+},
+"wtforms": {
+"repo": "wtforms/wtforms",
+"version": "3.1.2"
+},
+"xmlsec": {
+"repo": "mehcode/python-xmlsec",
+"version": "1.3.14"
+},
+"xmltodict": {
+"repo": "martinblech/xmltodict",
+"version": "0.13.0"
+},
+"yamllint": {
+"repo": "adrienverge/yamllint",
+"version": "1.35.1"
+},
+"yandex-query-client": {
+"repo": "yandex-cloud/yandex-query-client",
+"version": "0.1.4"
+},
+"yandexcloud": {
+"repo": "yandex-cloud/python-sdk",
+"version": "0.316.0"
+},
+"yarl": {
+"repo": "aio-libs/yarl",
+"version": "1.11.1"
+},
+"ydb": {
+"repo": "ydb-platform/ydb-python-sdk",
+"version": "3.17.1"
+},
+"zeep": {
+"repo": "mvantellingen/python-zeep",
+"version": "4.2.1"
+},
+"zenpy": {
+"repo": "facetoe/zenpy",
+"version": "2.0.53"
+},
+"zipp": {
+"repo": "jaraco/zipp",
+"version": "3.20.2"
+},
+"zope-event": {
+"repo": "zopefoundation/zope.event",
+"version": "5.0"
+},
+"zope-interface": {
+"repo": "zopefoundation/zope.interface",
+"version": "7.0.3"
+},
+"zstandard": {
+"repo": "indygreg/python-zstandard",
+"version": "0.23.0"
+}
+}

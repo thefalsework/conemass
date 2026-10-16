@@ -1,0 +1,447 @@
+{
+"args4j:args4j": {
+"name": "args4j",
+"url": "http://args4j.kohsuke.org/args4j/",
+"version": "2.37"
+},
+"com.github.spotbugs:spotbugs-annotations": {
+"name": "SpotBugs Annotations",
+"url": "https://spotbugs.github.io/",
+"version": "4.8.6"
+},
+"com.google.guava:failureaccess": {
+"name": "Guava InternalFutureFailureAccess and InternalFutures",
+"url": "https://github.com/google/guava/failureaccess",
+"version": "1.0.2"
+},
+"com.google.guava:guava": {
+"name": "Guava: Google Core Libraries for Java",
+"url": "https://github.com/google/guava",
+"version": "33.3.0-jre"
+},
+"com.google.guava:listenablefuture": {
+"name": "Guava ListenableFuture only",
+"url": "https://github.com/google/guava/listenablefuture",
+"version": "9999.0-empty-to-avoid-conflict-with-guava"
+},
+"com.google.inject:guice": {
+"name": "Google Guice - Core Library",
+"url": "https://github.com/google/guice/guice",
+"version": "6.0.0"
+},
+"com.infradna.tool:bridge-method-annotation": {
+"name": "Bridge method injection annotations",
+"url": "https://github.com/jenkinsci/bridge-method-injector/bridge-method-annotation",
+"version": "1.29"
+},
+"com.jcraft:jzlib": {
+"name": "JZlib",
+"url": "http://www.jcraft.com/jzlib/",
+"version": "1.1.3-kohsuke-1"
+},
+"com.sun.solaris:embedded_su4j": {
+"name": "embedded_su for Java",
+"url": "",
+"version": "1.1"
+},
+"com.sun.xml.txw2:txw2": {
+"name": "TXW2 Runtime",
+"url": "http://txw.java.net/txw2/",
+"version": "20110809"
+},
+"com.thoughtworks.xstream:xstream": {
+"name": "XStream Core",
+"url": "http://x-stream.github.io/xstream",
+"version": "1.4.20"
+},
+"commons-beanutils:commons-beanutils": {
+"name": "Apache Commons BeanUtils",
+"url": "https://commons.apache.org/proper/commons-beanutils/",
+"version": "1.9.4"
+},
+"commons-codec:commons-codec": {
+"name": "Apache Commons Codec",
+"url": "https://commons.apache.org/proper/commons-codec/",
+"version": "1.17.1"
+},
+"commons-collections:commons-collections": {
+"name": "Apache Commons Collections",
+"url": "http://commons.apache.org/collections/",
+"version": "3.2.2"
+},
+"commons-discovery:commons-discovery": {
+"name": "Commons Discovery",
+"url": "http://commons.apache.org/discovery/",
+"version": "0.5"
+},
+"commons-io:commons-io": {
+"name": "Apache Commons IO",
+"url": "https://commons.apache.org/proper/commons-io/",
+"version": "2.16.1"
+},
+"commons-jelly:commons-jelly-tags-fmt": {
+"name": "commons-jelly-tags-fmt",
+"url": "",
+"version": "1.0"
+},
+"commons-jelly:commons-jelly-tags-xml": {
+"name": "commons-jelly-tags-xml",
+"url": "http://jakarta.apache.org/commons/jelly/libs/xml/index.html",
+"version": "1.1"
+},
+"commons-lang:commons-lang": {
+"name": "Commons Lang",
+"url": "http://commons.apache.org/lang/",
+"version": "2.6"
+},
+"io.github.x-stream:mxparser": {
+"name": "MXParser",
+"url": "http://x-stream.github.io/mxparser",
+"version": "1.2.2"
+},
+"io.jenkins.stapler:jenkins-stapler-support": {
+"name": "Jenkins Stapler Support Library",
+"url": "https://jenkins.io/jenkins-stapler-support/",
+"version": "1.1"
+},
+"jakarta.annotation:jakarta.annotation-api": {
+"name": "Jakarta Annotations API",
+"url": "https://projects.eclipse.org/projects/ee4j.ca",
+"version": "3.0.0"
+},
+"jakarta.inject:jakarta.inject-api": {
+"name": "Jakarta Dependency Injection",
+"url": "https://github.com/eclipse-ee4j/injection-api",
+"version": "2.0.1"
+},
+"jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api": {
+"name": "Jakarta Standard Tag Library API",
+"url": "https://projects.eclipse.org/projects/ee4j.jstl",
+"version": "2.0.0"
+},
+"javax.annotation:javax.annotation-api": {
+"name": "javax.annotation API",
+"url": "http://jcp.org/en/jsr/detail?id=250",
+"version": "1.3.2"
+},
+"javax.inject:javax.inject": {
+"name": "javax.inject",
+"url": "http://code.google.com/p/atinject/",
+"version": "1"
+},
+"jaxen:jaxen": {
+"name": "jaxen",
+"url": "http://www.cafeconleche.org/jaxen/jaxen",
+"version": "2.0.0"
+},
+"jline:jline": {
+"name": "JLine",
+"url": "http://nexus.sonatype.org/oss-repository-hosting.html/jline",
+"version": "2.14.6"
+},
+"net.java.dev.jna:jna": {
+"name": "Java Native Access",
+"url": "https://github.com/java-native-access/jna",
+"version": "5.14.0"
+},
+"net.java.sezpoz:sezpoz": {
+"name": "SezPoz Library",
+"url": "https://github.com/jglick/sezpoz/sezpoz",
+"version": "1.13"
+},
+"net.jcip:jcip-annotations": {
+"name": "\"Java Concurrency in Practice\" book annotations",
+"url": "http://jcip.net/",
+"version": "1.0"
+},
+"org.antlr:antlr4-runtime": {
+"name": "ANTLR 4 Runtime",
+"url": "https://www.antlr.org/antlr4-runtime/",
+"version": "4.13.2"
+},
+"org.apache.ant:ant": {
+"name": "Apache Ant Core",
+"url": "https://ant.apache.org/",
+"version": "1.10.15"
+},
+"org.apache.ant:ant-launcher": {
+"name": "Apache Ant Launcher",
+"url": "https://ant.apache.org/",
+"version": "1.10.15"
+},
+"org.apache.commons:commons-compress": {
+"name": "Apache Commons Compress",
+"url": "https://commons.apache.org/proper/commons-compress/",
+"version": "1.26.1"
+},
+"org.apache.commons:commons-fileupload2-core": {
+"name": "Apache Commons FileUpload Core",
+"url": "https://commons.apache.org/proper/commons-fileupload/commons-fileupload2-core/",
+"version": "2.0.0-M2"
+},
+"org.apache.commons:commons-fileupload2-jakarta-servlet5": {
+"name": "Apache Commons FileUpload Jakarta Servlet 5",
+"url": "https://commons.apache.org/proper/commons-fileupload/commons-fileupload2-jakarta-servlet5/",
+"version": "2.0.0-M2"
+},
+"org.codehaus.groovy:groovy-all": {
+"name": "Apache Groovy",
+"url": "http://groovy-lang.org",
+"version": "2.4.21"
+},
+"org.connectbot:jbcrypt": {
+"name": "jBCrypt",
+"url": "https://github.com/kruton/jbcrypt",
+"version": "1.0.2"
+},
+"org.dom4j:dom4j": {
+"name": "dom4j",
+"url": "http://dom4j.github.io/",
+"version": "2.1.4"
+},
+"org.eclipse.jetty.toolchain:jetty-servlet-api": {
+"name": "Jetty :: Servlet API and Schemas for JPMS and OSGi",
+"url": "https://eclipse.org/jetty/jetty-servlet-api",
+"version": "4.0.6"
+},
+"org.fusesource.jansi:jansi": {
+"name": "jansi",
+"url": "http://jansi.fusesource.org/jansi",
+"version": "1.11"
+},
+"org.jenkins-ci.main:cli": {
+"name": "Jenkins cli",
+"url": "https://github.com/jenkinsci/jenkins",
+"version": "2.476"
+},
+"org.jenkins-ci.main:jenkins-core": {
+"name": "Jenkins core",
+"url": "https://github.com/jenkinsci/jenkins",
+"version": "2.476"
+},
+"org.jenkins-ci.main:jenkins-war": {
+"name": "Jenkins war",
+"url": "https://github.com/jenkinsci/jenkins",
+"version": "2.476"
+},
+"org.jenkins-ci.main:remoting": {
+"name": "Jenkins remoting layer",
+"url": "https://github.com/jenkinsci/remoting",
+"version": "3261.v9c670a_4748a_9"
+},
+"org.jenkins-ci.main:websocket-jetty12-ee9": {
+"name": "Jetty 12 (EE 9) implementation for WebSocket",
+"url": "https://github.com/jenkinsci/jenkins/websocket/websocket-jetty12-ee9",
+"version": "2.476"
+},
+"org.jenkins-ci.main:websocket-spi": {
+"name": "Internal SPI for WebSocket",
+"url": "https://github.com/jenkinsci/jenkins/websocket/websocket-spi",
+"version": "2.476"
+},
+"org.jenkins-ci:annotation-indexer": {
+"name": "Annotation Indexer",
+"url": "https://github.com/jenkinsci/lib-annotation-indexer",
+"version": "1.17"
+},
+"org.jenkins-ci:commons-jelly": {
+"name": "Apache Commons Jelly Core",
+"url": "https://github.com/jenkinsci/jelly/commons-jelly",
+"version": "1.1-jenkins-20240903"
+},
+"org.jenkins-ci:commons-jexl": {
+"name": "Commons JEXL",
+"url": "http://jakarta.apache.org/commons/jexl/",
+"version": "1.1-jenkins-20111212"
+},
+"org.jenkins-ci:crypto-util": {
+"name": "Utility around Java Crypto API",
+"url": "https://github.com/jenkinsci/lib-crypto-util",
+"version": "1.9"
+},
+"org.jenkins-ci:memory-monitor": {
+"name": "Memory Monitor",
+"url": "https://github.com/jenkinsci/extras-memory-monitor",
+"version": "1.12"
+},
+"org.jenkins-ci:symbol-annotation": {
+"name": "Symbol annotation",
+"url": "https://github.com/jenkinsci/lib-symbol-annotation",
+"version": "1.24"
+},
+"org.jenkins-ci:task-reactor": {
+"name": "Jenkins Task Reactor",
+"url": "https://github.com/jenkinsci/lib-task-reactor",
+"version": "1.8"
+},
+"org.jenkins-ci:version-number": {
+"name": "Version Number Library",
+"url": "https://github.com/jenkinsci/lib-version-number",
+"version": "1.11"
+},
+"org.jenkins-ci:winstone": {
+"name": "Winstone",
+"url": "https://github.com/jenkinsci/winstone",
+"version": "8.1"
+},
+"org.jfree:jcommon": {
+"name": "JCommon",
+"url": "http://www.jfree.org/jcommon/",
+"version": "1.0.23"
+},
+"org.jfree:jfreechart": {
+"name": "JFreeChart",
+"url": "http://www.jfree.org/jfreechart/",
+"version": "1.0.19"
+},
+"org.jvnet.hudson:commons-jelly-tags-define": {
+"name": "commons-jelly-tags-define",
+"url": "https://github.com/jenkinsci/jelly/commons-jelly-tags/commons-jelly-tags-define",
+"version": "1.1-jenkins-20240903"
+},
+"org.jvnet.localizer:localizer": {
+"name": "Localizer",
+"url": "http://kohsuke.org/localizer-parent/localizer/",
+"version": "1.31"
+},
+"org.jvnet.robust-http-client:robust-http-client": {
+"name": "Robust HTTP client library",
+"url": "http://robust-http-client.kohsuke.org/",
+"version": "1.2"
+},
+"org.jvnet.winp:winp": {
+"name": "winp",
+"url": "https://github.com/jenkinsci/winp",
+"version": "1.31"
+},
+"org.jvnet:tiger-types": {
+"name": "Type arithmetic library for Java5",
+"url": "",
+"version": "2.2"
+},
+"org.kohsuke.jinterop:j-interop": {
+"name": "Pure Java - COM bridge",
+"url": "http://kohsuke.org/j-interop-parent/j-interop/",
+"version": "2.0.8-kohsuke-1"
+},
+"org.kohsuke.jinterop:j-interopdeps": {
+"name": "Pure Java - COM bridge",
+"url": "http://kohsuke.org/j-interop-parent/j-interopdeps/",
+"version": "2.0.8-kohsuke-1"
+},
+"org.kohsuke.stapler:json-lib": {
+"name": "json-lib",
+"url": "https://json-lib.sourceforge.net",
+"version": "2.4-jenkins-7"
+},
+"org.kohsuke.stapler:stapler": {
+"name": "Stapler",
+"url": "https://github.com/jenkinsci/stapler/stapler",
+"version": "1903.v994a_db_314d58"
+},
+"org.kohsuke.stapler:stapler-adjunct-codemirror": {
+"name": "CodeMirror library from http://codemirror.net/",
+"url": "",
+"version": "1.3"
+},
+"org.kohsuke.stapler:stapler-groovy": {
+"name": "Stapler Groovy module",
+"url": "https://github.com/jenkinsci/stapler/stapler-groovy",
+"version": "1903.v994a_db_314d58"
+},
+"org.kohsuke.stapler:stapler-jelly": {
+"name": "Stapler Jelly module",
+"url": "https://github.com/jenkinsci/stapler/stapler-jelly",
+"version": "1903.v994a_db_314d58"
+},
+"org.kohsuke:access-modifier-annotation": {
+"name": "Custom Access Modifier annotations",
+"url": "https://github.com/jenkinsci/lib-access-modifier/access-modifier-annotation",
+"version": "1.33"
+},
+"org.kohsuke:windows-package-checker": {
+"name": "windows-package-checker",
+"url": "http://kohsuke.org/windows-package-checker/",
+"version": "1.2"
+},
+"org.samba.jcifs:jcifs": {
+"name": "jCIFS",
+"url": "http://jcifs.samba.org",
+"version": "1.3.18-kohsuke-1"
+},
+"org.slf4j:jcl-over-slf4j": {
+"name": "JCL 1.2 implemented over SLF4J",
+"url": "http://www.slf4j.org",
+"version": "2.0.16"
+},
+"org.slf4j:log4j-over-slf4j": {
+"name": "Log4j Implemented Over SLF4J",
+"url": "http://www.slf4j.org",
+"version": "2.0.16"
+},
+"org.slf4j:slf4j-api": {
+"name": "SLF4J API Module",
+"url": "http://www.slf4j.org",
+"version": "2.0.16"
+},
+"org.slf4j:slf4j-jdk14": {
+"name": "SLF4J JDK14 Provider",
+"url": "http://www.slf4j.org",
+"version": "2.0.16"
+},
+"org.springframework.security:spring-security-core": {
+"name": "spring-security-core",
+"url": "https://spring.io/projects/spring-security",
+"version": "6.3.3"
+},
+"org.springframework.security:spring-security-crypto": {
+"name": "spring-security-crypto",
+"url": "https://spring.io/projects/spring-security",
+"version": "6.3.3"
+},
+"org.springframework.security:spring-security-web": {
+"name": "spring-security-web",
+"url": "https://spring.io/projects/spring-security",
+"version": "6.3.3"
+},
+"org.springframework:spring-aop": {
+"name": "Spring AOP",
+"url": "https://github.com/spring-projects/spring-framework",
+"version": "6.1.12"
+},
+"org.springframework:spring-beans": {
+"name": "Spring Beans",
+"url": "https://github.com/spring-projects/spring-framework",
+"version": "6.1.12"
+},
+"org.springframework:spring-context": {
+"name": "Spring Context",
+"url": "https://github.com/spring-projects/spring-framework",
+"version": "6.1.12"
+},
+"org.springframework:spring-core": {
+"name": "Spring Core",
+"url": "https://github.com/spring-projects/spring-framework",
+"version": "6.1.12"
+},
+"org.springframework:spring-expression": {
+"name": "Spring Expression Language (SpEL)",
+"url": "https://github.com/spring-projects/spring-framework",
+"version": "6.1.12"
+},
+"org.springframework:spring-web": {
+"name": "Spring Web",
+"url": "https://github.com/spring-projects/spring-framework",
+"version": "6.1.12"
+},
+"relaxngDatatype:relaxngDatatype": {
+"name": "relaxngDatatype",
+"url": "",
+"version": "20020414"
+},
+"xpp3:xpp3": {
+"name": "MXP1: Xml Pull Parser 3rd Edition (XPP3)",
+"url": "http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/",
+"version": "1.1.4c"
+}
+}

@@ -206,6 +206,14 @@ dependents outright. A 37-node ready menu with immediate-closure counts
 falls out of a file the maintainers already write. See
 [`examples/flt/REPORT.md`](examples/flt/REPORT.md).
 
+`examples/alpha-omega/` is a retrodiction against a SAST audit log:
+OpenRefactory's 2024 Alpha-Omega scans of every dependency of Airflow,
+Jenkins and Kubernetes, joined to conemass rankings of the three
+release graphs. Bug yield is flat in rank (the expected null: graph
+position does not predict code quality), while the reach of the
+findings spans 1 to 106 packages and is uncorrelated with the SAST's
+own severity. See [`examples/alpha-omega/REPORT.md`](examples/alpha-omega/REPORT.md).
+
 `examples/github-issues/` is a recorded negative result: unlock-mass
 ranking of GitHub issues by blocking relationships, killed at
 feasibility because public GitHub projects do not record blocking

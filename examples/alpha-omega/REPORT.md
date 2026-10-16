@@ -87,12 +87,18 @@ Of the 21 findings, 15 are in repos that 4 or fewer other packages pull
 in: a bug there is contained to a leaf. Every Airflow finding is in
 that group. Three (all in Kubernetes) have reach above 25. Severity as
 the SAST rates it is uncorrelated with reach: six of the eight High
-findings sit in packages that at most three other packages depend on,
-while the widest-reaching finding in the set is rated Medium.
+findings sit in packages that at most three other packages depend on.
+The cleanest pair is inside Kubernetes: `go-restful` (insecure
+deserialization, a runtime dependency of the apiserver) and `cadvisor`
+(data race) carry the same High label at reach 31 and reach 1.
 
-(The Jenkins WAR graph is shallow, nearly every artifact being a direct
-dependency of `jenkins-core`, so reach discriminates little there; the
-contrast comes from Airflow and Kubernetes.)
+Two qualifications on reach. The Jenkins WAR graph is shallow, nearly
+every artifact being a direct dependency of `jenkins-core`, so reach
+discriminates little there. And Go module `require` lines do not
+distinguish test-only use, so the 104 for `go-cmp` and 32 for `ginkgo`
+overstate runtime reach: both are mostly test dependencies. The
+contrast that survives both qualifications is Airflow (every finding at
+reach ≤ 4) against `go-restful` and `spring-framework`.
 
 ## What this means for a scanning queue
 
@@ -106,7 +112,7 @@ order, and the ones it produces are the go-cmp / spring-core class
 rather than the apprise / cadvisor class.
 
 The same reach number is also the triage input after a finding: "High,
-reach 1" and "Medium, reach 104" are different incidents, and the audit
+reach 1" and "High, reach 31" are different incidents, and the audit
 log does not currently distinguish them.
 
 ## Caveats

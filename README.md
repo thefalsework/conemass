@@ -112,7 +112,9 @@ unioned, which is how SBOMs from many containers become one graph):
   of `[dependent, dependency]` name pairs.
 
 **Flags:** `--cap N` cone truncation (default 200; rankings are
-insensitive to cap 50–800 on tested corpora). `--top N` emit only the
+insensitive to cap 50–800 on tested package corpora, where closures
+are small; on a graph whose closures are far larger than the cap, such
+as a citation graph, the cap is the ranking, see `examples/citations/`). `--top N` emit only the
 top N rows. `--out F` write CSV to a file instead of stdout.
 `--reverse` flip every edge. `--keep-versions` keep versions in purls
 and store paths (each version becomes its own node). `--reach` append
@@ -285,11 +287,28 @@ falls out of a file the maintainers already write. See
 `examples/alpha-omega/` is a retrodiction against a SAST audit log:
 OpenRefactory's 2024 Alpha-Omega scans of every dependency of Airflow
 2.9.3, Jenkins 2.476 and Kubernetes v1.31.0, joined to conemass
-rankings of the three release graphs. Bug yield is flat in rank (the
-expected null: graph position does not predict code quality), while the
-reach of the 21 findings spans 1 to 104 packages and is uncorrelated
-with the SAST's own severity: six of the eight High findings are in
-packages at most three others depend on. See [`examples/alpha-omega/REPORT.md`](examples/alpha-omega/REPORT.md).
+rankings of the three release graphs, then (`population/`) all 9,851
+of OpenRefactory's Python audit rows joined to one PyPI graph of 4,233
+packages. At population scale bug yield is not flat in rank: it is 0
+of 20 in the top 1% and 16.7% in the bottom half (p = 0.004), so
+load-bearing packages have fewer SAST findings per scan, not the same
+number, and the three-project report's scanning-queue argument is
+withdrawn in a dated correction. What holds at both scales is that
+severity is unrelated to reach (rho = -0.03 over 78 findings; 11 of 12
+High findings at reach ≤ 4), which is the premise of `--findings`. See
+[`examples/alpha-omega/REPORT.md`](examples/alpha-omega/REPORT.md) and
+[`examples/alpha-omega/population/README.md`](examples/alpha-omega/population/README.md).
+
+`examples/citations/` is a recorded negative result on a citation
+graph: OpenAlex topic "Neural Networks and Applications", 42,796 papers
+through 2012 ranked on their internal citation structure and scored
+against citations received 2013-2020. Reference closures reach the
+whole field (top nodes: reach 29,000-36,000 of 42,796), so the cone cap
+is the ranking rather than a tie-break; with citation count and
+publication period held fixed, conemass adds nothing (within-cell rho
+-0.03 to +0.07), and neither do PageRank or reach. The metric needs
+bounded closures, and citation graphs do not have them. See
+[`examples/citations/README.md`](examples/citations/README.md).
 
 `examples/github-issues/` is a recorded negative result: unlock-mass
 ranking of GitHub issues by blocking relationships, killed at

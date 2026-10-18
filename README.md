@@ -164,26 +164,42 @@ fix_mass, conemass_rank, conemass, direct_dependents`.
   reach. The two are not correlated in the audit data we have checked
   (`examples/alpha-omega/`), which is the reason for the mode.
 
-Worked example, the five Kubernetes v1.31.0 findings from
-OpenRefactory's 2024 Alpha-Omega audit against the release's module
-graph (both files in `examples/alpha-omega/`):
+Worked example, a syft SBOM of the `apache/airflow:2.9.3` image and
+a Grype scan of it, both committed in `examples/airflow-image/`:
+
+```
+node conemass.mjs examples/airflow-image/airflow-2.9.3.cdx.json --findings examples/airflow-image/airflow-2.9.3.grype.json --top 6
+```
+
+```
+name,findings,max_severity,fixable,reach,sole_exposure,fix_mass,conemass_rank,conemass,direct_dependents
+pkg:deb/debian/gcc-12-base,"CVE-2022-27943;CVE-2023-4039;…",High,1/4,180,0,38.9195,1,45.6554,2
+pkg:deb/debian/libc6,"CVE-2010-4756;CVE-2018-20796;…",Critical,9/32,179,0,38.4195,2,44.6554,160
+pkg:deb/debian/libgcc-s1,"CVE-2022-27943;CVE-2023-4039;…",High,1/4,179,0,38.4195,2,44.6554,8
+pkg:pypi/cryptography,"GHSA-3ww4-gg4f-jr7f;…",High,7/7,176,2,15.7638,17,4.4411,22
+pkg:pypi/idna,"GHSA-65pc-fj4g-8rjx",Medium,1/1,175,2,15.1483,20,4.1263,10
+pkg:pypi/protobuf,"GHSA-7gcm-g887-7qv7;GHSA-8qvm-5x2c-j2w7",High,2/2,111,8,13.2517,16,4.7177,49
+```
+
+2,133 findings on 176 packages, exposing 405 of 573 nodes. Of the 40
+packages with a Critical finding, 14 have reach of at most 1 and 8
+have reach 0 (`curl`, `rsync`, `perl`, `sqlite3`, …): nothing in the
+image depends on them. `protobuf` is High and the only affected
+package in the cone of 8 others. The example README has the full
+table and the caveats (syft records extras-marked requirements, so
+some PyPI reach is overstated).
+
+The same mode on SAST findings without CVEs, via the CSV input: the
+five Kubernetes v1.31.0 findings from OpenRefactory's 2024 Alpha-Omega
+audit against the release's module graph (`examples/alpha-omega/`):
 
 ```
 node conemass.mjs examples/alpha-omega/kubernetes-edges.csv --findings examples/alpha-omega/kubernetes-findings.csv
 ```
 
-```
-name,findings,max_severity,fixable,reach,sole_exposure,fix_mass,conemass_rank,conemass,direct_dependents
-github.com/google/go-cmp,"openrefactory-2024-12-16-go-cmp",Medium,0/1,104,71,81.5333,2,9.3799,49
-github.com/emicklei/go-restful/v3,"openrefactory-2024-12-23-go-restful",High,0/1,31,0,9.5333,60,0.4431,21
-github.com/onsi/ginkgo/v2,"openrefactory-2024-12-23-ginkgo",Medium,0/1,31,0,9.5333,66,0.3806,6
-go.etcd.io/bbolt,"openrefactory-2024-12-16-bbolt",Medium,0/1,12,0,3.2000,128,0.0968,4
-github.com/google/cadvisor,"openrefactory-2024-12-23-cadvisor",High,0/1,1,0,0.2000,186,0.0050,1
-```
-
-Two High findings: `go-restful` is in the cone of 31 modules,
-`cadvisor` of 1. Severity alone ranks them equal. `go-cmp` is Medium
-and the only affected package in the cone of 71 modules.
+Two High findings there: `go-restful` is in the cone of 31 modules,
+`cadvisor` of 1. `go-cmp` is Medium and the only affected package in
+the cone of 71.
 
 **Project-level lists.** Compute conemass per package and sum within
 each project (Debian study 13: 2 of the true top-40 buried;

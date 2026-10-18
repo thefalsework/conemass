@@ -520,7 +520,10 @@ if (!FINDINGS) {
     if (i === -1) { unmatched.set(r.pkg, (unmatched.get(r.pkg) ?? 0) + 1); continue; }
     let p = per.get(i);
     if (!p) per.set(i, (p = { ids: new Set(), sev: "", fixable: 0, total: 0 }));
-    if (r.id) p.ids.add(r.id);
+    if (r.id) {
+      if (p.ids.has(r.id)) continue; // same finding matched on a second artifact entry (two installs of one package)
+      p.ids.add(r.id);
+    }
     p.total++;
     if (r.fix && !/^(not-fixed|wont-fix|will_not_fix|unknown|affected|fix_deferred|end_of_life|unfixed)$/i.test(r.fix)) p.fixable++;
     if (sevRank(r.severity) > sevRank(p.sev) || (!p.sev && r.severity)) p.sev = r.severity;

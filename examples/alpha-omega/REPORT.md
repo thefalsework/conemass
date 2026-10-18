@@ -73,7 +73,7 @@ pull the repo in) is very unequal across the findings:
 | finding | SAST severity | reach |
 |---|---|---:|
 | go-cmp (Kubernetes, logical) | Medium | 104 of 215 |
-| ginkgo (Kubernetes, logical) | Medium | 31 of 215 |
+| ginkgo (Kubernetes, logical) | Medium | 32 of 215 |
 | go-restful (Kubernetes, insecure deserialization) | High | 31 of 215 |
 | bbolt (Kubernetes, logical) | Medium | 12 of 215 |
 | spring-framework (Jenkins, null deref + XXE) | High | 9 of 88, including `jenkins-core` |
@@ -95,7 +95,7 @@ deserialization, a runtime dependency of the apiserver) and `cadvisor`
 Two qualifications on reach. The Jenkins WAR graph is shallow, nearly
 every artifact being a direct dependency of `jenkins-core`, so reach
 discriminates little there. And Go module `require` lines do not
-distinguish test-only use, so the 104 for `go-cmp` and 31 for `ginkgo`
+distinguish test-only use, so the 104 for `go-cmp` and 32 for `ginkgo`
 overstate runtime reach: both are mostly test dependencies. The
 contrast that survives both qualifications is Airflow (every finding at
 reach ≤ 4) against `go-restful` and `spring-framework`.
@@ -114,6 +114,19 @@ rather than the apprise / cadvisor class.
 The same reach number is also the triage input after a finding: "High,
 reach 1" and "High, reach 31" are different incidents, and the audit
 log does not currently distinguish them.
+
+**Correction, 2026-10-18 (population scale).** `population/` joins all
+9,851 Python audit rows to one PyPI graph of 4,233 packages. At n = 78
+findings (2023 phase) the "flat yield" above does not hold: yield is
+0 of 20 in the top 1% of the conemass ranking and 16.7% in the bottom
+half (permutation p = 0.004), the same shape by reach and by direct
+dependents. Load-bearing packages have fewer SAST findings per scan,
+not the same number, so a conemass-ordered scan queue finds fewer bugs
+than a random one (35 vs 50.7 expected at K = 400). The claim that
+survives, and is now a population result, is the second one: severity
+is unrelated to reach (rho = -0.03, p = 0.79; 11 of 12 High findings at
+reach ≤ 4). The paragraph above is kept as written for the record; the
+scanning-queue case it makes is withdrawn. See `population/README.md`.
 
 ## Caveats
 

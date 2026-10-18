@@ -73,7 +73,7 @@ pull the repo in) is very unequal across the findings:
 | finding | SAST severity | reach |
 |---|---|---:|
 | go-cmp (Kubernetes, logical) | Medium | 104 of 215 |
-| ginkgo (Kubernetes, logical) | Medium | 32 of 215 |
+| ginkgo (Kubernetes, logical) | Medium | 31 of 215 |
 | go-restful (Kubernetes, insecure deserialization) | High | 31 of 215 |
 | bbolt (Kubernetes, logical) | Medium | 12 of 215 |
 | spring-framework (Jenkins, null deref + XXE) | High | 9 of 88, including `jenkins-core` |
@@ -95,7 +95,7 @@ deserialization, a runtime dependency of the apiserver) and `cadvisor`
 Two qualifications on reach. The Jenkins WAR graph is shallow, nearly
 every artifact being a direct dependency of `jenkins-core`, so reach
 discriminates little there. And Go module `require` lines do not
-distinguish test-only use, so the 104 for `go-cmp` and 32 for `ginkgo`
+distinguish test-only use, so the 104 for `go-cmp` and 31 for `ginkgo`
 overstate runtime reach: both are mostly test dependencies. The
 contrast that survives both qualifications is Airflow (every finding at
 reach ≤ 4) against `go-restful` and `spring-framework`.

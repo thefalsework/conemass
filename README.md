@@ -74,7 +74,7 @@ head-versus-bulk section.
 ## Usage
 
 ```
-node conemass.mjs <input> [--cap N] [--top N] [--out FILE]
+node conemass.mjs <input> [--cap N] [--top N] [--out FILE] [--reach] [--findings SCAN]
 ```
 
 **Inputs** (auto-detected; several may be given and their edges are
@@ -115,7 +115,10 @@ unioned, which is how SBOMs from many containers become one graph):
 insensitive to cap 50–800 on tested corpora). `--top N` emit only the
 top N rows. `--out F` write CSV to a file instead of stdout.
 `--reverse` flip every edge. `--keep-versions` keep versions in purls
-and store paths (each version becomes its own node).
+and store paths (each version becomes its own node). `--reach` append
+a column with the exact number of transitive dependents (no cap;
+O(nodes × edges), so fine for a lockfile or SBOM, slow on a registry).
+`--findings SCAN` switch to triage mode, below.
 
 Lockfiles other than `Cargo.lock` (`package-lock.json`, `go.sum`,
 `poetry.lock`, …) are easiest fed in as SBOMs: `syft` or `cdxgen`
@@ -124,6 +127,63 @@ then matches across ecosystems.
 
 **Output columns:** `conemass_rank, name, conemass, direct_dependents,
 dependents_rank`.
+
+### Triage mode: `--findings`
+
+Give it the graph and a scanner report, and the output becomes one row
+per affected package, ordered by what fixing it would release:
+
+```
+node conemass.mjs sbom.cdx.json --findings grype.json
+```
+
+`SCAN` is Grype JSON (`matches[]`), Trivy JSON (`Results[]`),
+OSV-Scanner JSON (`results[]`), or a CSV with a `name` column and
+optional `id`, `severity`, `fix` columns (for SAST findings, audit
+logs, anything without a CVE). Scanner purls are matched to graph
+nodes with the same purl convention as the SBOM inputs; bare-name
+graphs (edge lists, Cargo.lock) match on the normalized name. Packages
+the scanner reports that are not in the graph (OS packages against an
+application SBOM, typically) are listed on stderr and left out.
+
+Columns: `name, findings, max_severity, fixable, reach, sole_exposure,
+fix_mass, conemass_rank, conemass, direct_dependents`.
+
+- `reach`: packages exposed through this one (transitive dependents).
+- `fix_mass`: conemass pointed at the affected set. Every exposed
+  dependent splits one unit of credit equally among the affected
+  packages in its cone, so `fix_mass(x)` is the number of dependents
+  that fixing `x` would clean, fractional where exposure is shared.
+  Sorted on this, then reach.
+- `sole_exposure`: dependents for which `x` is the only affected
+  package in their cone; the integer part of the above and the hard
+  signal. Fixing `x` closes these outright.
+- `fixable`: findings with a fix version known to the scanner, over
+  total findings on the package.
+- Severity is carried through unchanged so it can be read next to
+  reach. The two are not correlated in the audit data we have checked
+  (`examples/alpha-omega/`), which is the reason for the mode.
+
+Worked example, the five Kubernetes v1.31.0 findings from
+OpenRefactory's 2024 Alpha-Omega audit against the release's module
+graph (both files in `examples/alpha-omega/`):
+
+```
+node conemass.mjs examples/alpha-omega/kubernetes-edges.csv --findings examples/alpha-omega/kubernetes-findings.csv
+```
+
+```
+name,findings,max_severity,fixable,reach,sole_exposure,fix_mass,conemass_rank,conemass,direct_dependents
+github.com/google/go-cmp,"openrefactory-2024-12-16-go-cmp",Medium,0/1,104,71,81.5333,2,9.3799,49
+github.com/emicklei/go-restful/v3,"openrefactory-2024-12-23-go-restful",High,0/1,31,0,9.5333,60,0.4431,21
+github.com/onsi/ginkgo/v2,"openrefactory-2024-12-23-ginkgo",Medium,0/1,31,0,9.5333,66,0.3806,6
+go.etcd.io/bbolt,"openrefactory-2024-12-16-bbolt",Medium,0/1,12,0,3.2000,128,0.0968,4
+github.com/google/cadvisor,"openrefactory-2024-12-23-cadvisor",High,0/1,1,0,0.2000,186,0.0050,1
+```
+
+Two High findings: `go-restful` is in the cone of 31 modules,
+`cadvisor` of 1. Severity alone ranks them equal. `go-cmp` is Medium
+and the only affected package in the cone of 71 modules.
 
 **Project-level lists.** Compute conemass per package and sum within
 each project (Debian study 13: 2 of the true top-40 buried;

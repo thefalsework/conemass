@@ -1,0 +1,6 @@
+name,id,severity,kind
+github.com/google/go-cmp,openrefactory-2024-12-16-go-cmp,Medium,Logical
+github.com/emicklei/go-restful/v3,openrefactory-2024-12-23-go-restful,High,Insecure Deserialization
+github.com/onsi/ginkgo/v2,openrefactory-2024-12-23-ginkgo,Medium,Logical
+go.etcd.io/bbolt,openrefactory-2024-12-16-bbolt,Medium,Logical
+github.com/google/cadvisor,openrefactory-2024-12-23-cadvisor,High,Data Race

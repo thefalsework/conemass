@@ -63,19 +63,39 @@
 //   --out F  write CSV to file F (default: stdout).
 //   --reverse  flip every edge (input is dependency -> dependent).
 //   --keep-versions  do not strip versions from purls / store paths.
+//   --reach  append a "reach" column: exact count of transitive
+//            dependents (node level, no cap). O(n * edges); fine for
+//            lockfiles and SBOMs, slow on registry-scale graphs.
+//   --findings F  triage mode. F is a scanner report (Grype, Trivy or
+//            OSV-Scanner JSON, or a CSV with name[,id,severity,fix]
+//            columns). Findings are matched to graph nodes and the
+//            output becomes one row per affected package, see below.
 //
 // OUTPUT CSV columns:
 //   conemass_rank, name, conemass, direct_dependents, dependents_rank
 // Sorted by conemass_rank. The interesting rows for supply-chain triage
 // are those where conemass_rank << dependents_rank.
+//
+// TRIAGE OUTPUT (--findings) columns:
+//   name, findings, max_severity, fixable, reach, sole_exposure,
+//   fix_mass, conemass_rank, conemass, direct_dependents
+// Sorted by fix_mass, then reach. reach is how many packages are
+// exposed through this one. fix_mass is conemass pointed at the open
+// set: every exposed dependent u splits one unit of credit equally
+// among the affected packages in its cone, so fix_mass(x) is the number
+// of dependents fixing x would clean, fractional where exposure is
+// shared; sole_exposure is the integer part of that, the dependents for
+// which x is the only affected package in their cone. Severity is
+// carried through unchanged so it can be read next to reach.
 
 import { readFileSync, writeFileSync } from "node:fs";
 
 // ---- args ----
 const args = process.argv.slice(2);
 if (!args.length || args.includes("--help") || args.includes("-h")) {
-  console.error("usage: node conemass.mjs <input>... [--cap N] [--top N] [--out FILE] [--reverse] [--keep-versions]\n" +
-    "inputs: Cargo.lock | CycloneDX .json | SPDX .json | Graphviz .dot (nix-store -q --graph) | {nodes,edges} .json | edge-list text");
+  console.error("usage: node conemass.mjs <input>... [--cap N] [--top N] [--out FILE] [--reverse] [--keep-versions] [--reach] [--findings SCAN]\n" +
+    "inputs: Cargo.lock | CycloneDX .json | SPDX .json | Graphviz .dot (nix-store -q --graph) | {nodes,edges} .json | edge-list text\n" +
+    "--findings: Grype / Trivy / OSV-Scanner JSON, or CSV with name[,id,severity,fix]; output becomes a per-package triage table");
   process.exit(args.length ? 0 : 1);
 }
 const flag = (name, dflt) => {
@@ -85,9 +105,11 @@ const flag = (name, dflt) => {
 const CAP = +flag("--cap", 200);
 const TOP = +flag("--top", 0);
 const OUT = flag("--out", null);
+const FINDINGS = flag("--findings", null);
 const REVERSE = args.includes("--reverse");
 const KEEP_VERSIONS = args.includes("--keep-versions");
-const VALUED = new Set(["--cap", "--top", "--out"]);
+const REACH = args.includes("--reach");
+const VALUED = new Set(["--cap", "--top", "--out", "--findings"]);
 const inputs = args.filter((a, i) => !a.startsWith("--") && !VALUED.has(args[i - 1]));
 if (!inputs.length) { console.error("no input file given"); process.exit(1); }
 
@@ -371,12 +393,170 @@ const rankOf = (valOf) => {
 const { order, ranks: rOr } = rankOf(conemassOf);
 const { ranks: rDeg } = rankOf((i) => directDeps[i]);
 
-const limit = TOP > 0 ? Math.min(TOP, n) : n;
-const rows = ["conemass_rank,name,conemass,direct_dependents,dependents_rank"];
-for (let k = 0; k < limit; k++) {
-  const i = order[k];
-  rows.push(`${rOr[i]},${names[i]},${conemassOf(i).toFixed(4)},${directDeps[i]},${rDeg[i]}`);
+// ---- transitive dependents (exact, node level, uncapped) ----
+// Reverse adjacency: dependency -> its direct dependents. Used by
+// --reach and --findings; built lazily so the default path is untouched.
+let upHead, upNext, upTo, upSeen;
+const dependentsOf = (x) => {
+  if (!upHead) {
+    upHead = new Int32Array(n).fill(-1);
+    upNext = new Int32Array(edges.length);
+    upTo = new Int32Array(edges.length);
+    edges.forEach(([a, b], e) => { upTo[e] = a; upNext[e] = upHead[b]; upHead[b] = e; });
+    upSeen = new Int32Array(n).fill(-1);
+  }
+  const out = [], q = [x];
+  upSeen[x] = x;
+  for (let qi = 0; qi < q.length; qi++) {
+    for (let e = upHead[q[qi]]; e !== -1; e = upNext[e]) {
+      const a = upTo[e];
+      if (upSeen[a] === x) continue;
+      upSeen[a] = x;
+      out.push(a);
+      q.push(a);
+    }
+  }
+  return out;
+};
+
+const emit = (rows, what) => {
+  const csv = rows.join("\n") + "\n";
+  if (OUT) { writeFileSync(OUT, csv); console.error(`wrote ${OUT} (${what})`); }
+  else process.stdout.write(csv);
+};
+
+if (!FINDINGS) {
+  const limit = TOP > 0 ? Math.min(TOP, n) : n;
+  const rows = ["conemass_rank,name,conemass,direct_dependents,dependents_rank" + (REACH ? ",reach" : "")];
+  for (let k = 0; k < limit; k++) {
+    const i = order[k];
+    rows.push(`${rOr[i]},${names[i]},${conemassOf(i).toFixed(4)},${directDeps[i]},${rDeg[i]}` +
+      (REACH ? `,${dependentsOf(i).length}` : ""));
+  }
+  emit(rows, `${limit} rows of ${n} nodes, cap ${CAP}`);
+} else {
+  // ---- triage mode ----
+  // 1. parse the scanner report into {pkg, id, severity, fix} records
+  const text = readFileSync(FINDINGS, "utf8");
+  const recs = []; // pkg: purl if the scanner has one, else bare name
+  const push = (pkg, id, severity, fix) => {
+    if (pkg) recs.push({ pkg: String(pkg), id: String(id ?? ""), severity: String(severity ?? ""), fix: String(fix ?? "") });
+  };
+  let fmt;
+  if (/^\s*[\[{]/.test(text)) {
+    const raw = JSON.parse(text);
+    if (Array.isArray(raw.matches)) {
+      fmt = "grype";
+      for (const m of raw.matches) {
+        const v = m.vulnerability ?? {}, a = m.artifact ?? {};
+        const fx = v.fix ?? {};
+        push(a.purl || a.name, v.id, v.severity,
+          fx.state === "fixed" ? ((fx.versions ?? []).join("|") || "fixed") : (fx.state ?? ""));
+      }
+    } else if (Array.isArray(raw.Results)) {
+      fmt = "trivy";
+      for (const r of raw.Results) for (const v of r.Vulnerabilities ?? [])
+        push(v.PkgIdentifier?.PURL || v.PkgName, v.VulnerabilityID, v.Severity, v.FixedVersion || v.Status || "");
+    } else if (Array.isArray(raw.results)) {
+      fmt = "osv";
+      // OSV ecosystem -> purl type, so names line up with SBOM purls
+      const eco = { PyPI: "pypi", npm: "npm", Go: "golang", "crates.io": "cargo", Maven: "maven", RubyGems: "gem",
+        NuGet: "nuget", Packagist: "composer", Pub: "pub", Hex: "hex", Debian: "deb", Alpine: "apk", "Ubuntu": "deb" };
+      for (const r of raw.results) for (const p of r.packages ?? []) {
+        const pk = p.package ?? {};
+        const type = eco[pk.ecosystem] ?? (pk.ecosystem ?? "").toLowerCase();
+        const nm = type === "maven" ? pk.name.replace(":", "/") : pk.name;
+        const purl = type ? `pkg:${type}/${nm}` : nm;
+        for (const v of p.vulnerabilities ?? []) {
+          const sev = v.database_specific?.severity ?? (v.severity ?? [])[0]?.score ?? "";
+          const fixed = new Set();
+          for (const af of v.affected ?? []) {
+            if (af.package?.name && af.package.name !== pk.name) continue;
+            for (const rg of af.ranges ?? []) for (const ev of rg.events ?? []) if (ev.fixed) fixed.add(ev.fixed);
+          }
+          push(purl, v.id, sev, [...fixed].join("|"));
+        }
+      }
+    } else { console.error("--findings: unrecognized JSON (expected Grype matches[], Trivy Results[], or OSV-Scanner results[])"); process.exit(1); }
+  } else {
+    fmt = "csv";
+    const lines = text.split("\n").map((l) => l.trim()).filter((l) => l && !l.startsWith("#"));
+    const head = lines[0].toLowerCase().split(",").map((h) => h.trim());
+    const col = (...cands) => cands.map((c) => head.indexOf(c)).find((i) => i !== -1) ?? -1;
+    const cN = col("name", "package", "purl", "pkg"), cI = col("id", "finding", "vulnerability", "cve"),
+      cS = col("severity"), cF = col("fix", "fixed", "fixed_version");
+    if (cN === -1) { console.error("--findings CSV needs a header with a name/package/purl column"); process.exit(1); }
+    for (const l of lines.slice(1)) {
+      const f = l.split(",");
+      push(f[cN]?.trim(), cI === -1 ? "" : f[cI]?.trim(), cS === -1 ? "" : f[cS]?.trim(), cF === -1 ? "" : f[cF]?.trim());
+    }
+  }
+
+  // 2. match scanner package identities to graph nodes: exact purl
+  // name first, then a normalized form (purl type prefix dropped,
+  // %40 decoded, lower-cased, _ -> -) so a bare-name edge list still
+  // joins to a purl-bearing scan; last, the final path segment, only
+  // when it is unique in the graph.
+  const norm = (s) => decodeURIComponent(purlName(s)).replace(/^pkg:[^/]+\//, "").toLowerCase().replace(/_/g, "-");
+  const tail = (s) => norm(s).split("/").pop();
+  const byNorm = new Map(), byTail = new Map();
+  names.forEach((nm, i) => {
+    const k = norm(nm); if (!byNorm.has(k)) byNorm.set(k, i);
+    const t = tail(nm); byTail.set(t, byTail.has(t) ? -1 : i);
+  });
+  const matchNode = (pkg) => {
+    const exact = idx.get(purlName(pkg)); if (exact !== undefined) return exact;
+    const nn = byNorm.get(norm(pkg)); if (nn !== undefined) return nn;
+    const t = byTail.get(tail(pkg)); return t === undefined || t === -1 ? -1 : t;
+  };
+
+  // 3. aggregate per node
+  const SEV = { critical: 4, high: 3, medium: 2, moderate: 2, low: 1, negligible: 0, unknown: 0, "": 0 };
+  const sevRank = (s) => SEV[s.toLowerCase()] ?? (isFinite(+s) ? (+s >= 9 ? 4 : +s >= 7 ? 3 : +s >= 4 ? 2 : 1) : 0);
+  const per = new Map(); // node -> {ids:Set, sev, fixable, total}
+  const unmatched = new Map();
+  for (const r of recs) {
+    const i = matchNode(r.pkg);
+    if (i === -1) { unmatched.set(r.pkg, (unmatched.get(r.pkg) ?? 0) + 1); continue; }
+    let p = per.get(i);
+    if (!p) per.set(i, (p = { ids: new Set(), sev: "", fixable: 0, total: 0 }));
+    if (r.id) p.ids.add(r.id);
+    p.total++;
+    if (r.fix && !/^(not-fixed|wont-fix|will_not_fix|unknown|affected|fix_deferred|end_of_life|unfixed)$/i.test(r.fix)) p.fixable++;
+    if (sevRank(r.severity) > sevRank(p.sev) || (!p.sev && r.severity)) p.sev = r.severity;
+  }
+  const open = [...per.keys()].sort((a, b) => (names[a] < names[b] ? -1 : 1));
+
+  // 4. reach, exposure count per dependent, fix_mass and sole_exposure
+  const reach = new Map(), ups = new Map();
+  const exposedBy = new Int32Array(n); // dependent u -> number of open packages in cone(u)
+  for (const x of open) {
+    const d = dependentsOf(x);
+    ups.set(x, d); reach.set(x, d.length);
+    for (const u of d) exposedBy[u]++;
+  }
+  const fixMass = new Map(), sole = new Map();
+  for (const x of open) {
+    let m = 0, s = 0;
+    for (const u of ups.get(x)) { m += 1 / exposedBy[u]; if (exposedBy[u] === 1) s++; }
+    fixMass.set(x, m); sole.set(x, s);
+  }
+
+  // 5. output
+  const sorted = open.slice().sort((a, b) =>
+    fixMass.get(b) - fixMass.get(a) || reach.get(b) - reach.get(a) || (names[a] < names[b] ? -1 : 1));
+  const limit = TOP > 0 ? Math.min(TOP, sorted.length) : sorted.length;
+  const rows = ["name,findings,max_severity,fixable,reach,sole_exposure,fix_mass,conemass_rank,conemass,direct_dependents"];
+  for (let k = 0; k < limit; k++) {
+    const i = sorted[k], p = per.get(i);
+    const ids = [...p.ids].sort().join(";");
+    rows.push(`${names[i]},${ids ? `"${ids}"` : p.total},${p.sev},${p.fixable}/${p.total},${reach.get(i)},${sole.get(i)},${fixMass.get(i).toFixed(4)},${rOr[i]},${conemassOf(i).toFixed(4)},${directDeps[i]}`);
+  }
+  let exposedTotal = 0;
+  for (let u = 0; u < n; u++) if (exposedBy[u]) exposedTotal++;
+  const unm = [...unmatched.keys()];
+  console.error(`${fmt}: ${recs.length} findings, ${recs.length - unm.reduce((s, k) => s + unmatched.get(k), 0)} matched to ${open.length} of ${n} graph nodes; ` +
+    `${exposedTotal} nodes exposed through them` +
+    (unm.length ? `; ${unm.length} package(s) not in graph: ${unm.slice(0, 12).join(", ")}${unm.length > 12 ? ", ..." : ""}` : ""));
+  emit(rows, `${limit} affected packages, cap ${CAP}`);
 }
-const csv = rows.join("\n") + "\n";
-if (OUT) { writeFileSync(OUT, csv); console.error(`wrote ${OUT} (${limit} rows of ${n} nodes, cap ${CAP})`); }
-else process.stdout.write(csv);

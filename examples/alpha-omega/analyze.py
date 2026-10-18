@@ -223,6 +223,7 @@ def reach(edges_csv):
                 if d not in seen:
                     seen.add(d)
                     stack.append(d)
+        seen.discard(x)  # a node inside a cycle reaches itself; do not count it
         out[x] = len(seen)
     return out
 

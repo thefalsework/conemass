@@ -65,7 +65,7 @@ Findings reached by a top-K scan budget, conemass order vs. direct-dependents or
 |---|---:|---:|---:|---:|---|---|---|
 | google/go-cmp (`github.com/google/go-cmp`) | 2 / 165 | 9 | 104 / 215 | 1 | Medium | Logical | 2024-12-16 |
 | emicklei/go-restful (`github.com/emicklei/go-restful/v3`) | 55 / 165 | 38 | 31 / 215 | 1 | High | Insecure Deserialization | 2024-12-23 |
-| onsi/ginkgo (`github.com/onsi/ginkgo/v2`) | 67 / 165 | 99 | 32 / 215 | 1 | Medium | Logical | 2024-12-23 |
+| onsi/ginkgo (`github.com/onsi/ginkgo/v2`) | 67 / 165 | 99 | 31 / 215 | 1 | Medium | Logical | 2024-12-23 |
 | etcd-io/bbolt (`go.etcd.io/bbolt`) | 112 / 165 | 109 | 12 / 215 | 1 | Medium | Logical | 2024-12-16 |
 | google/cadvisor (`github.com/google/cadvisor`) | 157 / 165 | 157 | 1 / 215 | 1 | High | Data Race | 2024-12-23 |
 

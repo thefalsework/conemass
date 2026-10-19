@@ -114,7 +114,10 @@ unioned, which is how SBOMs from many containers become one graph):
 **Flags:** `--cap N` cone truncation (default 200; rankings are
 insensitive to cap 50–800 on tested package corpora, where closures
 are small; on a graph whose closures are far larger than the cap, such
-as a citation graph, the cap is the ranking, see `examples/citations/`). `--top N` emit only the
+as a citation graph, the cap is the ranking, see `examples/citations/`.
+Every run prints the fraction of cones truncated at the cap on stderr:
+6.5% on Debian 2023, 1.0% on crates 2022, 79% on the citation graph,
+and above one half it says so). `--top N` emit only the
 top N rows. `--out F` write CSV to a file instead of stdout.
 `--reverse` flip every edge. `--keep-versions` keep versions in purls
 and store paths (each version becomes its own node). `--reach` append

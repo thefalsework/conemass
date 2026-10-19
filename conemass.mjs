@@ -349,6 +349,7 @@ for (const list of cDeps) list.sort((x, y) => x - y);
 
 // ---- conemass over the condensation ----
 const orc = new Float64Array(NC);
+let conesNonempty = 0, conesTruncated = 0;
 {
   const seen = new Int32Array(NC).fill(-1);
   for (let u = 0; u < NC; u++) {
@@ -370,9 +371,22 @@ const orc = new Float64Array(NC);
       }
     }
     if (!cone.length) continue;
+    conesNonempty++;
+    if (cone.length >= CAP) conesTruncated++;
     const credit = 1 / cone.length;
     for (const x of cone) orc[x] += credit;
   }
+}
+// Precondition check. On package graphs a few percent of cones reach
+// the cap (Debian 2023: 6.5%, crates 2022: 1.0%) and the cap is a
+// tie-break. On a graph whose closures exceed the cap almost
+// everywhere (a citation graph: 79%) the cap decides which members of
+// each closure get credit and the ranking is a cap artifact; see
+// examples/citations/. Reported so the reader knows which case this is.
+{
+  const frac = conesNonempty ? conesTruncated / conesNonempty : 0;
+  const msg = `cones truncated at cap ${CAP}: ${conesTruncated} of ${conesNonempty} (${(100 * frac).toFixed(1)}%)`;
+  console.error(frac > 0.5 ? `${msg}; most closures exceed the cap, so the ranking is cap-driven rather than structural (see examples/citations/)` : msg);
 }
 
 // ---- ranks and output ----

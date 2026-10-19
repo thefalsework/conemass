@@ -3,7 +3,7 @@
 ## Dependency concentration as a criticality signal
 
 **Author.** Chris Brink (independent)
-**Version.** Draft v0.16, 2026-09-23 (v0.2: retitled; artifacts section.
+**Version.** Draft v0.17, 2026-10-19 (v0.2: retitled; artifacts section.
 v0.3: package-versus-repository distinction made explicit; recommendation
 section ends on the artifact; CLI gained direct Cargo.lock support.
 v0.4: tool and rankings split to their own repo,
@@ -83,7 +83,23 @@ on AND-semantics graphs" in Result 3 and "AND-graph exactness" in the
 limitations — although the repo contains no such theorem. Both now
 state what is true: on AND-semantics graphs the released set is
 enumerable and checkable; the mass is a fractional share over it,
-never exact.
+never exact. v0.17, 2026-10-19: two external ground-truth tests added
+after the studies above, one against the paper. (a) A citation graph
+(`examples/citations/`, 42,796 papers through 2012 scored against
+2013–2020 citations) falsifies the anatomy section's depth candidate
+at an out-of-family point — depth 3.44 predicted coincidence with
+PageRank, measured overlap 7/40 — and shows why: 79% of cones are
+truncated at the cap, against 6.5% on Debian and 1.0% on crates, so
+the ranking is the cap over age. The precondition the paper never
+stated (bounded closures; the truncated-cone fraction) is now stated
+in the anatomy section and the limitations, the cap-robustness claim
+in Result 1 is qualified to package graphs, and the CLI reports the
+fraction on every run. (b) The repository's Alpha-Omega report had
+claimed flat SAST yield in rank; at population scale yield falls
+toward the top of the ranking, and the claim was withdrawn there on
+2026-10-18. This paper made no yield claim; the limitations now
+carry the correction and the result that survived (severity unrelated
+to reach). No number in Results 1–4 changed.
 All computations cited here are committed with their code and raw output
 in `oracle-scanner/` at github.com/thefalsework/papers — except the
 Mathlib declaration-graph study, which lives at `examples/mathlib/` in
@@ -225,7 +241,12 @@ low-visibility library with a history of under-resourcing — move up by
 one to two orders of magnitude under concentration weighting. The
 liblzma ranking is robust to the one free parameter: at cone caps of 50,
 100, 200, 400, and 800 its rank is #8 in every case, and the archive's
-conemass top-100 overlaps 92–99% between adjacent caps.
+conemass top-100 overlaps 92–99% between adjacent caps. (Added
+2026-10-19: that robustness is a property of package graphs, where few
+cones reach the cap. On a graph whose closures exceed it almost
+everywhere the cap is the ranking; measured on a citation graph in the
+limitations below, where top-40 overlap with citation count fell from
+13 to 3 as the cap rose from 50 to 3000.)
 
 Transitive-dependent *counts*, for comparison, are unusable at the head
 of the distribution: hundreds of major libraries saturate the cap and
@@ -360,6 +381,42 @@ predicts coincidence — and whether the divergence is *interesting* is a
 property of the corpus, not of the shape statistic. One surviving
 predictor out of four registered, on three graph families plus one
 consistent out-of-family point, is a candidate, not a law.
+
+A second out-of-family point, added 2026-10-19, goes against the
+candidate. A citation graph (OpenAlex topic "Neural Networks and
+Applications", 42,796 papers through 2012, 227,985 citation edges,
+`examples/citations/` in the conemass repository) has truncated-cone
+depth **3.44**, inside the crates band (2.3–3.95) where the statement
+predicts coincidence with PageRank. Measured top-40 overlap is
+**7/40**, the strongest divergence of any graph in the set. The
+prediction fails. The reason is visible in a statistic the anatomy
+study recorded only as an unregistered observation: mean truncated
+cone size. On this graph it is 179.7 of a cap of 200, and 79% of all
+cones are truncated; the reference closure of nearly every 2012 paper
+reaches the 1943 founding paper, so the cap, not the structure,
+decides which 200 ancestors each paper credits, and citation cycles
+produce strongly connected components (the largest has 3,403 papers)
+whose members share one score — one such group ranks a paper with
+1,777 citations level with one that has 1. The divergence from
+PageRank is real and it is noise: with citation count and publication
+period held fixed, conemass's rank correlation with citations received
+2013–2020 is −0.03 to +0.07, the same as PageRank's and reach's. The
+same saturation statistic sat at 150.4/200 on Mathlib, which
+coincided, so saturation does not predict the overlap's direction
+either; what it predicts is that the overlap is not meaningful. The
+corrected statement, which is a scope restriction made after seeing
+the data and carries that status: the depth predictor was validated
+on graphs where the cap rarely binds and says nothing where it binds
+for most cones. Measured the same way (cap 200, SCC condensation, same
+traversal; the depths reproduce the anatomy study's to two decimals),
+the fraction of cones truncated at the cap is **6.5%** on Debian 2023,
+**1.0%** on crates 2022, and **79.1%** on the citation graph, with
+largest strongly connected components of 7, 2, and 3,403 nodes. That
+fraction is the precondition the paper did not state: where it is a
+few percent the ranking is conemass; where it is most of the graph the
+ranking is the cap over age, and no shape statistic rescues it. The
+CLI reports the fraction on every run as of 2026-10-19 and flags it
+above one half.
 
 ## Result 3: the incumbent comparison
 
@@ -558,6 +615,38 @@ piece is descriptive throughout.
   proof-graph application (`examples/prove2me/REPORT.md` in this
   repository), where it is filtered by cross-checking transitive
   dependents.
+- **The metric requires bounded closures, and this piece did not say
+  so** (added 2026-10-19). Everything above is measured on package
+  graphs, where a dependency closure is tens to a few hundred nodes
+  and the 200-cap binds for a few percent of cones. On a citation
+  graph (`examples/citations/`: 42,796 papers through 2012, scored
+  against citations received 2013–2020) the closure of almost every
+  paper is the whole field, 79% of cones are truncated, and the
+  ranking is decided by the cap: top-40 overlap with citation count
+  falls 13 → 10 → 5 → 3 as the cap goes 50 → 200 → 800 → 3000, and
+  with citation count and publication period held fixed conemass
+  predicts nothing about later citations (within-cell rho −0.03 to
+  +0.07, the same as PageRank and reach). The head-versus-bulk section
+  carries the anatomy numbers. This is the first external
+  ground-truth test the metric clearly lost, and the loss has a
+  structural reason rather than a statistical one: a closure that is
+  everything collapses the 1/|cone| weight the same way a depth-one
+  star does (the GitHub-issues negative in the same repository), from
+  the other side. Raw citation graphs are out of scope; a windowed or
+  typed-edge variant would be a different metric needing its own
+  validation.
+- **A related claim made outside this piece was withdrawn**
+  (2026-10-18). The three-project Alpha-Omega retrodiction in the
+  repository stated that SAST bug yield was flat in conemass rank. At
+  population scale (9,851 audit rows, 4,233-package PyPI graph) it is
+  not: 0 of 20 in the top 1% of the ranking, 16.7% in the bottom half
+  (p = 0.004). Load-bearing packages have fewer findings per scan.
+  The piece above makes no yield claim, but a reader who met the
+  metric through that report should know the correction is dated in
+  `examples/alpha-omega/REPORT.md`. The result that held at both
+  scales is that SAST severity is unrelated to reach (ρ = −0.03; 11 of
+  12 High findings in packages at most four others depend on), which
+  is the premise of the CLI's triage mode.
 
 ## Recommendation, ending on the artifact
 
@@ -605,6 +694,17 @@ just checked:
   `dependents_rank`. The repo's eight-package `test-cargo.lock`
   reproduces the metric's whole argument in one command: unicode-ident
   ranks first with two direct dependents, above proc-macro2 with three.
+  Since October 2026 the same file also reads CycloneDX and SPDX SBOMs
+  and `nix-store -q --graph` output, reports the fraction of cones
+  truncated at the cap (the precondition above), and has a triage mode
+  (`--findings`) that joins a Grype, Trivy or OSV-Scanner report to the
+  graph and prints each affected package with its reach and the number
+  of dependents its fix would clean (`examples/airflow-image/`).
+- **Three further external tests**, added after the studies above and
+  recorded in the same repository with their data: the Alpha-Omega
+  audit join at three-project and population scale
+  (`examples/alpha-omega/`), and the citation-graph negative
+  (`examples/citations/`). All three are described in the limitations.
 
 `oracle-scanner/` at github.com/thefalsework/papers also contains the
 eleven studies behind this piece
